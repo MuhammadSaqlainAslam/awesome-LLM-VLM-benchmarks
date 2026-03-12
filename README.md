@@ -1,45 +1,54 @@
-# awesome-LLM-VLM-benchmarks
-A comprehensive repository tracking SOTA LLM/VLM benchmarks, datasets, and evaluation metrics. Features a running digest of research papers and system roadmaps.
-# 🏛️ The SOTA LLM/VLM Benchmark Library
+# Awesome SOTA LLM/VLM Benchmarks
 
-A comprehensive, system-first repository tracking the evolution of evaluation for Large Language Models (LLM) and Vision-Language Models (VLM).
+A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) evaluation resources, focusing on State-of-the-Art (SOTA) papers, datasets, and metrics.
 
-## 🚀 Living SOTA Leaderboard (March 2026)
-| Domain | SOTA Model | Key Benchmark | Score | Metric |
-| :--- | :--- | :--- | :--- | :--- |
-| **General Reasoning** | GPT-5.2 / Kimi K2.5 | MMLU-Pro | 90.0+ | Accuracy |
-| **Visual Math** | Claude 4.1 Opus | MathVista | 76.1% | Accuracy |
-| **Software Eng** | MiniMax M2.5 | SWE-bench | 80.2 | Resolved % |
-| **Video Reasoning** | Gemini 2.5 Pro | Video-MME | 75.6% | Accuracy |
-
----
-
-## 📂 Research Categories
-
-### 1. Vision-Language Foundations (VLM)
-Focused on image-text alignment, OCR, and spatial reasoning.
-* [MMMU](https://github.com/MMMU-Benchmark/MMMU) - Expert-level multimodal reasoning.
-* [MathVista](https://mathvista.github.io/) - Mathematical reasoning in visual contexts.
-* [MMBench](https://opencompass.org.cn/mmbench) - Robustness and perception suite.
-
-### 2. Frontier Language Reasoning (LLM)
-Focusing on hard-science, coding, and long-context logic.
-* [GPQA Diamond](https://arxiv.org/abs/2311.12022) - Graduate-level science (PhD difficulty).
-* [LiveCodeBench](https://livecodebench.github.io/) - Real-time competitive coding evaluation.
-* [IFEval](https://github.com/google-research/google-research/tree/master/ifeval) - Strict instruction following.
-
-### 3. Agentic & Tool-Use Benchmarks
-Evaluating how models interact with the real world.
-* [SWE-bench Verified](https://www.swebench.com/) - Real-world GitHub issue resolution.
-* [ToolBench](https://github.com/OpenBMB/ToolBench) - Complex API calling and orchestration.
+## Table of Contents
+- [SOTA Digests](#sota-digests)
+- [Large Language Model (LLM) Benchmarks](#llm-benchmarks)
+  - [General Reasoning](#general-reasoning)
+  - [Coding & Math](#coding--math)
+- [Vision-Language Model (VLM) Benchmarks](#vlm-benchmarks)
+  - [Image Understanding](#image-understanding)
+  - [Video Understanding](#video-understanding)
+- [FoxBrain Roadmap](#foxbrain-roadmap)
 
 ---
 
-## 📝 Running Digest (The Work)
-* [Latest SOTA Summary](./sota-digests/current-sota.md) - Our most recent survey of benchmark papers.
-* [Historical Archive](./sota-digests/archive/) - Tracking how metrics have evolved since 2024.
+## SOTA Digests
+*Quarterly survey of new benchmark-related papers and SOTA claims.*
 
-## 🦊 FoxBrain Roadmap
-*Active integration items for our benchmarking suite.*
-- [ ] Implement **RAGAS** for context-retrieval scoring.
-- [ ] Adopt **LLM-as-a-Judge** (G-Eval) for open-ended response quality.
+| Paper | Modality | Key Benchmarks | Dataset | Metric | SOTA Claim | Links |
+| :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+| **Example Paper Title** | VLM | Video-MME, MMMU | 900+ Videos | Acc, F1 | #1 in Long Video | [arXiv](...) [Code](...) |
+
+---
+
+## LLM Benchmarks
+
+### General Reasoning
+| Name | Task | Dataset | Metric | Paper | Code |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GPQA** | Graduate Science | 448 QA | Acc | [Link](https://arxiv.org/abs/2311.12022) | [Link](https://github.com/openai/gpqa) |
+| **MMLU-Pro** | Multi-discipline | 12K MCQs | Acc | [Link](https://arxiv.org/abs/2406.01574) | [Link](https://github.com/TIGER-AI-Lab/MMLU-Pro) |
+
+---
+
+## VLM Benchmarks
+
+### Image Understanding
+| Name | Task | Dataset | Metric | Paper | Code |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **MMMU** | Expert Reasoning | 11.5K Images | Acc | [Link](https://arxiv.org/abs/2311.16502) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
+| **MathVista** | Visual Math | 6.5K Images | Acc | [Link](https://arxiv.org/abs/2310.02255) | [Link](https://github.com/lucas0/MathVista) |
+
+### Video Understanding
+| Name | Task | Dataset | Metric | Paper | Code |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Video-MME** | Long Video | 900 Clips | Acc | [Link](https://arxiv.org/abs/2405.21075) | [Link](https://github.com/VectorSpaceLab/Video-MME) |
+
+---
+
+## FoxBrain Roadmap
+*Action items for the internal benchmark roadmap.*
+- [ ] Integrate **Video-MME** for multimodal testing.
+- [ ] Establish **Human-in-the-loop** scoring for open-ended VLM tasks.
