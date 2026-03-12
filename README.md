@@ -9,6 +9,7 @@ A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) eva
   - [Coding & Math](#coding--math)
 - [Vision-Language Model (VLM) Benchmarks](#vlm-benchmarks)
   - [Image Understanding](#image-understanding)
+  - [Instruction Following](#instruction-following)
   - [Video Understanding](#video-understanding)
 - [FoxBrain Roadmap](#foxbrain-roadmap)
 
@@ -18,8 +19,10 @@ A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) eva
 *Quarterly survey of new benchmark-related papers and SOTA claims.*
 
 | Paper | Modality | Key Benchmarks | Dataset | Metric | SOTA Claim | Links |
-| :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Example Paper Title** | VLM | Video-MME, MMMU | 900+ Videos | Acc, F1 | #1 in Long Video | [arXiv](...) [Code](...) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Phi-4 Reasoning-Vision** | VLM | MMMU, MathVista, Blink | Interleaved Vision-Text | Accuracy, CoT | SOTA in 15B parameter class | [Report](https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/Phi-4-reasoning-vision-15B-Tech-Report-1.pdf) [Blog](https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/) |
+| **MM-IFEngine** | VLM | MM-IFBenchmark | MM-IFDataset | Constraint Satisfaction | Systematic eval for MLLM constraints | [arXiv](https://arxiv.org/pdf/2504.07957) [Project](https://syuan03.github.io/MM-IFEngine/) |
+| **Qwen3 Tech Report** | LLM/VLM | MMLU, GPQA Diamond | 36T tokens | Acc, Pass@1 | SOTA open-weights (0.6B-235B) | [arXiv](https://arxiv.org/abs/2505.09388) |
 
 ---
 
@@ -40,6 +43,12 @@ A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) eva
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **MMMU** | Expert Reasoning | 11.5K Images | Acc | [Link](https://arxiv.org/abs/2311.16502) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
 | **MathVista** | Visual Math | 6.5K Images | Acc | [Link](https://arxiv.org/abs/2310.02255) | [Link](https://github.com/lucas0/MathVista) |
+| **Phi-4 (Reasoning-Vision)** | Multimodal Reasoning | Synthetic + Curated | Acc, CoT | [Link](https://www.microsoft.com/en-us/research/wp-content/uploads/2026/03/Phi-4-reasoning-vision-15B-Tech-Report-1.pdf) | [Blog](https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/) |
+
+### Instruction Following
+| Name | Task | Dataset | Metric | Paper | Code |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **MM-IFEngine** | VLM Instruction Following | MM-IFDataset | Instruction Satisfaction | [Link](https://arxiv.org/pdf/2504.07957) | [Link](https://syuan03.github.io/MM-IFEngine/) |
 
 ### Video Understanding
 | Name | Task | Dataset | Metric | Paper | Code |
@@ -50,5 +59,7 @@ A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) eva
 
 ## FoxBrain Roadmap
 *Action items for the internal benchmark roadmap.*
+- [ ] **Benchmark Phi-4** against internal 15B-class baselines.
+- [ ] Integrate **MM-IFEngine** to measure multimodal instruction adherence.
 - [ ] Integrate **Video-MME** for multimodal testing.
-- [ ] Establish **Human-in-the-loop** scoring for open-ended VLM tasks.
+- [ ] Establish **Human-in-the-loop**
