@@ -1,3 +1,12 @@
+/
+├── README.md               <-- Main Directory (The "Map")
+├── surveys/                <-- Summaries of major LLM/VLM surveys
+├── sota-digests/           <-- Folder for your deep-dive papers
+│   ├── current-sota.md     <-- Always updated with the #1 models/metrics
+│   ├── archive/            <-- Older digests moved here
+├── roadmap/                <-- FoxBrain Roadmap & Action Items
+└── scripts/                <-- (Optional) Python tools to fetch arXiv links
+
 # awesome-LLM-VLM-benchmarks
 A comprehensive repository tracking SOTA LLM/VLM benchmarks, datasets, and evaluation metrics. Features a running digest of research papers and system roadmaps.
 # 🏛️ The SOTA LLM/VLM Benchmark Library
