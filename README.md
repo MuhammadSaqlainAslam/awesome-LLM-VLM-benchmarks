@@ -3,17 +3,17 @@
 A curated list of Large Language Model (LLM) and Vision-Language Model (VLM) evaluation resources, focusing on State-of-the-Art (SOTA) papers, datasets, and metrics.
 
 ## 📊 Executive Summary (Q1 2026)
-As of March 2026, the industry has officially moved beyond "General Knowledge" saturation. Frontier models (GPT-5.3, Gemini 3.1, Claude 4.6) now consistently exceed 90% on MMLU, shifting the focus to **Expert-level Science (GPQA)**, **Agentic Engineering (SWE-bench)**, and **Contamination-free reasoning (LiveBench)**. This digest tracks the transition from simple chat models to **Action-Oriented Agents**.
+As of March 2026, general knowledge benchmarks (MMLU) are considered "solved" by frontier models. The evaluation frontier has shifted to **Expert-level Reasoning (HLE)**, **Agentic Coding (Terminal-Bench Hard)**, and **Vision-centric Perception (MMMU-Pro)**. Google’s **Gemini 3.1 Pro** and Anthropic’s **Claude 4.6 Opus** currently lead the landscape in multi-step reasoning and multimodal adherence.
 
 ## Table of Contents
 - [SOTA LLM/VLM Benchmarks Digest](#sota-llm-vlm-benchmarks-digest)
 - [Individual Paper Surveys (Detailed)](./survey/)
 - [LLM Benchmarks](#llm-benchmarks)
   - [Expert Reasoning](#expert-reasoning)
-  - [Coding & Agents](#coding--agents)
+  - [Agentic & Coding](#agentic--coding)
 - [VLM Benchmarks](#vlm-benchmarks)
-  - [Visual Reasoning](#visual-reasoning)
-  - [Document & Instruction Adherence](#document--instruction-adherence)
+  - [Multimodal Reasoning](#multimodal-reasoning)
+  - [Document Intelligence](#document-intelligence)
 - [FoxBrain Roadmap](#foxbrain-roadmap)
 
 ---
@@ -23,16 +23,16 @@ As of March 2026, the industry has officially moved beyond "General Knowledge" s
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Phi-4 Reasoning-Vision** | VLM | MMMU, MathVista, Blink | Interleaved Vision-Text | Acc, CoT | [Notes](./survey/2026-03-15-phi-4-reasoning.md) | [Report](https://aka.ms/phi-4-vision) |
-| **DeepSeek-V3.2 (Speciale)** | LLM | AIME 2026, GPQA | 14.8T tokens | Acc, Pass@1 | [Notes](./survey/2025-05-15-deepseek-v3.md) | [arXiv](https://arxiv.org/abs/2412.19437) |
-| **Humanity's Last Exam (HLE)** | LLM/VLM | HLE-Multimodal | 2,500 PhD-level Qs | Accuracy | [Notes](./survey/2025-01-20-hle-survey.md) | [Project](https://lastexam.ai/) |
-| **LiveBench 2026** | LLM | LiveBench-V6 | Monthly-updated tasks | Pass@1 | [Notes](./survey/2026-01-20-livebench-v6.md) | [Project](https://livebench.ai/) |
-| **olmOCR (AI2)** | VLM | olmOCR-Bench | 1.4M High-quality PDFs | Unit-test Pass% | [Notes](./survey/2025-10-05-olmocr-survey.md) | [Project](https://olmocr.allenai.org/) |
+| **MMMU-Pro** | VLM | MMMU-Pro Vision | Expert Images | Accuracy | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Paper](https://arxiv.org/abs/2409.02813) |
+| **Phi-4 Reasoning-Vision** | VLM | MMMU, MathVista | Interleaved Vision | Acc, CoT | [Notes](./survey/2026-03-15-phi-4-reasoning.md) | [Report](https://aka.ms/phi-4-vision) |
+| **Humanity's Last Exam** | LLM/VLM | HLE-Multimodal | 2,500 PhD Qs | Accuracy | [Notes](./survey/2025-01-20-hle-survey.md) | [Project](https://lastexam.ai/) |
+| **LiveBench 2026** | LLM | LiveBench-V6 | Monthly Tasks | Pass@1 | [Notes](./survey/2026-01-20-livebench-v6.md) | [Project](https://livebench.ai/) |
+| **olmOCR (AI2)** | VLM | olmOCR-Bench | 1.4M PDFs | Unit Pass% | [Notes](./survey/2025-10-05-olmocr-survey.md) | [Project](https://olmocr.allenai.org/) |
 
 ## 🌟 Notable Changes (March 2026)
-* **Saturation Alert:** MMLU is now considered a "baseline" rather than a "frontier" metric as GPT-5.3 Codex hits 93%.
-* **New Gold Standard:** **GPQA Diamond** and **AIME 2026** are now the primary filters for "Intelligence" (Gemini 3.1 Pro leads at 94.3% on GPQA).
-* **Agentic Focus:** **SWE-bench Verified** has become the critical metric for production-ready coding agents.
+* **The Rise of "Thinking" Models:** Configurable reasoning (Low/Med/High/Max) is now a standard feature in Claude 4.6 and GPT-5.4.
+* **ARC-AGI-2 Breakthrough:** For the first time, models like **Gemini 3.1 Pro** have crossed the 75% threshold, doubling the reasoning performance of 2024-era models.
+* **Terminal-Bench Hard:** Replaces simple code-gen tests as the benchmark for LLMs operating as autonomous terminal-based agents.
 
 ---
 
@@ -41,37 +41,37 @@ As of March 2026, the industry has officially moved beyond "General Knowledge" s
 ### Expert Reasoning
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **GPQA Diamond** | PhD-level Science | 448 QA | Acc | **94.3%** (Gemini 3.1 Pro) | [Paper](https://arxiv.org/abs/2311.12022) |
-| **Humanity's Last Exam** | PhD-level Frontier | 2,500 Expert Qs | Accuracy | **45.8%** (Gemini 3.1 Pro) | [Project](https://lastexam.ai/) |
-| **LiveBench** | Contamination-free | Monthly tasks | Pass@1 | **~68%** (GPT-5.3 Codex) | [GitHub](https://github.com/LiveBench/LiveBench) |
+| **GPQA Diamond** | PhD-level Science | 448 QA | Acc | **94.3%** (Gemini 3.1 Pro) | [Link](https://arxiv.org/abs/2311.12022) |
+| **Humanity's Last Exam** | Expert Knowledge | 2.5K Expert Qs | Accuracy | **45.8%** (Gemini 3.1 Pro) | [Link](https://lastexam.ai/) |
+| **LiveBench** | Contamination-free | Monthly Tasks | Pass@1 | **~68%** (GPT-5.4 Pro) | [Link](https://livebench.ai/) |
 
-### Coding & Agents
+### Agentic & Coding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **SWE-bench Verified** | Software Engineering | 500 GitHub Issues | Resolved % | **80.8%** (Claude Opus 4.6) | [Project](https://www.swebench.com/) |
-| **AIME 2026** | Frontier Mathematics | Olympiad Level | Accuracy | **91.3%** (Qwen3.5 Plus) | [GitHub](https://github.com/TIGER-AI-Lab/AIME26) |
+| **SWE-bench Verified** | Software Engineering | 500 GitHub Issues | Resolved % | **80.8%** (Claude 4.6 Opus) | [Link](https://www.swebench.com/) |
+| **Terminal-Bench Hard** | Autonomous Terminal | CLI Sandbox | Success Rate | **54.0%** (Gemini 3.1 Pro) | [Link](https://github.com/mme-bench/terminal-bench) |
 
 ---
 
 ## VLM Benchmarks
 
-### Visual Reasoning
-| Name | Task | Dataset | Metric | Paper | Code |
+### Multimodal Reasoning
+| Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MMMU-Pro** | Academic Reasoning | 3.4K Expert Images | Acc | [Link](https://arxiv.org/abs/2409.02813) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
-| **Video-MME** | Long Video (1h+) | 900 Clips | Acc | [Link](https://arxiv.org/abs/2405.21075) | [Link](https://github.com/VectorSpaceLab/Video-MME) |
+| **MMMU-Pro** | Vision-only Expert | 3.4K Images | Acc | **82.0%** (Gemini 3.1 Pro) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
+| **ARC-AGI-2** | Visual Abduction | Non-semantic Grids | Acc | **77.1%** (Gemini 3.1 Pro) | [Link](https://arcprize.org/) |
 
-### Document & Instruction Adherence
-| Name | Task | Dataset | Metric | Paper | Code |
+### Document Intelligence
+| Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MM-IFEngine** | VLM Instruction Following | MM-IFDataset | Constraint Sat. | [Link](https://arxiv.org/pdf/2504.07957) | [Link](https://syuan03.github.io/MM-IFEngine/) |
-| **olmOCR-Bench** | End-to-end PDF OCR | 1.4K Challenging PDFs | Unit-test Pass% | [Link](https://arxiv.org/abs/2510.05678) | [Link](https://github.com/allenai/olmocr) |
+| **olmOCR-Bench** | PDF-to-Markdown | 1.4K PDFs | Unit Pass% | **+14.2% over GPT-4o** | [Link](https://github.com/allenai/olmocr) |
+| **MM-IFEngine** | VLM Instruction Following | MM-IFDataset | Constraint Sat. | **64.6%** (GPT-5.4) | [Link](https://syuan03.github.io/MM-IFEngine/) |
 
 ---
 
 ## FoxBrain Roadmap
 *Action items for the internal benchmark roadmap.*
-- [ ] **Establish HLE baseline** to test frontier-level "expert" knowledge.
-- [ ] **Adopt LiveBench methodology** for monthly zero-contamination testing.
-- [ ] **Scale Agentic Testing:** Integrate **SWE-bench Verified** to evaluate internal coding assistants.
-- [ ] **Evaluate olmOCR** for internal high-fidelity document data extraction pipelines.
+- [ ] **Adopt ARC-AGI-2** to evaluate pure spatial reasoning in FoxBrain vision systems.
+- [ ] **Benchmark Gemini 3.1 Pro** as the new cost-efficiency baseline ($2/$12 per 1M tokens).
+- [ ] **Integrate Terminal-Bench Hard** to test the "Agentic" autonomy of internal tools.
+- [ ] **Evaluate olmOCR** for high-fidelity document ingestion pipelines.
