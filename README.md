@@ -24,7 +24,7 @@ As of March 2026, the evaluation frontier has shifted from static knowledge to *
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
 | **Gemini 3.1 Pro Report** | LLM/VLM | ARC-AGI-2, GPQA | Expert Logic/Science | Acc, Verified Pass | [Notes](./survey/2026-02-19-gemini-3-1-pro.md) | [Report](https://deepmind.google/models/gemini/pro/) |
-| **GPT-5.4 Tech Report** | LLM | GDPval, SWE-bench | 44 Occupations | Success Rate | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [Project](https://openai.com/index/gpt-5-4) |
+| **GPT-5.4 Tech Report** | LLM | GDPval, SWE-bench | 44 Occupations | Success Rate | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [Project](https://openai.com/index/introducing-gpt-5-4/) |
 | **Phi-4 Reasoning-Vision** | VLM | MMMU, MathVista | Interleaved Vision | Acc, CoT | [Notes](./survey/2026-03-15-phi-4-reasoning.md) | [Report](https://aka.ms/phi-4-vision) |
 | **MMMU-Pro** | VLM | MMMU-Pro Vision | Expert Images | Accuracy | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Paper](https://arxiv.org/abs/2409.02813) |
 | **Humanity's Last Exam** | LLM/VLM | HLE-Multimodal | 2,500 PhD Qs | Accuracy | [Notes](./survey/2025-01-20-hle-survey.md) | [Project](https://lastexam.ai/) |
