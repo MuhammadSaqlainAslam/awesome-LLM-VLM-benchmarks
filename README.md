@@ -23,8 +23,9 @@ As of March 2026, the evaluation frontier has shifted from static knowledge to *
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+| **ARC-AGI-2 Report** | LLM/VLM | ARC-AGI-2 | Visual Abduction | Accuracy | [Notes](./survey/2026-03-24-arc-agi-2.md) | [Leaderboard](https://arcprize.org/leaderboard) |
 | **Gemini 3.1 Pro Report** | LLM/VLM | ARC-AGI-2, GPQA | Expert Logic/Science | Acc, Verified Pass | [Notes](./survey/2026-02-19-gemini-3-1-pro.md) | [Report](https://deepmind.google/models/gemini/pro/) |
-| **GPT-5.4 Tech Report** | LLM | GDPval, SWE-bench | 44 Occupations | Success Rate | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [Project](https://openai.com/index/gpt-5-4) |
+| **GPT-5.4 Tech Report** | LLM | GDPval, SWE-bench | 44 Occupations | Success Rate | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [Project](https://openai.com/index/introducing-gpt-5-4/) |
 | **Phi-4 Reasoning-Vision** | VLM | MMMU, MathVista | Interleaved Vision | Acc, CoT | [Notes](./survey/2026-03-15-phi-4-reasoning.md) | [Report](https://aka.ms/phi-4-vision) |
 | **MMMU-Pro** | VLM | MMMU-Pro Vision | Expert Images | Accuracy | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Paper](https://arxiv.org/abs/2409.02813) |
 | **Humanity's Last Exam** | LLM/VLM | HLE-Multimodal | 2,500 PhD Qs | Accuracy | [Notes](./survey/2025-01-20-hle-survey.md) | [Project](https://lastexam.ai/) |
@@ -33,10 +34,10 @@ As of March 2026, the evaluation frontier has shifted from static knowledge to *
 | **olmOCR (AI2)** | VLM | olmOCR-Bench | 1.4M PDFs | Unit Pass% | [Notes](./survey/2025-10-05-olmocr-survey.md) | [Project](https://olmocr.allenai.org/) |
 
 ## 🌟 Notable Changes (March 2026)
+* **ARC-AGI-2 Frontier:** Gemini 3.1 Pro (77.1%) and GPT-5.4 xHigh (83.3%) are the first models to exceed average human performance on fluid reasoning.
 * **Native Agentic Logic:** Both Gemini 3.1 and GPT-5.4 now support multi-level reasoning "thinking" modes (Low/Medium/High/Max).
 * **Phi-4 Resilience:** Despite larger models, Phi-4 continues to set the standard for "Reasoning-Vision" in efficient model architectures.
-* **ARC-AGI-2 Breakthrough:** Gemini 3.1 Pro has crossed the **77.1%** threshold, proving that models are mastering abstract logic without memorization.
-* **Computer Use API:** GPT-5.4 introduces native computer operation, allowing agents to navigate file systems and UIs directly via screenshots.
+* **Computer Use API:** GPT-5.4 introduces native computer operation via screenshots, tested on **OSWorld-Verified**.
 
 ---
 
@@ -62,9 +63,9 @@ As of March 2026, the evaluation frontier has shifted from static knowledge to *
 ### Multimodal Reasoning
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Phi-4 Reasoning-Vision** | Efficient Reasoning | Interleaved Data | Acc, CoT | **SOTA (15B Class)** | [Link](https://aka.ms/phi-4-vision) |
-| **ARC-AGI-2** | Visual Abduction | Non-semantic Grids | Acc | **77.1%** (Gemini 3.1 Pro) | [Link](https://arcprize.org/) |
+| **ARC-AGI-2** | Visual Abduction | Non-semantic Grids | Acc | **84.6%** (Gemini 3 Deep Think) | [Link](https://arcprize.org/) |
 | **MMMU-Pro** | Vision-only Expert | 3.4K Images | Acc | **82.0%** (Gemini 3.1 Pro) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
+| **Phi-4 Reasoning-Vision** | Efficient Reasoning | Interleaved Data | Acc, CoT | **SOTA (15B Class)** | [Link](https://aka.ms/phi-4-vision) |
 
 ### Document Intelligence
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
@@ -76,7 +77,7 @@ As of March 2026, the evaluation frontier has shifted from static knowledge to *
 
 ## FoxBrain Roadmap
 *Action items for the internal benchmark roadmap.*
-- [ ] **Benchmark Phi-4** against internal 15B-class baselines.
-- [ ] **Benchmark Gemini 3.1 Pro** for long-context reasoning and cost-efficiency.
-- [ ] **Adopt OSWorld-Verified** to evaluate native computer-use capabilities for FoxBrain agents.
+- [ ] **Adopt ARC-AGI-2** to evaluate pure spatial reasoning in FoxBrain vision systems.
+- [ ] **Benchmark DeepSeek-V3** as an open-weights alternative for internal reasoning tasks.
+- [ ] **Evaluate olmOCR** for high-fidelity document ingestion pipelines.
 - [ ] **Establish HLE baseline** to test frontier-level "expert" knowledge.
