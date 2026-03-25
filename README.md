@@ -2,50 +2,53 @@
 
 A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 Papers/Day.**
 
-## 📊 Executive Summary (Q1 2026)
-As of March 24, 2026, the evaluation frontier has shifted to **Configurable Reasoning** and **Native Computer Use**. While flagship models like **GPT-5.4** and **Claude 4.6 Opus** lead in agentic planning, **Step3-VL-10B** has redefined efficiency by rivaling 100B+ models in multimodal reasoning.
-
 ---
 
-## 🚀 Today's Daily 8 (March 24, 2026)
+## 🚀 Today's Daily 8 (March 25, 2026)
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **ARC-AGI-2 Report** | LLM/VLM | ARC-AGI-2 | Visual Abduction | Accuracy | [Notes](./survey/2026-03-24-arc-agi-2.md) | [Link](https://arcprize.org/leaderboard) |
-| **Claude 4.6 Opus** | LLM | SWE-bench Pro, HLE | Agent Teams | Resolved % | [Notes](./survey/2026-03-23-claude-4-6.md) | [Link](https://www.anthropic.com/news/claude-opus-4-6) |
-| **GPQA Diamond** | LLM | PhD-level Science | 198 Expert QA | Accuracy | [Notes](./survey/2023-11-20-gpqa-diamond.md) | [Link](https://arxiv.org/abs/2311.12022) |
-| **MM-IFEngine** | VLM | MM-IFBenchmark | MM-IFDataset | Constraint Sat. | [Notes](./survey/2025-04-10-mm-ifengine.md) | [Link](https://syuan03.github.io/MM-IFEngine/) |
-| **Step3-VL-10B** | VLM | MMMU, MathVision | 1.2T MM Tokens | Accuracy | [Notes](./survey/2026-01-14-step3-vl.md) | [arXiv](https://arxiv.org/abs/2601.09668) |
-| **Llama 4 Scout** | LLM | Long-Context Eval | 10M Window | Retrieval Acc | [Notes](./survey/2026-02-20-llama-4-scout.md) | [Link](https://llama.meta.com/) |
-| **GPT-5.4 mini/nano** | LLM | OSWorld-Verified | Fast Reasoning | Success Rate | [Notes](./survey/2026-03-22-gpt-5-4-mini.md) | [Link](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/) |
-| **DeepSeek-V3.2** | LLM | MMLU-Pro, SWE-v | FP8 Training | Acc, Pass@1 | [Notes](./survey/2026-03-24-deepseek-v3-2.md) | [Link](https://www.deepseek.com/) |
----
-### 📚 [View Full SOTA Archive (All Previous Papers)](./ARCHIVE.md)
-
+| **AcademicEval** | LLM | AcademicEval | arXiv Papers | Judge Score | [Notes](./survey/2025-10-20-academiceval.md) | [arXiv](https://arxiv.org/abs/2510.17725) |
+| **SurveyBench** | LLM | SurveyBench | 11.3k Papers | Outline Qual | [Notes](./survey/2025-10-03-surveybench.md) | [arXiv](https://arxiv.org/abs/2510.03120) |
+| **LPFQA** | LLM | LPFQA | Tech Forums | Reasoning | [Notes](./survey/2026-01-08-lpfqa.md) | [arXiv](https://arxiv.org/abs/2511.06346) |
+| **VideoLLM Survey** | VLM | VideoLLM Survey | Meta-Analysis | Review | [Notes](./survey/2025-05-03-videollm-survey.md) | [arXiv](https://arxiv.org/abs/2505.03829) |
+| **PhysBench** | VLM | PhysBench | 10k Samples | Dynamics Acc | [Notes](./survey/2025-02-28-physbench.md) | [ICLR](https://proceedings.iclr.cc/paper/2025/hash/f38cb4cf9a5eaa92b3cfa481832719c6-Abstract-Conference.html) |
+| **PLawBench** | LLM | PLawBench | Legal Practice | Rubric Acc | [Notes](./survey/2026-01-23-plawbench.md) | [arXiv](https://arxiv.org/abs/2601.16669) |
+| **NC-Bench** | LLM | NC-Bench | IBM Patterns | Patterns | [Notes](./survey/2026-01-06-nc-bench.md) | [arXiv](https://arxiv.org/abs/2601.06426) |
+| **TemporalBench** | VLM | TemporalBench | 2k Videos | Binary Acc | [Notes](./survey/2026-01-10-temporalbench.md) | [NeurIPS](https://neurips.cc/virtual/2024/103554) |
 ---
 
-## 🌟 Notable Changes (March 2026)
-* **ARC-AGI-2 Breakthrough:** Claude 4.6 Opus sets a new frontier for reasoning models with **68.8%** on ARC-AGI-2.
-* **10B Efficiency:** Step3-VL-10B achieves **80.1% MMMU**, rivaling proprietary flagships 20x its size.
-* **10M Context Window:** Llama 4 Scout (2600 t/s) introduces the first stable 10-million token context window.
+## 📑 Frontier Technical Reports
+*Permanent SOTA reports from major labs.*
+
+| Model | Lab | Benchmarks | Key SOTA Result | Notes | Official Links |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GPT-5.4** | OpenAI | GDPval, OSWorld | 75.0% OSWorld-V | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [System Card](https://openai.com/index/gpt-5-4-thinking-system-card/) |
+| **Gemini 3.1 Pro** | Google | ARC-AGI-2, GPQA | 77.1% ARC-AGI-2 | [Notes](./survey/2026-02-19-gemini-3-1-pro.md) | [Model Card](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
+| **Claude 4.6 Opus** | Anthropic | SWE-bench Pro | 80.8% SWE-Verified | [Notes](./survey/2026-03-23-claude-4-6.md) | [Technical Report](https://www.anthropic.com/news/claude-opus-4-6) |
+| **DeepSeek-V3.2** | DeepSeek | MMLU-Pro, IMO | RL-based Logic | [Notes](./survey/2026-03-24-deepseek-v3-2.md) | [arXiv Paper](https://arxiv.org/abs/2512.02556) |
+
+---
+### 📚 [View Full SOTA Archive (Total History)](./ARCHIVE.md)
+*Historical papers like DeepSeek-V3, Step3-VL-10B, and Llama 4 Scout are preserved here.*
 
 ---
 
 ## LLM Benchmarks
 
-### Expert Reasoning
+### Reasoning & Knowledge
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **GPQA Diamond** | PhD-level Science | 198 QA | Acc | **95.4%** (Claude 4.6 Opus) | [Link](https://arxiv.org/abs/2311.12022) |
-| **Humanity's Last Exam** | Expert Knowledge | 2.5K Expert Qs | Accuracy | **45.8%** (Gemini 3.1 Pro) | [Link](https://lastexam.ai/) |
-| **LiveBench** | Contamination-free | Monthly Tasks | Pass@1 | **80.3%** (GPT-5.4 Thinking) | [Link](https://livebench.ai/) |
-| **ARC-AGI-2** | Abstract Logic | 120 Visual Puzzles | Accuracy | **68.8%** (Claude 4.6 Opus) | [Link](https://arcprize.org/leaderboard) |
+| **LiveBench 2026** | Contamination-Free | Monthly | Avg Score | **80.28** (GPT-5.4) | [Link](https://livebench.ai/) |
+| **GPQA Diamond** | PhD Science | 198 QA | Acc | **95.4%** (Claude 4.6) | [Link](https://arxiv.org/abs/2311.12022) |
+| **Humanity's Last Exam** | Expert Exam | 2.5K Qs | Acc | **46.2%** (Claude 4.6) | [Link](https://lastexam.ai/) |
+| **ARC-AGI-2** | Visual Logic | 120 Puzzles | Acc | **77.1%** (Gemini 3.1 Pro) | [Link](https://arcprize.org/) |
 
 ### Agentic & Coding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **SWE-bench Verified** | Software Engineering | 500 GitHub Issues | Resolved % | **80.8%** (Claude 4.6 Opus) | [Link](https://www.swebench.com/) |
-| **SWE-bench Pro** | Complex Software Fixes| 1,865 Multi-file | Resolved % | **57.7%** (GPT-5.4) | [Link](https://www.morphllm.com/swe-bench-pro) |
-| **OSWorld-Verified** | OS/Computer Use | Desktop Navigation | Success Rate | **75.0%** (GPT-5.4) | [Link](https://os-world.github.io/) |
+| **SWE-bench Verified** | Engineering | 500 Issues | Resolved % | **80.8%** (Claude 4.6) | [Link](https://www.swebench.com/) |
+| **OSWorld-Verified** | OS Navigation | Desktop Nav | Success % | **75.0%** (GPT-5.4) | [Link](https://os-world.github.io/) |
+| **LiveCodeBench v6** | Contamination-Free Code | Monthly | Pass@1 | **91.7%** (Gemini 3 Pro) | [Link](https://livecodebench.github.io/) |
 
 ---
 
@@ -54,14 +57,23 @@ As of March 24, 2026, the evaluation frontier has shifted to **Configurable Reas
 ### Multimodal Reasoning
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MMMU-Pro** | Vision-only Expert | 3.4K Images | Acc | **82.0%** (Gemini 3.1 Pro) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
-| **MathVision** | Mathematical Reasoning| Complex Geometry | Accuracy | **75.9%** (Step3-VL-10B) | [Link](https://arxiv.org/abs/2402.14804) |
-| **Phi-4 Reasoning-Vision** | Efficient Reasoning | Interleaved Data | Acc, CoT | **SOTA (15B Class)** | [Link](https://aka.ms/phi-4-vision) |
-| **MM-IFEngine** | VLM Instruction Following | MM-IFDataset | Constraint Sat. | **64.6%** (GPT-5.4) | [Link](https://syuan03.github.io/MM-IFEngine/) |
+| **MMMU-Pro** | Vision Expert | 3.4K Images | Acc | **82.0%** (Gemini 3.1 Pro) | [Link](https://github.com/MMMU-Benchmark/MMMU) |
+| **MathVision** | Math Reasoning | Geometry | Acc | **75.9%** (Step3-VL-10B) | [Link](https://arxiv.org/abs/2402.14804) |
+| **Phi-4 Reasoning-Vision**| Small Model Reason| Mid-Fusion | Acc | **SOTA (15B Class)** | [Link](https://aka.ms/phi-4-vision) |
+| **MM-IFEngine** | Instruct Follow | MM-IFDataset | Constraint % | **64.6%** (GPT-5.4) | [Link](https://syuan03.github.io/MM-IFEngine/) |
+
+### Video & Temporal Understanding
+| Name | Task | Dataset | Metric | SOTA (Mar 2026) | Links |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **TemporalBench** | Temporal Logic | 10k QA | Binary Acc | **38.0%** (GPT-4o) | [Link](https://neurips.cc/virtual/2024/103554) |
+| **PhysBench** | Physical World | 10k Video-Text | Dynamics Acc | **Low (Baseline)** | [Link](https://proceedings.iclr.cc/paper/2025/hash/f38cb4cf9a5eaa92b3cfa481832719c6-Abstract-Conference.html) |
+| **VideoLLM Survey** | Meta-Analysis | Multi-Bench | Review | **Systematic Review** | [Link](https://arxiv.org/abs/2505.03829) |
 
 ---
 
-## FoxBrain Roadmap
-- [ ] **Adopt ARC-AGI-2** for internal vision systems (Current SOTA: Claude 4.6 Opus).
-- [ ] **Benchmark DeepSeek-V3.2** for high-efficiency reasoning in DevOps.
-- [ ] **Test Step3-VL-10B** for local multimodal agent deployment on edge devices.
+## 🦊 FoxBrain Roadmap
+- [ ] **Adopt ARC-AGI-2** for internal vision systems.
+- [ ] **Benchmark DeepSeek-V3.2** as an open-weights alternative for internal reasoning.
+- [ ] **Establish HLE baseline** to test frontier-level "expert" knowledge.
+- [ ] **Test Step3-VL-10B** for efficient multimodal agent deployment.
+- [ ] Implement **Llama 4 Scout** for high-speed documentation RAG.
