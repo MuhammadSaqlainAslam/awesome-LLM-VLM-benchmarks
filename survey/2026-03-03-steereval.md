@@ -14,3 +14,6 @@ The paper shows that while models follow high-level personas well, they fail at 
 
 ## FoxBrain Relevance
 Essential for FoxBrain's "Brand Voice" features. If we need our agent to maintain a specific professional persona without slipping, SteerEval is the metric to track.
+
+---
+*Back to [Main Digest](../README.md)*
