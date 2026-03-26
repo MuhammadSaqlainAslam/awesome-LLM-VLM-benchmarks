@@ -14,3 +14,6 @@ Frontier VLMs show a **35% performance degradation** on warped or skewed text co
 
 ## FoxBrain Relevance
 Extremely high. FoxBrain’s document parsing capability must be robust against "camera-captured" documents. We should use this to test our VLM's OCR limits.
+
+---
+*Back to [Main Digest](../README.md)*
