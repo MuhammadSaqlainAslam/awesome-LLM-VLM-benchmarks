@@ -14,3 +14,6 @@ Top-tier models achieve high scores in JSON/YAML but drop to **62% fidelity** wh
 
 ## FoxBrain Relevance
 Directly addresses our goal to "Adopt StructEval to verify FoxBrain's JSON-schema generation reliability." This is our primary benchmark for API-calling and data extraction features.
+
+---
+*Back to [Main Digest](../README.md)*
