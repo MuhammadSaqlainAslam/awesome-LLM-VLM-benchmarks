@@ -1,6 +1,8 @@
 # Full SOTA Benchmark Archive
+
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-03-27 | **ToolBench** | LLM | ToolBench | 16k APIs | Pass Rate | [arXiv](https://arxiv.org/abs/2307.16789) | [Notes](./survey/2025-01-15-toolbench.md) |
 | 2026-03-26 | **Benchmark²** | Meta | Benchmark² | 15 Domains | Consistency | [arXiv](https://arxiv.org/abs/2601.03986) | [Notes](./survey/2026-01-07-benchmark2.md) |
 | 2026-03-26 | **LemmaBench** | LLM | LemmaBench | Live arXiv | Pass@1 | [arXiv](https://arxiv.org/abs/2602.24173) | [Notes](./survey/2026-02-27-lemmabench.md) |
 | 2026-03-26 | **SteerEval** | LLM | SteerEval | Behavioral | Control % | [arXiv](https://arxiv.org/abs/2601.21105) | [Notes](./survey/2026-03-03-steereval.md) |
