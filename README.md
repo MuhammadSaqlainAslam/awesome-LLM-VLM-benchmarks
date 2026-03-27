@@ -4,9 +4,11 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (March 26, 2026)
+## 🚀 Today's Daily 8 (March 27, 2026)
+
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
+| **ToolBench** | LLM | ToolBench | 16k Real APIs | Pass Rate | [Notes](./survey/2025-01-15-toolbench.md) | [arXiv](https://arxiv.org/abs/2307.16789) |
 | **Benchmark²** | Meta | Benchmark² | 15 Benchmarks | Consistency | [Notes](./survey/2026-01-07-benchmark2.md) | [arXiv](https://arxiv.org/abs/2601.03986) |
 | **LemmaBench** | LLM | LemmaBench | Live arXiv Math | Pass@1 Acc | [Notes](./survey/2026-02-27-lemmabench.md) | [arXiv](https://arxiv.org/abs/2602.24173) |
 | **SteerEval** | LLM | SteerEval | Behavioral Data | Control % | [Notes](./survey/2026-03-03-steereval.md) | [arXiv](https://arxiv.org/abs/2603.02578) |
@@ -14,7 +16,6 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **CoW-Bench** | VLM | CoW-Bench | Multi-frame Video | Consistency | [Notes](./survey/2026-03-24-cow-bench.md) | [HuggingFace](https://huggingface.co/papers/2602.23152) |
 | **OmniDocBench** | VLM | Real5-OmniDoc | 1,355 Images | OCR/Parsing | [Notes](./survey/2026-03-04-omnidocbench.md) | [arXiv](https://arxiv.org/abs/2603.04205) |
 | **SemEval-26 T11** | LLM | SemEval-26 | Multilingual | Logical Acc | [Notes](./survey/2026-03-23-semeval26.md) | [arXiv](https://arxiv.org/abs/2603.02676) |
-| **MMMU-Pro** | VLM | MMMU-Pro | 11.5K Questions | Zero-shot Acc | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Leaderboard](https://mmmu-benchmark.github.io/#leaderboard) |
 
 ---
 
@@ -50,6 +51,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 ### Agentic, Coding & Controllability
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **ToolBench** | Tool Use | 16,459 APIs | Pass Rate | **SOTA** | [Notes](./survey/2025-01-15-toolbench.md) | [arXiv](https://arxiv.org/abs/2307.16789) |
 | **SWE-bench Ver.** | Engineering | 500 Issues | Resolved % | **80.8%** | [Notes](./survey/2026-03-23-claude-4-6.md) | [SWE-bench](https://www.swebench.com/) |
 | **OSWorld-Ver.** | OS Nav | Desktop Nav | Success % | **75.0%** | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [OSWorld](https://os-world.github.io/) |
 | **Llama 4 Scout** | RAG | 10M Window | TPS | **2600 TPS** | [Notes](./survey/2026-02-20-llama-4-scout.md) | [Meta Llama](https://llama.meta.com/) |
@@ -80,4 +82,4 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 ## 🦊 FoxBrain Roadmap
 - [ ] **Adopt StructEval** to verify FoxBrain's JSON-schema generation reliability.
 - [ ] **Benchmark LemmaBench** for internal R&D mathematical verification.
-- [ ] **Test Phi-4 (15B)** for local edge-vision processing.
+- [ ] **Test ToolBench** for agentic multi-API orchestration capabilities.
