@@ -4,7 +4,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (March 27, 2026)
+## 🚀 Today's Daily 8 (March 26, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
