@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (March 26, 2026)
+## 🚀 Today's Daily 8 (March 30, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **ToolBench** | LLM | ToolBench | 16k Real APIs | Pass Rate | [Notes](./survey/2025-01-15-toolbench.md) | [arXiv](https://arxiv.org/abs/2307.16789) |
-| **Benchmark²** | Meta | Benchmark² | 15 Benchmarks | Consistency | [Notes](./survey/2026-01-07-benchmark2.md) | [arXiv](https://arxiv.org/abs/2601.03986) |
-| **LemmaBench** | LLM | LemmaBench | Live arXiv Math | Pass@1 Acc | [Notes](./survey/2026-02-27-lemmabench.md) | [arXiv](https://arxiv.org/abs/2602.24173) |
-| **SteerEval** | LLM | SteerEval | Behavioral Data | Control % | [Notes](./survey/2026-03-03-steereval.md) | [arXiv](https://arxiv.org/abs/2603.02578) |
-| **StructEval** | LLM | StructEval | 18 Formats | Fidelity | [Notes](./survey/2025-12-08-structeval.md) | [GitHub](https://tiger-ai-lab.github.io/StructEval/) |
-| **CoW-Bench** | VLM | CoW-Bench | Multi-frame Video | Consistency | [Notes](./survey/2026-03-24-cow-bench.md) | [HuggingFace](https://huggingface.co/papers/2602.23152) |
-| **OmniDocBench** | VLM | Real5-OmniDoc | 1,355 Images | OCR/Parsing | [Notes](./survey/2026-03-04-omnidocbench.md) | [arXiv](https://arxiv.org/abs/2603.04205) |
-| **SemEval-26 T11** | LLM | SemEval-26 | Multilingual | Logical Acc | [Notes](./survey/2026-03-23-semeval26.md) | [arXiv](https://arxiv.org/abs/2603.02676) |
+| **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
+| **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augmentation Types | Robustness Gap | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
+| **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV / MCL / DFI | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
+| **VCBench** | VLM | VCBench | 1,720 Problems | Accuracy | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
+| **PaperArena** | LLM | PaperArena | 784 QA Pairs | Accuracy | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
+| **HalluLens** | LLM | HalluLens | Dynamic Test Sets | Hallucination Rate | [Notes](./survey/2025-04-24-hallulens.md) | [arXiv](https://arxiv.org/abs/2504.17550) |
+| **LegalEval-Q** | LLM | LegalEval-Q | 49 LLMs Evaluated | Quality Score | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
+| **SDE Framework** | LLM | SDE | Multi-domain Science | Project-level Acc | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
 
 ---
 
@@ -47,6 +47,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **LPFQA** | Tech Forums | 430 Tasks | Reasoning | **High Diff** | [Notes](./survey/2026-01-08-lpfqa.md) | [arXiv](https://arxiv.org/abs/2511.06346) |
 | **PLawBench** | Legal | 850 Cases | Rubric | **SOTA** | [Notes](./survey/2026-01-23-plawbench.md) | [arXiv](https://arxiv.org/abs/2601.16669) |
 | **NC-Bench** | Conv. | IBM Patterns | Pattern | **New Metric** | [Notes](./survey/2026-01-06-nc-bench.md) | [arXiv](https://arxiv.org/abs/2601.06426) |
+| **HalluLens** | Hallucination | Dynamic Sets | Extrinsic+Intrinsic | **ACL 2025** | [Notes](./survey/2025-04-24-hallulens.md) | [arXiv](https://arxiv.org/abs/2504.17550) |
+| **LegalEval-Q** | Legal Quality | 49 LLMs | Clarity/Coherence | **14B Plateau** | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
+| **SDE Framework** | Sci. Discovery | Biology/Chem/Phys | Project-level Acc | **Baseline** | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
+| **BenchBench** | Meta-Eval | 9 Variants / 15K | Discriminability | **New** | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
 
 ### Agentic, Coding & Controllability
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -55,6 +59,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SWE-bench Ver.** | Engineering | 500 Issues | Resolved % | **80.8%** | [Notes](./survey/2026-03-23-claude-4-6.md) | [SWE-bench](https://www.swebench.com/) |
 | **OSWorld-Ver.** | OS Nav | Desktop Nav | Success % | **75.0%** | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [OSWorld](https://os-world.github.io/) |
 | **Llama 4 Scout** | RAG | 10M Window | TPS | **2600 TPS** | [Notes](./survey/2026-02-20-llama-4-scout.md) | [Meta Llama](https://llama.meta.com/) |
+| **RepoReason** | Code Reasoning | 2,492 Tasks | ESV/MCL/DFI | **Baseline** | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
+| **PaperArena** | Sci. Lit. Agent | 784 QA Pairs | Accuracy | **38.78%** | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
 
 ---
 
@@ -67,6 +73,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Humanity's Last Exam**| Expert | 2.5K Expert Qs | Accuracy | **46.2%** | [Notes](./survey/2025-01-20-hle-survey.md) | [HLE Site](https://lastexam.ai/) |
 | **PhysBench** | World | 10k entries | Dynamics | **Baseline** | [Notes](./survey/2025-02-28-physbench.md) | [GitHub](https://github.com/USC-GVL/PhysBench) |
 | **Step3-VL-10B** | Efficient | 1.2T MM Tokens | MMMU/MathV | **80.11%** | [Notes](./survey/2026-01-14-step3-vl.md) | [arXiv](https://arxiv.org/abs/2601.09668) |
+| **VCBench** | Multi-Image Math | 1,720 Problems | Accuracy | **<50%** | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
+| **VLM-RobustBench** | Robustness | 49 Augment Types | Robustness Gap | **-34pp** | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
 
 ### Document Parsing & Video Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
