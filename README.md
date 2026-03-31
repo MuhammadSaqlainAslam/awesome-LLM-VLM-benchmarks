@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (March 27, 2026)
+## 🚀 Today's Daily 8 (March 30, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **SimpleQA** | LLM | SimpleQA | 4,326 Factual QA | F1 / Correct % | [Notes](./survey/2024-11-01-simpleqa.md) | [arXiv](https://arxiv.org/abs/2411.04368) |
-| **PentestEval** | LLM | PentestEval | 346 Pentest Tasks | Stage / E2E % | [Notes](./survey/2025-12-15-pentesteval.md) | [arXiv](https://arxiv.org/abs/2512.14233) |
-| **BenchHub** | Meta | BenchHub | 839K Qs / 54 Bench | Customizable | [Notes](./survey/2025-06-01-benchhub.md) | [arXiv](https://arxiv.org/abs/2506.00482) |
-| **XLRS-Bench** | VLM | XLRS-Bench | 45,942 RS Annotations | VQA / Grounding Acc | [Notes](./survey/2025-03-30-xlrs-bench.md) | [arXiv](https://arxiv.org/abs/2503.23771) |
-| **VLR-Bench** | VLM | VLR-Bench | 300 RAG VQA | RAG Accuracy | [Notes](./survey/2024-12-10-vlr-bench.md) | [arXiv](https://arxiv.org/abs/2412.10151) |
-| **MotionBench** | VLM | MotionBench | 5,000 Videos | Motion QA Acc | [Notes](./survey/2025-01-06-motionbench.md) | [arXiv](https://arxiv.org/abs/2501.02955) |
-| **VL-RewardBench** | VLM | VL-RewardBench | 1,250 Pref Examples | Judgment Acc | [Notes](./survey/2024-11-26-vl-rewardbench.md) | [arXiv](https://arxiv.org/abs/2411.17451) |
-| **ToolBench** | LLM | ToolBench | 16k Real APIs | Pass Rate | [Notes](./survey/2025-01-15-toolbench.md) | [arXiv](https://arxiv.org/abs/2307.16789) |
+| **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
+| **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augmentation Types | Robustness Gap | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
+| **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV / MCL / DFI | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
+| **VCBench** | VLM | VCBench | 1,720 Problems / 6,697 Images | Accuracy | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
+| **PaperArena** | LLM | PaperArena | 784 QA Pairs | Accuracy | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
+| **HalluLens** | LLM | HalluLens | Dynamic Test Sets | Hallucination Rate | [Notes](./survey/2025-04-24-hallulens.md) | [arXiv](https://arxiv.org/abs/2504.17550) |
+| **LegalEval-Q** | LLM | LegalEval-Q | 49 LLMs Evaluated | Quality Score | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
+| **SDE Framework** | LLM | SDE | Multi-domain Science | Project-level Acc | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
 
 ---
 
@@ -49,6 +49,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **LPFQA** | Tech Forums | 430 Tasks | Reasoning | **High Diff** | [Notes](./survey/2026-01-08-lpfqa.md) | [arXiv](https://arxiv.org/abs/2511.06346) |
 | **PLawBench** | Legal | 850 Cases | Rubric | **SOTA** | [Notes](./survey/2026-01-23-plawbench.md) | [arXiv](https://arxiv.org/abs/2601.16669) |
 | **NC-Bench** | Conv. | IBM Patterns | Pattern | **New Metric** | [Notes](./survey/2026-01-06-nc-bench.md) | [arXiv](https://arxiv.org/abs/2601.06426) |
+| **HalluLens** | Hallucination | Dynamic Sets | Extrinsic+Intrinsic | **ACL 2025** | [Notes](./survey/2025-04-24-hallulens.md) | [arXiv](https://arxiv.org/abs/2504.17550) |
+| **LegalEval-Q** | Legal Quality | 49 LLMs | Clarity/Coherence | **14B Plateau** | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
+| **SDE Framework** | Sci. Discovery | Bio/Chem/Phys | Project-level Acc | **Baseline** | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
+| **BenchBench** | Meta-Eval | 9 Variants / 15K | Discriminability | **New** | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -58,6 +62,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SWE-bench Ver.** | Engineering | 500 Issues | Resolved % | **80.8%** | [Notes](./survey/2026-03-23-claude-4-6.md) | [SWE-bench](https://www.swebench.com/) |
 | **OSWorld-Ver.** | OS Nav | Desktop Nav | Success % | **75.0%** | [Notes](./survey/2026-03-05-gpt-5-4-report.md) | [OSWorld](https://os-world.github.io/) |
 | **Llama 4 Scout** | RAG | 10M Window | TPS | **2600 TPS** | [Notes](./survey/2026-02-20-llama-4-scout.md) | [Meta Llama](https://llama.meta.com/) |
+| **RepoReason** | Code Reasoning | 2,492 Tasks | ESV/MCL/DFI | **Baseline** | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
+| **PaperArena** | Sci. Lit. Agent | 784 QA Pairs | Accuracy | **38.78%** | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
 
 ---
 
@@ -72,6 +78,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Step3-VL-10B** | Efficient | 1.2T MM Tokens | MMMU/MathV | **80.11%** | [Notes](./survey/2026-01-14-step3-vl.md) | [arXiv](https://arxiv.org/abs/2601.09668) |
 | **XLRS-Bench** | Remote Sensing | 45,942 Annotations | VQA / Ground Acc | **Baseline** | [Notes](./survey/2025-03-30-xlrs-bench.md) | [arXiv](https://arxiv.org/abs/2503.23771) |
 | **VL-RewardBench** | Reward Models | 1,250 Pref Examples | Judgment Acc | **65.4%** | [Notes](./survey/2024-11-26-vl-rewardbench.md) | [arXiv](https://arxiv.org/abs/2411.17451) |
+| **VCBench** | Multi-Image Math | 1,720 Problems | Accuracy | **<50%** | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
+| **VLM-RobustBench** | Robustness | 49 Augment Types | Robustness Gap | **-34pp** | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -95,3 +103,11 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 - [ ] **Evaluate PentestEval** stage-by-stage to define safe agentic security capability limits.
 - [ ] **Assess MotionBench** for manufacturing inspection and assembly-line motion-detection tasks.
 - [ ] **Gate RLHF runs with VL-RewardBench** to validate reward model quality before alignment training.
+- [ ] **Adapt BenchBench** pipeline to auto-generate FoxBrain-specific test suites for manufacturing/logistics verticals.
+- [ ] **Stress-test VLM pipeline with VLM-RobustBench** geometric augmentations before any factory-floor visual deployment.
+- [ ] **Diagnose RepoReason DFI score** for FoxBrain's cross-file code reasoning ceiling before repository-level agentic tasks.
+- [ ] **Evaluate VCBench** multi-image domains (spatial, temporal) for assembly-sequence and process-diagram understanding.
+- [ ] **Benchmark PaperArena** to measure FoxBrain's R&D literature-grounded reasoning gap vs. Ph.D. expert baseline.
+- [ ] **Run HalluLens extrinsic+intrinsic suites** before any FoxBrain production release touching factual/RAG outputs.
+- [ ] **Apply LegalEval-Q** quality scoring to FoxBrain compliance outputs; prioritize reasoning-architecture models over scale.
+- [ ] **Pilot SDE Framework** on materials science / process engineering scenarios relevant to Foxconn R&D projects.

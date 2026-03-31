@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-03-30 | **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [arXiv](https://arxiv.org/abs/2603.20807) | [Notes](./survey/2026-03-21-benchbench.md) |
+| 2026-03-30 | **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augment Types | Robustness Gap | [arXiv](https://arxiv.org/abs/2603.06148) | [Notes](./survey/2026-03-06-vlm-robustbench.md) |
+| 2026-03-30 | **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV/MCL/DFI | [arXiv](https://arxiv.org/abs/2601.03731) | [Notes](./survey/2026-01-07-reporeason.md) |
+| 2026-03-30 | **VCBench** | VLM | VCBench | 1,720 Problems / 6,697 Images | Accuracy | [arXiv](https://arxiv.org/abs/2504.18589) | [Notes](./survey/2025-04-24-vcbench.md) |
+| 2026-03-30 | **PaperArena** | LLM | PaperArena | 784 QA Pairs | Accuracy | [arXiv](https://arxiv.org/abs/2510.10909) | [Notes](./survey/2025-10-13-paperarena.md) |
+| 2026-03-30 | **HalluLens** | LLM | HalluLens | Dynamic Test Sets | Hallucination Rate | [arXiv](https://arxiv.org/abs/2504.17550) | [Notes](./survey/2025-04-24-hallulens.md) |
+| 2026-03-30 | **LegalEval-Q** | LLM | LegalEval-Q | 49 LLMs Evaluated | Quality Score | [arXiv](https://arxiv.org/abs/2505.24826) | [Notes](./survey/2025-05-30-legaleval-q.md) |
+| 2026-03-30 | **SDE Framework** | LLM | SDE | Multi-domain Science | Project-level Acc | [arXiv](https://arxiv.org/abs/2512.15567) | [Notes](./survey/2025-12-17-sde-framework.md) |
 | 2026-03-27 | **SimpleQA** | LLM | SimpleQA | 4,326 Fact QA | F1 / Correct % | [arXiv](https://arxiv.org/abs/2411.04368) | [Notes](./survey/2024-11-01-simpleqa.md) |
 | 2026-03-27 | **PentestEval** | LLM | PentestEval | 346 Pentest Tasks | Stage/E2E Success % | [arXiv](https://arxiv.org/abs/2512.14233) | [Notes](./survey/2025-12-15-pentesteval.md) |
 | 2026-03-27 | **BenchHub** | Meta | BenchHub | 839K Qs / 54 Bench | Customizable | [arXiv](https://arxiv.org/abs/2506.00482) | [Notes](./survey/2025-06-01-benchhub.md) |
