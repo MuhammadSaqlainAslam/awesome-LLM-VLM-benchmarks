@@ -20,4 +20,4 @@ The authors built **ToolBench**, an instruction-tuning dataset using over 16,000
 This is the gold standard for **autonomous tool orchestration**. For FoxBrain, we should implement a lightweight version of the **DFSDT** logic; if a tool call returns an error, FoxBrain shouldn't just fail but should backtrack to a previous decision point to try a different API or parameter set. This ensures higher reliability in production agentic workflows.
 
 -----
-*Back to [Main Digest](../README.md)*
+*Back to [Main Digest](../README.md) | [Benchmark Topics Deep-Dive](./2025-01-15-toolbench-topics.md)*

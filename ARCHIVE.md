@@ -2,6 +2,21 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-03-30 | **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [arXiv](https://arxiv.org/abs/2603.20807) | [Notes](./survey/2026-03-21-benchbench.md) |
+| 2026-03-30 | **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augment Types | Robustness Gap | [arXiv](https://arxiv.org/abs/2603.06148) | [Notes](./survey/2026-03-06-vlm-robustbench.md) |
+| 2026-03-30 | **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV/MCL/DFI | [arXiv](https://arxiv.org/abs/2601.03731) | [Notes](./survey/2026-01-07-reporeason.md) |
+| 2026-03-30 | **VCBench** | VLM | VCBench | 1,720 Problems / 6,697 Images | Accuracy | [arXiv](https://arxiv.org/abs/2504.18589) | [Notes](./survey/2025-04-24-vcbench.md) |
+| 2026-03-30 | **PaperArena** | LLM | PaperArena | 784 QA Pairs | Accuracy | [arXiv](https://arxiv.org/abs/2510.10909) | [Notes](./survey/2025-10-13-paperarena.md) |
+| 2026-03-30 | **HalluLens** | LLM | HalluLens | Dynamic Test Sets | Hallucination Rate | [arXiv](https://arxiv.org/abs/2504.17550) | [Notes](./survey/2025-04-24-hallulens.md) |
+| 2026-03-30 | **LegalEval-Q** | LLM | LegalEval-Q | 49 LLMs Evaluated | Quality Score | [arXiv](https://arxiv.org/abs/2505.24826) | [Notes](./survey/2025-05-30-legaleval-q.md) |
+| 2026-03-30 | **SDE Framework** | LLM | SDE | Multi-domain Science | Project-level Acc | [arXiv](https://arxiv.org/abs/2512.15567) | [Notes](./survey/2025-12-17-sde-framework.md) |
+| 2026-03-27 | **SimpleQA** | LLM | SimpleQA | 4,326 Fact QA | F1 / Correct % | [arXiv](https://arxiv.org/abs/2411.04368) | [Notes](./survey/2024-11-01-simpleqa.md) |
+| 2026-03-27 | **PentestEval** | LLM | PentestEval | 346 Pentest Tasks | Stage/E2E Success % | [arXiv](https://arxiv.org/abs/2512.14233) | [Notes](./survey/2025-12-15-pentesteval.md) |
+| 2026-03-27 | **BenchHub** | Meta | BenchHub | 839K Qs / 54 Bench | Customizable | [arXiv](https://arxiv.org/abs/2506.00482) | [Notes](./survey/2025-06-01-benchhub.md) |
+| 2026-03-27 | **XLRS-Bench** | VLM | XLRS-Bench | 45,942 RS Annots | VQA / Grounding Acc | [arXiv](https://arxiv.org/abs/2503.23771) | [Notes](./survey/2025-03-30-xlrs-bench.md) |
+| 2026-03-27 | **VLR-Bench** | VLM | VLR-Bench | 300 RAG VQA | RAG Accuracy | [arXiv](https://arxiv.org/abs/2412.10151) | [Notes](./survey/2024-12-10-vlr-bench.md) |
+| 2026-03-27 | **MotionBench** | VLM | MotionBench | 5,000 Videos | Motion QA Acc | [arXiv](https://arxiv.org/abs/2501.02955) | [Notes](./survey/2025-01-06-motionbench.md) |
+| 2026-03-27 | **VL-RewardBench** | VLM | VL-RewardBench | 1,250 Pref Examples | Judgment Acc | [arXiv](https://arxiv.org/abs/2411.17451) | [Notes](./survey/2024-11-26-vl-rewardbench.md) |
 | 2026-03-27 | **ToolBench** | LLM | ToolBench | 16k APIs | Pass Rate | [arXiv](https://arxiv.org/abs/2307.16789) | [Notes](./survey/2025-01-15-toolbench.md) |
 | 2026-03-26 | **Benchmark²** | Meta | Benchmark² | 15 Domains | Consistency | [arXiv](https://arxiv.org/abs/2601.03986) | [Notes](./survey/2026-01-07-benchmark2.md) |
 | 2026-03-26 | **LemmaBench** | LLM | LemmaBench | Live arXiv | Pass@1 | [arXiv](https://arxiv.org/abs/2602.24173) | [Notes](./survey/2026-02-27-lemmabench.md) |
