@@ -2,6 +2,15 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-03-31 | **MemBench** | LLM | MemBench | 53K Questions / 65K Sessions | Accuracy/Recall | [arXiv](https://arxiv.org/abs/2506.21605) | [Notes](./survey/2025-06-20-membench.md) |
+| 2026-03-31 | **DSR-Bench** | LLM | DSR-Bench | 4,140 Instances / 20 Structures | Struct. Acc | [arXiv](https://arxiv.org/abs/2505.24069) | [Notes](./survey/2025-05-29-dsr-bench.md) |
+| 2026-03-31 | **MultiChallenge** | LLM | MultiChallenge | 273 Multi-turn Convos | Pass Rate | [arXiv](https://arxiv.org/abs/2501.17399) | [Notes](./survey/2025-01-29-multichallenge.md) |
+| 2026-03-31 | **Sci2Pol** | LLM | Sci2Pol | 18 Tasks / 639 Pairs | Quality Score | [arXiv](https://arxiv.org/abs/2509.21493) | [Notes](./survey/2025-09-25-sci2pol.md) |
+| 2026-03-31 | **Thunder-NUBench** | LLM | Thunder-NUBench | 1,261 MCQ Items | Accuracy | [arXiv](https://arxiv.org/abs/2506.14397) | [Notes](./survey/2025-06-17-thunder-nubench.md) |
+| 2026-03-31 | **SKA-Bench** | LLM | SKA-Bench | 921 QA × 4 Testbeds | Accuracy | [arXiv](https://arxiv.org/abs/2507.17178) | [Notes](./survey/2025-07-23-ska-bench.md) |
+| 2026-03-31 | **ENAMEL** | LLM | ENAMEL | 30 LLMs / Code Efficiency | eff@k | [arXiv](https://arxiv.org/abs/2406.06647) | [Notes](./survey/2024-06-10-enamel.md) |
+| 2026-03-31 | **AgentBench** | LLM | AgentBench | 8 Environments / 29 LLMs | Task Success % | [arXiv](https://arxiv.org/abs/2308.03688) | [Notes](./survey/2023-08-07-agentbench.md) |
+| 2026-03-31 | **MathVista** | VLM | MathVista | 6,141 Examples | Accuracy | [arXiv](https://arxiv.org/abs/2310.02255) | [Notes](./survey/2023-10-03-mathvista.md) |
 | 2026-03-30 | **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [arXiv](https://arxiv.org/abs/2603.20807) | [Notes](./survey/2026-03-21-benchbench.md) |
 | 2026-03-30 | **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augment Types | Robustness Gap | [arXiv](https://arxiv.org/abs/2603.06148) | [Notes](./survey/2026-03-06-vlm-robustbench.md) |
 | 2026-03-30 | **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV/MCL/DFI | [arXiv](https://arxiv.org/abs/2601.03731) | [Notes](./survey/2026-01-07-reporeason.md) |

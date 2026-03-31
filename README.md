@@ -4,18 +4,19 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (March 30, 2026)
+## 🚀 Today's Daily 9 (March 31, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **BenchBench** | Meta | BenchBench | 9 Variants / 15K Items | Discriminability | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
-| **VLM-RobustBench** | VLM | VLM-RobustBench | 49 Augmentation Types | Robustness Gap | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
-| **RepoReason** | LLM | RepoReason | 2,492 Tasks | ESV / MCL / DFI | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
-| **VCBench** | VLM | VCBench | 1,720 Problems / 6,697 Images | Accuracy | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
-| **PaperArena** | LLM | PaperArena | 784 QA Pairs | Accuracy | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
-| **HalluLens** | LLM | HalluLens | Dynamic Test Sets | Hallucination Rate | [Notes](./survey/2025-04-24-hallulens.md) | [arXiv](https://arxiv.org/abs/2504.17550) |
-| **LegalEval-Q** | LLM | LegalEval-Q | 49 LLMs Evaluated | Quality Score | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
-| **SDE Framework** | LLM | SDE | Multi-domain Science | Project-level Acc | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
+| **MemBench** | LLM | MemBench | 53K Questions / 65K Sessions | Accuracy / Recall | [Notes](./survey/2025-06-20-membench.md) | [arXiv](https://arxiv.org/abs/2506.21605) |
+| **DSR-Bench** | LLM | DSR-Bench | 4,140 Instances / 20 Structures | Struct. Reasoning Acc | [Notes](./survey/2025-05-29-dsr-bench.md) | [arXiv](https://arxiv.org/abs/2505.24069) |
+| **MultiChallenge** | LLM | MultiChallenge | 273 Multi-turn Convos | Pass Rate | [Notes](./survey/2025-01-29-multichallenge.md) | [arXiv](https://arxiv.org/abs/2501.17399) |
+| **Sci2Pol** | LLM | Sci2Pol | 18 Tasks / 639 Paper-Brief Pairs | Quality Score | [Notes](./survey/2025-09-25-sci2pol.md) | [arXiv](https://arxiv.org/abs/2509.21493) |
+| **Thunder-NUBench** | LLM | Thunder-NUBench | 1,261 MCQ Test Items | Accuracy | [Notes](./survey/2025-06-17-thunder-nubench.md) | [arXiv](https://arxiv.org/abs/2506.14397) |
+| **SKA-Bench** | LLM | SKA-Bench | 921 QA × 4 Ability Testbeds | Accuracy | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
+| **ENAMEL** | LLM | ENAMEL | Code Efficiency / 30 LLMs | eff@k | [Notes](./survey/2024-06-10-enamel.md) | [arXiv](https://arxiv.org/abs/2406.06647) |
+| **AgentBench** | LLM | AgentBench | 8 Environments / 29 LLMs | Task Success % | [Notes](./survey/2023-08-07-agentbench.md) | [arXiv](https://arxiv.org/abs/2308.03688) |
+| **MathVista** | VLM | MathVista | 6,141 Examples | Accuracy | [Notes](./survey/2023-10-03-mathvista.md) | [arXiv](https://arxiv.org/abs/2310.02255) |
 
 ---
 
@@ -53,6 +54,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **LegalEval-Q** | Legal Quality | 49 LLMs | Clarity/Coherence | **14B Plateau** | [Notes](./survey/2025-05-30-legaleval-q.md) | [arXiv](https://arxiv.org/abs/2505.24826) |
 | **SDE Framework** | Sci. Discovery | Bio/Chem/Phys | Project-level Acc | **Baseline** | [Notes](./survey/2025-12-17-sde-framework.md) | [arXiv](https://arxiv.org/abs/2512.15567) |
 | **BenchBench** | Meta-Eval | 9 Variants / 15K | Discriminability | **New** | [Notes](./survey/2026-03-21-benchbench.md) | [arXiv](https://arxiv.org/abs/2603.20807) |
+| **MultiChallenge** | Multi-turn Conv | 273 Conversations | Pass Rate | **41.4%** | [Notes](./survey/2025-01-29-multichallenge.md) | [arXiv](https://arxiv.org/abs/2501.17399) |
+| **Sci2Pol** | Sci→Policy | 18 Tasks | Quality Score | **Baseline** | [Notes](./survey/2025-09-25-sci2pol.md) | [arXiv](https://arxiv.org/abs/2509.21493) |
+| **Thunder-NUBench** | Negation | 1,261 MCQ Items | Accuracy | **EACL 2026** | [Notes](./survey/2025-06-17-thunder-nubench.md) | [arXiv](https://arxiv.org/abs/2506.14397) |
+| **DSR-Bench** | Structural Reasoning | 4,140 Instances | Struct. Acc | **0.46/1.0** | [Notes](./survey/2025-05-29-dsr-bench.md) | [arXiv](https://arxiv.org/abs/2505.24069) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -64,6 +69,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Llama 4 Scout** | RAG | 10M Window | TPS | **2600 TPS** | [Notes](./survey/2026-02-20-llama-4-scout.md) | [Meta Llama](https://llama.meta.com/) |
 | **RepoReason** | Code Reasoning | 2,492 Tasks | ESV/MCL/DFI | **Baseline** | [Notes](./survey/2026-01-07-reporeason.md) | [arXiv](https://arxiv.org/abs/2601.03731) |
 | **PaperArena** | Sci. Lit. Agent | 784 QA Pairs | Accuracy | **38.78%** | [Notes](./survey/2025-10-13-paperarena.md) | [arXiv](https://arxiv.org/abs/2510.10909) |
+| **AgentBench** | LLM as Agent | 8 Environments | Task Success % | **ICLR 2024** | [Notes](./survey/2023-08-07-agentbench.md) | [arXiv](https://arxiv.org/abs/2308.03688) |
+| **MemBench** | Agent Memory | 53K Questions | Accuracy/Recall | **ACL 2025** | [Notes](./survey/2025-06-20-membench.md) | [arXiv](https://arxiv.org/abs/2506.21605) |
+| **ENAMEL** | Code Efficiency | 30 LLMs | eff@k | **ICLR 2025** | [Notes](./survey/2024-06-10-enamel.md) | [arXiv](https://arxiv.org/abs/2406.06647) |
+| **SKA-Bench** | Struct. Knowledge | 921 QA × 4 Tests | Accuracy | **EMNLP 2025** | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
 
 ---
 
@@ -80,6 +89,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VL-RewardBench** | Reward Models | 1,250 Pref Examples | Judgment Acc | **65.4%** | [Notes](./survey/2024-11-26-vl-rewardbench.md) | [arXiv](https://arxiv.org/abs/2411.17451) |
 | **VCBench** | Multi-Image Math | 1,720 Problems | Accuracy | **<50%** | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
 | **VLM-RobustBench** | Robustness | 49 Augment Types | Robustness Gap | **-34pp** | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
+| **MathVista** | Visual Math | 6,141 Examples | Accuracy | **49.9%** | [Notes](./survey/2023-10-03-mathvista.md) | [arXiv](https://arxiv.org/abs/2310.02255) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -111,3 +121,12 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 - [ ] **Run HalluLens extrinsic+intrinsic suites** before any FoxBrain production release touching factual/RAG outputs.
 - [ ] **Apply LegalEval-Q** quality scoring to FoxBrain compliance outputs; prioritize reasoning-architecture models over scale.
 - [ ] **Pilot SDE Framework** on materials science / process engineering scenarios relevant to Foxconn R&D projects.
+- [ ] **Run MemBench factual+reflective suites** before deploying FoxBrain in any long-horizon, multi-session agent workflow.
+- [ ] **Score DSR-Bench structural reasoning** on supply chain graphs, BOM trees, and dependency hierarchies before agentic deployment.
+- [ ] **Evaluate MultiChallenge** (all 4 categories) in extended-session FoxBrain deployments before any customer-facing release.
+- [ ] **Apply Sci2Pol 5-stage taxonomy** to FoxBrain's regulatory/ESG report generation to identify the weakest stage (Verification).
+- [ ] **Test Thunder-NUBench negation categories** for any FoxBrain pipeline handling compliance text or QC specifications.
+- [ ] **Run SKA-Bench Negative Rejection testbed** against FoxBrain's KG-augmented RAG to prevent hallucination on unsupported queries.
+- [ ] **Adopt ENAMEL eff@k metric** as a standard evaluation layer in FoxBrain's code generation pipeline alongside pass@k.
+- [ ] **Use AgentBench as the baseline** before and after every major FoxBrain agent architecture upgrade.
+- [ ] **Target MathVista >60.3%** (above human baseline) for FoxBrain's visual analytics deployments on engineering charts and figures.
