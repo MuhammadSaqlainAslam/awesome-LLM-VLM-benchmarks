@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-01 | **Uni-MMMU** | VLM | Uni-MMMU | 8 Bidirectional Tasks | Task Accuracy | [arXiv](https://arxiv.org/abs/2510.13759) | [Notes](./survey/2025-10-17-uni-mmmu.md) |
+| 2026-04-01 | **ROVER** | VLM | RoboCasa / OpenX | 543 Videos / 27 Tasks | VQA / Progress Acc | [arXiv](https://arxiv.org/abs/2508.01943) | [Notes](./survey/2025-08-04-rover.md) |
+| 2026-04-01 | **VisNumBench** | VLM | VisNumBench | ~1,900 MCQ / 7 Attributes | Accuracy | [arXiv](https://arxiv.org/abs/2503.14939) | [Notes](./survey/2025-03-19-visnumbench.md) |
+| 2026-04-01 | **MATHVERSE** | VLM | MATHVERSE | 2,612 Problems / 15K Samples | CoT Step Acc | [arXiv](https://arxiv.org/abs/2403.14624) | [Notes](./survey/2024-03-22-mathverse.md) |
+| 2026-04-01 | **OmniScience** | LLM | GPQA Diamond / Domain | Expert Science QA | Accuracy | [arXiv](https://arxiv.org/abs/2503.17604) | [Notes](./survey/2025-03-25-omniscience.md) |
+| 2026-04-01 | **MMFineReason** | VLM | MMFineReason | 1.8M Samples / 5.1B Tokens | Reasoning Acc | [arXiv](https://arxiv.org/abs/2601.21821) | [Notes](./survey/2026-01-29-mmfinereason.md) |
+| 2026-04-01 | **FineVision** | VLM | 11 Benchmarks | 24M Samples / 185 Subsets | Avg Benchmark Score | [arXiv](https://arxiv.org/abs/2510.17269) | [Notes](./survey/2025-10-22-finevision.md) |
+| 2026-04-01 | **ERNIE 5.0** | VLM | MMMU / MMBench | Trillion-Param MoE | Multimodal Accuracy | [arXiv](https://arxiv.org/abs/2602.04705) | [Notes](./survey/2026-02-07-ernie-5.md) |
 | 2026-03-31 | **MemBench** | LLM | MemBench | 53K Questions / 65K Sessions | Accuracy/Recall | [arXiv](https://arxiv.org/abs/2506.21605) | [Notes](./survey/2025-06-20-membench.md) |
 | 2026-03-31 | **DSR-Bench** | LLM | DSR-Bench | 4,140 Instances / 20 Structures | Struct. Acc | [arXiv](https://arxiv.org/abs/2505.24069) | [Notes](./survey/2025-05-29-dsr-bench.md) |
 | 2026-03-31 | **MultiChallenge** | LLM | MultiChallenge | 273 Multi-turn Convos | Pass Rate | [arXiv](https://arxiv.org/abs/2501.17399) | [Notes](./survey/2025-01-29-multichallenge.md) |

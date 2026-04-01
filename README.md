@@ -4,19 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 9 (March 31, 2026)
+## 🚀 Today's Daily 8 (April 1, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **MemBench** | LLM | MemBench | 53K Questions / 65K Sessions | Accuracy / Recall | [Notes](./survey/2025-06-20-membench.md) | [arXiv](https://arxiv.org/abs/2506.21605) |
-| **DSR-Bench** | LLM | DSR-Bench | 4,140 Instances / 20 Structures | Struct. Reasoning Acc | [Notes](./survey/2025-05-29-dsr-bench.md) | [arXiv](https://arxiv.org/abs/2505.24069) |
-| **MultiChallenge** | LLM | MultiChallenge | 273 Multi-turn Convos | Pass Rate | [Notes](./survey/2025-01-29-multichallenge.md) | [arXiv](https://arxiv.org/abs/2501.17399) |
-| **Sci2Pol** | LLM | Sci2Pol | 18 Tasks / 639 Paper-Brief Pairs | Quality Score | [Notes](./survey/2025-09-25-sci2pol.md) | [arXiv](https://arxiv.org/abs/2509.21493) |
-| **Thunder-NUBench** | LLM | Thunder-NUBench | 1,261 MCQ Test Items | Accuracy | [Notes](./survey/2025-06-17-thunder-nubench.md) | [arXiv](https://arxiv.org/abs/2506.14397) |
-| **SKA-Bench** | LLM | SKA-Bench | 921 QA × 4 Ability Testbeds | Accuracy | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
-| **ENAMEL** | LLM | ENAMEL | Code Efficiency / 30 LLMs | eff@k | [Notes](./survey/2024-06-10-enamel.md) | [arXiv](https://arxiv.org/abs/2406.06647) |
-| **AgentBench** | LLM | AgentBench | 8 Environments / 29 LLMs | Task Success % | [Notes](./survey/2023-08-07-agentbench.md) | [arXiv](https://arxiv.org/abs/2308.03688) |
-| **MathVista** | VLM | MathVista | 6,141 Examples | Accuracy | [Notes](./survey/2023-10-03-mathvista.md) | [arXiv](https://arxiv.org/abs/2310.02255) |
+| **Uni-MMMU** | VLM | Uni-MMMU | 8 Tasks / Gen+Understanding | Task Accuracy | [Notes](./survey/2025-10-17-uni-mmmu.md) | [arXiv](https://arxiv.org/abs/2510.13759) |
+| **ROVER** | VLM | RoboCasa / OpenX | 543 Videos / 27 Tasks | VQA / Progress Acc | [Notes](./survey/2025-08-04-rover.md) | [arXiv](https://arxiv.org/abs/2508.01943) |
+| **VisNumBench** | VLM | VisNumBench | ~1,900 MCQ Pairs / 7 Attributes | Accuracy | [Notes](./survey/2025-03-19-visnumbench.md) | [arXiv](https://arxiv.org/abs/2503.14939) |
+| **MATHVERSE** | VLM | MATHVERSE | 2,612 Problems / 15K Samples | CoT Step Accuracy | [Notes](./survey/2024-03-22-mathverse.md) | [arXiv](https://arxiv.org/abs/2403.14624) |
+| **OmniScience** | LLM | GPQA Diamond / Domain Bench | Expert Science QA | Accuracy | [Notes](./survey/2025-03-25-omniscience.md) | [arXiv](https://arxiv.org/abs/2503.17604) |
+| **MMFineReason** | VLM | MMFineReason | 1.8M Samples / 5.1B Tokens | Reasoning Accuracy | [Notes](./survey/2026-01-29-mmfinereason.md) | [arXiv](https://arxiv.org/abs/2601.21821) |
+| **FineVision** | VLM | 11 Benchmarks | 24M Samples / 185 Subsets | Avg Benchmark Score | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
+| **ERNIE 5.0** | VLM | MMMU / MMBench | Trillion-Param MoE | Multimodal Accuracy | [Notes](./survey/2026-02-07-ernie-5.md) | [arXiv](https://arxiv.org/abs/2602.04705) |
 
 ---
 
@@ -29,6 +28,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **ARC-AGI-2 Report** | ARC Prize | Visual Abduction | Non-semantic Logic | [Notes](./survey/2026-03-24-arc-agi-2.md) | [arXiv](https://arxiv.org/abs/2603.06590) |
 | **GPT-5.4 mini/nano**| OpenAI | Agentic Efficiency | OSWorld-mini | [Notes](./survey/2026-03-22-gpt-5-4-mini.md) | [OpenAI Blog](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/) |
 | **Gemini 3.1 Pro** | Google | ARC-AGI-2, GPQA | 77.1% ARC-AGI-2 | [Notes](./survey/2026-02-19-gemini-3-1-pro.md) | [DeepMind Blog](https://deepmind.google/technologies/gemini/) |
+| **ERNIE 5.0** | Baidu | MMMU / MMBench | Trillion-Param Unified MoE | [Notes](./survey/2026-02-07-ernie-5.md) | [arXiv](https://arxiv.org/abs/2602.04705) |
 
 ---
 ### 📚 [View Full SOTA Archive (Total History)](./ARCHIVE.md)
@@ -58,6 +58,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Sci2Pol** | Sci→Policy | 18 Tasks | Quality Score | **Baseline** | [Notes](./survey/2025-09-25-sci2pol.md) | [arXiv](https://arxiv.org/abs/2509.21493) |
 | **Thunder-NUBench** | Negation | 1,261 MCQ Items | Accuracy | **EACL 2026** | [Notes](./survey/2025-06-17-thunder-nubench.md) | [arXiv](https://arxiv.org/abs/2506.14397) |
 | **DSR-Bench** | Structural Reasoning | 4,140 Instances | Struct. Acc | **0.46/1.0** | [Notes](./survey/2025-05-29-dsr-bench.md) | [arXiv](https://arxiv.org/abs/2505.24069) |
+| **OmniScience** | Scientific Reasoning | Expert Science QA | Accuracy | **0.72 GPQA-Diamond** | [Notes](./survey/2025-03-25-omniscience.md) | [arXiv](https://arxiv.org/abs/2503.17604) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -90,6 +91,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VCBench** | Multi-Image Math | 1,720 Problems | Accuracy | **<50%** | [Notes](./survey/2025-04-24-vcbench.md) | [arXiv](https://arxiv.org/abs/2504.18589) |
 | **VLM-RobustBench** | Robustness | 49 Augment Types | Robustness Gap | **-34pp** | [Notes](./survey/2026-03-06-vlm-robustbench.md) | [arXiv](https://arxiv.org/abs/2603.06148) |
 | **MathVista** | Visual Math | 6,141 Examples | Accuracy | **49.9%** | [Notes](./survey/2023-10-03-mathvista.md) | [arXiv](https://arxiv.org/abs/2310.02255) |
+| **MATHVERSE** | Visual Math Diagrams | 2,612 Problems / 15K Samples | CoT Step Acc | **ECCV 2024** | [Notes](./survey/2024-03-22-mathverse.md) | [arXiv](https://arxiv.org/abs/2403.14624) |
+| **VisNumBench** | Number Sense | ~1,900 MCQ / 7 Attributes | Accuracy | **Below Human** | [Notes](./survey/2025-03-19-visnumbench.md) | [arXiv](https://arxiv.org/abs/2503.14939) |
+| **Uni-MMMU** | Unified Gen+Understanding | 8 Bidirectional Tasks | Task Accuracy | **Baseline** | [Notes](./survey/2025-10-17-uni-mmmu.md) | [arXiv](https://arxiv.org/abs/2510.13759) |
+| **MMFineReason** | Fine-Grained Reasoning | 1.8M Samples / 5.1B Tokens | Reasoning Acc | **8B > 30B-A3B** | [Notes](./survey/2026-01-29-mmfinereason.md) | [arXiv](https://arxiv.org/abs/2601.21821) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -101,6 +106,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MM-IFEngine** | Instruct | 23k SFT/DPO | Constraint % | **64.6%** | [Notes](./survey/2025-04-10-mm-ifengine.md) | [GitHub](https://github.com/SYuan03/MM-IFEngine) |
 | **olmOCR (AI2)** | Parsing | 1.4M PDFs | Pass % | **SOTA** | [Notes](./survey/2025-10-05-olmocr-survey.md) | [AllenAI](https://olmocr.allenai.org/) |
 | **VideoLLM Survey** | Meta | Review | Review | **Research SOTA**| [Notes](./survey/2025-05-03-videollm-survey.md) | [arXiv](https://arxiv.org/abs/2505.03829) |
+| **ROVER** | Embodied Video Reasoning | 543 Videos / 27 Tasks | VQA / Progress Acc | **Baseline** | [Notes](./survey/2025-08-04-rover.md) | [arXiv](https://arxiv.org/abs/2508.01943) |
+| **FineVision** | Multimodal Training Data | 24M Samples / 185 Subsets | Avg Score (11 Bench) | **+46.3% vs LLaVA-OV** | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
 
 ---
 
@@ -130,3 +137,11 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 - [ ] **Adopt ENAMEL eff@k metric** as a standard evaluation layer in FoxBrain's code generation pipeline alongside pass@k.
 - [ ] **Use AgentBench as the baseline** before and after every major FoxBrain agent architecture upgrade.
 - [ ] **Target MathVista >60.3%** (above human baseline) for FoxBrain's visual analytics deployments on engineering charts and figures.
+- [ ] **Run MATHVERSE Vision-Only variant** on FoxBrain before any deployment involving engineering schematics or circuit diagrams — confirm genuine diagram reading vs. text shortcutting.
+- [ ] **Score VisNumBench number-sense tasks** on FoxBrain; prioritize visual numerical estimation fine-tuning for manufacturing QC (defect density, component counts, gauge readings).
+- [ ] **Evaluate Uni-MMMU generation-aided tasks** to test whether FoxBrain can generate intermediate visual outputs (sketches, diagrams) as cognitive scaffolds during reasoning.
+- [ ] **Apply ROVER recursive decomposition** to FoxBrain's assembly-line video analysis pipeline to handle long inspection videos at linear compute cost.
+- [ ] **Adopt MMFineReason 7%-subset filtering strategy** for FoxBrain's fine-tuning data curation: prioritize 123K high-difficulty manufacturing reasoning traces over larger lower-quality sets.
+- [ ] **Adapt FineVision decontamination pipeline** to unify Foxconn's internal visual datasets; validate against 66 benchmark contamination filters before any FoxBrain multimodal fine-tuning run.
+- [ ] **Evaluate OmniScience three-stage training pipeline** as a blueprint for FoxBrain-Science: domain pretraining → instruction tuning → reasoning distillation for materials science and R&D verticals.
+- [ ] **Study ERNIE 5.0 elastic training paradigm** for FoxBrain's edge-vs-cloud deployment strategy: a single checkpoint family serving both fast factory-floor inference and high-accuracy central analysis.
