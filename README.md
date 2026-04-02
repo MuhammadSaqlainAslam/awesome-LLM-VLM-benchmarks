@@ -29,6 +29,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **GPT-5.4 mini/nano**| OpenAI | Agentic Efficiency | OSWorld-mini | [Notes](./survey/2026-03-22-gpt-5-4-mini.md) | [OpenAI Blog](https://openai.com/index/introducing-gpt-5-4-mini-and-nano/) |
 | **Gemini 3.1 Pro** | Google | ARC-AGI-2, GPQA | 77.1% ARC-AGI-2 | [Notes](./survey/2026-02-19-gemini-3-1-pro.md) | [DeepMind Blog](https://deepmind.google/technologies/gemini/) |
 | **ERNIE 5.0** | Baidu | MMMU / MMBench | Trillion-Param Unified MoE | [Notes](./survey/2026-02-07-ernie-5.md) | [arXiv](https://arxiv.org/abs/2602.04705) |
+| **Emu3.5** | BAAI | TIIF-Bench / LeX-Bench / OneIG-EN | 94.03 TIIF-Bench; 20× Gen Speedup | [Notes](./survey/2025-10-30-emu3-5.md) | [arXiv](https://arxiv.org/abs/2510.26583) |
+| **Qwen3.5-Omni** | Alibaba Cloud | 215 Audio/AV Benchmarks | WER 1.11 Librispeech; 119 Languages | [Notes](./survey/2025-09-22-qwen3-5-omni.md) | [arXiv](https://arxiv.org/abs/2509.17765) |
 
 ---
 ### 📚 [View Full SOTA Archive (Total History)](./ARCHIVE.md)
@@ -74,6 +76,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MemBench** | Agent Memory | 53K Questions | Accuracy/Recall | **ACL 2025** | [Notes](./survey/2025-06-20-membench.md) | [arXiv](https://arxiv.org/abs/2506.21605) |
 | **ENAMEL** | Code Efficiency | 30 LLMs | eff@k | **ICLR 2025** | [Notes](./survey/2024-06-10-enamel.md) | [arXiv](https://arxiv.org/abs/2406.06647) |
 | **SKA-Bench** | Struct. Knowledge | 921 QA × 4 Tests | Accuracy | **EMNLP 2025** | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
+| **LiveCodeBench Pro** | Competitive Programming | Codeforces / ICPC / IOI | Pass@1 | **53% Med / 0% Hard** | [Notes](./survey/2025-06-13-livecodebench-pro.md) | [arXiv](https://arxiv.org/abs/2506.11928) |
 
 ---
 
@@ -95,6 +98,11 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VisNumBench** | Number Sense | ~1,900 MCQ / 7 Attributes | Accuracy | **Below Human** | [Notes](./survey/2025-03-19-visnumbench.md) | [arXiv](https://arxiv.org/abs/2503.14939) |
 | **Uni-MMMU** | Unified Gen+Understanding | 8 Bidirectional Tasks | Task Accuracy | **Baseline** | [Notes](./survey/2025-10-17-uni-mmmu.md) | [arXiv](https://arxiv.org/abs/2510.13759) |
 | **MMFineReason** | Fine-Grained Reasoning | 1.8M Samples / 5.1B Tokens | Reasoning Acc | **8B > 30B-A3B** | [Notes](./survey/2026-01-29-mmfinereason.md) | [arXiv](https://arxiv.org/abs/2601.21821) |
+| **DynaMath** | Visual Math Robustness | 5,010 Variants / 9 Topics | Worst-Case Acc | **35.3% (Claude-3.5)** | [Notes](./survey/2024-10-29-dynamath.md) | [arXiv](https://arxiv.org/abs/2411.00836) |
+| **R1-Onevision** | Visual Math Reasoning | 155K Samples / 942 Bench Qs | Math Reasoning Acc | **46.4% MathVerse (7B)** | [Notes](./survey/2025-03-13-r1-onevision.md) | [arXiv](https://arxiv.org/abs/2503.10615) |
+| **EMMA** | Cross-Modal Reasoning | 2,788 Problems / 4 Domains | Accuracy | **27% Below Human** | [Notes](./survey/2025-01-09-emma.md) | [arXiv](https://arxiv.org/abs/2501.05444) |
+| **VLM2-Bench** | Visual Cue Linking | 3,060 QA / 9 Subtasks | Accuracy | **34.8% Below Human** | [Notes](./survey/2025-02-17-vlm2-bench.md) | [arXiv](https://arxiv.org/abs/2502.12084) |
+| **VisionArena** | VLM Preference Eval | 230K Convos / 500 Prompts | Preference Acc | **+17 MMMU (SFT)** | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
