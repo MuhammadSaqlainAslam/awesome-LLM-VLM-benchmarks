@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 1, 2026)
+## 🚀 Today's Daily 8 (April 2, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Uni-MMMU** | VLM | Uni-MMMU | 8 Tasks / Gen+Understanding | Task Accuracy | [Notes](./survey/2025-10-17-uni-mmmu.md) | [arXiv](https://arxiv.org/abs/2510.13759) |
-| **ROVER** | VLM | RoboCasa / OpenX | 543 Videos / 27 Tasks | VQA / Progress Acc | [Notes](./survey/2025-08-04-rover.md) | [arXiv](https://arxiv.org/abs/2508.01943) |
-| **VisNumBench** | VLM | VisNumBench | ~1,900 MCQ Pairs / 7 Attributes | Accuracy | [Notes](./survey/2025-03-19-visnumbench.md) | [arXiv](https://arxiv.org/abs/2503.14939) |
-| **MATHVERSE** | VLM | MATHVERSE | 2,612 Problems / 15K Samples | CoT Step Accuracy | [Notes](./survey/2024-03-22-mathverse.md) | [arXiv](https://arxiv.org/abs/2403.14624) |
-| **OmniScience** | LLM | GPQA Diamond / Domain Bench | Expert Science QA | Accuracy | [Notes](./survey/2025-03-25-omniscience.md) | [arXiv](https://arxiv.org/abs/2503.17604) |
-| **MMFineReason** | VLM | MMFineReason | 1.8M Samples / 5.1B Tokens | Reasoning Accuracy | [Notes](./survey/2026-01-29-mmfinereason.md) | [arXiv](https://arxiv.org/abs/2601.21821) |
-| **FineVision** | VLM | 11 Benchmarks | 24M Samples / 185 Subsets | Avg Benchmark Score | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
-| **ERNIE 5.0** | VLM | MMMU / MMBench | Trillion-Param MoE | Multimodal Accuracy | [Notes](./survey/2026-02-07-ernie-5.md) | [arXiv](https://arxiv.org/abs/2602.04705) |
+| **Emu3.5** | VLM | TIIF-Bench / LeX-Bench / OneIG-EN | Text-Rich Image Gen / Video | Gen Quality / WinRate | [Notes](./survey/2025-10-30-emu3-5.md) | [arXiv](https://arxiv.org/abs/2510.26583) |
+| **Qwen3.5-Omni** | VLM | 32+ Audio/AV Benchmarks | 215 Benchmarks / 119 Languages | WER / AV-QA Acc | [Notes](./survey/2025-09-22-qwen3-5-omni.md) | [arXiv](https://arxiv.org/abs/2509.17765) |
+| **VisionArena** | VLM | VisionArena-Bench | 230K Conversations / 500 Prompts | Preference Acc | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
+| **VLM2-Bench** | VLM | VLM2-Bench | 3,060 QA Pairs / 9 Subtasks | Accuracy | [Notes](./survey/2025-02-17-vlm2-bench.md) | [arXiv](https://arxiv.org/abs/2502.12084) |
+| **EMMA** | VLM | EMMA / EMMA-mini | 2,788 Problems / 4 Domains | Accuracy | [Notes](./survey/2025-01-09-emma.md) | [arXiv](https://arxiv.org/abs/2501.05444) |
+| **R1-Onevision** | VLM | MathVision / MathVerse / MathVista | 155K Samples / 5 Domains | Math Reasoning Acc | [Notes](./survey/2025-03-13-r1-onevision.md) | [arXiv](https://arxiv.org/abs/2503.10615) |
+| **DynaMath** | VLM | DynaMath | 5,010 Variants / 9 Topics | Worst-Case Acc | [Notes](./survey/2024-10-29-dynamath.md) | [arXiv](https://arxiv.org/abs/2411.00836) |
+| **LiveCodeBench Pro** | LLM | Codeforces / ICPC / IOI | Expert-Annotated Problems | Pass@1 | [Notes](./survey/2025-06-13-livecodebench-pro.md) | [arXiv](https://arxiv.org/abs/2506.11928) |
 
 ---
 

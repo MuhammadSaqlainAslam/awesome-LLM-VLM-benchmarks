@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-02 | **Emu3.5** | VLM | TIIF-Bench / LeX-Bench / OneIG-EN | Text-Rich Image Gen | Gen Quality / WinRate | [arXiv](https://arxiv.org/abs/2510.26583) | [Notes](./survey/2025-10-30-emu3-5.md) |
+| 2026-04-02 | **Qwen3.5-Omni** | VLM | 32+ Audio/AV Benchmarks | 215 Benchmarks / 119 Languages | WER / AV-QA Acc | [arXiv](https://arxiv.org/abs/2509.17765) | [Notes](./survey/2025-09-22-qwen3-5-omni.md) |
+| 2026-04-02 | **VisionArena** | VLM | VisionArena-Bench | 230K Conversations / 500 Prompts | Preference Acc | [arXiv](https://arxiv.org/abs/2412.08687) | [Notes](./survey/2024-12-11-visionarena.md) |
+| 2026-04-02 | **VLM2-Bench** | VLM | VLM2-Bench | 3,060 QA Pairs / 9 Subtasks | Accuracy | [arXiv](https://arxiv.org/abs/2502.12084) | [Notes](./survey/2025-02-17-vlm2-bench.md) |
+| 2026-04-02 | **EMMA** | VLM | EMMA / EMMA-mini | 2,788 Problems / 4 Domains | Accuracy | [arXiv](https://arxiv.org/abs/2501.05444) | [Notes](./survey/2025-01-09-emma.md) |
+| 2026-04-02 | **R1-Onevision** | VLM | MathVision / MathVerse / MathVista | 155K Samples / 5 Domains | Math Reasoning Acc | [arXiv](https://arxiv.org/abs/2503.10615) | [Notes](./survey/2025-03-13-r1-onevision.md) |
+| 2026-04-02 | **DynaMath** | VLM | DynaMath | 5,010 Variants / 9 Topics | Worst-Case Acc | [arXiv](https://arxiv.org/abs/2411.00836) | [Notes](./survey/2024-10-29-dynamath.md) |
+| 2026-04-02 | **LiveCodeBench Pro** | LLM | Codeforces / ICPC / IOI | Expert-Annotated Problems | Pass@1 | [arXiv](https://arxiv.org/abs/2506.11928) | [Notes](./survey/2025-06-13-livecodebench-pro.md) |
 | 2026-04-01 | **Uni-MMMU** | VLM | Uni-MMMU | 8 Bidirectional Tasks | Task Accuracy | [arXiv](https://arxiv.org/abs/2510.13759) | [Notes](./survey/2025-10-17-uni-mmmu.md) |
 | 2026-04-01 | **ROVER** | VLM | RoboCasa / OpenX | 543 Videos / 27 Tasks | VQA / Progress Acc | [arXiv](https://arxiv.org/abs/2508.01943) | [Notes](./survey/2025-08-04-rover.md) |
 | 2026-04-01 | **VisNumBench** | VLM | VisNumBench | ~1,900 MCQ / 7 Attributes | Accuracy | [arXiv](https://arxiv.org/abs/2503.14939) | [Notes](./survey/2025-03-19-visnumbench.md) |
