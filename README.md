@@ -103,6 +103,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **EMMA** | Cross-Modal Reasoning | 2,788 Problems / 4 Domains | Accuracy | **27% Below Human** | [Notes](./survey/2025-01-09-emma.md) | [arXiv](https://arxiv.org/abs/2501.05444) |
 | **VLM2-Bench** | Visual Cue Linking | 3,060 QA / 9 Subtasks | Accuracy | **34.8% Below Human** | [Notes](./survey/2025-02-17-vlm2-bench.md) | [arXiv](https://arxiv.org/abs/2502.12084) |
 | **VisionArena** | VLM Preference Eval | 230K Convos / 500 Prompts | Preference Acc | **+17 MMMU (SFT)** | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
+| **MMMU-Pro** | Expert Multimodal QA | 11.5K Expert Questions | Accuracy | **46.2% (vs 80%+ MMMU)** | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Leaderboard](https://mmmu-benchmark.github.io/#leaderboard) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
