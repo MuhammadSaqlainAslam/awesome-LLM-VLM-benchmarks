@@ -86,7 +86,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **MathVision** | Math | 3k Problems | Acc | **75.95%** | [Notes](./survey/2026-01-14-step3-vl.md) | [arXiv](https://arxiv.org/abs/2402.14804) |
-| **Humanity's Last Exam**| Expert | 2.5K Expert Qs | Accuracy | **46.2%** | [Notes](./survey/2025-01-20-hle-survey.md) | [HLE Site](https://lastexam.ai/) |
+| **Humanity's Last Exam**| Expert | 2.5K Expert Qs / ~10% Multimodal | Accuracy | **44.3% (GPT-5.4-pro)** | [Notes](./survey/2025-01-20-hle-survey.md) | [HLE Site](https://lastexam.ai/) |
 | **PhysBench** | World | 10k entries | Dynamics | **Baseline** | [Notes](./survey/2025-02-28-physbench.md) | [GitHub](https://github.com/USC-GVL/PhysBench) |
 | **Step3-VL-10B** | Efficient | 1.2T MM Tokens | MMMU/MathV | **80.11%** | [Notes](./survey/2026-01-14-step3-vl.md) | [arXiv](https://arxiv.org/abs/2601.09668) |
 | **XLRS-Bench** | Remote Sensing | 45,942 Annotations | VQA / Ground Acc | **Baseline** | [Notes](./survey/2025-03-30-xlrs-bench.md) | [arXiv](https://arxiv.org/abs/2503.23771) |
