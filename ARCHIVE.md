@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-07 | **MathArena** | LLM | AIME / HMMT / IMO 2025 | 162 Problems / 7 Competitions | Accuracy / Proof Score | [arXiv](https://arxiv.org/abs/2505.23281) | [Notes](./survey/2025-05-29-matharena.md) |
+| 2026-04-07 | **OlymMATH** | LLM | OlymMATH EN+ZH | 200 Problems / 2 Tiers | Pass@1 | [arXiv](https://arxiv.org/abs/2503.21380) | [Notes](./survey/2025-03-27-olymmath.md) |
+| 2026-04-07 | **OMNI-MATH** | LLM | OMNI-MATH | 4,428 Problems / 33+ Subdomains | Accuracy | [arXiv](https://arxiv.org/abs/2410.07985) | [Notes](./survey/2024-10-10-omni-math.md) |
+| 2026-04-07 | **OlympiadBench** | VLM | OlympiadBench | 8,476 Problems / Math+Physics | Accuracy | [arXiv](https://arxiv.org/abs/2402.14008) | [Notes](./survey/2024-02-21-olympiadbench.md) |
+| 2026-04-07 | **RULER** | LLM | RULER | 13 Tasks / 6 Context Lengths | Avg Score | [arXiv](https://arxiv.org/abs/2404.06654) | [Notes](./survey/2024-04-09-ruler.md) |
+| 2026-04-07 | **LongBench v2** | LLM | LongBench v2 | 503 MCQ / 8K–2M Words | Accuracy | [arXiv](https://arxiv.org/abs/2412.15204) | [Notes](./survey/2024-12-19-longbench-v2.md) |
+| 2026-04-07 | **SciCode** | LLM | SciCode | 338 Subproblems / 5 Domains | Pass@1 | [arXiv](https://arxiv.org/abs/2407.13168) | [Notes](./survey/2024-07-18-scicode.md) |
+| 2026-04-07 | **IFBench** | LLM | IFBench / IFEval | 58 Constraints / 300 Prompts | IF Accuracy | [arXiv](https://arxiv.org/abs/2507.02833) | [Notes](./survey/2025-07-03-ifbench.md) |
 | 2026-04-02 | **Emu3.5** | VLM | TIIF-Bench / LeX-Bench / OneIG-EN | Text-Rich Image Gen | Gen Quality / WinRate | [arXiv](https://arxiv.org/abs/2510.26583) | [Notes](./survey/2025-10-30-emu3-5.md) |
 | 2026-04-02 | **Qwen3.5-Omni** | VLM | 32+ Audio/AV Benchmarks | 215 Benchmarks / 119 Languages | WER / AV-QA Acc | [arXiv](https://arxiv.org/abs/2509.17765) | [Notes](./survey/2025-09-22-qwen3-5-omni.md) |
 | 2026-04-02 | **VisionArena** | VLM | VisionArena-Bench | 230K Conversations / 500 Prompts | Preference Acc | [arXiv](https://arxiv.org/abs/2412.08687) | [Notes](./survey/2024-12-11-visionarena.md) |

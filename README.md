@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 2, 2026)
+## 🚀 Today's Daily 8 (April 7, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **Emu3.5** | VLM | TIIF-Bench / LeX-Bench / OneIG-EN | Text-Rich Image Gen / Video | Gen Quality / WinRate | [Notes](./survey/2025-10-30-emu3-5.md) | [arXiv](https://arxiv.org/abs/2510.26583) |
-| **Qwen3.5-Omni** | VLM | 32+ Audio/AV Benchmarks | 215 Benchmarks / 119 Languages | WER / AV-QA Acc | [Notes](./survey/2025-09-22-qwen3-5-omni.md) | [arXiv](https://arxiv.org/abs/2509.17765) |
-| **VisionArena** | VLM | VisionArena-Bench | 230K Conversations / 500 Prompts | Preference Acc | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
-| **VLM2-Bench** | VLM | VLM2-Bench | 3,060 QA Pairs / 9 Subtasks | Accuracy | [Notes](./survey/2025-02-17-vlm2-bench.md) | [arXiv](https://arxiv.org/abs/2502.12084) |
-| **EMMA** | VLM | EMMA / EMMA-mini | 2,788 Problems / 4 Domains | Accuracy | [Notes](./survey/2025-01-09-emma.md) | [arXiv](https://arxiv.org/abs/2501.05444) |
-| **R1-Onevision** | VLM | MathVision / MathVerse / MathVista | 155K Samples / 5 Domains | Math Reasoning Acc | [Notes](./survey/2025-03-13-r1-onevision.md) | [arXiv](https://arxiv.org/abs/2503.10615) |
-| **DynaMath** | VLM | DynaMath | 5,010 Variants / 9 Topics | Worst-Case Acc | [Notes](./survey/2024-10-29-dynamath.md) | [arXiv](https://arxiv.org/abs/2411.00836) |
-| **LiveCodeBench Pro** | LLM | Codeforces / ICPC / IOI | Expert-Annotated Problems | Pass@1 | [Notes](./survey/2025-06-13-livecodebench-pro.md) | [arXiv](https://arxiv.org/abs/2506.11928) |
+| **MathArena** | LLM | AIME / HMMT / IMO 2025 | 162 Problems / 7 Competitions | Accuracy / Proof Score | [Notes](./survey/2025-05-29-matharena.md) | [arXiv](https://arxiv.org/abs/2505.23281) |
+| **OlymMATH** | LLM | OlymMATH EN+ZH | 200 Problems / 2 Tiers | Pass@1 | [Notes](./survey/2025-03-27-olymmath.md) | [arXiv](https://arxiv.org/abs/2503.21380) |
+| **OMNI-MATH** | LLM | OMNI-MATH | 4,428 Problems / 33+ Subdomains | Accuracy | [Notes](./survey/2024-10-10-omni-math.md) | [arXiv](https://arxiv.org/abs/2410.07985) |
+| **OlympiadBench** | VLM | OlympiadBench | 8,476 Problems / Math+Physics | Accuracy | [Notes](./survey/2024-02-21-olympiadbench.md) | [arXiv](https://arxiv.org/abs/2402.14008) |
+| **RULER** | LLM | RULER | 13 Tasks / 6 Context Lengths | Avg Score | [Notes](./survey/2024-04-09-ruler.md) | [arXiv](https://arxiv.org/abs/2404.06654) |
+| **LongBench v2** | LLM | LongBench v2 | 503 MCQ / 8K–2M Words | Accuracy | [Notes](./survey/2024-12-19-longbench-v2.md) | [arXiv](https://arxiv.org/abs/2412.15204) |
+| **SciCode** | LLM | SciCode | 338 Subproblems / 5 Domains | Pass@1 | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
+| **IFBench** | LLM | IFBench / IFEval | 58 Constraints / 300 Prompts | IF Accuracy | [Notes](./survey/2025-07-03-ifbench.md) | [arXiv](https://arxiv.org/abs/2507.02833) |
 
 ---
 
@@ -61,6 +61,12 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Thunder-NUBench** | Negation | 1,261 MCQ Items | Accuracy | **EACL 2026** | [Notes](./survey/2025-06-17-thunder-nubench.md) | [arXiv](https://arxiv.org/abs/2506.14397) |
 | **DSR-Bench** | Structural Reasoning | 4,140 Instances | Struct. Acc | **0.46/1.0** | [Notes](./survey/2025-05-29-dsr-bench.md) | [arXiv](https://arxiv.org/abs/2505.24069) |
 | **OmniScience** | Scientific Reasoning | Expert Science QA | Accuracy | **0.72 GPQA-Diamond** | [Notes](./survey/2025-03-25-omniscience.md) | [arXiv](https://arxiv.org/abs/2503.17604) |
+| **MathArena** | Competition Math | 162 Problems / 7 Competitions | Accuracy / Proof Score | **91.25% (GPT-5 numerical)** | [Notes](./survey/2025-05-29-matharena.md) | [arXiv](https://arxiv.org/abs/2505.23281) |
+| **OlymMATH** | Olympiad Math | 200 Problems / EN+ZH / 2 Tiers | Pass@1 | **58.4% EN-HARD (Gemini 2.5 Pro)** | [Notes](./survey/2025-03-27-olymmath.md) | [arXiv](https://arxiv.org/abs/2503.21380) |
+| **OMNI-MATH** | Olympiad Math | 4,428 Problems / 33+ Subdomains | Accuracy | **60.54% (o1-mini)** | [Notes](./survey/2024-10-10-omni-math.md) | [arXiv](https://arxiv.org/abs/2410.07985) |
+| **RULER** | Long-Context | 13 Tasks / 6 Context Lengths (4K–128K) | Avg Score | **81.2% @ 128K (GPT-4)** | [Notes](./survey/2024-04-09-ruler.md) | [arXiv](https://arxiv.org/abs/2404.06654) |
+| **LongBench v2** | Long-Context Reasoning | 503 MCQ / 8K–2M Words | Accuracy | **63.3% (Gemini 2.5 Pro)** | [Notes](./survey/2024-12-19-longbench-v2.md) | [arXiv](https://arxiv.org/abs/2412.15204) |
+| **IFBench** | Instruction Following | 58 Constraints / 300 Prompts | IF Accuracy | **54.7% (Qwen 2.5 7B + RLVR)** | [Notes](./survey/2025-07-03-ifbench.md) | [arXiv](https://arxiv.org/abs/2507.02833) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -77,6 +83,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **ENAMEL** | Code Efficiency | 30 LLMs | eff@k | **ICLR 2025** | [Notes](./survey/2024-06-10-enamel.md) | [arXiv](https://arxiv.org/abs/2406.06647) |
 | **SKA-Bench** | Struct. Knowledge | 921 QA × 4 Tests | Accuracy | **EMNLP 2025** | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
 | **LiveCodeBench Pro** | Competitive Programming | Codeforces / ICPC / IOI | Pass@1 | **53% Med / 0% Hard** | [Notes](./survey/2025-06-13-livecodebench-pro.md) | [arXiv](https://arxiv.org/abs/2506.11928) |
+| **SciCode** | Scientific Research Coding | 338 Subproblems / 5 Domains | Pass@1 | **4.6% Main (Claude 3.5)** | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
 
 ---
 
@@ -104,6 +111,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VLM2-Bench** | Visual Cue Linking | 3,060 QA / 9 Subtasks | Accuracy | **34.8% Below Human** | [Notes](./survey/2025-02-17-vlm2-bench.md) | [arXiv](https://arxiv.org/abs/2502.12084) |
 | **VisionArena** | VLM Preference Eval | 230K Convos / 500 Prompts | Preference Acc | **+17 MMMU (SFT)** | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
 | **MMMU-Pro** | Expert Multimodal QA | 11.5K Expert Questions | Accuracy | **46.2% (vs 80%+ MMMU)** | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Leaderboard](https://mmmu-benchmark.github.io/#leaderboard) |
+| **OlympiadBench** | Bilingual Multimodal Sci. | 8,476 Problems / Math+Physics | Accuracy | **17.23% (GPT-4V)** | [Notes](./survey/2024-02-21-olympiadbench.md) | [arXiv](https://arxiv.org/abs/2402.14008) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
