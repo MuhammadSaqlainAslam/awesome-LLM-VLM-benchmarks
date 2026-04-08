@@ -14,8 +14,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **CritPt** | LLM | CritPt | 71 Challenges / 190 Checkpoints / 12 Physics Domains | Challenge Acc | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
 | **MMLU-Pro** | LLM | MMLU-Pro | 12,032 Qs / 14 Disciplines | Accuracy | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
 | **Global MMLU** | LLM | Global MMLU | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
-| **IFBench** | LLM | IFBench / IFEval | 58 Constraints / 300 Prompts | IF Accuracy | [Notes](./survey/2025-07-03-ifbench.md) | [arXiv](https://arxiv.org/abs/2507.02833) |
-| **SciCode** | LLM | SciCode | 338 Subproblems / 5 Domains | Pass@1 | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
+| **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
+| **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 
 ---
 
@@ -90,6 +90,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SciCode** | Scientific Research Coding | 338 Subproblems / 5 Domains | Pass@1 | **4.6% Main (Claude 3.5)** | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
 | **GDPval** | Real-World Economic Tasks | 1,320 Tasks / 44 Occupations | Expert Win Rate | **47.6% (Claude Opus 4.1)** | [Notes](./survey/2025-10-05-gdpval.md) | [arXiv](https://arxiv.org/abs/2510.04374) |
 | **Terminal-Bench** | CLI / Terminal Agent Tasks | 89 Tasks / 10 Categories | Pass Rate | **62.9% (GPT-5.2 + Codex CLI)** | [Notes](./survey/2026-01-17-terminal-bench.md) | [arXiv](https://arxiv.org/abs/2601.11868) |
+| **PaperBench** | AI Research Replication | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | **26.0% (o1 Iterative 36h)** | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
+| **MultiAgentBench** | Multi-Agent Collab/Compete | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | **84.13% TS (GPT-4o-mini, Research)** | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 
 ---
 

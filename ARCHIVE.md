@@ -2,6 +2,8 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-08 | **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Nodes | Replication Score | [arXiv](https://arxiv.org/abs/2504.01848) | [Notes](./survey/2025-04-02-paperbench.md) |
+| 2026-04-08 | **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [arXiv](https://arxiv.org/abs/2503.01935) | [Notes](./survey/2025-03-03-multiagentbench.md) |
 | 2026-04-08 | **GDPval** | LLM | GDPval / GDPval-AA | 1,320 Tasks / 44 Occupations | Expert Win Rate / ELO | [arXiv](https://arxiv.org/abs/2510.04374) | [Notes](./survey/2025-10-05-gdpval.md) |
 | 2026-04-08 | **Terminal-Bench** | LLM | Terminal-Bench | 89 Tasks / 10 CLI Categories | Pass Rate | [arXiv](https://arxiv.org/abs/2601.11868) | [Notes](./survey/2026-01-17-terminal-bench.md) |
 | 2026-04-08 | **AA-Omniscience** | LLM | AA-Omniscience | 6,000 Qs / 6 Domains | Omniscience Index | [arXiv](https://arxiv.org/abs/2511.13029) | [Notes](./survey/2025-11-17-aa-omniscience.md) |
