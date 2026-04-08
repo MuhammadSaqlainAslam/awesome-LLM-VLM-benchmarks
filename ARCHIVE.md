@@ -2,6 +2,12 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-08 | **GDPval** | LLM | GDPval / GDPval-AA | 1,320 Tasks / 44 Occupations | Expert Win Rate / ELO | [arXiv](https://arxiv.org/abs/2510.04374) | [Notes](./survey/2025-10-05-gdpval.md) |
+| 2026-04-08 | **Terminal-Bench** | LLM | Terminal-Bench | 89 Tasks / 10 CLI Categories | Pass Rate | [arXiv](https://arxiv.org/abs/2601.11868) | [Notes](./survey/2026-01-17-terminal-bench.md) |
+| 2026-04-08 | **AA-Omniscience** | LLM | AA-Omniscience | 6,000 Qs / 6 Domains | Omniscience Index | [arXiv](https://arxiv.org/abs/2511.13029) | [Notes](./survey/2025-11-17-aa-omniscience.md) |
+| 2026-04-08 | **CritPt** | LLM | CritPt | 71 Challenges / 190 Checkpoints | Challenge Acc | [arXiv](https://arxiv.org/abs/2509.26574) | [Notes](./survey/2025-09-30-critpt.md) |
+| 2026-04-08 | **MMLU-Pro** | LLM | MMLU-Pro | 12,032 Qs / 14 Disciplines | Accuracy | [arXiv](https://arxiv.org/abs/2406.01574) | [Notes](./survey/2024-06-03-mmlu-pro.md) |
+| 2026-04-08 | **Global MMLU** | LLM | Global MMLU | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | [arXiv](https://arxiv.org/abs/2412.03304) | [Notes](./survey/2024-12-04-global-mmlu.md) |
 | 2026-04-07 | **MathArena** | LLM | AIME / HMMT / IMO 2025 | 162 Problems / 7 Competitions | Accuracy / Proof Score | [arXiv](https://arxiv.org/abs/2505.23281) | [Notes](./survey/2025-05-29-matharena.md) |
 | 2026-04-07 | **OlymMATH** | LLM | OlymMATH EN+ZH | 200 Problems / 2 Tiers | Pass@1 | [arXiv](https://arxiv.org/abs/2503.21380) | [Notes](./survey/2025-03-27-olymmath.md) |
 | 2026-04-07 | **OMNI-MATH** | LLM | OMNI-MATH | 4,428 Problems / 33+ Subdomains | Accuracy | [arXiv](https://arxiv.org/abs/2410.07985) | [Notes](./survey/2024-10-10-omni-math.md) |

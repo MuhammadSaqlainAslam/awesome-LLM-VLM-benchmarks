@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 7, 2026)
+## 🚀 Today's Daily 8 (April 8, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **MathArena** | LLM | AIME / HMMT / IMO 2025 | 162 Problems / 7 Competitions | Accuracy / Proof Score | [Notes](./survey/2025-05-29-matharena.md) | [arXiv](https://arxiv.org/abs/2505.23281) |
-| **OlymMATH** | LLM | OlymMATH EN+ZH | 200 Problems / 2 Tiers | Pass@1 | [Notes](./survey/2025-03-27-olymmath.md) | [arXiv](https://arxiv.org/abs/2503.21380) |
-| **OMNI-MATH** | LLM | OMNI-MATH | 4,428 Problems / 33+ Subdomains | Accuracy | [Notes](./survey/2024-10-10-omni-math.md) | [arXiv](https://arxiv.org/abs/2410.07985) |
-| **OlympiadBench** | VLM | OlympiadBench | 8,476 Problems / Math+Physics | Accuracy | [Notes](./survey/2024-02-21-olympiadbench.md) | [arXiv](https://arxiv.org/abs/2402.14008) |
-| **RULER** | LLM | RULER | 13 Tasks / 6 Context Lengths | Avg Score | [Notes](./survey/2024-04-09-ruler.md) | [arXiv](https://arxiv.org/abs/2404.06654) |
-| **LongBench v2** | LLM | LongBench v2 | 503 MCQ / 8K–2M Words | Accuracy | [Notes](./survey/2024-12-19-longbench-v2.md) | [arXiv](https://arxiv.org/abs/2412.15204) |
-| **SciCode** | LLM | SciCode | 338 Subproblems / 5 Domains | Pass@1 | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
+| **GDPval** | LLM | GDPval / GDPval-AA | 1,320 Tasks / 44 Occupations / 9 Sectors | Expert Win Rate / ELO | [Notes](./survey/2025-10-05-gdpval.md) | [arXiv](https://arxiv.org/abs/2510.04374) |
+| **Terminal-Bench** | LLM | Terminal-Bench | 89 Tasks / 10 CLI Categories | Pass Rate | [Notes](./survey/2026-01-17-terminal-bench.md) | [arXiv](https://arxiv.org/abs/2601.11868) |
+| **AA-Omniscience** | LLM | AA-Omniscience | 6,000 Qs / 6 Domains / 42 Subtopics | Omniscience Index | [Notes](./survey/2025-11-17-aa-omniscience.md) | [arXiv](https://arxiv.org/abs/2511.13029) |
+| **CritPt** | LLM | CritPt | 71 Challenges / 190 Checkpoints / 12 Physics Domains | Challenge Acc | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
+| **MMLU-Pro** | LLM | MMLU-Pro | 12,032 Qs / 14 Disciplines | Accuracy | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
+| **Global MMLU** | LLM | Global MMLU | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
 | **IFBench** | LLM | IFBench / IFEval | 58 Constraints / 300 Prompts | IF Accuracy | [Notes](./survey/2025-07-03-ifbench.md) | [arXiv](https://arxiv.org/abs/2507.02833) |
+| **SciCode** | LLM | SciCode | 338 Subproblems / 5 Domains | Pass@1 | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
 
 ---
 
@@ -67,6 +67,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **RULER** | Long-Context | 13 Tasks / 6 Context Lengths (4K–128K) | Avg Score | **81.2% @ 128K (GPT-4)** | [Notes](./survey/2024-04-09-ruler.md) | [arXiv](https://arxiv.org/abs/2404.06654) |
 | **LongBench v2** | Long-Context Reasoning | 503 MCQ / 8K–2M Words | Accuracy | **63.3% (Gemini 2.5 Pro)** | [Notes](./survey/2024-12-19-longbench-v2.md) | [arXiv](https://arxiv.org/abs/2412.15204) |
 | **IFBench** | Instruction Following | 58 Constraints / 300 Prompts | IF Accuracy | **54.7% (Qwen 2.5 7B + RLVR)** | [Notes](./survey/2025-07-03-ifbench.md) | [arXiv](https://arxiv.org/abs/2507.02833) |
+| **AA-Omniscience** | Cross-Domain Knowledge | 6,000 Qs / 6 Domains / 42 Subtopics | Omniscience Index | **OI 33 (Gemini 3.1 Pro)** | [Notes](./survey/2025-11-17-aa-omniscience.md) | [arXiv](https://arxiv.org/abs/2511.13029) |
+| **CritPt** | Frontier Physics Research | 71 Challenges / 190 Checkpoints | Challenge Acc | **30.0% (GPT-5.4 Pro)** | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
+| **MMLU-Pro** | Multi-Domain Knowledge | 12,032 Qs / 14 Disciplines / 10-option MCQ | Accuracy | **90.99% (Gemini 3.1 Pro)** | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
+| **Global MMLU** | Multilingual Knowledge | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | **CS: 5.7 rank shifts vs. MMLU** | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -84,6 +88,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SKA-Bench** | Struct. Knowledge | 921 QA × 4 Tests | Accuracy | **EMNLP 2025** | [Notes](./survey/2025-07-23-ska-bench.md) | [arXiv](https://arxiv.org/abs/2507.17178) |
 | **LiveCodeBench Pro** | Competitive Programming | Codeforces / ICPC / IOI | Pass@1 | **53% Med / 0% Hard** | [Notes](./survey/2025-06-13-livecodebench-pro.md) | [arXiv](https://arxiv.org/abs/2506.11928) |
 | **SciCode** | Scientific Research Coding | 338 Subproblems / 5 Domains | Pass@1 | **4.6% Main (Claude 3.5)** | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
+| **GDPval** | Real-World Economic Tasks | 1,320 Tasks / 44 Occupations | Expert Win Rate | **47.6% (Claude Opus 4.1)** | [Notes](./survey/2025-10-05-gdpval.md) | [arXiv](https://arxiv.org/abs/2510.04374) |
+| **Terminal-Bench** | CLI / Terminal Agent Tasks | 89 Tasks / 10 Categories | Pass Rate | **62.9% (GPT-5.2 + Codex CLI)** | [Notes](./survey/2026-01-17-terminal-bench.md) | [arXiv](https://arxiv.org/abs/2601.11868) |
 
 ---
 
