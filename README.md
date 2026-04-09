@@ -4,7 +4,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 8, 2026)
+## 🚀 Today's Daily 8 (April 9, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
@@ -14,6 +14,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **CritPt** | LLM | CritPt | 71 Challenges / 190 Checkpoints / 12 Physics Domains | Challenge Acc | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
 | **MMLU-Pro** | LLM | MMLU-Pro | 12,032 Qs / 14 Disciplines | Accuracy | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
 | **Global MMLU** | LLM | Global MMLU | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
+| **MMT-Bench** | VLM | MMT-Bench | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
+| **WebArena** | LLM | WebArena | 812 Tasks / 5 Websites / 3 Categories | Task Success Rate | [Notes](./survey/2023-07-25-webarena.md) | [arXiv](https://arxiv.org/abs/2307.13854) |
+| **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
 | **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
 | **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 
@@ -71,6 +74,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **CritPt** | Frontier Physics Research | 71 Challenges / 190 Checkpoints | Challenge Acc | **30.0% (GPT-5.4 Pro)** | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
 | **MMLU-Pro** | Multi-Domain Knowledge | 12,032 Qs / 14 Disciplines / 10-option MCQ | Accuracy | **90.99% (Gemini 3.1 Pro)** | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
 | **Global MMLU** | Multilingual Knowledge | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | **CS: 5.7 rank shifts vs. MMLU** | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
+| **Reasoning Gym** | Reasoning / RLVR Training | 100+ Tasks / 11 Domains | Zero-Shot Score | **63.5% (o3-mini, hard)** | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -90,6 +94,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SciCode** | Scientific Research Coding | 338 Subproblems / 5 Domains | Pass@1 | **4.6% Main (Claude 3.5)** | [Notes](./survey/2024-07-18-scicode.md) | [arXiv](https://arxiv.org/abs/2407.13168) |
 | **GDPval** | Real-World Economic Tasks | 1,320 Tasks / 44 Occupations | Expert Win Rate | **47.6% (Claude Opus 4.1)** | [Notes](./survey/2025-10-05-gdpval.md) | [arXiv](https://arxiv.org/abs/2510.04374) |
 | **Terminal-Bench** | CLI / Terminal Agent Tasks | 89 Tasks / 10 Categories | Pass Rate | **62.9% (GPT-5.2 + Codex CLI)** | [Notes](./survey/2026-01-17-terminal-bench.md) | [arXiv](https://arxiv.org/abs/2601.11868) |
+| **WebArena** | Web Agent Tasks | 812 Tasks / 5 Websites | Task Success Rate | **~58% CUA (vs. 78% Human)** | [Notes](./survey/2023-07-25-webarena.md) | [arXiv](https://arxiv.org/abs/2307.13854) |
 | **PaperBench** | AI Research Replication | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | **26.0% (o1 Iterative 36h)** | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
 | **MultiAgentBench** | Multi-Agent Collab/Compete | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | **84.13% TS (GPT-4o-mini, Research)** | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 
@@ -120,6 +125,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VisionArena** | VLM Preference Eval | 230K Convos / 500 Prompts | Preference Acc | **+17 MMMU (SFT)** | [Notes](./survey/2024-12-11-visionarena.md) | [arXiv](https://arxiv.org/abs/2412.08687) |
 | **MMMU-Pro** | Expert Multimodal QA | 11.5K Expert Questions | Accuracy | **46.2% (vs 80%+ MMMU)** | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Leaderboard](https://mmmu-benchmark.github.io/#leaderboard) |
 | **OlympiadBench** | Bilingual Multimodal Sci. | 8,476 Problems / Math+Physics | Accuracy | **17.23% (GPT-4V)** | [Notes](./survey/2024-02-21-olympiadbench.md) | [arXiv](https://arxiv.org/abs/2402.14008) |
+| **MMT-Bench** | Multitask Visual Understanding | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | **63.4% (InternVL-v1.2-34B)** | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |

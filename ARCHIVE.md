@@ -2,6 +2,9 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-09 | **MMT-Bench** | VLM | MMT-Bench | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | [arXiv](https://arxiv.org/abs/2404.16006) | [Notes](./survey/2024-04-24-mmt-bench.md) |
+| 2026-04-09 | **WebArena** | LLM | WebArena | 812 Tasks / 5 Websites | Task Success Rate | [arXiv](https://arxiv.org/abs/2307.13854) | [Notes](./survey/2023-07-25-webarena.md) |
+| 2026-04-09 | **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [arXiv](https://arxiv.org/abs/2505.24760) | [Notes](./survey/2025-05-30-reasoning-gym.md) |
 | 2026-04-08 | **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Nodes | Replication Score | [arXiv](https://arxiv.org/abs/2504.01848) | [Notes](./survey/2025-04-02-paperbench.md) |
 | 2026-04-08 | **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [arXiv](https://arxiv.org/abs/2503.01935) | [Notes](./survey/2025-03-03-multiagentbench.md) |
 | 2026-04-08 | **GDPval** | LLM | GDPval / GDPval-AA | 1,320 Tasks / 44 Occupations | Expert Win Rate / ELO | [arXiv](https://arxiv.org/abs/2510.04374) | [Notes](./survey/2025-10-05-gdpval.md) |
