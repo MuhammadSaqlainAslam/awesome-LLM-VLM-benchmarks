@@ -2,6 +2,8 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-09 | **FrontierScience** | LLM | FrontierScience | 160 Qs / 100 Olympiad + 60 Research / 3 Disciplines | Olympiad Acc / Research Rubric | [arXiv](https://arxiv.org/abs/2601.21165) | [Notes](./survey/2026-01-29-frontierscience.md) |
+| 2026-04-09 | **OfficeBench** | LLM | OfficeBench | 300 Tasks / 9 Apps / 23 Operations | Task Success Rate (1/2/3-App) | [arXiv](https://arxiv.org/abs/2407.19056) | [Notes](./survey/2024-07-26-officebench.md) |
 | 2026-04-09 | **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [arXiv](https://arxiv.org/abs/2604.01754) | [Notes](./survey/2026-04-02-livemathematicianbench.md) |
 | 2026-04-09 | **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [arXiv](https://arxiv.org/abs/2603.07886) | [Notes](./survey/2026-03-09-ccr-bench.md) |
 | 2026-04-09 | **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [arXiv](https://arxiv.org/abs/2603.08655) | [Notes](./survey/2026-03-09-officeqa-pro.md) |

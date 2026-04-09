@@ -14,6 +14,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
 | **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
 | **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
+| **FrontierScience** | LLM | FrontierScience | 160 Qs / 100 Olympiad + 60 Research / 3 Disciplines | Olympiad Acc / Research Rubric (≥7/10) | [Notes](./survey/2026-01-29-frontierscience.md) | [arXiv](https://arxiv.org/abs/2601.21165) |
+| **OfficeBench** | LLM | OfficeBench | 300 Tasks / 9 Apps / 23 Operations | Task Success Rate (1/2/3-App) | [Notes](./survey/2024-07-26-officebench.md) | [arXiv](https://arxiv.org/abs/2407.19056) |
 
 ---
 
@@ -73,6 +75,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **SteerEval** | Behavioral Steering | 5,000+ Steering Prompts / 3 Levels | Control % / Multi-turn Consistency | **>40% Fail (Negative Constraints)** | [Notes](./survey/2026-03-03-steereval.md) | — |
 | **LiveMathematicianBench** | Theorem Proving (Dynamic) | Recent arXiv Papers / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | **43.5% std / 17.6% sub-resistant (Gemini-3.1)** | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
 | **OfficeQA Pro** | Long-Form Document QA | 133 Qs / 89K-Page Treasury Corpus / 26M+ Values | Accuracy (Parametric/Web/Doc) | **34.1% w/ Docs; +16.1% Structured Rep** | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
+| **FrontierScience** | Expert Science QA | 160 Qs / 100 Olympiad + 60 Research / Physics+Chem+Bio | Olympiad Acc / Research Rubric (≥7/10) | **77.1% Olympiad / 25.2% Research (GPT-5.2)** | [Notes](./survey/2026-01-29-frontierscience.md) | [arXiv](https://arxiv.org/abs/2601.21165) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -97,6 +100,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MultiAgentBench** | Multi-Agent Collab/Compete | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | **84.13% TS (GPT-4o-mini, Research)** | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 | **StructEval** | Structured Output Generation | 18 Formats (JSON/YAML/HTML/Mermaid/LaTeX) | Syntax Validity / Schema Fidelity | **62% Fidelity (complex visual structs)** | [Notes](./survey/2025-12-08-structeval.md) | — |
 | **CCR-Bench** | Complex Constraint Reasoning | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | **Only Gemini-2.5-Pro passes threshold** | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
+| **OfficeBench** | Office Automation Agent | 300 Tasks / 9 Apps / 23 Operations (1–3 App Tiers) | Task Success Rate | **47.0% GPT-4o vs. 93.3% Human** | [Notes](./survey/2024-07-26-officebench.md) | [arXiv](https://arxiv.org/abs/2407.19056) |
 
 ---
 
