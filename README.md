@@ -8,17 +8,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **GDPval** | LLM | GDPval / GDPval-AA | 1,320 Tasks / 44 Occupations / 9 Sectors | Expert Win Rate / ELO | [Notes](./survey/2025-10-05-gdpval.md) | [arXiv](https://arxiv.org/abs/2510.04374) |
-| **Terminal-Bench** | LLM | Terminal-Bench | 89 Tasks / 10 CLI Categories | Pass Rate | [Notes](./survey/2026-01-17-terminal-bench.md) | [arXiv](https://arxiv.org/abs/2601.11868) |
-| **AA-Omniscience** | LLM | AA-Omniscience | 6,000 Qs / 6 Domains / 42 Subtopics | Omniscience Index | [Notes](./survey/2025-11-17-aa-omniscience.md) | [arXiv](https://arxiv.org/abs/2511.13029) |
-| **CritPt** | LLM | CritPt | 71 Challenges / 190 Checkpoints / 12 Physics Domains | Challenge Acc | [Notes](./survey/2025-09-30-critpt.md) | [arXiv](https://arxiv.org/abs/2509.26574) |
-| **MMLU-Pro** | LLM | MMLU-Pro | 12,032 Qs / 14 Disciplines | Accuracy | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
-| **Global MMLU** | LLM | Global MMLU | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
 | **MMT-Bench** | VLM | MMT-Bench | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
 | **WebArena** | LLM | WebArena | 812 Tasks / 5 Websites / 3 Categories | Task Success Rate | [Notes](./survey/2023-07-25-webarena.md) | [arXiv](https://arxiv.org/abs/2307.13854) |
 | **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
-| **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
-| **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
 | **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
 | **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
 | **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
