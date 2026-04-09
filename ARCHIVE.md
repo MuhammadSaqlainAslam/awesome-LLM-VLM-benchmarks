@@ -2,6 +2,11 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-09 | **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [arXiv](https://arxiv.org/abs/2604.01754) | [Notes](./survey/2026-04-02-livemathematicianbench.md) |
+| 2026-04-09 | **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [arXiv](https://arxiv.org/abs/2603.07886) | [Notes](./survey/2026-03-09-ccr-bench.md) |
+| 2026-04-09 | **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [arXiv](https://arxiv.org/abs/2603.08655) | [Notes](./survey/2026-03-09-officeqa-pro.md) |
+| 2026-04-09 | **StructEval** | LLM | StructEval | 18 Structured Formats (JSON/YAML/HTML/Mermaid) | Syntax Validity / Schema Fidelity | — | [Notes](./survey/2025-12-08-structeval.md) |
+| 2026-04-09 | **SteerEval** | LLM | SteerEval | 5,000+ Behavioral Steering Prompts / 3 Levels | Control % / Multi-turn Consistency | — | [Notes](./survey/2026-03-03-steereval.md) |
 | 2026-04-09 | **MMT-Bench** | VLM | MMT-Bench | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | [arXiv](https://arxiv.org/abs/2404.16006) | [Notes](./survey/2024-04-24-mmt-bench.md) |
 | 2026-04-09 | **WebArena** | LLM | WebArena | 812 Tasks / 5 Websites | Task Success Rate | [arXiv](https://arxiv.org/abs/2307.13854) | [Notes](./survey/2023-07-25-webarena.md) |
 | 2026-04-09 | **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [arXiv](https://arxiv.org/abs/2505.24760) | [Notes](./survey/2025-05-30-reasoning-gym.md) |

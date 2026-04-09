@@ -19,6 +19,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
 | **PaperBench** | LLM | PaperBench | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
 | **MultiAgentBench** | LLM | MultiAgentBench | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
+| **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
+| **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
+| **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
 
 ---
 
@@ -75,6 +78,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MMLU-Pro** | Multi-Domain Knowledge | 12,032 Qs / 14 Disciplines / 10-option MCQ | Accuracy | **90.99% (Gemini 3.1 Pro)** | [Notes](./survey/2024-06-03-mmlu-pro.md) | [arXiv](https://arxiv.org/abs/2406.01574) |
 | **Global MMLU** | Multilingual Knowledge | 601,734 Instances / 42 Languages | Accuracy / Cultural Bias | **CS: 5.7 rank shifts vs. MMLU** | [Notes](./survey/2024-12-04-global-mmlu.md) | [arXiv](https://arxiv.org/abs/2412.03304) |
 | **Reasoning Gym** | Reasoning / RLVR Training | 100+ Tasks / 11 Domains | Zero-Shot Score | **63.5% (o3-mini, hard)** | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
+| **SteerEval** | Behavioral Steering | 5,000+ Steering Prompts / 3 Levels | Control % / Multi-turn Consistency | **>40% Fail (Negative Constraints)** | [Notes](./survey/2026-03-03-steereval.md) | — |
+| **LiveMathematicianBench** | Theorem Proving (Dynamic) | Recent arXiv Papers / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | **43.5% std / 17.6% sub-resistant (Gemini-3.1)** | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
+| **OfficeQA Pro** | Long-Form Document QA | 133 Qs / 89K-Page Treasury Corpus / 26M+ Values | Accuracy (Parametric/Web/Doc) | **34.1% w/ Docs; +16.1% Structured Rep** | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -97,6 +103,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **WebArena** | Web Agent Tasks | 812 Tasks / 5 Websites | Task Success Rate | **~58% CUA (vs. 78% Human)** | [Notes](./survey/2023-07-25-webarena.md) | [arXiv](https://arxiv.org/abs/2307.13854) |
 | **PaperBench** | AI Research Replication | 20 ICML 2024 Papers / 8,316 Rubric Nodes | Replication Score | **26.0% (o1 Iterative 36h)** | [Notes](./survey/2025-04-02-paperbench.md) | [arXiv](https://arxiv.org/abs/2504.01848) |
 | **MultiAgentBench** | Multi-Agent Collab/Compete | 6 Scenarios / 400+ Test Cases | Task Score / Coord Score | **84.13% TS (GPT-4o-mini, Research)** | [Notes](./survey/2025-03-03-multiagentbench.md) | [arXiv](https://arxiv.org/abs/2503.01935) |
+| **StructEval** | Structured Output Generation | 18 Formats (JSON/YAML/HTML/Mermaid/LaTeX) | Syntax Validity / Schema Fidelity | **62% Fidelity (complex visual structs)** | [Notes](./survey/2025-12-08-structeval.md) | — |
+| **CCR-Bench** | Complex Constraint Reasoning | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | **Only Gemini-2.5-Pro passes threshold** | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
 
 ---
 
