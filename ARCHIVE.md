@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-10 | **ImplicitMemBench** | LLM | ImplicitMemBench | 300 Items / 3 Implicit Memory Types / LIT Protocol | First-Attempt Acc / Priming Asymmetry | [arXiv](https://arxiv.org/abs/2604.08064) | [Notes](./survey/2026-04-09-implicitmembench.md) |
+| 2026-04-10 | **Riemann-Bench** | LLM | Riemann-Bench | 25 Research-Level Math Problems / 100 Runs Each | Pass Rate | [arXiv](https://arxiv.org/abs/2604.06802) | [Notes](./survey/2026-04-08-riemann-bench.md) |
+| 2026-04-10 | **TEMPER** | LLM | TEMPER / Temper-5400 | 5,400 Neutral vs. Emotional Problem Pairs / 18 Models | Accuracy Delta / Recovery Rate | [arXiv](https://arxiv.org/abs/2604.07801) | [Notes](./survey/2026-04-09-temper.md) |
+| 2026-04-10 | **ParseBench** | VLM | ParseBench | ~2,000 Enterprise Doc Pages / 5 Dimensions | Semantic Correctness | [arXiv](https://arxiv.org/abs/2604.08538) | [Notes](./survey/2026-04-09-parsebench.md) |
+| 2026-04-10 | **TraceSafe-Bench** | LLM | TraceSafe-Bench | 1,000+ Multi-Step Tool Instances / 12 Risk Categories | Guardrail Efficacy | [arXiv](https://arxiv.org/abs/2604.07223) | [Notes](./survey/2026-04-08-tracesafe-bench.md) |
+| 2026-04-10 | **KnowU-Bench** | LLM | KnowU-Bench | 192 Tasks / 3 Tracks (General/Personalized/Proactive) | Track Success Rate | [arXiv](https://arxiv.org/abs/2604.08455) | [Notes](./survey/2026-04-09-knowu-bench.md) |
+| 2026-04-10 | **DISSECT** | VLM | DISSECT | 12,000 Qs / 7K Chemistry + 5K Biology / 5 Input Modes | Perception Fidelity / Integration Score | [arXiv](https://arxiv.org/abs/2604.06250) | [Notes](./survey/2026-04-06-dissect.md) |
+| 2026-04-10 | **CrashSight** | VLM | CrashSight | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | [arXiv](https://arxiv.org/abs/2604.08457) | [Notes](./survey/2026-04-09-crashsight.md) |
 | 2026-04-09 | **FrontierScience** | LLM | FrontierScience | 160 Qs / 100 Olympiad + 60 Research / 3 Disciplines | Olympiad Acc / Research Rubric | [arXiv](https://arxiv.org/abs/2601.21165) | [Notes](./survey/2026-01-29-frontierscience.md) |
 | 2026-04-09 | **OfficeBench** | LLM | OfficeBench | 300 Tasks / 9 Apps / 23 Operations | Task Success Rate (1/2/3-App) | [arXiv](https://arxiv.org/abs/2407.19056) | [Notes](./survey/2024-07-26-officebench.md) |
 | 2026-04-09 | **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [arXiv](https://arxiv.org/abs/2604.01754) | [Notes](./survey/2026-04-02-livemathematicianbench.md) |

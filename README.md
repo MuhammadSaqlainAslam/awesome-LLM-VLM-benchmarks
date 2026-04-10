@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 9, 2026)
+## 🚀 Today's Daily 8 (April 10, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **MMT-Bench** | VLM | MMT-Bench | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
-| **WebArena** | LLM | WebArena | 812 Tasks / 5 Websites / 3 Categories | Task Success Rate | [Notes](./survey/2023-07-25-webarena.md) | [arXiv](https://arxiv.org/abs/2307.13854) |
-| **Reasoning Gym** | LLM | Reasoning Gym | 100+ Tasks / 11 Domains | Zero-Shot Score | [Notes](./survey/2025-05-30-reasoning-gym.md) | [arXiv](https://arxiv.org/abs/2505.24760) |
-| **LiveMathematicianBench** | LLM | LiveMathematicianBench | Recent arXiv Proofs / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
-| **CCR-Bench** | LLM | CCR-Bench | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
-| **OfficeQA Pro** | LLM | OfficeQA Pro | 133 Qs / 89K-Page Treasury Corpus | Accuracy (Parametric/Web/Doc) | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
-| **FrontierScience** | LLM | FrontierScience | 160 Qs / 100 Olympiad + 60 Research / 3 Disciplines | Olympiad Acc / Research Rubric (≥7/10) | [Notes](./survey/2026-01-29-frontierscience.md) | [arXiv](https://arxiv.org/abs/2601.21165) |
-| **OfficeBench** | LLM | OfficeBench | 300 Tasks / 9 Apps / 23 Operations | Task Success Rate (1/2/3-App) | [Notes](./survey/2024-07-26-officebench.md) | [arXiv](https://arxiv.org/abs/2407.19056) |
+| **ImplicitMemBench** | LLM | ImplicitMemBench | 300 Items / 3 Implicit Memory Types | First-Attempt Acc / Priming Asymmetry | [Notes](./survey/2026-04-09-implicitmembench.md) | [arXiv](https://arxiv.org/abs/2604.08064) |
+| **Riemann-Bench** | LLM | Riemann-Bench | 25 Research-Level Math Problems / 100 Runs Each | Pass Rate | [Notes](./survey/2026-04-08-riemann-bench.md) | [arXiv](https://arxiv.org/abs/2604.06802) |
+| **TEMPER** | LLM | TEMPER / Temper-5400 | 5,400 Neutral vs. Emotional Problem Pairs | Accuracy Delta / Recovery Rate | [Notes](./survey/2026-04-09-temper.md) | [arXiv](https://arxiv.org/abs/2604.07801) |
+| **ParseBench** | VLM | ParseBench | ~2,000 Enterprise Doc Pages / 5 Dimensions | Semantic Correctness | [Notes](./survey/2026-04-09-parsebench.md) | [arXiv](https://arxiv.org/abs/2604.08538) |
+| **TraceSafe-Bench** | LLM | TraceSafe-Bench | 1,000+ Multi-Step Tool Instances / 12 Risk Categories | Guardrail Efficacy | [Notes](./survey/2026-04-08-tracesafe-bench.md) | [arXiv](https://arxiv.org/abs/2604.07223) |
+| **KnowU-Bench** | LLM | KnowU-Bench | 192 Tasks / 3 Tracks (General / Personalized / Proactive) | Track Success Rate | [Notes](./survey/2026-04-09-knowu-bench.md) | [arXiv](https://arxiv.org/abs/2604.08455) |
+| **DISSECT** | VLM | DISSECT | 12,000 Qs / 7K Chemistry + 5K Biology / 5 Input Modes | Perception Fidelity / Integration Score | [Notes](./survey/2026-04-06-dissect.md) | [arXiv](https://arxiv.org/abs/2604.06250) |
+| **CrashSight** | VLM | CrashSight | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | [Notes](./survey/2026-04-09-crashsight.md) | [arXiv](https://arxiv.org/abs/2604.08457) |
 
 ---
 
@@ -76,6 +76,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **LiveMathematicianBench** | Theorem Proving (Dynamic) | Recent arXiv Papers / 13 Theorem Categories | Accuracy / Sub-Resistant Acc | **43.5% std / 17.6% sub-resistant (Gemini-3.1)** | [Notes](./survey/2026-04-02-livemathematicianbench.md) | [arXiv](https://arxiv.org/abs/2604.01754) |
 | **OfficeQA Pro** | Long-Form Document QA | 133 Qs / 89K-Page Treasury Corpus / 26M+ Values | Accuracy (Parametric/Web/Doc) | **34.1% w/ Docs; +16.1% Structured Rep** | [Notes](./survey/2026-03-09-officeqa-pro.md) | [arXiv](https://arxiv.org/abs/2603.08655) |
 | **FrontierScience** | Expert Science QA | 160 Qs / 100 Olympiad + 60 Research / Physics+Chem+Bio | Olympiad Acc / Research Rubric (≥7/10) | **77.1% Olympiad / 25.2% Research (GPT-5.2)** | [Notes](./survey/2026-01-29-frontierscience.md) | [arXiv](https://arxiv.org/abs/2601.21165) |
+| **ImplicitMemBench** | Implicit Memory (Procedural / Priming / Conditioning) | 300 Items / 3 Memory Types / LIT Protocol | First-Attempt Acc / Priming Asymmetry | **65.3% (DeepSeek-R1); No model >66%** | [Notes](./survey/2026-04-09-implicitmembench.md) | [arXiv](https://arxiv.org/abs/2604.08064) |
+| **Riemann-Bench** | Research-Level Mathematics | 25 Expert-Curated Problems / 100 Runs Each | Pass Rate | **<10% all frontier models** | [Notes](./survey/2026-04-08-riemann-bench.md) | [arXiv](https://arxiv.org/abs/2604.06802) |
+| **TEMPER** | Emotional Robustness of Reasoning | 5,400 Neutral vs. Emotional Problem Pairs / 18 Models | Accuracy Delta / Recovery Rate | **−2 to −10 pp across all 18 models** | [Notes](./survey/2026-04-09-temper.md) | [arXiv](https://arxiv.org/abs/2604.07801) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -101,6 +104,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **StructEval** | Structured Output Generation | 18 Formats (JSON/YAML/HTML/Mermaid/LaTeX) | Syntax Validity / Schema Fidelity | **62% Fidelity (complex visual structs)** | [Notes](./survey/2025-12-08-structeval.md) | — |
 | **CCR-Bench** | Complex Constraint Reasoning | 174 Industrial Samples / 3 Constraint Axes | Pass Rate / Compliance Score | **Only Gemini-2.5-Pro passes threshold** | [Notes](./survey/2026-03-09-ccr-bench.md) | [arXiv](https://arxiv.org/abs/2603.07886) |
 | **OfficeBench** | Office Automation Agent | 300 Tasks / 9 Apps / 23 Operations (1–3 App Tiers) | Task Success Rate | **47.0% GPT-4o vs. 93.3% Human** | [Notes](./survey/2024-07-26-officebench.md) | [arXiv](https://arxiv.org/abs/2407.19056) |
+| **TraceSafe-Bench** | Mid-Trajectory Tool-Calling Safety | 1,000+ Multi-Step Instances / 12 Risk Categories | Guardrail Efficacy / Jailbreak Correlation | **ρ≈0 vs. jailbreak benchmarks** | [Notes](./survey/2026-04-08-tracesafe-bench.md) | [arXiv](https://arxiv.org/abs/2604.07223) |
+| **KnowU-Bench** | Personalized Mobile GUI Agent | 192 Tasks / 3 Tracks (General/Personalized/Proactive) | Track Success Rate | **<50% all frontier models on personalization** | [Notes](./survey/2026-04-09-knowu-bench.md) | [arXiv](https://arxiv.org/abs/2604.08455) |
 
 ---
 
@@ -130,6 +135,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MMMU-Pro** | Expert Multimodal QA | 11.5K Expert Questions | Accuracy | **46.2% (vs 80%+ MMMU)** | [Notes](./survey/2026-03-20-mmmu-pro-survey.md) | [Leaderboard](https://mmmu-benchmark.github.io/#leaderboard) |
 | **OlympiadBench** | Bilingual Multimodal Sci. | 8,476 Problems / Math+Physics | Accuracy | **17.23% (GPT-4V)** | [Notes](./survey/2024-02-21-olympiadbench.md) | [arXiv](https://arxiv.org/abs/2402.14008) |
 | **MMT-Bench** | Multitask Visual Understanding | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | **63.4% (InternVL-v1.2-34B)** | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
+| **DISSECT** | Scientific VLM Diagnosis (Perception vs. Reasoning) | 12,000 Qs / 7K Chemistry + 5K Biology / 5 Input Modes | Perception Fidelity / Integration Score | **Closed-source leads on integration; open-source bottlenecked by encoder** | [Notes](./survey/2026-04-06-dissect.md) | [arXiv](https://arxiv.org/abs/2604.06250) |
+| **CrashSight** | Traffic Crash Video Understanding | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | **Strong Tier 1 (scene); near-chance causal attribution (Tier 2)** | [Notes](./survey/2026-04-09-crashsight.md) | [arXiv](https://arxiv.org/abs/2604.08457) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -143,6 +150,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **VideoLLM Survey** | Meta | Review | Review | **Research SOTA**| [Notes](./survey/2025-05-03-videollm-survey.md) | [arXiv](https://arxiv.org/abs/2505.03829) |
 | **ROVER** | Embodied Video Reasoning | 543 Videos / 27 Tasks | VQA / Progress Acc | **Baseline** | [Notes](./survey/2025-08-04-rover.md) | [arXiv](https://arxiv.org/abs/2508.01943) |
 | **FineVision** | Multimodal Training Data | 24M Samples / 185 Subsets | Avg Score (11 Bench) | **+46.3% vs LLaVA-OV** | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
+| **ParseBench** | Enterprise Document Parsing | ~2,000 Human-Verified Pages / 5 Dimensions (Insurance/Finance/Gov) | Semantic Correctness | **LlamaParse Agentic leads; no method wins all 5 dims** | [Notes](./survey/2026-04-09-parsebench.md) | [arXiv](https://arxiv.org/abs/2604.08538) |
 
 ---
 
