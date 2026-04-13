@@ -2,14 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-04-11 | **HM-Bench** | VLM | HM-Bench | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | [arXiv](https://arxiv.org/abs/2604.08884) | [Notes](./survey/2026-04-10-hm-bench.md) |
-| 2026-04-11 | **PilotBench** | LLM | PilotBench | 708 Real Aviation Trajectories / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | [arXiv](https://arxiv.org/abs/2604.08987) | [Notes](./survey/2026-04-10-pilotbench.md) |
-| 2026-04-11 | **TaxPraBen** | LLM | TaxPraBen | 7,300 Instances / 14 Datasets / Bloom's Taxonomy | Structured Parsing / Exact Match | [arXiv](https://arxiv.org/abs/2604.08948) | [Notes](./survey/2026-04-10-taxpraben.md) |
-| 2026-04-11 | **QuanBench+** | LLM | QuanBench+ | 42 Tasks / Qiskit + PennyLane + Cirq | Pass@1 / Pass@1-after-repair | [arXiv](https://arxiv.org/abs/2604.08570) | [Notes](./survey/2026-03-25-quanbench-plus.md) |
-| 2026-04-11 | **VSAS-Bench** | VLM | VSAS-Bench | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | [arXiv](https://arxiv.org/abs/2604.07634) | [Notes](./survey/2026-04-08-vsas-bench.md) |
-| 2026-04-11 | **MARINER** | VLM | MARINER | 16,629 Maritime Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / mAP / VQA Acc | [arXiv](https://arxiv.org/abs/2604.08615) | [Notes](./survey/2026-04-09-mariner.md) |
-| 2026-04-11 | **SAGE** | LLM | SAGE | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy | [arXiv](https://arxiv.org/abs/2604.09285) | [Notes](./survey/2026-04-10-sage.md) |
-| 2026-04-11 | **KDR-Bench** | LLM | KDR-Bench | 41 Expert Qs / 9 Domains / 1,252+ Structured Tables | General / Knowledge-Centric / Vision-Enhanced | [arXiv](https://arxiv.org/abs/2604.07720) | [Notes](./survey/2026-04-09-kdr-bench.md) |
+| 2026-04-13 | **HM-Bench** | VLM | HM-Bench | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | [arXiv](https://arxiv.org/abs/2604.08884) | [Notes](./survey/2026-04-10-hm-bench.md) |
+| 2026-04-13 | **PilotBench** | LLM | PilotBench | 708 Real Aviation Trajectories / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | [arXiv](https://arxiv.org/abs/2604.08987) | [Notes](./survey/2026-04-10-pilotbench.md) |
+| 2026-04-13 | **TaxPraBen** | LLM | TaxPraBen | 7,300 Instances / 14 Datasets / Bloom's Taxonomy | Structured Parsing / Exact Match | [arXiv](https://arxiv.org/abs/2604.08948) | [Notes](./survey/2026-04-10-taxpraben.md) |
+| 2026-04-13 | **QuanBench+** | LLM | QuanBench+ | 42 Tasks / Qiskit + PennyLane + Cirq | Pass@1 / Pass@1-after-repair | [arXiv](https://arxiv.org/abs/2604.08570) | [Notes](./survey/2026-03-25-quanbench-plus.md) |
+| 2026-04-13 | **VSAS-Bench** | VLM | VSAS-Bench | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | [arXiv](https://arxiv.org/abs/2604.07634) | [Notes](./survey/2026-04-08-vsas-bench.md) |
+| 2026-04-13 | **MARINER** | VLM | MARINER | 16,629 Maritime Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / mAP / VQA Acc | [arXiv](https://arxiv.org/abs/2604.08615) | [Notes](./survey/2026-04-09-mariner.md) |
+| 2026-04-13 | **SAGE** | LLM | SAGE | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy | [arXiv](https://arxiv.org/abs/2604.09285) | [Notes](./survey/2026-04-10-sage.md) |
+| 2026-04-13 | **KDR-Bench** | LLM | KDR-Bench | 41 Expert Qs / 9 Domains / 1,252+ Structured Tables | General / Knowledge-Centric / Vision-Enhanced | [arXiv](https://arxiv.org/abs/2604.07720) | [Notes](./survey/2026-04-09-kdr-bench.md) |
 | 2026-04-10 | **ImplicitMemBench** | LLM | ImplicitMemBench | 300 Items / 3 Implicit Memory Types / LIT Protocol | First-Attempt Acc / Priming Asymmetry | [arXiv](https://arxiv.org/abs/2604.08064) | [Notes](./survey/2026-04-09-implicitmembench.md) |
 | 2026-04-10 | **Riemann-Bench** | LLM | Riemann-Bench | 25 Research-Level Math Problems / 100 Runs Each | Pass Rate | [arXiv](https://arxiv.org/abs/2604.06802) | [Notes](./survey/2026-04-08-riemann-bench.md) |
 | 2026-04-10 | **TEMPER** | LLM | TEMPER / Temper-5400 | 5,400 Neutral vs. Emotional Problem Pairs / 18 Models | Accuracy Delta / Recovery Rate | [arXiv](https://arxiv.org/abs/2604.07801) | [Notes](./survey/2026-04-09-temper.md) |
