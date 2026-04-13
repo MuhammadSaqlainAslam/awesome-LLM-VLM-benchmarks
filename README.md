@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 10, 2026)
+## 🚀 Today's Daily 8 (April 11, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **ImplicitMemBench** | LLM | ImplicitMemBench | 300 Items / 3 Implicit Memory Types | First-Attempt Acc / Priming Asymmetry | [Notes](./survey/2026-04-09-implicitmembench.md) | [arXiv](https://arxiv.org/abs/2604.08064) |
-| **Riemann-Bench** | LLM | Riemann-Bench | 25 Research-Level Math Problems / 100 Runs Each | Pass Rate | [Notes](./survey/2026-04-08-riemann-bench.md) | [arXiv](https://arxiv.org/abs/2604.06802) |
-| **TEMPER** | LLM | TEMPER / Temper-5400 | 5,400 Neutral vs. Emotional Problem Pairs | Accuracy Delta / Recovery Rate | [Notes](./survey/2026-04-09-temper.md) | [arXiv](https://arxiv.org/abs/2604.07801) |
-| **ParseBench** | VLM | ParseBench | ~2,000 Enterprise Doc Pages / 5 Dimensions | Semantic Correctness | [Notes](./survey/2026-04-09-parsebench.md) | [arXiv](https://arxiv.org/abs/2604.08538) |
-| **TraceSafe-Bench** | LLM | TraceSafe-Bench | 1,000+ Multi-Step Tool Instances / 12 Risk Categories | Guardrail Efficacy | [Notes](./survey/2026-04-08-tracesafe-bench.md) | [arXiv](https://arxiv.org/abs/2604.07223) |
-| **KnowU-Bench** | LLM | KnowU-Bench | 192 Tasks / 3 Tracks (General / Personalized / Proactive) | Track Success Rate | [Notes](./survey/2026-04-09-knowu-bench.md) | [arXiv](https://arxiv.org/abs/2604.08455) |
-| **DISSECT** | VLM | DISSECT | 12,000 Qs / 7K Chemistry + 5K Biology / 5 Input Modes | Perception Fidelity / Integration Score | [Notes](./survey/2026-04-06-dissect.md) | [arXiv](https://arxiv.org/abs/2604.06250) |
-| **CrashSight** | VLM | CrashSight | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | [Notes](./survey/2026-04-09-crashsight.md) | [arXiv](https://arxiv.org/abs/2604.08457) |
+| **HM-Bench** | VLM | HM-Bench | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | [Notes](./survey/2026-04-10-hm-bench.md) | [arXiv](https://arxiv.org/abs/2604.08884) |
+| **PilotBench** | LLM | PilotBench | 708 Real Aviation Trajectories / 34-Channel Telemetry / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | [Notes](./survey/2026-04-10-pilotbench.md) | [arXiv](https://arxiv.org/abs/2604.08987) |
+| **TaxPraBen** | LLM | TaxPraBen | 7,300 Instances / 14 Datasets / Bloom's Taxonomy | Structured Parsing / Exact Match | [Notes](./survey/2026-04-10-taxpraben.md) | [arXiv](https://arxiv.org/abs/2604.08948) |
+| **QuanBench+** | LLM | QuanBench+ | 42 Tasks / Qiskit + PennyLane + Cirq | Pass@1 / Pass@1-after-repair | [Notes](./survey/2026-03-25-quanbench-plus.md) | [arXiv](https://arxiv.org/abs/2604.08570) |
+| **VSAS-Bench** | VLM | VSAS-Bench | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | [Notes](./survey/2026-04-08-vsas-bench.md) | [arXiv](https://arxiv.org/abs/2604.07634) |
+| **MARINER** | VLM | MARINER | 16,629 Maritime Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / Detection mAP / VQA Acc | [Notes](./survey/2026-04-09-mariner.md) | [arXiv](https://arxiv.org/abs/2604.08615) |
+| **SAGE** | LLM | SAGE | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy Score | [Notes](./survey/2026-04-10-sage.md) | [arXiv](https://arxiv.org/abs/2604.09285) |
+| **KDR-Bench** | LLM | KDR-Bench | 41 Expert Questions / 9 Domains / 1,252+ Structured Tables | General / Knowledge-Centric / Vision-Enhanced Metrics | [Notes](./survey/2026-04-09-kdr-bench.md) | [arXiv](https://arxiv.org/abs/2604.07720) |
 
 ---
 
@@ -79,6 +79,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **ImplicitMemBench** | Implicit Memory (Procedural / Priming / Conditioning) | 300 Items / 3 Memory Types / LIT Protocol | First-Attempt Acc / Priming Asymmetry | **65.3% (DeepSeek-R1); No model >66%** | [Notes](./survey/2026-04-09-implicitmembench.md) | [arXiv](https://arxiv.org/abs/2604.08064) |
 | **Riemann-Bench** | Research-Level Mathematics | 25 Expert-Curated Problems / 100 Runs Each | Pass Rate | **<10% all frontier models** | [Notes](./survey/2026-04-08-riemann-bench.md) | [arXiv](https://arxiv.org/abs/2604.06802) |
 | **TEMPER** | Emotional Robustness of Reasoning | 5,400 Neutral vs. Emotional Problem Pairs / 18 Models | Accuracy Delta / Recovery Rate | **−2 to −10 pp across all 18 models** | [Notes](./survey/2026-04-09-temper.md) | [arXiv](https://arxiv.org/abs/2604.07801) |
+| **TaxPraBen** | Professional Tax Practice QA | 7,300 Instances / 14 Datasets / 10 Tasks + 3 Scenarios | Structured Parsing / Exact Match | **Qwen2.5 leads (Chinese); closed-source best overall** | [Notes](./survey/2026-04-10-taxpraben.md) | [arXiv](https://arxiv.org/abs/2604.08948) |
+| **KDR-Bench** | Deep Research (Structured + Unstructured) | 41 Expert Qs / 9 Domains / 1,252+ Tables | General / Knowledge-Centric / Vision-Enhanced | **HKA framework surpasses Gemini DR on knowledge-centric** | [Notes](./survey/2026-04-09-kdr-bench.md) | [arXiv](https://arxiv.org/abs/2604.07720) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -106,6 +108,9 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **OfficeBench** | Office Automation Agent | 300 Tasks / 9 Apps / 23 Operations (1–3 App Tiers) | Task Success Rate | **47.0% GPT-4o vs. 93.3% Human** | [Notes](./survey/2024-07-26-officebench.md) | [arXiv](https://arxiv.org/abs/2407.19056) |
 | **TraceSafe-Bench** | Mid-Trajectory Tool-Calling Safety | 1,000+ Multi-Step Instances / 12 Risk Categories | Guardrail Efficacy / Jailbreak Correlation | **ρ≈0 vs. jailbreak benchmarks** | [Notes](./survey/2026-04-08-tracesafe-bench.md) | [arXiv](https://arxiv.org/abs/2604.07223) |
 | **KnowU-Bench** | Personalized Mobile GUI Agent | 192 Tasks / 3 Tracks (General/Personalized/Proactive) | Track Success Rate | **<50% all frontier models on personalization** | [Notes](./survey/2026-04-09-knowu-bench.md) | [arXiv](https://arxiv.org/abs/2604.08455) |
+| **PilotBench** | Safety-Critical Aviation Agent | 708 Real Trajectories / 34-Channel Telemetry / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | **LLMs 86-89% instruction / 11-14 MAE vs. 7.01 traditional** | [Notes](./survey/2026-04-10-pilotbench.md) | [arXiv](https://arxiv.org/abs/2604.08987) |
+| **QuanBench+** | Quantum Code Generation | 42 Tasks / Qiskit + PennyLane + Cirq / KL-Div Evaluation | Pass@1 / Pass@1-after-repair | **59.5% Qiskit; 83.3% after feedback repair** | [Notes](./survey/2026-03-25-quanbench-plus.md) | [arXiv](https://arxiv.org/abs/2604.08570) |
+| **SAGE** | Customer Service Agent (DDG-Guided) | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy Score | **Universal Execution Gap across all 27 models** | [Notes](./survey/2026-04-10-sage.md) | [arXiv](https://arxiv.org/abs/2604.09285) |
 
 ---
 
@@ -137,6 +142,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MMT-Bench** | Multitask Visual Understanding | 31,325 Qs / 32 Meta-Tasks / 162 Subtasks | Accuracy | **63.4% (InternVL-v1.2-34B)** | [Notes](./survey/2024-04-24-mmt-bench.md) | [arXiv](https://arxiv.org/abs/2404.16006) |
 | **DISSECT** | Scientific VLM Diagnosis (Perception vs. Reasoning) | 12,000 Qs / 7K Chemistry + 5K Biology / 5 Input Modes | Perception Fidelity / Integration Score | **Closed-source leads on integration; open-source bottlenecked by encoder** | [Notes](./survey/2026-04-06-dissect.md) | [arXiv](https://arxiv.org/abs/2604.06250) |
 | **CrashSight** | Traffic Crash Video Understanding | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | **Strong Tier 1 (scene); near-chance causal attribution (Tier 2)** | [Notes](./survey/2026-04-09-crashsight.md) | [arXiv](https://arxiv.org/abs/2604.08457) |
+| **HM-Bench** | Hyperspectral Remote Sensing VLM | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | **Visual (PCA) > Textual spectral; all models struggle on anomaly detection** | [Notes](./survey/2026-04-10-hm-bench.md) | [arXiv](https://arxiv.org/abs/2604.08884) |
+| **MARINER** | Maritime Fine-Grained VLM (3E Paradigm) | 16,629 Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / mAP / VQA Acc | **All models fail fine-grained vessel classification; causal VQA near-chance** | [Notes](./survey/2026-04-09-mariner.md) | [arXiv](https://arxiv.org/abs/2604.08615) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -151,6 +158,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **ROVER** | Embodied Video Reasoning | 543 Videos / 27 Tasks | VQA / Progress Acc | **Baseline** | [Notes](./survey/2025-08-04-rover.md) | [arXiv](https://arxiv.org/abs/2508.01943) |
 | **FineVision** | Multimodal Training Data | 24M Samples / 185 Subsets | Avg Score (11 Bench) | **+46.3% vs LLaVA-OV** | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
 | **ParseBench** | Enterprise Document Parsing | ~2,000 Human-Verified Pages / 5 Dimensions (Insurance/Finance/Gov) | Semantic Correctness | **LlamaParse Agentic leads; no method wins all 5 dims** | [Notes](./survey/2026-04-09-parsebench.md) | [arXiv](https://arxiv.org/abs/2604.08538) |
+| **VSAS-Bench** | Streaming Video VLM (Real-Time) | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | **Qwen3-VL-4B +3% vs. Dispider under async protocol** | [Notes](./survey/2026-04-08-vsas-bench.md) | [arXiv](https://arxiv.org/abs/2604.07634) |
 
 ---
 
