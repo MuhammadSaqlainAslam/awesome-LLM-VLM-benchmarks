@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 13, 2026)
+## 🚀 Today's Daily 8 (April 14, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **HM-Bench** | VLM | HM-Bench | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | [Notes](./survey/2026-04-10-hm-bench.md) | [arXiv](https://arxiv.org/abs/2604.08884) |
-| **PilotBench** | LLM | PilotBench | 708 Real Aviation Trajectories / 34-Channel Telemetry / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | [Notes](./survey/2026-04-10-pilotbench.md) | [arXiv](https://arxiv.org/abs/2604.08987) |
-| **TaxPraBen** | LLM | TaxPraBen | 7,300 Instances / 14 Datasets / Bloom's Taxonomy | Structured Parsing / Exact Match | [Notes](./survey/2026-04-10-taxpraben.md) | [arXiv](https://arxiv.org/abs/2604.08948) |
-| **QuanBench+** | LLM | QuanBench+ | 42 Tasks / Qiskit + PennyLane + Cirq | Pass@1 / Pass@1-after-repair | [Notes](./survey/2026-03-25-quanbench-plus.md) | [arXiv](https://arxiv.org/abs/2604.08570) |
-| **VSAS-Bench** | VLM | VSAS-Bench | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | [Notes](./survey/2026-04-08-vsas-bench.md) | [arXiv](https://arxiv.org/abs/2604.07634) |
-| **MARINER** | VLM | MARINER | 16,629 Maritime Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / Detection mAP / VQA Acc | [Notes](./survey/2026-04-09-mariner.md) | [arXiv](https://arxiv.org/abs/2604.08615) |
-| **SAGE** | LLM | SAGE | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy Score | [Notes](./survey/2026-04-10-sage.md) | [arXiv](https://arxiv.org/abs/2604.09285) |
-| **KDR-Bench** | LLM | KDR-Bench | 41 Expert Questions / 9 Domains / 1,252+ Structured Tables | General / Knowledge-Centric / Vision-Enhanced Metrics | [Notes](./survey/2026-04-09-kdr-bench.md) | [arXiv](https://arxiv.org/abs/2604.07720) |
+| **BankerToolBench** | LLM | BankerToolBench | End-to-End Investment Banking Workflows / 502 Banker Validators / 100+ Rubric Criteria | Rubric Pass Rate / Cross-Artifact Consistency | [Notes](./survey/2026-04-13-bankertoolbench.md) | [arXiv](https://arxiv.org/abs/2604.11304) |
+| **AnalysisBench** | LLM | AnalysisBench | 35 Tool-Project Pairs / 7 Analysis Tools / 10 C/C++–Java Projects | Task Success Rate (Pass/Fail per Pair) | [Notes](./survey/2026-04-13-analysisbench.md) | [arXiv](https://arxiv.org/abs/2604.11270) |
+| **OccuBench** | LLM | OccuBench | 100 Professional Scenarios / 10 Industries / 65 Domains / LWM Substrate | Task Completion Rate / Fault Detection Rate | [Notes](./survey/2026-04-13-occubench.md) | [arXiv](https://arxiv.org/abs/2604.10866) |
+| **General365** | LLM | General365 | 1,460 Problems (365 Seeds + 1,095 Structural Variants) / 8 Reasoning Categories | Accuracy / Generalisation Gap (Seed vs. Variant) | [Notes](./survey/2026-04-13-general365.md) | [arXiv](https://arxiv.org/abs/2604.11778) |
+| **METER** | LLM | METER | Pearl's 3-Rung Causal Ladder / Multi-Level Unified Context per Scenario | Accuracy per Rung / Cross-Rung Consistency Score | [Notes](./survey/2026-04-13-meter.md) | [arXiv](https://arxiv.org/abs/2604.11502) |
+| **MMRareBench** | VLM | MMRareBench | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks / 23 MLLMs | Two-Level Accuracy / Treatment Planning Score | [Notes](./survey/2026-04-12-mmrarebench.md) | [arXiv](https://arxiv.org/abs/2604.10755) |
+| **BareBones** | VLM | BareBones / WTP-Bench | 26 VLMs / 6 Datasets + WTP-Bench (Fine-Grained Parts) / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff | [Notes](./survey/2026-04-12-barebones.md) | [arXiv](https://arxiv.org/abs/2604.10528) |
+| **AAR** | LLM | AAR (Amazing Agent Race) | 1,400 Instances / 800 Sequential + 600 Compositional DAGs / 4 Difficulty Levels | Finish-Line Accuracy / Pit-Stop Visit Rate / Roadblock Completion Rate | [Notes](./survey/2026-04-11-aar.md) | [arXiv](https://arxiv.org/abs/2604.10261) |
 
 ---
 
@@ -81,6 +81,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **TEMPER** | Emotional Robustness of Reasoning | 5,400 Neutral vs. Emotional Problem Pairs / 18 Models | Accuracy Delta / Recovery Rate | **−2 to −10 pp across all 18 models** | [Notes](./survey/2026-04-09-temper.md) | [arXiv](https://arxiv.org/abs/2604.07801) |
 | **TaxPraBen** | Professional Tax Practice QA | 7,300 Instances / 14 Datasets / 10 Tasks + 3 Scenarios | Structured Parsing / Exact Match | **Qwen2.5 leads (Chinese); closed-source best overall** | [Notes](./survey/2026-04-10-taxpraben.md) | [arXiv](https://arxiv.org/abs/2604.08948) |
 | **KDR-Bench** | Deep Research (Structured + Unstructured) | 41 Expert Qs / 9 Domains / 1,252+ Tables | General / Knowledge-Centric / Vision-Enhanced | **HKA framework surpasses Gemini DR on knowledge-centric** | [Notes](./survey/2026-04-09-kdr-bench.md) | [arXiv](https://arxiv.org/abs/2604.07720) |
+| **General365** | K-12 General Reasoning (Structural Variants) | 1,460 Problems (365 Seeds + 1,095 Variants) / 8 Reasoning Categories | Accuracy / Generalisation Gap | **62.8% (best frontier model); <90% human baseline on K-12** | [Notes](./survey/2026-04-13-general365.md) | [arXiv](https://arxiv.org/abs/2604.11778) |
+| **METER** | Multi-Level Causal Reasoning (Pearl's Causal Ladder) | 3 Causal Rungs (Association → Intervention → Counterfactual) / Unified Context | Accuracy per Rung / Cross-Rung Consistency | **Sharp Rung 3 degradation; models give contradictory Rung 1 vs. Rung 3 answers** | [Notes](./survey/2026-04-13-meter.md) | [arXiv](https://arxiv.org/abs/2604.11502) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -111,6 +113,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **PilotBench** | Safety-Critical Aviation Agent | 708 Real Trajectories / 34-Channel Telemetry / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | **LLMs 86-89% instruction / 11-14 MAE vs. 7.01 traditional** | [Notes](./survey/2026-04-10-pilotbench.md) | [arXiv](https://arxiv.org/abs/2604.08987) |
 | **QuanBench+** | Quantum Code Generation | 42 Tasks / Qiskit + PennyLane + Cirq / KL-Div Evaluation | Pass@1 / Pass@1-after-repair | **59.5% Qiskit; 83.3% after feedback repair** | [Notes](./survey/2026-03-25-quanbench-plus.md) | [arXiv](https://arxiv.org/abs/2604.08570) |
 | **SAGE** | Customer Service Agent (DDG-Guided) | 6 Industrial Scenarios / 27 LLMs / Dynamic Dialogue Graphs | Path Coverage / Intent Compliance / Empathy Score | **Universal Execution Gap across all 27 models** | [Notes](./survey/2026-04-10-sage.md) | [arXiv](https://arxiv.org/abs/2604.09285) |
+| **BankerToolBench** | Investment Banking Workflow Agent | E2E Workflows (Data Room → SEC → Excel → PowerPoint) / 502 Banker Validators / 100+ Rubric Criteria | Rubric Pass Rate / Cross-Artifact Consistency | **GPT-5.4: ~50% rubric / 0% client-ready outputs** | [Notes](./survey/2026-04-13-bankertoolbench.md) | [arXiv](https://arxiv.org/abs/2604.11304) |
+| **AnalysisBench** | Automated Software Analysis Agent | 35 Tool-Project Pairs / 7 Tools (AFL++, Infer, SpotBugs, Jazzer...) / C/C++–Java Projects | Task Success Rate | **94% (AnalysisAgent + Gemini-3-Flash, 33/35 pairs)** | [Notes](./survey/2026-04-13-analysisbench.md) | [arXiv](https://arxiv.org/abs/2604.11270) |
+| **OccuBench** | Professional Occupational Agent (Fault Injection) | 100 Scenarios / 10 Industries / 65 Domains / 3 Fault Types / LWM Substrate | Task Completion Rate / Fault Detection Rate | **+27.5pp from minimal → max reasoning effort (GPT-5.2)** | [Notes](./survey/2026-04-13-occubench.md) | [arXiv](https://arxiv.org/abs/2604.10866) |
+| **AAR** | DAG-Structured Multi-Step Tool Navigation | 1,400 Instances / 800 Sequential + 600 Compositional DAGs / Wikipedia+Calc+String Tools | Finish-Line Accuracy / Pit-Stop Visit Rate / Roadblock Completion Rate | **Claude Code 37.2% at 6× fewer tokens than Codex CLI** | [Notes](./survey/2026-04-11-aar.md) | [arXiv](https://arxiv.org/abs/2604.10261) |
 
 ---
 
@@ -144,6 +150,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **CrashSight** | Traffic Crash Video Understanding | 250 Crash Videos / 13,000 MCQ / 2-Tier Taxonomy | Tier 1 & Tier 2 Accuracy | **Strong Tier 1 (scene); near-chance causal attribution (Tier 2)** | [Notes](./survey/2026-04-09-crashsight.md) | [arXiv](https://arxiv.org/abs/2604.08457) |
 | **HM-Bench** | Hyperspectral Remote Sensing VLM | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | **Visual (PCA) > Textual spectral; all models struggle on anomaly detection** | [Notes](./survey/2026-04-10-hm-bench.md) | [arXiv](https://arxiv.org/abs/2604.08884) |
 | **MARINER** | Maritime Fine-Grained VLM (3E Paradigm) | 16,629 Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / mAP / VQA Acc | **All models fail fine-grained vessel classification; causal VQA near-chance** | [Notes](./survey/2026-04-09-mariner.md) | [arXiv](https://arxiv.org/abs/2604.08615) |
+| **MMRareBench** | Rare Disease Clinical Multimodal Reasoning | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks (Diagnosis/Treatment/Alignment/Examination) | Two-Level Accuracy / Treatment Planning Score | **All 23 MLLMs show universally low treatment planning; treatment planning hardest track** | [Notes](./survey/2026-04-12-mmrarebench.md) | [arXiv](https://arxiv.org/abs/2604.10755) |
+| **BareBones** | Geometric Shape Comprehension (Texture-Deprived Silhouettes) | 26 VLMs / 6 Established Datasets + WTP-Bench (Fine-Grained Parts) / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff (RGB − Silhouette Acc) | **Severe performance collapse for all 26 VLMs; universal Texture Bias Cliff regardless of architecture** | [Notes](./survey/2026-04-12-barebones.md) | [arXiv](https://arxiv.org/abs/2604.10528) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |

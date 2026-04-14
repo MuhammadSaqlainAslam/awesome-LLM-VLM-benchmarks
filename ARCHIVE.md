@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-14 | **BankerToolBench** | LLM | BankerToolBench | E2E Investment Banking Workflows / 502 Banker Validators / 100+ Rubric Criteria | Rubric Pass Rate / Cross-Artifact Consistency | [arXiv](https://arxiv.org/abs/2604.11304) | [Notes](./survey/2026-04-13-bankertoolbench.md) |
+| 2026-04-14 | **AnalysisBench** | LLM | AnalysisBench | 35 Tool-Project Pairs / 7 Analysis Tools / 10 C/C++–Java Projects | Task Success Rate | [arXiv](https://arxiv.org/abs/2604.11270) | [Notes](./survey/2026-04-13-analysisbench.md) |
+| 2026-04-14 | **OccuBench** | LLM | OccuBench | 100 Professional Scenarios / 10 Industries / 65 Domains / 3 Fault Types | Task Completion Rate / Fault Detection Rate | [arXiv](https://arxiv.org/abs/2604.10866) | [Notes](./survey/2026-04-13-occubench.md) |
+| 2026-04-14 | **General365** | LLM | General365 | 1,460 Problems (365 Seeds + 1,095 Structural Variants) / 8 Reasoning Categories | Accuracy / Generalisation Gap | [arXiv](https://arxiv.org/abs/2604.11778) | [Notes](./survey/2026-04-13-general365.md) |
+| 2026-04-14 | **METER** | LLM | METER | Pearl's 3-Rung Causal Ladder / Multi-Level Unified Context | Accuracy per Rung / Cross-Rung Consistency | [arXiv](https://arxiv.org/abs/2604.11502) | [Notes](./survey/2026-04-13-meter.md) |
+| 2026-04-14 | **MMRareBench** | VLM | MMRareBench | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks / 23 MLLMs | Two-Level Accuracy / Treatment Planning Score | [arXiv](https://arxiv.org/abs/2604.10755) | [Notes](./survey/2026-04-12-mmrarebench.md) |
+| 2026-04-14 | **BareBones** | VLM | BareBones / WTP-Bench | 26 VLMs / 6 Datasets + WTP-Bench / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff | [arXiv](https://arxiv.org/abs/2604.10528) | [Notes](./survey/2026-04-12-barebones.md) |
+| 2026-04-14 | **AAR** | LLM | AAR (Amazing Agent Race) | 1,400 Instances / 800 Sequential + 600 Compositional DAGs / 4 Difficulty Levels | Finish-Line Accuracy / Pit-Stop Visit Rate / Roadblock Completion Rate | [arXiv](https://arxiv.org/abs/2604.10261) | [Notes](./survey/2026-04-11-aar.md) |
 | 2026-04-13 | **HM-Bench** | VLM | HM-Bench | 19,337 QA Pairs / 13 Task Categories / 18 MLLMs | Task Accuracy (Perception → Spectral Reasoning) | [arXiv](https://arxiv.org/abs/2604.08884) | [Notes](./survey/2026-04-10-hm-bench.md) |
 | 2026-04-13 | **PilotBench** | LLM | PilotBench | 708 Real Aviation Trajectories / 9 Flight Phases | Pilot-Score (Regression + Instruction + Safety) | [arXiv](https://arxiv.org/abs/2604.08987) | [Notes](./survey/2026-04-10-pilotbench.md) |
 | 2026-04-13 | **TaxPraBen** | LLM | TaxPraBen | 7,300 Instances / 14 Datasets / Bloom's Taxonomy | Structured Parsing / Exact Match | [arXiv](https://arxiv.org/abs/2604.08948) | [Notes](./survey/2026-04-10-taxpraben.md) |
