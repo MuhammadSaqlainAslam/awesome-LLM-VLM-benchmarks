@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 14, 2026)
+## 🚀 Today's Daily 8 (April 15, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **BankerToolBench** | LLM | BankerToolBench | End-to-End Investment Banking Workflows / 502 Banker Validators / 100+ Rubric Criteria | Rubric Pass Rate / Cross-Artifact Consistency | [Notes](./survey/2026-04-13-bankertoolbench.md) | [arXiv](https://arxiv.org/abs/2604.11304) |
-| **AnalysisBench** | LLM | AnalysisBench | 35 Tool-Project Pairs / 7 Analysis Tools / 10 C/C++–Java Projects | Task Success Rate (Pass/Fail per Pair) | [Notes](./survey/2026-04-13-analysisbench.md) | [arXiv](https://arxiv.org/abs/2604.11270) |
-| **OccuBench** | LLM | OccuBench | 100 Professional Scenarios / 10 Industries / 65 Domains / LWM Substrate | Task Completion Rate / Fault Detection Rate | [Notes](./survey/2026-04-13-occubench.md) | [arXiv](https://arxiv.org/abs/2604.10866) |
-| **General365** | LLM | General365 | 1,460 Problems (365 Seeds + 1,095 Structural Variants) / 8 Reasoning Categories | Accuracy / Generalisation Gap (Seed vs. Variant) | [Notes](./survey/2026-04-13-general365.md) | [arXiv](https://arxiv.org/abs/2604.11778) |
-| **METER** | LLM | METER | Pearl's 3-Rung Causal Ladder / Multi-Level Unified Context per Scenario | Accuracy per Rung / Cross-Rung Consistency Score | [Notes](./survey/2026-04-13-meter.md) | [arXiv](https://arxiv.org/abs/2604.11502) |
-| **MMRareBench** | VLM | MMRareBench | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks / 23 MLLMs | Two-Level Accuracy / Treatment Planning Score | [Notes](./survey/2026-04-12-mmrarebench.md) | [arXiv](https://arxiv.org/abs/2604.10755) |
-| **BareBones** | VLM | BareBones / WTP-Bench | 26 VLMs / 6 Datasets + WTP-Bench (Fine-Grained Parts) / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff | [Notes](./survey/2026-04-12-barebones.md) | [arXiv](https://arxiv.org/abs/2604.10528) |
-| **AAR** | LLM | AAR (Amazing Agent Race) | 1,400 Instances / 800 Sequential + 600 Compositional DAGs / 4 Difficulty Levels | Finish-Line Accuracy / Pit-Stop Visit Rate / Roadblock Completion Rate | [Notes](./survey/2026-04-11-aar.md) | [arXiv](https://arxiv.org/abs/2604.10261) |
+| **REL** | LLM | REL (Relational Reasoning) | Algebra + Chemistry + Biology / Systematic RC Variation / Fixed Entity Count | Accuracy by Relational Complexity (RC) Level | [Notes](./survey/2026-04-14-rel.md) | [arXiv](https://arxiv.org/abs/2604.12176) |
+| **HORIZON** | LLM | HORIZON Leaderboard | 3,100+ Trajectories / 4 Agentic Domains / Escalating Complexity | Task Success Rate / Failure Type Distribution / Trajectory Position | [Notes](./survey/2026-04-13-horizon.md) | [arXiv](https://arxiv.org/abs/2604.11978) |
+| **AlphaEval** | LLM | AlphaEval | 94 Production Tasks / 7 Companies / 6 O*NET Domains | Task Success Rate / Cross-Domain Aggregate | [Notes](./survey/2026-04-14-alphaeval.md) | [arXiv](https://arxiv.org/abs/2604.12162) |
+| **Frontier-Eng** | LLM | Frontier-Eng | 47 Engineering Tasks / 5 Domains / Industrial Simulators | Normalized Reward / Improvement Frequency / Convergence Rate | [Notes](./survey/2026-04-14-frontier-eng.md) | [arXiv](https://arxiv.org/abs/2604.12290) |
+| **CodeSpecBench** | LLM | CodeSpecBench | Real-World Open-Source Codebases / Function-Level + Repo-Level Tracks | Pass Rate (Executable Specs) | [Notes](./survey/2026-04-14-codespecbench.md) | [arXiv](https://arxiv.org/abs/2604.12268) |
+| **SIR-Bench** | LLM | SIR-Bench | 794 Test Cases / Real IR Scenarios (OUAT Framework) / Cloud Environments | True Positive Rate / False Positive Rejection / Novel Findings per Case | [Notes](./survey/2026-04-13-sir-bench.md) | [arXiv](https://arxiv.org/abs/2604.12040) |
+| **EgoEsportsQA** | VLM | EgoEsportsQA | 1,745 QA Pairs / 3 FPS Games / 11 Cognitive + 6 Esports Sub-Tasks | Task Accuracy / Perception vs. Tactical Reasoning Gap | [Notes](./survey/2026-04-14-egoesportsqa.md) | [arXiv](https://arxiv.org/abs/2604.12320) |
+| **PolicyBench** | LLM | PolicyBench | 21,000 Cases / US + China Policy Domains / 3 Bloom's Taxonomy Levels | Accuracy per Cognitive Level / Cross-Level Consistency | [Notes](./survey/2026-04-14-policybench.md) | [arXiv](https://arxiv.org/abs/2604.12995) |
 
 ---
 
@@ -83,6 +83,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **KDR-Bench** | Deep Research (Structured + Unstructured) | 41 Expert Qs / 9 Domains / 1,252+ Tables | General / Knowledge-Centric / Vision-Enhanced | **HKA framework surpasses Gemini DR on knowledge-centric** | [Notes](./survey/2026-04-09-kdr-bench.md) | [arXiv](https://arxiv.org/abs/2604.07720) |
 | **General365** | K-12 General Reasoning (Structural Variants) | 1,460 Problems (365 Seeds + 1,095 Variants) / 8 Reasoning Categories | Accuracy / Generalisation Gap | **62.8% (best frontier model); <90% human baseline on K-12** | [Notes](./survey/2026-04-13-general365.md) | [arXiv](https://arxiv.org/abs/2604.11778) |
 | **METER** | Multi-Level Causal Reasoning (Pearl's Causal Ladder) | 3 Causal Rungs (Association → Intervention → Counterfactual) / Unified Context | Accuracy per Rung / Cross-Rung Consistency | **Sharp Rung 3 degradation; models give contradictory Rung 1 vs. Rung 3 answers** | [Notes](./survey/2026-04-13-meter.md) | [arXiv](https://arxiv.org/abs/2604.11502) |
+| **REL** | Relational Reasoning (Arity Bottleneck) | Algebra + Chemistry + Biology / Systematic RC Variation / Fixed Entity Count | Accuracy by RC Level / Performance Degradation Slope | **Consistent decline with RC even at fixed entity count; few-shot and CoT fail to recover** | [Notes](./survey/2026-04-14-rel.md) | [arXiv](https://arxiv.org/abs/2604.12176) |
+| **PolicyBench** | Public Policy Comprehension (Bloom's Taxonomy) | 21,000 Cases / US + China Policy / 3 Cognitive Levels (Memorize → Understand → Apply) | Accuracy per Cognitive Level / Cross-Level Consistency | **Application-level strongest; meaningful gaps in understanding; US > China performance** | [Notes](./survey/2026-04-14-policybench.md) | [arXiv](https://arxiv.org/abs/2604.12995) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -117,6 +119,11 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **AnalysisBench** | Automated Software Analysis Agent | 35 Tool-Project Pairs / 7 Tools (AFL++, Infer, SpotBugs, Jazzer...) / C/C++–Java Projects | Task Success Rate | **94% (AnalysisAgent + Gemini-3-Flash, 33/35 pairs)** | [Notes](./survey/2026-04-13-analysisbench.md) | [arXiv](https://arxiv.org/abs/2604.11270) |
 | **OccuBench** | Professional Occupational Agent (Fault Injection) | 100 Scenarios / 10 Industries / 65 Domains / 3 Fault Types / LWM Substrate | Task Completion Rate / Fault Detection Rate | **+27.5pp from minimal → max reasoning effort (GPT-5.2)** | [Notes](./survey/2026-04-13-occubench.md) | [arXiv](https://arxiv.org/abs/2604.10866) |
 | **AAR** | DAG-Structured Multi-Step Tool Navigation | 1,400 Instances / 800 Sequential + 600 Compositional DAGs / Wikipedia+Calc+String Tools | Finish-Line Accuracy / Pit-Stop Visit Rate / Roadblock Completion Rate | **Claude Code 37.2% at 6× fewer tokens than Codex CLI** | [Notes](./survey/2026-04-11-aar.md) | [arXiv](https://arxiv.org/abs/2604.10261) |
+| **HORIZON** | Long-Horizon Agent Failure Diagnostics | 3,100+ Trajectories / 4 Agentic Domains / Escalating Complexity Tasks | Task Success Rate / Failure Type Distribution / Trajectory Failure Position | **Sharp breakdown at long horizon; context management + planning are dominant failure modes** | [Notes](./survey/2026-04-13-horizon.md) | [arXiv](https://arxiv.org/abs/2604.11978) |
+| **AlphaEval** | Production Agent Evaluation (Real Enterprise Tasks) | 94 Tasks / 7 Companies / 6 O*NET Domains / Multi-Modal Inputs | Task Success Rate per Domain / Cross-Domain Aggregate | **Production constraints reveal failure modes absent from curated benchmarks; no single eval paradigm sufficient** | [Notes](./survey/2026-04-14-alphaeval.md) | [arXiv](https://arxiv.org/abs/2604.12162) |
+| **Frontier-Eng** | Self-Evolving Agents on Engineering Design (Iterative) | 47 Engineering Tasks / 5 Domains / Industrial Simulators / Continuous Reward | Normalized Reward / Improvement Frequency / Improvement Magnitude | **Claude 4.6 Opus strongest; dual power-law decay; search depth > width** | [Notes](./survey/2026-04-14-frontier-eng.md) | [arXiv](https://arxiv.org/abs/2604.12290) |
+| **CodeSpecBench** | Executable Behavioral Specification Generation | Real-World OSS Python / Function-Level + Repo-Level / Executable Pre/Postconditions | Pass Rate (Spec Execution) | **Best model: 20.2% repo-level pass rate; strong coding ≠ strong spec generation** | [Notes](./survey/2026-04-14-codespecbench.md) | [arXiv](https://arxiv.org/abs/2604.12268) |
+| **SIR-Bench** | Security Incident Response Agent (Investigation Depth) | 794 Test Cases / Real IR Scenarios (OUAT) / Controlled Cloud / Adversarial Judge | TPR / FPR Rejection / Novel Findings per Case | **97.1% TPR / 73.4% FPR rejection / 5.67 novel findings per case** | [Notes](./survey/2026-04-13-sir-bench.md) | [arXiv](https://arxiv.org/abs/2604.12040) |
 
 ---
 
@@ -152,6 +159,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MARINER** | Maritime Fine-Grained VLM (3E Paradigm) | 16,629 Images / 63 Vessel Categories / 5 Incident Types | Classification Acc / mAP / VQA Acc | **All models fail fine-grained vessel classification; causal VQA near-chance** | [Notes](./survey/2026-04-09-mariner.md) | [arXiv](https://arxiv.org/abs/2604.08615) |
 | **MMRareBench** | Rare Disease Clinical Multimodal Reasoning | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks (Diagnosis/Treatment/Alignment/Examination) | Two-Level Accuracy / Treatment Planning Score | **All 23 MLLMs show universally low treatment planning; treatment planning hardest track** | [Notes](./survey/2026-04-12-mmrarebench.md) | [arXiv](https://arxiv.org/abs/2604.10755) |
 | **BareBones** | Geometric Shape Comprehension (Texture-Deprived Silhouettes) | 26 VLMs / 6 Established Datasets + WTP-Bench (Fine-Grained Parts) / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff (RGB − Silhouette Acc) | **Severe performance collapse for all 26 VLMs; universal Texture Bias Cliff regardless of architecture** | [Notes](./survey/2026-04-12-barebones.md) | [arXiv](https://arxiv.org/abs/2604.10528) |
+| **EgoEsportsQA** | Egocentric Video Perception & Tactical Reasoning (FPS Esports) | 1,745 QA Pairs / 3 FPS Games / 11 Cognitive Sub-Tasks + 6 Esports Knowledge Sub-Tasks | Task Accuracy / Perception vs. Tactical Reasoning Gap | **Best model 71.58%; strong perception but sharp drop on tactical reasoning and micro-operations** | [Notes](./survey/2026-04-14-egoesportsqa.md) | [arXiv](https://arxiv.org/abs/2604.12320) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
