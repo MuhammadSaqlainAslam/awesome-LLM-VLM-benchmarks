@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 15, 2026)
+## 🚀 Today's Daily 8 (April 16, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **REL** | LLM | REL (Relational Reasoning) | Algebra + Chemistry + Biology / Systematic RC Variation / Fixed Entity Count | Accuracy by Relational Complexity (RC) Level | [Notes](./survey/2026-04-14-rel.md) | [arXiv](https://arxiv.org/abs/2604.12176) |
-| **HORIZON** | LLM | HORIZON Leaderboard | 3,100+ Trajectories / 4 Agentic Domains / Escalating Complexity | Task Success Rate / Failure Type Distribution / Trajectory Position | [Notes](./survey/2026-04-13-horizon.md) | [arXiv](https://arxiv.org/abs/2604.11978) |
-| **AlphaEval** | LLM | AlphaEval | 94 Production Tasks / 7 Companies / 6 O*NET Domains | Task Success Rate / Cross-Domain Aggregate | [Notes](./survey/2026-04-14-alphaeval.md) | [arXiv](https://arxiv.org/abs/2604.12162) |
-| **Frontier-Eng** | LLM | Frontier-Eng | 47 Engineering Tasks / 5 Domains / Industrial Simulators | Normalized Reward / Improvement Frequency / Convergence Rate | [Notes](./survey/2026-04-14-frontier-eng.md) | [arXiv](https://arxiv.org/abs/2604.12290) |
-| **CodeSpecBench** | LLM | CodeSpecBench | Real-World Open-Source Codebases / Function-Level + Repo-Level Tracks | Pass Rate (Executable Specs) | [Notes](./survey/2026-04-14-codespecbench.md) | [arXiv](https://arxiv.org/abs/2604.12268) |
-| **SIR-Bench** | LLM | SIR-Bench | 794 Test Cases / Real IR Scenarios (OUAT Framework) / Cloud Environments | True Positive Rate / False Positive Rejection / Novel Findings per Case | [Notes](./survey/2026-04-13-sir-bench.md) | [arXiv](https://arxiv.org/abs/2604.12040) |
-| **EgoEsportsQA** | VLM | EgoEsportsQA | 1,745 QA Pairs / 3 FPS Games / 11 Cognitive + 6 Esports Sub-Tasks | Task Accuracy / Perception vs. Tactical Reasoning Gap | [Notes](./survey/2026-04-14-egoesportsqa.md) | [arXiv](https://arxiv.org/abs/2604.12320) |
-| **PolicyBench** | LLM | PolicyBench | 21,000 Cases / US + China Policy Domains / 3 Bloom's Taxonomy Levels | Accuracy per Cognitive Level / Cross-Level Consistency | [Notes](./survey/2026-04-14-policybench.md) | [arXiv](https://arxiv.org/abs/2604.12995) |
+| **GeoAgentBench** | LLM | GeoAgentBench | 117 GIS Tools / 53 Spatial Analysis Tasks / 6 GIS Domains / 7 LLMs | Parameter Execution Accuracy (PEA) / Task Success Rate | [Notes](./survey/2026-04-15-geoagentbench.md) | [arXiv](https://arxiv.org/abs/2604.13888) |
+| **AVID** | VLM | AVID | 11,200 Long Videos (avg 235.5s) / 39,400 Annotated Events / 8 Inconsistency Categories | BLEU-4 (Reasoning) / mIoU (Temporal Grounding) / SODA-m | [Notes](./survey/2026-04-15-avid.md) | [arXiv](https://arxiv.org/abs/2604.13593) |
+| **RiskWebWorld** | LLM | RiskWebWorld | 1,513 E-commerce Risk Tasks / 8 Risk Domains / Production Pipelines | Task Success Rate / RL Improvement | [Notes](./survey/2026-04-15-riskwebworld.md) | [arXiv](https://arxiv.org/abs/2604.13531) |
+| **DailyClue** | VLM | DailyClue | 4 Daily Domains / 16 Subtasks / MLLMs + Agentic Models | Visual Clue ID Accuracy / Reasoning Accuracy | [Notes](./survey/2026-04-15-dailyclue.md) | [arXiv](https://arxiv.org/abs/2604.14041) |
+| **CodeRQ-Bench** | LLM | CodeRQ-Bench | 3 Coding Task Categories / 4 Datasets / 1,069 Mismatch Cases | AUCROC / AUPRC (VERA Evaluator) | [Notes](./survey/2026-04-14-coderq-bench.md) | [arXiv](https://arxiv.org/abs/2604.12379) |
+| **IndicDB** | LLM | IndicDB | 15,617 Tasks / 20 Databases / 237 Tables / 7 Languages (EN + Indic) | Text-to-SQL Execution Accuracy / Indic Gap | [Notes](./survey/2026-04-15-indicdb.md) | [arXiv](https://arxiv.org/abs/2604.13686) |
+| **HINTBench** | LLM | HINTBench | 629 Agent Trajectories (523 Risky / 106 Safe) / 33 Steps Avg / 3 Safety Tasks | Strict-F1 (Risk-Step Localization) / Detection Accuracy | [Notes](./survey/2026-04-15-hintbench.md) | [arXiv](https://arxiv.org/abs/2604.13954) |
+| **AISafetyBenchExplorer** | LLM | AISafetyBenchExplorer | 195 AI Safety Benchmarks (2018–2026) / 7 Popularity Tiers / Metadata Schema | Benchmark Coverage / Maintenance Status / Metric Consistency | [Notes](./survey/2026-04-14-aisafetybenchexplorer.md) | [arXiv](https://arxiv.org/abs/2604.12875) |
 
 ---
 
@@ -85,6 +85,8 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **METER** | Multi-Level Causal Reasoning (Pearl's Causal Ladder) | 3 Causal Rungs (Association → Intervention → Counterfactual) / Unified Context | Accuracy per Rung / Cross-Rung Consistency | **Sharp Rung 3 degradation; models give contradictory Rung 1 vs. Rung 3 answers** | [Notes](./survey/2026-04-13-meter.md) | [arXiv](https://arxiv.org/abs/2604.11502) |
 | **REL** | Relational Reasoning (Arity Bottleneck) | Algebra + Chemistry + Biology / Systematic RC Variation / Fixed Entity Count | Accuracy by RC Level / Performance Degradation Slope | **Consistent decline with RC even at fixed entity count; few-shot and CoT fail to recover** | [Notes](./survey/2026-04-14-rel.md) | [arXiv](https://arxiv.org/abs/2604.12176) |
 | **PolicyBench** | Public Policy Comprehension (Bloom's Taxonomy) | 21,000 Cases / US + China Policy / 3 Cognitive Levels (Memorize → Understand → Apply) | Accuracy per Cognitive Level / Cross-Level Consistency | **Application-level strongest; meaningful gaps in understanding; US > China performance** | [Notes](./survey/2026-04-14-policybench.md) | [arXiv](https://arxiv.org/abs/2604.12995) |
+| **IndicDB** | Multilingual Text-to-SQL (Indian Administrative Data) | 15,617 Tasks / 20 Databases (237 Tables) / EN + Hindi + 5 Indic Languages / Gov Datasets | Execution Accuracy / Indic Gap | **9.00% Indic Gap vs. English; all frontier models affected** | [Notes](./survey/2026-04-15-indicdb.md) | [arXiv](https://arxiv.org/abs/2604.13686) |
+| **AISafetyBenchExplorer** | AI Safety Benchmark Meta-Catalogue (Metric-Aware) | 195 Safety Benchmarks (2018–2026) / 7 Popularity Tiers / Metadata Schema | Benchmark Coverage / Maintenance Status / Metric Consistency | **70% stale repos; 85% English-only; metric labels conceal divergent threat models** | [Notes](./survey/2026-04-14-aisafetybenchexplorer.md) | [arXiv](https://arxiv.org/abs/2604.12875) |
 
 ### Agentic, Coding & Security
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -124,6 +126,10 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **Frontier-Eng** | Self-Evolving Agents on Engineering Design (Iterative) | 47 Engineering Tasks / 5 Domains / Industrial Simulators / Continuous Reward | Normalized Reward / Improvement Frequency / Improvement Magnitude | **Claude 4.6 Opus strongest; dual power-law decay; search depth > width** | [Notes](./survey/2026-04-14-frontier-eng.md) | [arXiv](https://arxiv.org/abs/2604.12290) |
 | **CodeSpecBench** | Executable Behavioral Specification Generation | Real-World OSS Python / Function-Level + Repo-Level / Executable Pre/Postconditions | Pass Rate (Spec Execution) | **Best model: 20.2% repo-level pass rate; strong coding ≠ strong spec generation** | [Notes](./survey/2026-04-14-codespecbench.md) | [arXiv](https://arxiv.org/abs/2604.12268) |
 | **SIR-Bench** | Security Incident Response Agent (Investigation Depth) | 794 Test Cases / Real IR Scenarios (OUAT) / Controlled Cloud / Adversarial Judge | TPR / FPR Rejection / Novel Findings per Case | **97.1% TPR / 73.4% FPR rejection / 5.67 novel findings per case** | [Notes](./survey/2026-04-13-sir-bench.md) | [arXiv](https://arxiv.org/abs/2604.12040) |
+| **GeoAgentBench** | Tool-Augmented GIS Agent (Dynamic Spatial Analysis) | 117 Atomic GIS Tools / 53 Spatial Analysis Tasks / 6 GIS Domains / 7 LLMs | Parameter Execution Accuracy (PEA) / Task Success Rate | **Plan-and-React architecture significantly outperforms traditional frameworks** | [Notes](./survey/2026-04-15-geoagentbench.md) | [arXiv](https://arxiv.org/abs/2604.13888) |
+| **RiskWebWorld** | GUI Agent — E-commerce Risk Management (Adversarial) | 1,513 Tasks / 8 Risk Domains / Production Risk-Control Pipelines / Uncooperative Websites | Task Success Rate / RL Improvement | **49.1% top generalist; GUI specialists near-total failure; +16.2pp via RL** | [Notes](./survey/2026-04-15-riskwebworld.md) | [arXiv](https://arxiv.org/abs/2604.13531) |
+| **CodeRQ-Bench** | LLM Reasoning Quality in Coding Tasks (Beyond Correctness) | 3 Coding Task Categories (Gen/Summ/Class) / 4 Datasets / 1,069 Mismatch Cases | AUCROC / AUPRC (VERA Evaluator) | **VERA: +0.26 AUCROC / +0.21 AUPRC over strong baselines** | [Notes](./survey/2026-04-14-coderq-bench.md) | [arXiv](https://arxiv.org/abs/2604.12379) |
+| **HINTBench** | Intrinsic Agent Safety (Non-Attack Trajectory Failures) | 629 Trajectories (523 Risky / 106 Safe) / 33 Steps Avg / 3 Safety Tasks / 5-Constraint Taxonomy | Strict-F1 (Risk-Step Localization) / Detection Accuracy | **<35 Strict-F1 on step localization; guard models fail to transfer** | [Notes](./survey/2026-04-15-hintbench.md) | [arXiv](https://arxiv.org/abs/2604.13954) |
 
 ---
 
@@ -160,6 +166,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **MMRareBench** | Rare Disease Clinical Multimodal Reasoning | 1,756 QA Pairs / 7,958 Medical Images / 4 Clinical Tracks (Diagnosis/Treatment/Alignment/Examination) | Two-Level Accuracy / Treatment Planning Score | **All 23 MLLMs show universally low treatment planning; treatment planning hardest track** | [Notes](./survey/2026-04-12-mmrarebench.md) | [arXiv](https://arxiv.org/abs/2604.10755) |
 | **BareBones** | Geometric Shape Comprehension (Texture-Deprived Silhouettes) | 26 VLMs / 6 Established Datasets + WTP-Bench (Fine-Grained Parts) / Binary Silhouettes | Silhouette Accuracy / Texture Bias Cliff (RGB − Silhouette Acc) | **Severe performance collapse for all 26 VLMs; universal Texture Bias Cliff regardless of architecture** | [Notes](./survey/2026-04-12-barebones.md) | [arXiv](https://arxiv.org/abs/2604.10528) |
 | **EgoEsportsQA** | Egocentric Video Perception & Tactical Reasoning (FPS Esports) | 1,745 QA Pairs / 3 FPS Games / 11 Cognitive Sub-Tasks + 6 Esports Knowledge Sub-Tasks | Task Accuracy / Perception vs. Tactical Reasoning Gap | **Best model 71.58%; strong perception but sharp drop on tactical reasoning and micro-operations** | [Notes](./survey/2026-04-14-egoesportsqa.md) | [arXiv](https://arxiv.org/abs/2604.12320) |
+| **DailyClue** | Visual Clue-Driven Reasoning in Daily Scenarios (Seek-and-Solve) | 4 Daily Domains / 16 Subtasks / MLLMs + Agentic Models | Visual Clue ID Accuracy / Reasoning Accuracy | **Formidable challenge for all models; clue identification is critical bottleneck** | [Notes](./survey/2026-04-15-dailyclue.md) | [arXiv](https://arxiv.org/abs/2604.14041) |
 
 ### Document Parsing, Video & RAG Understanding
 | Name | Task | Dataset | Metric | SOTA (Mar 2026) | Notes | Links |
@@ -175,6 +182,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 | **FineVision** | Multimodal Training Data | 24M Samples / 185 Subsets | Avg Score (11 Bench) | **+46.3% vs LLaVA-OV** | [Notes](./survey/2025-10-22-finevision.md) | [arXiv](https://arxiv.org/abs/2510.17269) |
 | **ParseBench** | Enterprise Document Parsing | ~2,000 Human-Verified Pages / 5 Dimensions (Insurance/Finance/Gov) | Semantic Correctness | **LlamaParse Agentic leads; no method wins all 5 dims** | [Notes](./survey/2026-04-09-parsebench.md) | [arXiv](https://arxiv.org/abs/2604.08538) |
 | **VSAS-Bench** | Streaming Video VLM (Real-Time) | 18,000+ Temporal Annotations / Sync + Async Protocols | Accuracy-Latency Trade-off | **Qwen3-VL-4B +3% vs. Dispider under async protocol** | [Notes](./survey/2026-04-08-vsas-bench.md) | [arXiv](https://arxiv.org/abs/2604.07634) |
+| **AVID** | Audio-Visual Inconsistency Understanding (Omni-Modal Long Video) | 11,200 Long Videos (avg 235.5s) / 39,400 Inconsistency Events / 8 Categories / 4 Tasks | BLEU-4 / mIoU (Temporal Grounding) / SODA-m | **AVID-Qwen: 2.8× BLEU-4; 36.1% mIoU vs. 26.2% alternatives** | [Notes](./survey/2026-04-15-avid.md) | [arXiv](https://arxiv.org/abs/2604.13593) |
 
 ---
 

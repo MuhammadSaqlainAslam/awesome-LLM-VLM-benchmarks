@@ -2,6 +2,14 @@
 
 | Date Added | Paper | Modality | Benchmarks | Datasets | Metrics | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-04-16 | **GeoAgentBench** | LLM | GeoAgentBench | 117 GIS Tools / 53 Spatial Analysis Tasks / 6 GIS Domains / 7 LLMs | Parameter Execution Accuracy (PEA) / Task Success Rate | [arXiv](https://arxiv.org/abs/2604.13888) | [Notes](./survey/2026-04-15-geoagentbench.md) |
+| 2026-04-16 | **AVID** | VLM | AVID | 11,200 Long Videos (avg 235.5s) / 39,400 Inconsistency Events / 8 Categories | BLEU-4 / mIoU / SODA-m | [arXiv](https://arxiv.org/abs/2604.13593) | [Notes](./survey/2026-04-15-avid.md) |
+| 2026-04-16 | **RiskWebWorld** | LLM | RiskWebWorld | 1,513 E-commerce Risk Tasks / 8 Risk Domains / Production Pipelines | Task Success Rate / RL Improvement | [arXiv](https://arxiv.org/abs/2604.13531) | [Notes](./survey/2026-04-15-riskwebworld.md) |
+| 2026-04-16 | **DailyClue** | VLM | DailyClue | 4 Daily Domains / 16 Subtasks / MLLMs + Agentic Models | Visual Clue ID Accuracy / Reasoning Accuracy | [arXiv](https://arxiv.org/abs/2604.14041) | [Notes](./survey/2026-04-15-dailyclue.md) |
+| 2026-04-16 | **CodeRQ-Bench** | LLM | CodeRQ-Bench | 3 Coding Task Categories / 4 Datasets / 1,069 Mismatch Cases | AUCROC / AUPRC (VERA Evaluator) | [arXiv](https://arxiv.org/abs/2604.12379) | [Notes](./survey/2026-04-14-coderq-bench.md) |
+| 2026-04-16 | **IndicDB** | LLM | IndicDB | 15,617 Tasks / 20 Databases / 237 Tables / EN + 6 Indic Languages | Execution Accuracy / Indic Gap | [arXiv](https://arxiv.org/abs/2604.13686) | [Notes](./survey/2026-04-15-indicdb.md) |
+| 2026-04-16 | **HINTBench** | LLM | HINTBench | 629 Trajectories (523 Risky / 106 Safe) / 33 Steps Avg / 3 Safety Tasks | Strict-F1 (Risk-Step Localization) / Detection Accuracy | [arXiv](https://arxiv.org/abs/2604.13954) | [Notes](./survey/2026-04-15-hintbench.md) |
+| 2026-04-16 | **AISafetyBenchExplorer** | LLM | AISafetyBenchExplorer | 195 AI Safety Benchmarks (2018–2026) / Metadata Schema / 7 Popularity Tiers | Benchmark Coverage / Maintenance Status / Metric Consistency | [arXiv](https://arxiv.org/abs/2604.12875) | [Notes](./survey/2026-04-14-aisafetybenchexplorer.md) |
 | 2026-04-15 | **REL** | LLM | REL (Relational Reasoning) | Algebra + Chemistry + Biology / Systematic RC Variation / Fixed Entity Count | Accuracy by RC Level / Degradation Slope | [arXiv](https://arxiv.org/abs/2604.12176) | [Notes](./survey/2026-04-14-rel.md) |
 | 2026-04-15 | **HORIZON** | LLM | HORIZON Leaderboard | 3,100+ Trajectories / 4 Agentic Domains / Escalating Complexity | Task Success Rate / Failure Type + Position | [arXiv](https://arxiv.org/abs/2604.11978) | [Notes](./survey/2026-04-13-horizon.md) |
 | 2026-04-15 | **AlphaEval** | LLM | AlphaEval | 94 Production Tasks / 7 Companies / 6 O*NET Domains | Task Success Rate / Cross-Domain Aggregate | [arXiv](https://arxiv.org/abs/2604.12162) | [Notes](./survey/2026-04-14-alphaeval.md) |
