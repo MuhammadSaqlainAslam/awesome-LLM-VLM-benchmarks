@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 24, 2026)
+## 🚀 Today's Daily 8 (April 27, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **MIRROR** | LLM | MIRROR | 16 Models / 8 Labs / ~250K Instances / 4 Metacognitive Levels / 8 Experiments | Compositional Calibration Error (0.434–0.758) / Confident Failure Rate | [Notes](./survey/2026-04-23-mirror.md) | [arXiv](https://arxiv.org/abs/2604.19809) |
-| **SpeechParaling-Bench** | VLM | SpeechParaling-Bench | 1,000+ EN-ZH Queries / 100+ Fine-Grained Paralinguistic Features / 3 Difficulty Tiers | Paralinguistic Control Accuracy / Pairwise LALM-Judge Score | [Notes](./survey/2026-04-23-speechparaling-bench.md) | [arXiv](https://arxiv.org/abs/2604.20842) |
-| **Memora** | LLM | Memora | Weeks-to-Months Conversations / 3 Task Types / 4 LLMs + 6 Memory Agents | Forgetting-Aware Memory Accuracy (FAMA) / Memory Reconciliation Rate | [Notes](./survey/2026-04-21-memora.md) | [arXiv](https://arxiv.org/abs/2604.20006) |
-| **SkillLearnBench** | LLM | SkillLearnBench | 20 Tasks / 15 Sub-Domains / Continual Learning Methods vs. Baseline | Skill Quality / Execution Trajectory Accuracy / Task Outcome Rate | [Notes](./survey/2026-04-21-skilllearnbench.md) | [arXiv](https://arxiv.org/abs/2604.20087) |
-| **X-PCR** | VLM | X-PCR | ~26,415 Images / 177,868 Expert-Verified QA / 52 Ophthalmic Diseases / 21 MLLMs | Progressive Reasoning Accuracy per Stage / Cross-Modality Integration Score | [Notes](./survey/2026-04-23-x-pcr.md) | [arXiv](https://arxiv.org/abs/2604.20350) |
-| **RSRCC** | VLM | RSRCC | 126,000 QA Pairs / Bi-Temporal Satellite Imagery / Fine-Grained Regional Change QA | Semantic Change Description Accuracy / Retrieval-Augmented Ranking Score | [Notes](./survey/2026-04-23-rsrcc.md) | [arXiv](https://arxiv.org/abs/2604.20623) |
-| **MedSkillAudit** | LLM | MedSkillAudit | 75 Medical Research Skills / 5 Categories / Rubric-Based Scoring vs. Human Inter-Rater | Mean Quality Score (72.4) / ICC(2,1) = 0.449 / Pre-Release Gate Pass Rate | [Notes](./survey/2026-04-23-medskillaudit.md) | [arXiv](https://arxiv.org/abs/2604.20441) |
-| **RespondeoQA** | LLM | RespondeoQA | ~7,800 QA Pairs / Latin-English Bilingual / Pedagogical Sources 1800s–2026 / 3 LLMs | Knowledge Retrieval Accuracy / Skill-Oriented Task Accuracy / Language Presentation Gap | [Notes](./survey/2026-04-23-respondeoqa.md) | [arXiv](https://arxiv.org/abs/2604.20738) |
+| **CNSL-bench** | VLM | CNSL-bench | Official CNSL Dictionary / 3 Input Modalities / 3 Articulatory Forms / 21 MLLMs | Sign Language Comprehension Accuracy / Modality Gap / Articulatory Form Performance | [Notes](./survey/2026-04-25-cnsl-bench.md) | [arXiv](https://arxiv.org/abs/2604.22367) |
+| **CLARITY** | LLM | CLARITY | Spider + BIRD / Multi-Faceted Ambiguity Types / Diverse User Behaviors / Interactive Multi-Turn | NL2SQL Accuracy Under Ambiguity / Ambiguity Localization Rate / Resolution Accuracy | [Notes](./survey/2026-04-25-clarity.md) | [arXiv](https://arxiv.org/abs/2604.22313) |
+| **MuDABench** | LLM | MuDABench | 332 Analytical QA Instances / 80,000+ Pages / Multi-Document Synthesis Tasks | Final Answer Accuracy / Intermediate-Fact Coverage | [Notes](./survey/2026-04-25-mudabench.md) | [arXiv](https://arxiv.org/abs/2604.22239) |
+| **AgentSearchBench** | LLM | AgentSearchBench | ~10,000 Real-World Agents / Multiple Providers / Execution-Grounded Performance Signals | Agent Retrieval Ranking Accuracy / Semantic vs. Execution Gap | [Notes](./survey/2026-04-25-agentsearchbench.md) | [arXiv](https://arxiv.org/abs/2604.22436) |
+| **SpaMEM** | VLM | SpaMEM | 10.6M Images / 4 Modalities / 25,000+ Sequences / 1,000 Procedural Houses / 15 Tasks | Spatial Belief Coherence / Short-Term Step-Wise + Long-Term Episodic Reconstruction | [Notes](./survey/2026-04-25-spamem.md) | [arXiv](https://arxiv.org/abs/2604.22409) |
+| **Rethinking Math Eval** | LLM | Math Reasoning Eval Framework | Lighteval + SimpleRL Failure Cases / Diverse Mathematical Representations / 8 Frontier LLMs | Evaluation Accuracy vs. Symbolic Baseline / LLM-Judge Consistency | [Notes](./survey/2026-04-25-rethinking-math-eval.md) | [arXiv](https://arxiv.org/abs/2604.22597) |
+| **BLAST** | LLM | BLAST | 10 Graph-Related ASP Problems / 2 Novel Semantic Metrics / 8 State-of-the-Art LLMs | ASP Code Correctness (Semantic) / Answer Set Validity Rate | [Notes](./survey/2026-04-25-blast.md) | [arXiv](https://arxiv.org/abs/2604.22306) |
+| **LTD / UniVLT** | VLM | LTD Benchmark | 11,600 VQA Pairs / Heterogeneous Roadside Cameras / Multi-View Traffic Scenarios | Open-Ended Traffic Reasoning Accuracy / Multi-View Integration Score / Risk Analysis Rate | [Notes](./survey/2026-04-25-ltd-univlt.md) | [arXiv](https://arxiv.org/abs/2604.22260) |
 
 ---
 
