@@ -4,18 +4,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily: Target 8 
 
 ---
 
-## 🚀 Today's Daily 8 (April 28, 2026)
+## 🚀 Today's Daily 8 (April 29, 2026)
 
 | Paper | Modality | Benchmarks | Datasets | Metrics | Notes | Links |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| **K-MetBench** | VLM | K-MetBench | Korean Meteorology Qualification Exams / 4 Evaluation Dimensions / 55 Models | Expert Visual Reasoning Accuracy / Logical Validity / Geo-Cultural Comprehension | [Notes](./survey/2026-04-28-k-metbench.md) | [arXiv](https://arxiv.org/abs/2604.24645) |
-| **AutoGUI-v2** | VLM | AutoGUI-v2 | 2,753 Tasks / 6 Operating Systems / Hierarchical Functional Regions | Functional Grounding Accuracy / Dynamic State Prediction / Interaction Logic Score | [Notes](./survey/2026-04-28-autogui-v2.md) | [arXiv](https://arxiv.org/abs/2604.24441) |
-| **ReVSI** | VLM | ReVSI | 381 Re-Annotated Scenes / 5 Datasets / Frame-Budget Variants (16/32/64/all) | Geometry-Dependent Accuracy / Frame-Budget Performance Gap / Object Visibility Rate | [Notes](./survey/2026-04-28-revsi.md) | [arXiv](https://arxiv.org/abs/2604.24300) |
-| **SycoPhantasy** | VLM | SycoPhantasy | 173,810 AI-Generated Portraits / 6 Open-Weight VLMs (450M–8B) | Bluffing Coefficient / Sycophancy Rate / Model-Size vs. Reliability Correlation (r=−0.96) | [Notes](./survey/2026-04-28-sycophantasy.md) | [arXiv](https://arxiv.org/abs/2604.24346) |
-| **MarketBench** | LLM | MarketBench | 93 SWE-bench Lite Tasks / 6 LLMs / Success Probability + Token Estimation | Self-Assessment Calibration / Market Allocation Divergence from Full-Information Baseline | [Notes](./survey/2026-04-28-marketbench.md) | [arXiv](https://arxiv.org/abs/2604.23897) |
-| **ClinEval Rubrics** | LLM | ClinEval Rubrics | 823 Clinical Cases / 1,646 Rubrics / 20 Clinicians / 7 AI Agent Versions / 4 Specialties | LLM-Clinician Ranking Agreement (tau: 0.42–0.46) / Rubric Discriminability (82.9% gap) | [Notes](./survey/2026-04-28-clineval-rubrics.md) | [arXiv](https://arxiv.org/abs/2604.24710) |
-| **CT-FineBench** | VLM | CT-FineBench | CT-RATE + Merlin Datasets / Fine-Grained Disease Attributes / QA-Based Evaluation | Diagnostic Fidelity Score / Correlation with Expert Clinical Judgment / Attribute-Level Error Sensitivity | [Notes](./survey/2026-04-28-ct-finebench.md) | [arXiv](https://arxiv.org/abs/2604.24001) |
-| **AstroVLBench** | VLM | AstroVLBench | 4,100+ Expert-Verified Instances / 5 Astronomical Domains / 6 Frontier VLMs | Task-Specific Accuracy / Classification Bias / Physical Grounding Improvement (+13 pp) | [Notes](./survey/2026-04-28-astrovlbench.md) | [arXiv](https://arxiv.org/abs/2604.24589) |
+| **DV-World** | LLM | DV-World | 260 Tasks / 3 Professional Visualization Workflows / Real-World Scenarios | Table-Value Alignment / MLLM-as-a-Judge with Rubrics / Overall Task Success (<50% SOTA) | [Notes](./survey/2026-04-29-dv-world.md) | [arXiv](https://arxiv.org/abs/2604.25914) |
+| **DRAGON** | VLM | DRAGON | 11,664 Annotated Instances / 6 Diagram QA Datasets / 2,445-Instance Human-Verified Test Set / 8 VLMs | Evidence Grounding Accuracy / Bounding Box Localisation / Accuracy vs. Grounding Gap | [Notes](./survey/2026-04-29-dragon.md) | [arXiv](https://arxiv.org/abs/2604.25231) |
+| **AutoResearchBench** | LLM | AutoResearchBench | Deep Research + Wide Research Tasks / Frontier LLMs + Strong Baselines | Deep Research Accuracy (9.39%) / Wide Research IoU (9.31%) | [Notes](./survey/2026-04-29-autoresearchbench.md) | [arXiv](https://arxiv.org/abs/2604.25256) |
+| **PSI-Bench** | LLM | PSI-Bench | 7 LLMs / 2 Simulator Frameworks / Turn + Dialogue + Population Level Diagnostics | Behavioural Diversity / Emotional Trajectory Fidelity / Response Length Realism | [Notes](./survey/2026-04-29-psi-bench.md) | [arXiv](https://arxiv.org/abs/2604.25840) |
+| **SOB** | LLM | Structured Output Benchmark | 5,000 Text + 209 Image + 115 Audio Records / 21 Models / 7 Metrics | Value Accuracy (Text 83% / Image 67.2% / Audio 23.7%) / Schema Compliance / Context Length Degradation | [Notes](./survey/2026-04-29-sob.md) | [arXiv](https://arxiv.org/abs/2604.25359) |
+| **SciEval** | LLM | SciEval | 273 Lesson Materials / 3,549 Evaluations / 13 Pedagogical Criteria / 5 Models | Rubric Evaluation Accuracy / Fine-Tuning Gain (up to +11 pp) / Cross-Criteria Consistency | [Notes](./survey/2026-04-29-scieval.md) | [arXiv](https://arxiv.org/abs/2604.25472) |
+| **Semantic Layers Bench** | LLM | Semantic Layers Benchmark | 100 NL Questions / Contoso Retail Dataset / 3 Frontier Models (Claude Opus 4.7, Sonnet 4.6, GPT-5.4) | Text-to-SQL Accuracy / Hallucination Rate / Semantic Layer Impact (+17–23 pp, p<0.01) | [Notes](./survey/2026-04-29-semantic-layers-bench.md) | [arXiv](https://arxiv.org/abs/2604.25149) |
+| **LongSumEval** | LLM | LongSumEval | 7 Summarisation Benchmarks / QA-Based Coverage + Factual Alignment / Self-Refinement Loop | Human Judgment Correlation / Answerability Score / Factual Alignment Score / Refinement Quality | [Notes](./survey/2026-04-29-longsumeval.md) | [arXiv](https://arxiv.org/abs/2604.25130) |
 
 ---
 
