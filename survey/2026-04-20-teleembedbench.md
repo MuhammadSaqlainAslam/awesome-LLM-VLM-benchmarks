@@ -1,4 +1,4 @@
-# TeleEmbedBench: A Multi-Corpus Embedding Benchmark for RAG in Telecommunications (2026)
+﻿# TeleEmbedBench: A Multi-Corpus Embedding Benchmark for RAG in Telecommunications (2026)
 
 ## Problem
 Embedding models are the retrieval backbone of RAG systems, yet they are evaluated almost exclusively on general-domain text. Telecommunications documents — O-RAN specifications, 3GPP standards, and open-source radio codebase — have highly specialized vocabulary and mixed text-code structure that general-purpose embedders handle poorly. No prior benchmark systematically evaluates embedding quality for RAG specifically in the telecommunications domain.
@@ -27,7 +27,7 @@ Authors: Pranshav Gajjar, Vijay K Shah
 - Cross-domain interference between specifications and codebase is a significant challenge for all evaluated models
 - Chunk size of 1024 tokens provides the best average retrieval accuracy across corpora
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's network infrastructure division and CDMS (Contract Design and Manufacturing Services) business units work closely with 3GPP and O-RAN standards for 5G equipment manufacturing and integration. TeleEmbedBench directly benchmarks the retrieval quality that FoxBrain would need when providing RAG-assisted answers over 3GPP specification libraries, technical bulletins, and the codebase of network software stacks. The finding that domain-instructed LLM embedders are superior to sentence-transformers has immediate implications for how Foxconn should configure the embedding layer of its internal technical documentation RAG systems. Adopting TeleEmbedBench as an evaluation standard before deploying FoxBrain in any telecom-adjacent workflow would ensure retrieval quality meets the precision required for standards compliance.
 
 ---

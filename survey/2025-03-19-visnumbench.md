@@ -1,4 +1,4 @@
-# VisNumBench: Evaluating Number Sense of Multimodal Large Language Models (2025)
+﻿# VisNumBench: Evaluating Number Sense of Multimodal Large Language Models (2025)
 
 ## Problem
 Current multimodal benchmarks focus on symbolic math or text-based arithmetic, but ignore a foundational human perceptual skill: **number sense** — the ability to rapidly estimate, compare, and reason about quantities directly from visual data without explicit counting. No prior benchmark systematically tested whether MLLMs possess this capability.
@@ -18,7 +18,7 @@ Evaluation is zero-shot across 17 MLLMs spanning open-source models (Qwen2.5-VL,
 ## Key Results
 All 17 tested MLLMs perform **significantly below human levels** on number sense tasks. Multimodal math-specialized models and chain-of-thought (CoT) models show no significant improvement, indicating number sense is a distinct skill not addressed by math fine-tuning or reasoning augmentation.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Number sense is critical for FoxBrain's **manufacturing quality control** use cases: estimating defect density on a surface, comparing component counts across trays, or reading analog gauges. VisNumBench reveals that current MLLMs cannot reliably perform these tasks — FoxBrain must be targeted-trained on numerical visual estimation before factory-floor deployment.
 
 ---

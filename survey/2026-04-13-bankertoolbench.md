@@ -1,4 +1,4 @@
-# BankerToolBench: Evaluating AI Agents on End-to-End Investment Banking Workflows (2026)
+﻿# BankerToolBench: Evaluating AI Agents on End-to-End Investment Banking Workflows (2026)
 
 ## Problem
 Investment banking represents one of the highest-value, highest-stakes knowledge-work domains for AI automation — yet no benchmark evaluated whether LLM agents could complete full end-to-end banking workflows as a professional would. Tasks like navigating data rooms, interpreting SEC filings, building Excel financial models, and producing client-ready PowerPoint decks require sustained multi-step reasoning, cross-artifact consistency, and adherence to professional standards that generic agent benchmarks (web navigation, coding) do not test. Without a banking-specific evaluation, teams deploying AI in financial services had no way to assess whether outputs were actually client-ready.
@@ -28,7 +28,7 @@ Authors: Elaine Lau, Markus Dücker, Ronak Chaudhary, Hui Wen Goh.
 - All models show strong performance on individual sub-tasks in isolation but fail when evaluated holistically end-to-end
 - The 21-hour manual task duration reveals the practical value ceiling: even a 50%-accurate agent would save significant hours, but zero client-readiness means all outputs require full human rework
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 BankerToolBench establishes the benchmark for AI performance in high-value financial workflows — directly relevant to Foxconn's M&A analysis, supplier financial due diligence, and capital allocation reporting. The 0% client-ready finding is a critical reality check for FoxBrain's finance automation ambitions: current frontier models cannot be trusted to produce finance outputs without extensive human review, even when individual sub-tasks appear competent. The cross-artifact consistency metric is immediately applicable to FoxBrain's financial report pipeline — verify that figures in executive summaries match the underlying data models before any output reaches stakeholders. The 100+ rubric criteria framework can be adapted as FoxBrain's finance QA checklist.
 
 ---

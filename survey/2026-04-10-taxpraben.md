@@ -1,4 +1,4 @@
-# TaxPraBen: Structured Evaluation of LLMs on Chinese Real-World Tax Practice (2026)
+﻿# TaxPraBen: Structured Evaluation of LLMs on Chinese Real-World Tax Practice (2026)
 
 ## Problem
 Tax practice represents one of the most demanding real-world professional knowledge domains for LLMs: it requires mastery of dense regulatory text, numerical calculation accuracy, multi-step reasoning across interacting rules, and domain-specific judgment that cannot be replaced by generic language understanding. Existing LLM benchmarks for legal/regulatory domains use simplified or synthetic tasks; no benchmark evaluated LLM capabilities across the full spectrum of professional tax practice — from basic NLP tasks to complex real-world scenarios like tax risk prevention, inspection analysis, and strategic tax planning.
@@ -33,7 +33,7 @@ Evaluation uses structured parsing-field alignment for extraction tasks and exac
 - **Tax Strategy Planning** (Bloom's Level 6: Create) is the hardest scenario — requires integrating multiple regulatory constraints to generate novel strategies, not just retrieve or classify
 - The Bloom's Taxonomy structure reveals a consistent performance cliff at Level 5 (Evaluate) → Level 6 (Create) for all evaluated models
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 TaxPraBen directly benchmarks the regulatory compliance reasoning capabilities needed for Foxconn's tax, finance, and legal operations across Asian markets. The finding that Chinese-specialised models outperform multilingual ones is critical for FoxBrain's deployment in Taiwan, China, and Japan — generic multilingual models underperform on jurisdiction-specific regulatory text. The Bloom's Taxonomy framework provides a structured capability ladder for FoxBrain's compliance features: verify competence at each cognitive level (Remember → Create) before deploying in increasingly complex regulatory reasoning tasks. The 3 novel scenarios (risk prevention, inspection analysis, strategy planning) map directly onto Foxconn's compliance workflow priorities.
 
 ---

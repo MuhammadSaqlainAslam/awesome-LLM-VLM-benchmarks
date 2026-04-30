@@ -1,4 +1,4 @@
-# TPS-CalcBench: A Benchmark and Diagnostic Evaluation Framework for LLM Analytical Calculation Competence in Hypersonic Thermal Protection System Engineering (2026)
+﻿# TPS-CalcBench: A Benchmark and Diagnostic Evaluation Framework for LLM Analytical Calculation Competence in Hypersonic Thermal Protection System Engineering (2026)
 
 ## Problem
 LLMs are increasingly used to assist aerospace engineers with closed-form analytical calculations, but no benchmark exists for this safety-critical domain. Standard math benchmarks do not capture the formula-selection nuance and domain-specific physical reasoning required for hypersonic aerodynamics and high-temperature gas dynamics, leaving engineers without a reliable tool to assess LLM competence before deployment.
@@ -28,7 +28,7 @@ Authors: Jinglai Zheng, Chuhan Qiao, Haiming Huang
 - All three intervention methods (fine-tuning, RAG, CoT) provide meaningful improvements; combining them yields best results
 - Data-driven ranking of intervention strategies varies by difficulty tier, indicating no universal best approach
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn operates advanced manufacturing facilities that involve thermal management, materials stress analysis, and precision engineering calculations for electronics and server hardware assembly. TPS-CalcBench's diagnostic framework — particularly its formula-selection defect detection and difficulty-stratified evaluation — is directly applicable to auditing FoxBrain's performance on mechanical and thermal engineering calculations used in product design review and process engineering. The benchmark's three intervention strategies (RAG-EQ, PA-CoT, domain fine-tuning) provide a concrete roadmap for improving FoxBrain's reliability on closed-form analytical tasks in Foxconn's advanced manufacturing R&D workflows. Adopting TPS-CalcBench methodology for a FoxBrain-Engineering variant would establish safety gates before deploying LLM-assisted calculation in production-critical contexts.
 
 ---

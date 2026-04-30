@@ -1,4 +1,4 @@
-# WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models (2026)
+﻿# WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models (2026)
 
 ## Problem
 Existing code generation benchmarks evaluate LLMs on isolated functions or algorithmic problems, missing the complex multimodal web development context where developers work with visual designs, video tutorials, and textual specifications simultaneously. No prior benchmark evaluates code models on generation, editing, and repair tasks across text, image, and video input modalities in a unified framework.
@@ -27,7 +27,7 @@ Authors: Xinping Lei, Xinyu Che, Junqi Xiong, Chenchen Zhang, Yukai Huang, Cheny
 - Aesthetics represents the primary bottleneck for all evaluated models; Vue framework is the most challenging
 - Framework choice significantly impacts overall performance beyond model capability alone
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn develops internal web-based dashboards and enterprise portal tools for supply chain monitoring, quality inspection reporting, and factory-floor management. WebCompass directly measures whether code-generation models can handle the full web development lifecycle — from visual design to bug repair — which is exactly what FoxBrain needs to support Foxconn's internal tooling teams. The benchmark's video-input modality is particularly relevant for FoxBrain's scenario where developers record screen walkthroughs of legacy systems to guide automated code modernization. Evaluating FoxBrain against WebCompass's repair track would reveal its ability to maintain interactivity in retrofitted enterprise UI components.
 
 ---

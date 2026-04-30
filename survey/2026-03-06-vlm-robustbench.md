@@ -14,7 +14,7 @@ VLM-RobustBench spans 49 augmentation types — noise, blur, weather, digital, a
 ## Key Results
 VLMs are semantically strong but spatially fragile: subtle geometric distortions caused accuracy drops of up to **34 percentage points**, far exceeding the impact of visually severe photometric corruptions like noise or blur. All four evaluated VLM families showed consistent spatial reasoning fragility.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Critical finding for any FoxBrain deployment involving camera feeds or scanned documents from factory floors. Geometric distortions (perspective shift, rotation) are common in industrial imaging — FoxBrain's VLM pipeline must be stress-tested and potentially augmented with geometric pre-processing to avoid silent accuracy failures in visual reasoning tasks.
 
 ---

@@ -16,7 +16,7 @@ PaperArena provides 784 question-answer pairs requiring cross-paper scientific r
 ## Key Results
 Leading models achieve only **38.78% average accuracy** overall and **18.47% on hard subsets**, versus the 83.50% Ph.D. expert baseline — a gap of over 44 percentage points. Multi-tool orchestration and cross-paper synthesis remain severe bottlenecks even for frontier models.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 High strategic relevance. If FoxBrain is to support R&D teams in literature-grounded technical decision-making, the PaperArena methodology provides both a benchmark and a target architecture. The 38.78% → 83.50% gap quantifies the current ceiling; FoxBrain's scientific reasoning pipeline should be benchmarked here and the tool orchestration failures studied to inform system design improvements.
 
 ---

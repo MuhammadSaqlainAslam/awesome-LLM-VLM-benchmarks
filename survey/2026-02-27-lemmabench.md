@@ -12,7 +12,7 @@ Traditional mathematical benchmarks are static and quickly become part of the tr
 ## Key Results
 Frontier models that score 90%+ on GSM8K drop significantly to **12.4% Pass@1** on LemmaBench, highlighting the gap between memorization and novel mathematical reasoning.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 We should benchmark LemmaBench for our internal R&D. It provides a "moving target" that ensures FoxBrain’s mathematical logic is genuinely improving rather than just memorizing public datasets.
 
 ---

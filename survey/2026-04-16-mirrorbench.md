@@ -1,4 +1,4 @@
-# MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror (2026)
+﻿# MirrorBench: Evaluating Self-centric Intelligence in MLLMs by Introducing a Mirror (2026)
 
 ## Problem
 Existing MLLM benchmarks exclusively evaluate external object understanding — identifying, reasoning about, and describing things in the environment — but none assess whether a model can reason about itself as an agent in that environment. Self-recognition and self-referential understanding are foundational capabilities for embodied AI and autonomous agents, yet remain completely unaddressed by prior evaluation frameworks.
@@ -27,7 +27,7 @@ Authors: Shengyu Guo, Tongrui Ye, Jianbo Zhang, Zicheng Zhang, Chunyi Li, Guangt
 - Performance degrades monotonically as task complexity increases from perception to high-level self-representation
 - MirrorBench bridges psychology and embodied AI, providing the first principled evaluation of self-centric intelligence
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MirrorBench's evaluation of self-centric intelligence is directly relevant to Foxconn's ambitions for autonomous manufacturing robots and inspection agents that must maintain a model of their own position, state, and capabilities relative to the work environment. A robot that cannot robustly reason about itself cannot safely plan actions in complex assembly cells or avoid self-collision. The large gap between current MLLMs and human performance on even basic self-recognition tasks signals a capability limitation FoxBrain must address before deploying embodied agents in safety-critical factory environments. The tiered framework provides a structured roadmap for incremental capability improvements toward full embodied autonomy.
 
 ---

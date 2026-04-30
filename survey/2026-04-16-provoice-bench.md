@@ -1,4 +1,4 @@
-# ProVoice-Bench: From Reactive to Proactive — Assessing the Proactivity of Voice Agents (2026)
+﻿# ProVoice-Bench: From Reactive to Proactive — Assessing the Proactivity of Voice Agents (2026)
 
 ## Problem
 Existing voice agent evaluation frameworks focus exclusively on reactive interaction — agents that respond only when explicitly prompted — missing the emerging paradigm of proactive voice agents that can initiate helpful interventions, warnings, or information delivery based on contextual awareness. No benchmark existed to systematically evaluate the proactivity capabilities and failure modes of multimodal voice agents.
@@ -27,7 +27,7 @@ Authors: Ke Xu, Yuhao Wang, Yu Wang
 - ProVoice-Bench is the first benchmark to systematically evaluate proactive (vs. reactive) voice agent capabilities
 - The 1,182-sample evaluation set spans four qualitatively distinct proactivity task types
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 ProVoice-Bench is directly applicable to Foxconn's voice-enabled factory assistant use cases — FoxBrain could serve as a proactive voice agent on the production floor that alerts workers to process deviations, quality anomalies, or safety hazards without waiting to be asked. The benchmark's identification of over-triggering as the primary failure mode is critical: a proactive factory assistant that interrupts too frequently would disrupt production flow and erode worker trust. The four proactivity task types provide a structured evaluation framework for validating FoxBrain's voice interaction capabilities before deployment in noisy manufacturing environments.
 
 ---

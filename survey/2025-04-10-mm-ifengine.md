@@ -1,4 +1,4 @@
-# Paper Overview: MM-IFEngine: Towards Multimodal Instruction Following
+﻿# Paper Overview: MM-IFEngine: Towards Multimodal Instruction Following
 
 ## Problem
 What problem does this paper solve? (1–2 sentences)
@@ -19,7 +19,7 @@ List all benchmarks and datasets used.
 At least one concrete number.
 Fine-tuning models on MM-IF datasets yielded a **+10.2% gain on MM-IFEval** and a **+12.3% gain on the text-only IFEval**, proving that multimodal instruction tuning enhances general instruction adherence. Even top models like GPT-4o only achieve ~64.6% on MM-IFEval, highlighting significant room for improvement.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Is there anything we can learn or apply to FoxBrain?
 This is highly relevant for building reliable AI agents. If FoxBrain needs to produce specific outputs (like structured data from an image), we should adopt the MM-IFEngine pipeline to generate synthetic "constraint-satisfaction" training data for our local models to ensure they strictly follow formatting and grounding rules.
 

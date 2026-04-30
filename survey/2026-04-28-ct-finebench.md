@@ -1,4 +1,4 @@
-# CT-FineBench: A Diagnostic Fidelity Benchmark for Fine-Grained Evaluation of CT Report Generation (2026)
+﻿# CT-FineBench: A Diagnostic Fidelity Benchmark for Fine-Grained Evaluation of CT Report Generation (2026)
 
 ## Problem
 Automated CT report generation systems are evaluated using conventional NLP metrics (BLEU, ROUGE, BERTScore) that measure lexical overlap rather than clinical correctness. These metrics cannot detect fine-grained factual errors in disease-oriented attributes such as lesion location, size, and morphology — the exact errors that cause harm in clinical practice. A benchmark was needed that evaluates CT report generation based on diagnostic fidelity rather than text similarity.
@@ -27,7 +27,7 @@ Automated CT report generation systems are evaluated using conventional NLP metr
 - Attribute-level evaluation provides diagnostic signal: which types of errors a model makes, not just aggregate quality
 - The benchmark establishes the standard for evaluating medical report generation systems before clinical deployment
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 While CT report generation is a medical domain application, CT-FineBench's core methodology — using QA-based fine-grained attribute evaluation instead of lexical overlap metrics — is directly applicable to FoxBrain's structured report generation tasks. Foxconn generates quality inspection reports, engineering assessment reports, and supplier audit reports where attribute-level factual accuracy (defect location, measurement values, compliance status) matters far more than text fluency. Adopting CT-FineBench's QA-based evaluation methodology for FoxBrain's report generation pipeline would provide more reliable quality signals than BLEU/ROUGE-style metrics currently used in many NLG evaluation setups.
 
 ---

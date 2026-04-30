@@ -1,4 +1,4 @@
-# DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy (2026)
+﻿# DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy (2026)
 
 ## Problem
 Differential privacy (DP) is a critical mathematical framework for privacy-preserving data analysis, but manually verifying whether algorithms satisfy DP guarantees is expensive and error-prone. LLMs could in principle automate this reasoning, but there is no benchmark specifically designed to evaluate whether models can correctly determine if a function or algorithm satisfies a given DP guarantee. Existing code and math benchmarks do not cover the specialized privacy reasoning required, and the gap between handling textbook mechanisms versus advanced DP algorithms has never been quantified.
@@ -25,7 +25,7 @@ Authors: Erchi Wang, Pengrun Huang, Eli Chien, Om Thakkar, Kamalika Chaudhuri, Y
 - Stronger models handle textbook mechanisms well (Laplace, Gaussian, Randomized Response), but even frontier models fail to reliably verify more complex compositions and advanced mechanisms.
 - The benchmark successfully resists shortcut reasoning through trivial pattern matching, confirming that failures reflect genuine reasoning deficiencies rather than surface-level pattern recognition.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn handles sensitive employee, supplier, and manufacturing data subject to increasing global privacy regulations (GDPR, CCPA, emerging AI data laws). If FoxBrain is deployed to assist in data pipeline design, privacy impact assessments, or compliance verification, accurate differential privacy reasoning becomes a critical safety property. DPrivBench provides a direct tool to evaluate whether FoxBrain can reliably serve as a DP compliance assistant — the finding that even frontier models fail on advanced algorithms means FoxBrain should not be trusted for autonomous DP verification without human expert oversight. Evaluating FoxBrain on DPrivBench would clarify the safe scope of its use in data governance workflows and identify whether fine-tuning on DP-specific corpora could close the gap.
 
 ---

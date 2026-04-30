@@ -1,4 +1,4 @@
-# VSAS-Bench: Evaluating Streaming VLMs on Real-Time Video Understanding (2026)
+﻿# VSAS-Bench: Evaluating Streaming VLMs on Real-Time Video Understanding (2026)
 
 ## Problem
 Standard video understanding benchmarks evaluate VLMs on offline, pre-recorded clips where the model processes the entire video before generating a response. Real-world applications — autonomous vehicles, robotics, live surveillance, AR/VR assistants — require *streaming* understanding: continuous, low-latency responses as video frames arrive. Streaming VLMs face two unique challenges absent from offline evaluation: (1) **proactiveness** — responding at the right moment without being explicitly queried, and (2) **consistency** — maintaining coherent understanding as the scene evolves over time. No benchmark measured these streaming-specific capabilities with rigorous temporally-dense annotation.
@@ -30,7 +30,7 @@ The asynchronous protocol is the primary contribution — it uniquely captures t
 - All models show accuracy-latency trade-offs: lower latency responses degrade accuracy; higher accuracy responses introduce unacceptable lag for real-time applications
 - Consistency (maintaining coherent understanding over time) degrades faster than proactiveness as video complexity increases
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 VSAS-Bench directly benchmarks the streaming video capabilities needed for Foxconn's real-time manufacturing inspection, assembly monitoring, and factory-floor safety systems. The benchmark's core insight — that offline evaluation fundamentally misrepresents streaming performance — is critical for FoxBrain's deployment validation: evaluating FoxBrain on recorded inspection clips will overestimate real-world performance on live production-line cameras. The asynchronous protocol (respond only when state changes) maps directly onto FoxBrain's defect detection use case: the model must identify *when* a defect appears on the line, not just describe each frame. Adopt VSAS-Bench's dual-protocol evaluation before any FoxBrain deployment on live manufacturing video feeds.
 
 ---

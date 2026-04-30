@@ -1,4 +1,4 @@
-# OmniScience: A Domain-Specialized LLM for Scientific Reasoning and Discovery (2025)
+﻿# OmniScience: A Domain-Specialized LLM for Scientific Reasoning and Discovery (2025)
 
 ## Problem
 General-purpose LLMs struggle with deep scientific reasoning across specialized domains (chemistry, biology, physics, materials science) because their pretraining data is too broad and their instruction tuning lacks domain-specific rigor. No open model achieved competitive performance with closed models on expert-level science benchmarks at similar parameter counts.
@@ -17,7 +17,7 @@ OmniScience is built through a **three-stage specialized training pipeline**:
 ## Key Results
 OmniScience demonstrates that **targeted domain adaptation** (data curation + instruction tuning + reasoning distillation) outperforms general-purpose scaling at the same parameter budget for scientific domains. It achieves competitive performance with closed models on GPQA Diamond while remaining fully open-weights.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 OmniScience's training pipeline is a blueprint for FoxBrain's **materials science and manufacturing R&D** vertical. The same three-stage approach (domain pretraining on Foxconn technical documentation → instruction tuning on engineering QA → reasoning distillation) could yield a FoxBrain-Science variant that outperforms general models on factory-floor scientific reasoning tasks.
 
 ---

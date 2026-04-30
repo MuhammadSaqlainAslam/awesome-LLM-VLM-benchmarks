@@ -1,4 +1,4 @@
-# LegalEval-Q: A Benchmark for Quality Evaluation of LLM-Generated Legal Text (2025)
+﻿# LegalEval-Q: A Benchmark for Quality Evaluation of LLM-Generated Legal Text (2025)
 
 ## Problem
 Legal LLM evaluation has focused primarily on factual accuracy and task completion, neglecting the linguistic quality dimensions — clarity, coherence, and proper legal terminology — that determine whether AI-generated legal text is actually usable by practitioners. No benchmark existed to measure these quality axes at scale across a broad range of LLMs.
@@ -15,7 +15,7 @@ LegalEval-Q introduces a regression-model-based quality scoring framework that e
 ## Key Results
 Quality plateaus sharply around **14B parameters**, with only a **+2.7% gain** at 72B — suggesting diminishing returns from scaling for legal text quality specifically. Engineering choices like quantization have negligible impact on quality scores. **Reasoning model architectures consistently outperform base models** of comparable size, confirming that chain-of-thought reasoning is the decisive factor for legal text quality.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Actionable insight for FoxBrain's legal or compliance-adjacent applications: prioritize reasoning-capable model architectures (CoT/RL-trained) over raw parameter count for legal text tasks. The 14B quality plateau is a practical signal that scaling beyond that threshold for legal quality alone is cost-inefficient; invest in architectural improvements instead.
 
 ---

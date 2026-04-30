@@ -1,4 +1,4 @@
-# AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery (2026)
+﻿# AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery (2026)
 
 ## Problem
 AI agents capable of autonomous scientific literature discovery — finding specific papers through multi-step investigation and comprehensively collecting papers meeting specified criteria — are increasingly used in research workflows. Yet no benchmark existed to evaluate this capability rigorously. General agentic web-browsing benchmarks do not capture the deep comprehension of research concepts and deliberate multi-step reasoning that scientific literature search requires.
@@ -25,7 +25,7 @@ AI agents capable of autonomous scientific literature discovery — finding spec
 - Scientific literature discovery requires deep comprehension of domain concepts that goes far beyond keyword search or surface-level web browsing
 - AutoResearchBench reveals that conquering general benchmarks does not transfer to the specialised reasoning required for autonomous research assistance
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's R&D teams and IP strategy functions require systematic scientific literature discovery — tracking competitive research, identifying prior art for patent filings, and monitoring emerging technologies. AutoResearchBench's finding that top LLMs achieve only ~9% on rigorous literature discovery tasks means FoxBrain cannot be trusted to autonomously conduct comprehensive patent or research surveys without extensive human expert verification. The benchmark's distinction between Deep Research (finding specific papers) and Wide Research (comprehensive collection) maps directly to the two modes Foxconn's research intelligence teams use — and both are currently beyond reliable autonomous AI capability.
 
 ---

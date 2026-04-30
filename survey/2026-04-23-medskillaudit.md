@@ -1,4 +1,4 @@
-# MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills (2026)
+﻿# MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills (2026)
 
 ## Problem
 Managed Agent platforms enable deployment of specialised AI skills for medical research, but there is no standardised methodology for auditing those skills before release — assessing scientific integrity, methodological validity, reproducibility, and boundary safety. Without rigorous pre-deployment audit, medical research agents risk propagating flawed methodologies at scale, with patient safety and scientific credibility implications.
@@ -30,7 +30,7 @@ Authors: Hou et al.
 - System disagreement (SD = 9.5) is smaller than between-expert human disagreement (SD = 12.4), confirming the framework's reliability advantage
 - Academic Writing category reveals rubric-expert misalignment, indicating that audit rubrics must be domain-calibrated rather than universal
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's managed AI skill deployments for manufacturing process design, equipment maintenance protocols, and supply chain analytics face analogous pre-deployment auditing challenges to medical research skills. MedSkillAudit's skill-auditor@1.0 framework provides a directly adaptable template: replacing medical research dimensions (scientific integrity, reproducibility) with Foxconn-specific dimensions (manufacturing compliance, safety regulation adherence, process reproducibility). The finding that 57.3% of skills are deployment-unready provides a realistic baseline expectation for FoxBrain skill pipelines — motivating systematic pre-release auditing rather than ad-hoc testing. The ICC-based consistency measurement also gives the FoxBrain team a principled methodology for comparing automated audits against Foxconn domain-expert reviews.
 
 ---

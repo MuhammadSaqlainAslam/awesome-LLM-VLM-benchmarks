@@ -1,4 +1,4 @@
-# AgentBench: Evaluating LLMs as Agents (2023)
+﻿# AgentBench: Evaluating LLMs as Agents (2023)
 
 ## Problem
 The rapid deployment of LLMs as autonomous agents — capable of taking actions, browsing the web, writing and executing code, and interacting with databases — had outpaced rigorous multi-environment evaluation. No benchmark had systematically measured agent performance across diverse real-world task categories, making it impossible to compare models or identify capability gaps.
@@ -16,7 +16,7 @@ AgentBench defines 8 distinct environments spanning three grounding categories: 
 ## Key Results
 A large gap exists between top commercial models and open-source alternatives — GPT-4 leads significantly, while most open-source models of the time score near zero on web-grounded tasks. **Long-term reasoning** and **instruction-following across multi-step tasks** are identified as the two primary bottlenecks for all evaluated models.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 The foundational reference for FoxBrain's agentic evaluation. The 8-environment structure maps directly onto FoxBrain use cases: OS-level automation, database querying, web-based procurement, and knowledge graph traversal. The long-term reasoning bottleneck identified in AgentBench is precisely the capability FoxBrain's RL-based training should target. This benchmark should serve as a baseline before and after every major FoxBrain agent upgrade.
 
 ---

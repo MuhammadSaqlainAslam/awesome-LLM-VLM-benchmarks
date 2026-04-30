@@ -1,4 +1,4 @@
-# When Text Hijacks Vision: Benchmarking and Mitigating Text Overlay-Induced Hallucination in Vision Language Models (2026)
+﻿# When Text Hijacks Vision: Benchmarking and Mitigating Text Overlay-Induced Hallucination in Vision Language Models (2026)
 
 ## Problem
 Vision-language models hallucinate systematically when on-screen text contradicts the actual visual content of an image, defaulting to the textual overlay rather than reasoning from visual evidence. This "text hijacking" phenomenon is undetected by standard VLM benchmarks which do not construct adversarial text-visual conflicts, leaving a critical blind spot in safety and reliability evaluations.
@@ -27,7 +27,7 @@ Authors: Cui Yakun, Xingqun Qi, TianTian Geng, Yuyao Zhang, Sirui Han, Yike Guo
 - VTHM-MoE's adaptive token routing with four specialized experts reduces hallucination rates compared to single-model baselines
 - The benchmark identifies object-level hallucination as the most severe dimension, followed by spatial and action reasoning
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's visual quality inspection systems frequently encounter product images with overlaid labels, part numbers, barcode stamps, or warning text that may conflict with actual defect conditions observed in the image. FoxBrain deployed in visual QC pipelines must not be misled by text annotations on inspection images when the visual evidence tells a different story — exactly the failure mode VisualTextTrap benchmarks. Evaluating FoxBrain's VLM components against the VisualTextTrap L3–L5 intensity levels would reveal whether the system is reliable enough for production-floor deployment where mislabeled images or in-situ text annotations are common. The VTHM-MoE mitigation strategy also provides a direct upgrade path for FoxBrain's visual inspection pipeline.
 
 ---

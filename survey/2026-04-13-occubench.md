@@ -1,4 +1,4 @@
-# OccuBench: Evaluating LLM Agents on Professional Occupational Tasks with Fault Injection (2026)
+﻿# OccuBench: Evaluating LLM Agents on Professional Occupational Tasks with Fault Injection (2026)
 
 ## Problem
 Most agent benchmarks test generic web navigation or coding tasks that don't reflect the specialised judgment, domain knowledge, and error recovery required by real professional occupations. A medical billing agent, legal document drafter, and financial analyst face fundamentally different challenges — yet no benchmark evaluated LLM agents across a representative breadth of professional domains under realistic fault conditions. Equally important, no benchmark tested whether increased reasoning effort (more compute at inference time) actually improves professional task performance, leaving practitioners without data to guide compute allocation decisions.
@@ -34,7 +34,7 @@ Authors: Xiaomeng Hu, Yinger Zhang, Fei Huang, Jianhong Tu.
 - Healthcare and legal scenarios show the lowest task completion rates; financial and administrative tasks are most tractable
 - LWM-based simulation provides reproducible evaluation without requiring real professional tool access
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 OccuBench directly benchmarks FoxBrain's professional domain capabilities across Foxconn's core occupational functions: procurement (finance/contracts), quality engineering (manufacturing/technical), HR (administrative/legal), and regulatory compliance (legal/government). The +27.5pp reasoning effort scaling result is immediately actionable for FoxBrain's deployment strategy — high-stakes professional tasks (compliance review, contract analysis, financial due diligence) should always use maximum reasoning effort, while routine administrative tasks can use lower compute. The implicit fault detection failure mode maps directly onto FoxBrain's most critical risk: missing unstated errors in supplier contracts, quality specifications, or regulatory filings — the category where professional judgment is most irreplaceable.
 
 ---

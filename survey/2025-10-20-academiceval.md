@@ -11,7 +11,7 @@ Introduces a live benchmark that pulls the latest papers from **arXiv**. It task
 * **Metrics:** BERTScore, ROUGE-L, and **LLM-as-a-Judge** (assessing novelty, consistency, and style).
 * **Findings:** Performance drops sharply as input length grows; Retrieval-Augmented Generation (RAG) is preferred for Related Work, while long-context LLMs perform better on Abstracts.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 We can use the **AcademicEval pipeline** to test FoxBrain's ability to summarize our internal R&D technical reports and white papers without worrying about the model relying on pre-trained "leaked" knowledge.
 
 ---

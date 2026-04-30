@@ -37,7 +37,7 @@ Terminal-Bench provides agents with an interactive **tmux session** running insi
 
 No model exceeds 65%, confirming substantial headroom. Scaffold choice matters significantly — the right agent framework can add 10+ percentage points over a base model.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Terminal-Bench's Software Engineering, System Configuration, and Scientific Computing categories map directly to FoxBrain's highest-value agentic use cases: automated script writing for factory floor automation, configuration of manufacturing execution systems, and computational analysis for process optimisation. The Docker-sandboxed evaluation methodology provides a safe blueprint for FoxBrain's internal agentic testing — containering model actions before exposing them to live Foxconn infrastructure. The 10-category task taxonomy can serve as a template for Foxconn-specific terminal task assessment (e.g., PLC programming, ERP CLI interactions, sensor data pipelines).
 
 ---

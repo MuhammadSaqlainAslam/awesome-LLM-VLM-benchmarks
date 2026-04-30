@@ -16,7 +16,7 @@ Thunder-NUBench targets sentence-level negation understanding by contrasting sta
 ## Key Results
 All tested LLMs show systematic confusion between standard negation and local negation — the most structurally similar category. Models with strong NLI performance do not reliably transfer that ability to fine-grained negation disambiguation, confirming that current LLMs do not robustly understand sentence-level negation.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Relevant for FoxBrain deployments in quality control, regulatory compliance, or contractual text analysis where negation errors carry real operational risk (e.g., "the component does NOT meet spec" vs. "the component meets spec"). FoxBrain should be evaluated on Thunder-NUBench before any deployment where negation errors could propagate to downstream decisions.
 
 ---

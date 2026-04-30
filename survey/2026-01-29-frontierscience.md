@@ -42,7 +42,7 @@ Authors: Miles Wang, Robi Lin, Kat Hu, Joy Jiao, Neil Chowdhury, Ethan Chang, Te
 - **Chemistry** is the easiest subject across both tracks; **Biology** is the hardest on the Research track
 - Recent models have nearly saturated GPQA Diamond (>90%), confirming FrontierScience fills a critical difficulty gap above existing benchmarks
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 FrontierScience defines the frontier of scientific reasoning capability — directly relevant to FoxBrain's R&D applications in materials science, process chemistry, and engineering physics at Foxconn. The 52-point Olympiad–Research gap highlights a critical weakness: FoxBrain may perform competently on structured formula derivations but fail on ill-defined, multi-step research problems resembling real R&D tasks. The Research track's 10-point rubric methodology (≥7/10 for success) provides a template for evaluating FoxBrain on internal engineering problem-solving tasks where partial credit and reasoning quality matter more than exact-match correctness. Priority: run FoxBrain on the Olympiad track to establish a baseline before targeting the more demanding Research track problems.
 
 ---

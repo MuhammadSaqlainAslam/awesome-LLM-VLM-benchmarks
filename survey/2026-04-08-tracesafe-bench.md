@@ -43,7 +43,7 @@ Authors: Yen-Shan Chen, Sian-Yao Huang, Cheng-Lin Yang, Yun-Nung Chen.
 - All 20 evaluated systems fail on at least 3 of the 12 risk categories in multi-step settings
 - Prompt injection via tool outputs remains the most dangerous and least-detected risk
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 TraceSafe-Bench is essential for FoxBrain's multi-step tool-calling deployments across ERP APIs, supply chain systems, and manufacturing execution systems. A single mis-detected prompt injection in a mid-trajectory tool call could result in incorrect production orders, exposed supplier data, or corrupted quality records. The ρ ≈ 0 correlation with jailbreak benchmarks means FoxBrain's current safety evaluation (likely jailbreak-focused) provides no signal about agentic safety. Recommended: immediately add TraceSafe-Bench's 12-category mid-trajectory evaluation to FoxBrain's safety qualification suite; replace jailbreak-only red-teaming with structured multi-step execution safety testing before any FoxBrain agent deployment touching enterprise systems.
 
 ---

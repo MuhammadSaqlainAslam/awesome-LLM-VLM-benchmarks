@@ -17,6 +17,6 @@ List all benchmarks and datasets used.
 At least one concrete number.
 Achieves **76.1% on MathVista**, outperforming several models twice its size (+5.4% over previous 15B SOTA).
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Is there anything we can learn or apply to FoxBrain?
 Highly relevant. We can apply their "interleaved data" strategy to our internal training pipelines to improve 15B-class model efficiency.

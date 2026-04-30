@@ -1,4 +1,4 @@
-# AnalysisBench: Evaluating LLM Agents on Automated Software Analysis Tasks (2026)
+﻿# AnalysisBench: Evaluating LLM Agents on Automated Software Analysis Tasks (2026)
 
 ## Problem
 Software analysis — running static analysers, fuzz testers, symbolic executors, and dynamic instrumentation tools on real codebases — is one of the most technically demanding engineering tasks for AI agents. It requires not just code generation but installing tool dependencies, configuring complex environments, interpreting cryptic tool output, and iteratively debugging when tools fail or produce unexpected results. Existing coding benchmarks evaluate code generation in clean environments; none tested whether agents could autonomously operate the full software analysis toolchain on real, heterogeneous C/C++ and Java projects with all their build system complexity.
@@ -28,7 +28,7 @@ A custom **AnalysisAgent** framework is evaluated alongside frontier LLM backend
 - The 2 failures involve obscure build system incompatibilities not resolvable without human intervention
 - Java project analysis is slightly more reliable than C/C++ due to more predictable dependency management (Maven/Gradle vs. custom Makefiles)
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 AnalysisBench benchmarks exactly the software quality assurance automation capabilities needed for FoxBrain's engineering productivity tools at Foxconn: automatically running static analysis on embedded firmware, security scanning on factory automation code, and dynamic testing on industrial control software. The 94% success rate with AnalysisAgent is a strong signal that AI-assisted software analysis is production-ready for well-structured projects. The remaining 6% failure rate on complex build systems maps directly onto Foxconn's legacy codebase risk — FoxBrain should be deployed with a human-in-the-loop escalation path for build configuration failures. Adopt the AnalysisAgent scaffold pattern (not raw LLM prompting) as the architecture for FoxBrain's code quality automation pipeline.
 
 ---

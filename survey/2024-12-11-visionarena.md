@@ -21,7 +21,7 @@ VisionArena collects 230K conversations from Chatbot Arena, an open platform whe
 - Key finding: open-ended tasks (captioning, humor) are highly style-dependent; VLMs consistently struggle with spatial reasoning and visual planning
 - Accepted at **CVPR 2025**
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 VisionArena-Chat is a high-quality fine-tuning resource that FoxBrain can leverage for multimodal instruction tuning, particularly for open-ended visual QA tasks relevant to manufacturing (e.g., visual diagram explanation, OCR of engineering documents). The style-aware Bradley-Terry methodology for debiasing leaderboard scores is directly applicable to FoxBrain's internal VLM evaluation infrastructure, preventing verbose or markdown-heavy responses from gaming preference-based quality assessments.
 
 ---

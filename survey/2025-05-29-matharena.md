@@ -44,7 +44,7 @@ MathArena leverages **recurring, freshly released math competitions**, evaluatin
 
 Frontier models now surpass the human 99th percentile on numerical competitions — yet score only ~38% on formal IMO proof-writing. Contamination was confirmed in AIME 2024 but not 2025.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MathArena's contamination-free, live-release methodology is the gold standard for unbiased LLM evaluation and directly applicable to FoxBrain's internal benchmarking pipeline. The numerical competition format (automated exact-match scoring) can be adapted for Foxconn's engineering calculation validation tasks. The dramatic gap between numerical accuracy (~90%) and proof-writing ability (~38%) mirrors FoxBrain's likely gap between formulaic computation and multi-step engineering reasoning — a key capability to develop before deploying FoxBrain on complex design or optimisation problems.
 
 ---

@@ -1,4 +1,4 @@
-# Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks (2026)
+﻿# Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks (2026)
 
 ## Problem
 Existing agent benchmarks use binary pass/fail metrics on static tasks, failing to capture the iterative, optimization-driven nature of real engineering work. No benchmark existed to evaluate LLM agents on open-ended, industrial-grade engineering design tasks — where agents must propose solutions, receive executable simulation feedback, and iteratively refine designs across multiple interaction rounds under hard feasibility constraints and continuous reward signals.
@@ -28,7 +28,7 @@ Authors: Yizhe Chi, Deyao Hong, Dapeng Jiang, Tianwei Luo, Kaisen Yang, and 16 a
 - **Search depth proves more critical than width**: concentrating budget on deepening a promising solution trajectory beats exploring many diverse alternatives, a counter-intuitive finding for traditional tree search
 - Industrial simulators with continuous rewards expose failure modes invisible to binary benchmarks: agents often satisfy feasibility thresholds while failing to optimize toward engineering excellence
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Frontier-Eng is directly applicable to Foxconn's hardware engineering, manufacturing process optimization, and product design workflows. The dual power-law decay finding has immediate practical implications: FoxBrain engineering agents should be configured with depth-first iteration budgets rather than breadth-first exploration, and diminishing-returns thresholds should be built into deployment pipelines. The benchmark's continuous reward framework can serve as a template for Foxconn's own domain-specific engineering simulators (PCB layout, thermal management, structural analysis), enabling rigorous internal benchmarking before deploying FoxBrain in production engineering contexts.
 
 ---

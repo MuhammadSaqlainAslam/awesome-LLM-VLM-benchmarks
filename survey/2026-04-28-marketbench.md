@@ -1,4 +1,4 @@
-# MarketBench: Evaluating AI Agents as Market Participants (2026)
+﻿# MarketBench: Evaluating AI Agents as Market Participants (2026)
 
 ## Problem
 Multi-agent AI systems increasingly operate in competitive or coordinated environments where agents must self-assess their own capability and cost before bidding for or accepting tasks. Market-based coordination — where agents compete for tasks based on self-reported success probability and cost estimates — requires accurate self-calibration. No benchmark had measured whether LLM-based agents can actually self-assess their own task completion likelihood and resource consumption reliably enough to participate meaningfully in market-style allocation systems.
@@ -28,7 +28,7 @@ Multi-agent AI systems increasingly operate in competitive or coordinated enviro
 - Market allocation quality remains substantially below the full-information baseline despite interventions, confirming that agent self-assessment is the primary bottleneck for market-based AI coordination
 - MarketBench provides the first evaluation framework specifically for agent self-calibration in competitive multi-agent market settings
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's multi-agent FoxBrain architecture routes tasks across specialized agents — if a market-based or competitive allocation mechanism is used to assign tasks based on agent self-reported capability, MarketBench's findings are critical: agents cannot reliably estimate their own success probability or cost. This means any FoxBrain orchestration layer that relies on agent self-bids for task allocation must incorporate external performance history and calibration data rather than trusting agent self-reports. The benchmark also provides a direct evaluation framework for measuring FoxBrain's multi-agent market coordination readiness before deployment.
 
 ---

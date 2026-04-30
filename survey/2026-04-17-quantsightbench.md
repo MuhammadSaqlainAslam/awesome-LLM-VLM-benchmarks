@@ -1,4 +1,4 @@
-# QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals (2026)
+﻿# QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals (2026)
 
 ## Problem
 Existing LLM benchmarks focus on categorical or qualitative answers, leaving a critical gap in assessing numerical forecasting over continuous quantities. Calibration and uncertainty quantification — the ability to produce appropriately wide or narrow prediction intervals — are rarely tested, yet are essential for any deployment that requires probabilistic numerical reasoning. Prior work has not systematically measured whether LLMs achieve stated coverage targets across diverse real-world forecasting domains.
@@ -27,7 +27,7 @@ Authors: Jeremy Qin, Maksym Andriushchenko
 - Systematic overconfidence across all models, particularly pronounced at extreme magnitudes (very large or very small values).
 - Coverage degrades further at higher confidence levels (90% vs. 50%), indicating models fail to appropriately widen intervals for harder questions.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's FoxBrain is increasingly deployed in supply-chain demand forecasting, component pricing, and yield prediction — all of which require numerical estimates with uncertainty bounds rather than simple point predictions. QuantSightBench provides a direct evaluation framework to stress-test FoxBrain's calibration on continuous numerical outputs before deployment in procurement or capacity-planning workflows. The systematic overconfidence at extreme magnitudes is particularly relevant to Foxconn's outlier-heavy production contexts (e.g., surge orders, rare material shortages). Incorporating interval-calibration evaluation into FoxBrain's pre-release checklist would directly reduce downstream financial risk from overconfident AI forecasts.
 
 ---

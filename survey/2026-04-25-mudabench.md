@@ -1,4 +1,4 @@
-# MuDABench: Navigating Large-Scale Document Collections for Multi-Document Analytical QA (2026)
+﻿# MuDABench: Navigating Large-Scale Document Collections for Multi-Document Analytical QA (2026)
 
 ## Problem
 Enterprise knowledge work often requires synthesizing and performing quantitative analysis across large collections of documents — not just retrieving a single fact from one source. Standard retrieval-augmented generation (RAG) pipelines treat document collections as a flat pool and fail at tasks that require cross-document reasoning and structured aggregation. No benchmark had specifically targeted this class of multi-document analytical question answering at scale.
@@ -28,7 +28,7 @@ Enterprise knowledge work often requires synthesizing and performing quantitativ
 - Two primary bottlenecks identified: (1) per-document extraction accuracy limits what information is available for synthesis; (2) domain knowledge gaps cause models to fail at quantitative reasoning even when facts are available
 - A significant performance gap versus human experts persists even with the best proposed approach
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn generates massive volumes of internal documents — engineering reports, supplier specifications, quality audit records, procurement contracts, and production logs — that span thousands of pages across many files. MuDABench directly measures the capability FoxBrain would need to answer analytical questions like "Which supplier had the highest defect rate across Q1–Q3 reports?" or "Summarize all compliance failures mentioned across the 2025 audit documents." The benchmark's finding that flat RAG fails and multi-agent pipelines are needed guides FoxBrain's document intelligence architecture toward structured multi-agent extraction and synthesis workflows rather than single-pass retrieval.
 
 ---

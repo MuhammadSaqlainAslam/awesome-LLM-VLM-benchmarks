@@ -14,7 +14,7 @@ RepoReason introduces **Abductive Assertion Verification** — given a repositor
 ## Key Results
 Evaluations reveal a prevalent **"Aggregation Deficit"** across all frontier models: integration width (DFI) is the primary cognitive bottleneck, not raw reading volume. Claude and DeepSeek both struggle disproportionately with tasks that require synthesizing information across more than three files simultaneously.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Directly relevant for FoxBrain's agentic software engineering use cases. The DFI metric provides a practical diagnostic: before deploying FoxBrain for repository-level tasks, measure its cross-file integration capability on RepoReason tasks representative of target codebases. The abductive verification task format is also a valuable addition to FoxBrain's internal QA pipeline.
 
 ---

@@ -1,4 +1,4 @@
-# Rethinking Math Reasoning Evaluation: A Robust LLM-as-a-Judge Framework Beyond Symbolic Rigidity (2026)
+﻿# Rethinking Math Reasoning Evaluation: A Robust LLM-as-a-Judge Framework Beyond Symbolic Rigidity (2026)
 
 ## Problem
 Evaluating mathematical reasoning in LLMs typically relies on rule-based symbolic comparison — checking whether a model's answer matches a ground-truth expression exactly. However, mathematics admits many equivalent representations (e.g., 1/2 vs. 0.5 vs. 50%), and symbolic comparison tools like Lighteval and SimpleRL fail to generalize across these diverse formats. This leads to systematic evaluation errors — incorrectly penalizing correct answers and obscuring true model performance on mathematical reasoning tasks.
@@ -27,7 +27,7 @@ Evaluating mathematical reasoning in LLMs typically relies on rule-based symboli
 - LLM-as-a-judge methodology achieves clearer, more accurate assessment across equivalent answer formats
 - Evaluation errors propagate into reinforcement learning from verifiable rewards (RLVR) training pipelines, potentially degrading model quality through corrupted reward signals
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's FoxBrain is likely evaluated and trained on tasks involving quantitative reasoning — yield calculations, capacity planning, cost estimation, and engineering measurements — all of which involve mathematical expressions with many equivalent representations. If FoxBrain uses or is benchmarked against mathematical evaluation pipelines like Lighteval or SimpleRL, the systematic failures documented here mean FoxBrain's true mathematical capability may be underestimated or its training signal corrupted. This paper provides the rationale for adopting LLM-as-a-judge evaluation in FoxBrain's mathematical reasoning assessment pipeline.
 
 ---

@@ -1,4 +1,4 @@
-# MotionBench: Benchmarking Fine-grained Video Motion Understanding for VLMs (2025)
+﻿# MotionBench: Benchmarking Fine-grained Video Motion Understanding for VLMs (2025)
 
 ## Problem
 Existing video understanding benchmarks focus on scene-level semantics (what objects are in a video) but ignore **fine-grained motion comprehension** — the precise type, direction, speed, and sequence of movements. Current VLMs trained on static image-text pairs fail to capture the temporal dynamics that define motion.
@@ -26,7 +26,7 @@ Data is collected from diverse real-world video sources with **manual annotation
 * **Temporal Order** and **Motion Causality** categories are hardest; all tested models fail near chance.
 * **TE Fusion** method improves fine-grained motion accuracy by ~12% over vanilla video-LLM architectures with no extra inference cost.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Directly relevant for Foxconn's **manufacturing quality control** and **assembly line monitoring** — e.g., detecting if a robotic arm performed the correct motion sequence or if a worker assembled parts in the right order. MotionBench defines the bar FoxBrain's vision module must clear for reliable motion-aware inspection.
 
 ---

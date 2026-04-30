@@ -1,4 +1,4 @@
-# RespondeoQA: A Benchmark for Bilingual Latin-English Question Answering (2026)
+﻿# RespondeoQA: A Benchmark for Bilingual Latin-English Question Answering (2026)
 
 ## Problem
 Classical Latin is a high-value low-resource language underpinning legal, scientific, and historical scholarship, yet no benchmark had rigorously assessed how well contemporary LLMs handle bilingual Latin-English reasoning — particularly for skill-oriented tasks such as poetic scansion, literary device identification, and grammar parsing. This gap leaves Latin educators and digital humanities researchers without evidence-based model selection guidance.
@@ -30,7 +30,7 @@ Authors: (authors listed in paper)
 - Reasoning models (QwQ, o3-mini) produce modest improvements on specific skill tasks over LLaMa 3, but gains are inconsistent across task subtypes
 - The 7,800-pair scale and temporal diversity of source materials (spanning 200 years of pedagogy) make RespondeoQA robust against recency bias
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 While Latin QA is not a core Foxconn use case, RespondeoQA's significance for FoxBrain lies in what it reveals about LLM skill-oriented reasoning in specialised low-resource domains. Foxconn's operations involve numerous specialised technical notations — circuit schematic notation, PCB layout conventions, industrial process control syntax — that share with Latin the property of being skill-oriented rather than purely knowledge-retrieval tasks. The benchmark's finding that reasoning models improve skill tasks inconsistently guides the FoxBrain team toward targeted fine-tuning rather than assuming frontier model capability on procedural technical tasks. The bilingual Latin/English evaluation paradigm also provides a methodology template for evaluating FoxBrain's cross-lingual technical reasoning in Chinese/English industrial contexts.
 
 ---

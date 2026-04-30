@@ -1,4 +1,4 @@
-# MATHVERSE: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems? (ECCV 2024)
+﻿# MATHVERSE: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems? (ECCV 2024)
 
 ## Problem
 Existing visual math benchmarks pack excessive diagrammatic information *redundantly* into both images and text, allowing MLLMs to solve problems by reading only the text — without ever interpreting the diagram. This creates an illusion of visual math competence and masks a fundamental weakness.
@@ -22,7 +22,7 @@ This ablation design yields **15K+ total test samples**. A CoT evaluation strate
 ## Key Results
 Most MLLMs rely heavily on textual shortcuts — performance drops sharply as text content is reduced. **Genuine visual mathematical reasoning** (extracting values, relationships, or quantifiers directly from diagrams) remains weak across all tested frontier models, including GPT-4V. The Vision Only setting exposes a severe gap between claimed and actual visual math capability.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 FoxBrain will need to read engineering schematics, circuit diagrams, and tolerance charts — all of which are Vision Intensive or Vision Only scenarios. MATHVERSE's six-version ablation is the right diagnostic to reveal whether FoxBrain is truly interpreting technical drawings or relying on caption-like metadata in the prompt.
 
 ---

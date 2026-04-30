@@ -1,4 +1,4 @@
-# VL-RewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models (2024)
+﻿# VL-RewardBench: A Challenging Benchmark for Vision-Language Generative Reward Models (2024)
 
 ## Problem
 Vision-Language Generative Reward Models (VL-GenRMs) are critical for RLHF alignment of multimodal AI systems, yet there was no dedicated benchmark to evaluate how well these reward models judge VLM outputs. Without a rigorous testbed, it was unknown whether VL-GenRMs genuinely understand multimodal content or just exploit text-level biases.
@@ -24,7 +24,7 @@ The benchmark is explicitly designed to expose the failure modes of VL-GenRMs �
 * Key insight: models fail primarily on **basic visual perception** tasks, not reasoning — the reward model doesn't see what humans see.
 * Training VL-GenRMs with "learn to judge" signal yields **+14.7% accuracy** for 7B models.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 If FoxBrain uses RLHF or RLAIF for multimodal alignment, VL-RewardBench is the **reward model quality gate**. A weak reward model will misalign the base VLM in unpredictable ways. Benchmark your reward model here before any RLHF training run. The hallucination detection category is especially relevant for factory-floor visual inspection applications.
 
 ---

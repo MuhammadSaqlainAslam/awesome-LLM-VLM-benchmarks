@@ -23,7 +23,7 @@ FineVision constructs the **largest open multimodal instruction-tuning corpus** 
 ## Key Results
 FineVision demonstrates that **open data, when curated at sufficient scale and quality, matches or beats proprietary data** for VLM instruction tuning. The 40–46% relative improvements over prior open corpora, combined with benchmark-decontaminated validation, establish FineVision as the reference open dataset for multimodal training.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 FineVision is the training dataset infrastructure play for FoxBrain's VLM component. Its semi-automated pipeline can be adapted to unify Foxconn's internal visual datasets (inspection images, CAD drawings, process documentation) into a structured, deduplicated corpus — ensuring FoxBrain's multimodal fine-tuning is not contaminated by evaluation benchmarks and achieves maximum data efficiency.
 
 ---

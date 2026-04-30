@@ -1,4 +1,4 @@
-# HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents? (2026)
+﻿# HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents? (2026)
 
 ## Problem
 The rapid growth of skill/plugin marketplaces for LLM agents introduces a novel attack surface: harmful capabilities can be packaged as installable skills that override model safety behaviors when invoked. Existing safety benchmarks focus on direct adversarial prompts against standalone models, missing the qualitatively different threat of pre-installed harmful skills embedded in agent ecosystems. There is no large-scale measurement of harmful skill prevalence in real registries or systematic evaluation of how skill installation degrades model safety.
@@ -26,7 +26,7 @@ Authors: Yukun Jiang, Yage Zhang, Michael Backes, Xinyue Shen, Yang Zhang
 - Implicit framing of harmful intent (not stating the goal explicitly) raises harm scores to 0.76 — nearly 3× the baseline — because models treat the skill's purpose as legitimate context.
 - ClawHub shows 2.5× the harmful skill prevalence of Skills.Rest, indicating registry governance quality significantly affects downstream safety exposure.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 As Foxconn deploys FoxBrain with plugin/tool ecosystems for enterprise workflows (ERP integrations, procurement APIs, quality-control tools), the HarmfulSkillBench findings introduce a critical enterprise security concern: third-party or internally developed skills could inadvertently or maliciously lower FoxBrain's safety guardrails. Any skill marketplace or plugin registry used with FoxBrain should undergo the same prevalence audit methodology described in this paper before deployment. The implicit-intent finding (0.76 harm score) is especially concerning for manufacturing contexts where automation scripts often omit intent context, making it easy for harmful instructions to slip through. Foxconn's AI governance team should establish a skill vetting pipeline analogous to HarmfulSkillBench's 20-category taxonomy before opening FoxBrain to third-party extensions.
 
 ---

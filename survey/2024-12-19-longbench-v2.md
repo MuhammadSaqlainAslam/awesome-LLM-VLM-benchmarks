@@ -39,7 +39,7 @@ Existing long-context benchmarks — including LongBench v1 — can often be sol
 
 At release, frontier models could barely match human performance under time pressure (57.7% vs 53.7%). By April 2026, Gemini 2.5 Pro has pushed to **63.3%**, exceeding the human baseline — but the benchmark is deliberately harder than humans can solve perfectly in 15 minutes, leaving significant headroom.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 LongBench v2's "code repository understanding" and "long structured data understanding" categories are directly applicable to FoxBrain's use case — parsing large Foxconn software codebases, multi-hundred-page technical specifications, and long structured BOM/ERP export files. The medium context tier (32K–128K) represents the most practically relevant range for FoxBrain's factory floor document library; performance in this tier should be the primary gating metric before deploying FoxBrain on multi-document reasoning tasks. The human baseline (53.7% under time pressure) provides a realistic production target.
 
 ---

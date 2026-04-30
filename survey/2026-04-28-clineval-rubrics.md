@@ -1,4 +1,4 @@
-# ClinEval Rubrics: Case-Specific Rubrics for Clinical AI Evaluation — Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters (2026)
+﻿# ClinEval Rubrics: Case-Specific Rubrics for Clinical AI Evaluation — Methodology, Validation, and LLM-Clinician Agreement Across 823 Encounters (2026)
 
 ## Problem
 Evaluating clinical AI systems at scale requires consistent, case-specific quality assessment — but clinician-authored rubrics are expensive and slow to produce, creating a bottleneck for continuous AI quality monitoring in healthcare settings. Existing evaluation methods lack the case-specificity to differentiate high- and low-quality AI outputs across diverse clinical specialties, and no study had validated whether LLM-generated rubrics can match the reliability of clinician-authored ones at a fraction of the cost.
@@ -28,7 +28,7 @@ Evaluating clinical AI systems at scale requires consistent, case-specific quali
 - The methodology tracked AI agent quality improvement from 84% to 95% across 7 agent versions, demonstrating its sensitivity to real performance changes
 - Ceiling compression at high performance levels presents a methodological consideration for inter-rater studies at the frontier of AI quality
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's FoxBrain is deployed across high-stakes operational domains — engineering assessment, supplier evaluation, quality audit — where evaluating AI output quality at scale faces the same cost-vs-reliability tension as clinical AI. ClinEval Rubrics' demonstration that LLM-generated case-specific rubrics match clinician-level evaluation reliability at 1,000× lower cost provides a direct model for FoxBrain's own quality evaluation pipeline. Rather than relying on expensive human expert review of every AI output, FoxBrain could implement LLM-generated domain-specific rubrics to provide continuous, scalable quality monitoring across manufacturing and engineering AI applications.
 
 ---

@@ -1,4 +1,4 @@
-# DailyClue: Seek-and-Solve Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios (2026)
+﻿# DailyClue: Seek-and-Solve Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios (2026)
 
 ## Problem
 Multimodal large language models are typically evaluated on tasks where answers are directly perceivable in images, but fail to assess whether models can actively identify and extract the specific visual clues necessary to solve a question — a process requiring active search and selective attention rather than passive perception. No existing benchmark required models to first locate decisive visual evidence before performing multi-step reasoning, leaving an important capability unmeasured.
@@ -27,7 +27,7 @@ Authors: Xiaomin Li, Tala Wang, Zichen Zhong, Ying Zhang, Zirui Zheng, Takashi I
 - The benchmark presents a "formidable challenge" to current state-of-the-art MLLMs, with all tested models falling well below human-level performance across all 16 subtasks.
 - Agentic models show modest improvement over standard MLLMs on clue identification, indicating that iterative search strategies partially compensate for passive perception limitations.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 DailyClue's seek-and-solve paradigm maps directly to Foxconn's quality control inspection workflows, where FoxBrain agents must identify specific visual defect indicators in product images before making pass/fail decisions — a process that requires targeted attention, not generic image understanding. The 16-subtask structure provides a template for designing FoxBrain visual inspection benchmarks that separate clue-finding capability from post-clue reasoning, enabling more targeted model diagnostics. The benchmark's emphasis on daily-scenario reasoning also validates FoxBrain's coverage for employee-facing applications such as factory-floor troubleshooting assistants and equipment maintenance guidance tools. Understanding where current MLLMs fail on clue-driven reasoning helps prioritize fine-tuning investments for FoxBrain's inspection AI systems.
 
 ---

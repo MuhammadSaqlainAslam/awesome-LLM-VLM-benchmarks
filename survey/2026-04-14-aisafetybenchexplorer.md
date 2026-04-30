@@ -1,4 +1,4 @@
-# AISafetyBenchExplorer: A Metric-Aware Catalogue of AI Safety Benchmarks Reveals Fragmented Measurement and Weak Benchmark Governance (2026)
+﻿# AISafetyBenchExplorer: A Metric-Aware Catalogue of AI Safety Benchmarks Reveals Fragmented Measurement and Weak Benchmark Governance (2026)
 
 ## Problem
 The AI safety evaluation landscape has undergone massive proliferation — over 195 benchmarks from 2018 to 2026 — but without corresponding standardization of measurement practices, leading to a situation where familiar metric labels (accuracy, F1, safety score) conceal materially different judges, aggregation rules, and threat models. Researchers and practitioners lack principled criteria for benchmark selection, and the majority of safety benchmarks are poorly maintained, rendering comparative evaluation of AI safety progress unreliable.
@@ -30,7 +30,7 @@ Authors: Abiodun A. Solanke
 - 70% of catalogued safety benchmarks have stale GitHub repositories, and 49% have inactive Hugging Face datasets, indicating a critical maintenance crisis in the safety evaluation ecosystem.
 - Benchmark adoption is highly concentrated: only 7 of 195 benchmarks achieve "Popular" status, while the majority are published once and never revisited, creating a misleading illusion of comprehensive coverage.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 AISafetyBenchExplorer provides FoxBrain's AI safety team with a curated starting point for selecting trustworthy, actively maintained safety evaluation benchmarks rather than defaulting to whatever is most cited. The 85% English-only coverage gap directly flags a risk for Foxconn's multilingual deployments across Asia: safety certifications based on English-only benchmarks may not transfer to Mandarin, Japanese, or Indic language contexts. The catalogue's medium-complexity classification system helps FoxBrain teams calibrate testing difficulty against the operational complexity of target deployment scenarios (e.g., factory control vs. customer-facing chat). The stale-repository finding mandates that Foxconn's AI governance policy require benchmark maintenance status verification before any safety benchmark is incorporated into FoxBrain's certification pipeline.
 
 ---

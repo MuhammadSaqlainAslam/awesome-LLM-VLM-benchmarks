@@ -16,7 +16,7 @@ The **Scientific Discovery Evaluation (SDE)** framework is built around genuine 
 ## Key Results
 All current LLMs show consistent performance gaps versus general science benchmarks when evaluated on genuine discovery scenarios, with **diminishing returns from scaling** observable across the 51-co-author model set. Cross-model failure modes cluster around experimental design and result interpretation — the least textbook-like task types. The authors conclude that all current LLMs remain distant from scientific superintelligence.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 A strategic benchmark for FoxBrain's R&D-assist positioning. If FoxBrain is intended to support materials science or process engineering research at Foxconn, SDE provides exactly the right evaluation framework — project-level scenarios that mirror actual research workflows rather than textbook QA. The experimental design failure mode is the highest-risk gap to close first.
 
 ---

@@ -1,4 +1,4 @@
-# PolicyBench: Towards Excellent Comprehension of Public Policy for LLMs (2026)
+﻿# PolicyBench: Towards Excellent Comprehension of Public Policy for LLMs (2026)
 
 ## Problem
 Large language models are increasingly used for policy analysis, regulatory compliance, and government advisory tasks — yet no large-scale benchmark evaluated LLM policy comprehension across cognitive levels (memorization, understanding, application) or across legal systems (US and China). Existing evaluations treat policy comprehension as a factual recall task, ignoring the critical higher-order skills of policy interpretation and real-world problem-solving that define professional policy analysis.
@@ -29,7 +29,7 @@ Authors: Han Bao, Penghao Zhang, Yue Huang, Zhengqing Yuan, Yanchi Ru, Rui Su, Y
 - Structured reasoning tasks consistently achieve higher accuracy than open-ended interpretation, suggesting LLMs rely on pattern matching rather than genuine policy reasoning when structure is available
 - Cross-system evaluation (US vs. China) reveals significant performance asymmetries, with models showing notably stronger comprehension of US policy frameworks
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 PolicyBench is directly applicable to Foxconn's regulatory compliance and government relations operations across US, Chinese, EU, and APAC jurisdictions. The Bloom's Taxonomy framing provides an actionable framework for FoxBrain compliance use cases: FoxBrain can be more reliably trusted for application-level regulatory problem-solving (determining compliance status given a scenario) than for nuanced policy interpretation. The cross-system evaluation gap — stronger US performance — is a critical warning for FoxBrain deployments in Chinese regulatory contexts (MIIT, PIPL, CCSM), where higher human oversight should be maintained. The PolicyMoE expert-per-level architecture is a template for domain-specific fine-tuning of FoxBrain on Foxconn's specific regulatory environments.
 
 ---

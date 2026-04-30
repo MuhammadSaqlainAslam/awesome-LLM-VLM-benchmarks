@@ -25,7 +25,7 @@ The core contribution is a **Cross-Modal Formalization Pipeline** that converts 
 - A 7B model outperforms GPT-4o on MathVerse ALL (+5.2%) and MathVista (+4.1%)
 - Cross-modal formalization enables RL training on visual reasoning at a fraction of the cost of larger proprietary models
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 R1-Onevision's cross-modal formalization pipeline is directly applicable to Foxconn's engineering workflows: circuit schematics → SPICE, process flowcharts → PlantUML, BOM tables → JSON. This structured intermediate representation enables FoxBrain to apply verifiable RL training on factory-relevant visual reasoning tasks without requiring hand-labeled symbolic annotations. The difficulty-graded R1-Onevision-Bench structure can serve as a template for FoxBrain's own tiered engineering assessment suite.
 
 ---

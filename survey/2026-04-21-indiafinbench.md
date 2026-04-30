@@ -1,4 +1,4 @@
-# IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text (2026)
+﻿# IndiaFinBench: An Evaluation Benchmark for Large Language Model Performance on Indian Financial Regulatory Text (2026)
 
 ## Problem
 Existing financial NLP benchmarks focus almost exclusively on Western markets and regulatory frameworks, leaving a critical gap for the world's fifth-largest economy. LLMs deployed in Indian financial services must interpret regulatory documents from SEBI, RBI, IRDAI, and other authorities — requiring regulatory interpretation, numerical reasoning, contradiction detection, and temporal reasoning skills that no prior benchmark tested in this jurisdiction.
@@ -28,7 +28,7 @@ Authors: Rajveer Singh Pall
 - Numerical reasoning exhibits the widest performance spread at 35.9 percentage points between strongest and weakest models
 - Inter-annotator agreement of kappa=0.611 (76.7% overall) confirms benchmark quality
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's Shareholder Services, treasury operations, and supplier finance workflows in India require compliance with SEBI listing obligations, RBI foreign exchange regulations, and IRDAI insurance mandates. FoxBrain could be deployed to automate regulatory interpretation and compliance checking for Foxconn India's rapidly expanding manufacturing presence (including the iPhone assembly plant in Tamil Nadu). The numerical reasoning task type directly maps to FoxBrain's use case of parsing and validating financial figures in supplier contracts and regulatory filings. The benchmark's contradiction detection task is particularly relevant for catching inconsistencies in multi-document procurement compliance packages.
 
 ---

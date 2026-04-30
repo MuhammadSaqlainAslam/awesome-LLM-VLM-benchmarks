@@ -29,7 +29,7 @@ Domain-level leaders: Claude 4.1 Opus leads in Law, Software Engineering, and Hu
 
 **Key finding:** "Overall intelligence does not reliably predict strong embedded knowledge or low hallucination rates." Model selection should be domain-specific, not based on aggregate leaderboard rank.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 AA-Omniscience's domain structure — particularly Law, Software Engineering, and Science/Engineering/Mathematics — maps to FoxBrain's highest-risk deployment contexts: compliance and regulatory reasoning (Law), code generation and debugging (Software Engineering), and process/materials analysis (Science/Engineering). The Omniscience Index's abstention penalty is production-critical for Foxconn: a model that confidently gives wrong legal or engineering answers is more dangerous than one that abstains. FoxBrain's production deployment gates should require a positive OI score (>0) on the relevant domain before any unsupervised agentic deployment in that vertical.
 
 ---

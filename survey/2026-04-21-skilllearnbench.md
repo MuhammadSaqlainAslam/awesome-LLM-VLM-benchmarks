@@ -1,4 +1,4 @@
-# SkillLearnBench: Benchmarking Continual Learning for Agent Skill Generation (2026)
+﻿# SkillLearnBench: Benchmarking Continual Learning for Agent Skill Generation (2026)
 
 ## Problem
 LLM agents increasingly rely on externally stored skills to handle complex tasks, but no benchmark had systematically evaluated whether continual skill learning methods actually improve agent performance over time on real-world tasks. The field lacked a standardised testbed that spans diverse sub-domains and measures skill quality, execution trajectories, and final task outcomes simultaneously.
@@ -28,7 +28,7 @@ Authors: Shanshan Zhong, Yi Lu, Jingjie Ning, Yibing Wan, Lihan Feng, Yuyi Ao, L
 - Stronger LLMs do not reliably produce better skills; model capability and skill generation quality are partially decoupled
 - External feedback is essential; self-feedback alone causes recursive drift that degrades performance on open-ended tasks
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Manufacturing automation at Foxconn increasingly relies on agentic systems that must learn and reuse skills across production workflows — from automated test routines to equipment calibration procedures. SkillLearnBench directly measures whether FoxBrain agents can accumulate reusable skills over time without catastrophic forgetting, which is critical for Foxconn's goal of deploying adaptive AI agents across changing production lines. The benchmark's 15 sub-domain structure mirrors the diversity of Foxconn's factory operations, where agents must handle tasks ranging from component inspection to logistics coordination. The finding that external teacher feedback outperforms self-feedback guides the FoxBrain team toward human-in-the-loop skill validation architectures.
 
 ---

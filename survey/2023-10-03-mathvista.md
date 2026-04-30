@@ -1,4 +1,4 @@
-# MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts (2023)
+﻿# MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts (2023)
 
 ## Problem
 Math reasoning benchmarks and visual understanding benchmarks had evolved independently, leaving untested the compositional challenge of mathematical reasoning in visual contexts. Models that excel at text-based math and at image captioning still fail when required to jointly parse a figure and perform multi-step mathematical reasoning on its content.
@@ -16,7 +16,7 @@ MathVista combines challenges from 28 existing multimodal math datasets with 3 n
 ## Key Results
 At release, **GPT-4V achieved 49.9% accuracy** — the best model result — still **10.4 percentage points below human performance** (60.3%). Models with strong text-math ability do not automatically transfer that ability to visual math contexts, confirming that visual-math compositional reasoning is a distinct and underexplored capability. Current SOTA as of early 2026 has risen significantly with models like Gemini and GPT-4o series.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Essential benchmark for any FoxBrain visual analytics application — engineering diagrams, production charts, quality control graphs, or scientific figures in R&D workflows. The IQTest and FunctionQA subsets are particularly relevant for manufacturing process optimization tasks that require interpreting numerical trends from visual displays. FoxBrain should target above human-level (>60.3%) on MathVista for visual analytics deployments.
 
 ---

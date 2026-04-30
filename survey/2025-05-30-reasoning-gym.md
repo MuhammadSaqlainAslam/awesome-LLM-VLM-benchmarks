@@ -44,7 +44,7 @@ Reasoning Gym provides **100+ programmatic task generators and verifiers** acros
 - Transfer to external benchmarks: MATH +9.7pp, Big-Bench Hard +7.7pp, MMLU-Pro +2.9–6.0pp
 - Curriculum learning outperforms fixed-difficulty training by +2.0% to +40.67%
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Reasoning Gym's 32 Algorithms and 6 Graphs task generators are directly applicable to FoxBrain's training for supply chain optimisation, scheduling, and BOM dependency reasoning — all structurally equivalent to graph/algorithmic problems. The framework's RLVR approach offers a practical, low-cost (~1,500 GPU hours) training recipe for improving FoxBrain's general reasoning without task-specific human annotation. The cross-domain transfer finding (+29.1pp algebra from algorithm training) suggests that training FoxBrain on manufacturing-specific procedural tasks (assembly sequences, process graphs) would generalise to engineering calculation and optimisation tasks, providing broad capability uplift from a focused training dataset.
 
 ---

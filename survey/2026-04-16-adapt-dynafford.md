@@ -1,4 +1,4 @@
-# ADAPT: Benchmarking Commonsense Planning under Unspecified Affordance Constraints (2026)
+﻿# ADAPT: Benchmarking Commonsense Planning under Unspecified Affordance Constraints (2026)
 
 ## Problem
 Existing embodied AI benchmarks assume static object affordances explicitly specified in task instructions, failing to capture real-world environments where object states change dynamically and affordance constraints are never explicitly stated. Agents must infer which actions are physically possible from current object states — a commonsense capability that prior benchmarks do not systematically evaluate.
@@ -27,7 +27,7 @@ Authors: Pei-An Chen, Yong-Ching Liang, Jia-Fong Yeh, Hung-Ting Su, Yi-Ting Chen
 - The plug-and-play affordance module significantly improves success rates on DynAfford vs. base planners
 - Unspecified affordance constraints expose a critical gap in current embodied AI planning systems
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 ADAPT's focus on dynamic, unspecified affordance constraints maps directly to Foxconn's robotics and automated assembly contexts, where a robot arm or mobile platform must infer whether an action is physically feasible given the current state of parts, fixtures, or workpieces — without explicit runtime specification. The benchmark's key finding that domain-adapted finetuned VLMs beat commercial LLMs validates Foxconn's strategy of fine-tuning FoxBrain on manufacturing-specific visual contexts. The plug-and-play affordance module design suggests a practical path for adding constraint-aware planning to existing FoxBrain robotic control pipelines without full architectural overhaul.
 
 ---

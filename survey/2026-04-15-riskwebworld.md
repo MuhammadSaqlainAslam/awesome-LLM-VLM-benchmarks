@@ -1,4 +1,4 @@
-# RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management (2026)
+﻿# RiskWebWorld: A Realistic Interactive Benchmark for GUI Agents in E-commerce Risk Management (2026)
 
 ## Problem
 Existing interactive GUI agent benchmarks focus exclusively on benign, predictable consumer environments (shopping, information retrieval) and fail to assess agents in high-stakes adversarial contexts such as e-commerce risk control, fraud investigation, and compliance enforcement. This leaves a critical gap: real production risk-management pipelines involve uncooperative websites, partial environmental hijackments, and investigative reasoning under uncertainty — capabilities entirely absent from prior benchmarks.
@@ -27,7 +27,7 @@ Authors: Renqi Chen, Zeyin Tao, Jianming Guo, Jing Wang, Zezhou Xu, Jingzhe Zhu,
 - Specialized open-weight GUI models that excel on consumer benchmarks show near-total failure on risk tasks, revealing a severe generalization gap.
 - Agentic reinforcement learning improves open-source model performance by 16.2 percentage points, confirming that RL from experience is effective for adversarial GUI environments.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 RiskWebWorld's focus on high-stakes investigative GUI tasks directly parallels Foxconn's supplier compliance verification, procurement fraud detection, and internal audit workflows — scenarios where FoxBrain agents must navigate complex enterprise portals and extract evidence under adversarial conditions. The benchmark's finding that foundation model scale matters more than GUI specialization informs FoxBrain's model selection strategy for enterprise risk applications. The 16.2pp RL improvement demonstrates that FoxBrain's risk-management agents should incorporate production feedback loops rather than relying on zero-shot capability alone. The 8-domain risk taxonomy can be adapted as a coverage checklist for Foxconn's own internal compliance and supply chain risk assessment pipelines.
 
 ---

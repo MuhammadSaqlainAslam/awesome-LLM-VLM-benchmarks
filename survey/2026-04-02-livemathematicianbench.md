@@ -29,7 +29,7 @@ LiveMathematicianBench constructs a **dynamic MCQ benchmark** drawing problems f
 - All models perform near random chance on **Differential Geometry** and **Topology** under substitution-resistant conditions
 - **Number Theory** and **Combinatorics** show the highest relative robustness to substitution
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 LiveMathematicianBench establishes the ceiling for FoxBrain's graduate-level mathematical reasoning — directly relevant to R&D engineering, materials science calculations, and process optimization problems encountered at Foxconn. The substitution-resistant mode provides a contamination-proof evaluation method for FoxBrain checkpoints trained on technical documents: a pass on substitution-resistant theorem problems confirms genuine algebraic and optimization reasoning capability, not memorisation. The 13-category taxonomy maps onto FoxBrain's priority engineering domains: Optimization (yield/capacity), Graph Theory (supply chain networks), Statistics (quality control), and Linear Algebra (simulation workloads).
 
 ---

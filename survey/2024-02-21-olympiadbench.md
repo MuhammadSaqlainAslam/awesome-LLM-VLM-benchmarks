@@ -27,7 +27,7 @@ Problems were collected from **national and international Olympiad competitions*
 
 Even GPT-4V achieves only **17.23% overall**, with Physics proving harder than Mathematics across all models. Performance on diagram-based problems is substantially lower than on text-only problems, confirming that visual-scientific reasoning remains a major frontier.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 OlympiadBench's bilingual Chinese/English design is directly aligned with FoxBrain's deployment environment. The 57% image-containing problems map precisely to Foxconn's engineering workflows, where workers routinely interpret physics schematics, circuit diagrams, and geometric manufacturing drawings alongside Chinese-language specifications. Physics performance (particularly mechanics and electromagnetism) is directly applicable to FoxBrain's industrial automation and equipment maintenance use cases. The theorem-proving subset (19%) provides a ceiling test for FoxBrain's formal technical reasoning.
 
 ---

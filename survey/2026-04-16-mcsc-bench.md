@@ -1,4 +1,4 @@
-# MCSC-Bench: Multimodal Context-to-Script Creation for Realistic Video Production (2026)
+﻿# MCSC-Bench: Multimodal Context-to-Script Creation for Realistic Video Production (2026)
 
 ## Problem
 Existing video generation benchmarks evaluate models on isolated tasks (caption generation, shot selection, or voiceover writing) rather than the complete end-to-end workflow of transforming raw multimodal materials into production-ready scripts. Real-world video creation requires structure-aware reasoning across long multimodal contexts — simultaneously handling material selection, narrative planning, and conditioned script generation — which no prior benchmark evaluates holistically.
@@ -28,7 +28,7 @@ Authors: Huanran Hu, Zihui Ren, Dingyi Yang, Liangyu Chen, Qixiang Gao, Tiezheng
 - Current multimodal LLMs struggle with structure-aware reasoning under long multimodal contexts
 - Generated scripts validated to successfully guide downstream video generation in practice
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MCSC-Bench's end-to-end multimodal workflow evaluation has direct application to Foxconn's product marketing, training content creation, and internal communication production teams that regularly transform raw product footage, specifications, and marketing briefs into structured video scripts. The benchmark's core finding — that structure-aware reasoning across long multimodal contexts is the critical bottleneck — aligns with FoxBrain's challenges in processing lengthy engineering documentation alongside visual materials. The remarkable result that an 8B model fine-tuned on domain-specific data exceeds Gemini-2.5-Pro validates Foxconn's strategy of building specialized FoxBrain variants for high-value content production workflows.
 
 ---

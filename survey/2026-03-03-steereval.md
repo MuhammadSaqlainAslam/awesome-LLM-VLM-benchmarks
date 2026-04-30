@@ -12,7 +12,7 @@ Evaluating how well an LLM follows specific stylistic or behavioral "steering" (
 ## Key Results
 The paper shows that while models follow high-level personas well, they fail at "Negative Constraint Steering" (e.g., "don't use the letter 'e'") in **over 40%** of complex reasoning tasks.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Essential for FoxBrain's "Brand Voice" features. If we need our agent to maintain a specific professional persona without slipping, SteerEval is the metric to track.
 
 ---

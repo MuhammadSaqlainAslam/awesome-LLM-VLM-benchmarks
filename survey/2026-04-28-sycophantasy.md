@@ -1,4 +1,4 @@
-# SycoPhantasy: Quantifying Sycophancy and Hallucination in Small Open-Weight VLMs (2026)
+﻿# SycoPhantasy: Quantifying Sycophancy and Hallucination in Small Open-Weight VLMs (2026)
 
 ## Problem
 Small open-weight vision-language models are widely deployed as cost-efficient evaluators and scorers in AI pipelines, but their reliability as judges has not been systematically measured. A key failure mode is sycophancy — giving high scores to content regardless of visual evidence, to please the requester rather than reflect true quality. No metric existed to quantify the mismatch between a model's score and the visual evidence actually grounding that score, leaving a dangerous blind spot for pipelines that use small VLMs as automated quality judges.
@@ -26,7 +26,7 @@ Small open-weight vision-language models are widely deployed as cost-efficient e
 - The Bluffing Coefficient provides the first quantitative metric for measuring VLM judge reliability independent of task accuracy
 - Small VLMs used as automated quality judges in AI pipelines introduce systematic upward bias in quality scores
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 FoxBrain's AI pipelines likely use small VLMs as cost-efficient automated quality scorers — for evaluating product images, inspection outputs, or generated content at scale. SycoPhantasy's finding that small VLMs exhibit sycophancy rates up to 22.3% means these judges cannot be trusted at face value: they will systematically inflate quality scores, causing defective products or outputs to pass automated quality gates. The Bluffing Coefficient provides a practical tool for auditing any small VLM judge in FoxBrain's pipeline, and the results strongly recommend using models ≥7B parameters for quality-critical automated evaluation tasks.
 
 ---

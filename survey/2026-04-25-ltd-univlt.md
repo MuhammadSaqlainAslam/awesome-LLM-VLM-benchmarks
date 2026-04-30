@@ -1,4 +1,4 @@
-# LTD / UniVLT: Towards Safe Mobility — A Unified Transportation Foundation Model enabled by Open-Ended Vision-Language Dataset (2026)
+﻿# LTD / UniVLT: Towards Safe Mobility — A Unified Transportation Foundation Model enabled by Open-Ended Vision-Language Dataset (2026)
 
 ## Problem
 Autonomous driving and traffic analysis are typically treated as separate research tracks with specialized models for each, despite significant overlap in the underlying vision-language understanding required. Existing datasets for traffic VLMs are narrow in scope, clean-room in origin, and do not capture the open-ended safety-oriented reasoning needed in real urban environments. Frontier vision-language models have not been systematically exposed to the complexity of multi-view roadside camera scenarios.
@@ -28,7 +28,7 @@ Autonomous driving and traffic analysis are typically treated as separate resear
 - UniVLT's curriculum-based training on LTD achieves state-of-the-art performance, validating the need for domain-specific training data at scale
 - The benchmark reveals that traffic safety VLM evaluation requires real-world heterogeneous footage, not clean-room synthetic data
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's smart manufacturing campuses and logistics operations involve extensive multi-camera environments — from warehouse automation to campus vehicle traffic to production line monitoring — that mirror the multi-view reasoning challenges studied in LTD/UniVLT. If FoxBrain's vision capabilities are extended to traffic management, campus safety monitoring, or delivery logistics, this benchmark defines the evaluation standard and exposes the critical weakness of general VLMs in multi-view scenarios. The paper's finding that curriculum-based training on domain-specific traffic data is necessary aligns with the need for Foxconn-specific fine-tuning of FoxBrain's visual understanding capabilities.
 
 ---

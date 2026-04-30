@@ -28,7 +28,7 @@ Multilingual LLM evaluations have relied on machine-translated MMLU — but MMLU
 - On CS datasets: average **5.7 rank changes, 7.3 position shifts** — model rankings become unreliable
 - Conclusion: MMLU-based multilingual rankings are not trustworthy, especially for CS subsets and low-resource languages
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Global MMLU's Culturally Agnostic (CA) subset is the appropriate evaluation set for FoxBrain's multilingual deployments across Foxconn's global manufacturing sites — it strips out Western cultural bias that would artificially deflate non-English performance measurements. The low-resource language coverage is particularly relevant for Foxconn's Southeast Asian manufacturing facilities (Indonesian, Vietnamese, Filipino). The 7.3 average rank-position shift on CS tasks warns that standard multilingual benchmark rankings should not be used to choose FoxBrain's language capabilities — domain-specific CA evaluation is mandatory for accurate capability measurement across Foxconn's operational languages.
 
 ---

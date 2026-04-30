@@ -1,4 +1,4 @@
-# K-MetBench: A Multi-Dimensional Benchmark for Fine-Grained Evaluation of Expert Reasoning, Locality, and Multimodality in Meteorology (2026)
+﻿# K-MetBench: A Multi-Dimensional Benchmark for Fine-Grained Evaluation of Expert Reasoning, Locality, and Multimodality in Meteorology (2026)
 
 ## Problem
 Large language models are increasingly applied to domain-specific scientific tasks, but existing science benchmarks lack the fine-grained locality and multimodal depth required to evaluate meteorological expertise. Weather forecasting requires interpreting specialist diagrams, applying geo-culturally specific knowledge (e.g., local terrain, regional weather patterns), and producing logically valid reasoning chains — none of which are well covered by general STEM benchmarks. No prior benchmark was grounded in expert-level national qualification standards for meteorology.
@@ -27,7 +27,7 @@ Large language models are increasingly applied to domain-specific scientific tas
 - Smaller Korean-specific models significantly outperform much larger global models on locally grounded tasks — parameter scale cannot compensate for cultural and geographic tuning
 - General STEM benchmarks systematically overestimate LLM readiness for specialist scientific deployment
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's global manufacturing operations — particularly outdoor assembly sites, logistics hubs, and energy infrastructure — depend on accurate weather interpretation for safety, scheduling, and energy planning. K-MetBench's finding that all frontier models struggle with specialist meteorological diagram interpretation and produce unreliable reasoning chains is directly relevant if FoxBrain is used for weather-sensitive operational decisions. More broadly, the benchmark's demonstration that smaller domain-tuned models outperform large global ones reinforces the FoxBrain strategy of domain-specific fine-tuning for manufacturing and engineering subfields rather than relying purely on model scale.
 
 ---

@@ -1,4 +1,4 @@
-# AgentSearchBench: A Benchmark for AI Agent Search in the Wild (2026)
+﻿# AgentSearchBench: A Benchmark for AI Agent Search in the Wild (2026)
 
 ## Problem
 As AI agent ecosystems grow — with thousands of specialized agents available across platforms — the ability to discover and select the right agent for a given task becomes critical. Existing agent retrieval approaches rely on semantic similarity between task descriptions and agent descriptions, but semantic similarity poorly predicts actual agent performance. There is no benchmark for evaluating how well AI systems can discover suitable agents from real-world, large-scale agent ecosystems.
@@ -27,7 +27,7 @@ As AI agent ecosystems grow — with thousands of specialized agents available a
 - Lightweight execution-aware probing signals — running lightweight test tasks — substantially improve agent ranking quality at manageable overhead
 - The benchmark reveals that agent discovery is a distinct, under-studied problem requiring execution grounding rather than purely text-based matching
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 As Foxconn builds out FoxBrain's agent ecosystem — with specialized agents for procurement, quality control, engineering, and HR tasks — agent discovery becomes a first-class challenge. When a new workflow requires selecting the right combination of agents from a growing library, AgentSearchBench's finding that semantic similarity fails is directly relevant: FoxBrain's agent routing layer cannot rely solely on description matching but must incorporate execution-grounded signals. This benchmark provides the evaluation framework for validating FoxBrain's agent marketplace retrieval system as the agent library scales to hundreds or thousands of specialized agents.
 
 ---

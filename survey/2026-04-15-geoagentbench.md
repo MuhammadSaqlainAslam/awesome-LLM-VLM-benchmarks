@@ -1,4 +1,4 @@
-# GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis (2026)
+﻿# GeoAgentBench: A Dynamic Execution Benchmark for Tool-Augmented Agents in Spatial Analysis (2026)
 
 ## Problem
 Existing benchmarks for GIS-based AI agents rely on static, offline evaluation methods that fail to capture the interactive, multi-step execution dynamics of real spatial analysis workflows. No prior benchmark combined a live sandbox environment with the breadth of atomic GIS tools needed to reflect professional geographic information science practice, leaving a critical gap in assessing tool-augmented LLM agents on real-world spatial tasks.
@@ -28,7 +28,7 @@ Authors: Bo Yu, Cheng Yang, Dongyang Hou, Chengfu Liu, Jiayao Liu, Chi Wang, Zhi
 - PEA metric reveals substantial differences between agent architectures that pass/fail metrics alone would miss, particularly in multi-step parameter chaining.
 - VLM-based cartographic verification exposes quality gaps invisible to functional pass/fail scoring, especially for map style and spatial accuracy.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 GeoAgentBench directly applies to Foxconn's geospatial facility planning and logistics optimization tasks, where LLM agents must orchestrate GIS tools to analyze factory locations, supply chain routing, and regional distribution networks. The PEA metric is especially valuable for FoxBrain's tool-calling pipelines, measuring not just whether an agentic step completes but whether parameters are correctly specified — a critical quality bar for high-stakes enterprise workflows. The benchmark's "Plan-and-React" architecture finding recommends a specific agent design pattern for FoxBrain's spatial intelligence components. The 117-tool sandbox methodology can be adapted to build a Foxconn-specific manufacturing operations tool-bench spanning ERP, MES, and logistics APIs.
 
 ---

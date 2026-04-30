@@ -1,4 +1,4 @@
-# KnowU-Bench: Evaluating Personalized Mobile GUI Agents with Proactive Preference Inference (2026)
+﻿# KnowU-Bench: Evaluating Personalized Mobile GUI Agents with Proactive Preference Inference (2026)
 
 ## Problem
 Mobile GUI agents are increasingly expected to act on behalf of specific users — adapting to individual preferences, workflows, and habits rather than executing generic instructions. Current agent benchmarks evaluate task completion without accounting for personalisation: an agent that completes a task in a way the user dislikes is counted as successful even though it has failed in practice. No benchmark tested three essential capabilities of truly personalised agents: (1) inferring unstated user preferences from context, (2) deciding when to proactively seek user consent before acting, and (3) knowing when to silently proceed without interrupting the user unnecessarily.
@@ -33,7 +33,7 @@ Authors: Tongbo Chen, Zhengxi Lu, Zhan Xu, Guocheng Shao, Shaohan Zhao, Fei Tang
 - General GUI execution scores are misleadingly high — removing personalisation context inflates apparent agent capability
 - No model shows a consistent strategy for balancing proactive consent-seeking vs. silent execution
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 KnowU-Bench defines the gap between generic GUI automation and genuinely personalised enterprise agents — directly relevant to FoxBrain deployments where operators have individual workflows, preferences, and risk tolerances on factory floors and in office environments. The <50% personalisation score across all frontier models means FoxBrain cannot be deployed as a "personalised assistant" without explicit preference-learning infrastructure. The proactive intervention failure mode (wrong consent decisions) is particularly critical for manufacturing contexts where over-interruption degrades operator efficiency and under-interruption on high-risk tasks (production parameter changes, lot release decisions) causes quality incidents. Recommended: add explicit user-preference modelling and consent-policy configuration to FoxBrain's GUI agent architecture before any personalised enterprise deployment.
 
 ---

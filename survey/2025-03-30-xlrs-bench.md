@@ -1,4 +1,4 @@
-# XLRS-Bench: Multimodal LLMs on Extremely Large Ultra-High-Resolution Remote Sensing Imagery (2025)
+﻿# XLRS-Bench: Multimodal LLMs on Extremely Large Ultra-High-Resolution Remote Sensing Imagery (2025)
 
 ## Problem
 Current VLM benchmarks use standard-resolution images (224×224 to 1024×1024), but real-world remote sensing (RS) applications require understanding of **extremely large, ultra-high-resolution (UHR) satellite and aerial images** (often 8000×8000+ pixels). No benchmark existed to measure whether MLLMs can actually perceive and reason over such massive-scale RS imagery.
@@ -22,7 +22,7 @@ Current VLM benchmarks use standard-resolution images (224×224 to 1024×1024), 
 * Perception tasks (object detection, counting) degrade most severely at high resolutions, revealing a fundamental limitation of current vision encoders that downsample input.
 * Reasoning tasks show moderate performance but fail on fine-grained spatial relationships across large image contexts.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 If FoxBrain is applied to **satellite imagery, drone footage, or industrial inspection** (relevant for Foxconn's manufacturing and infrastructure monitoring), XLRS-Bench sets the bar for vision encoder quality at UHR inputs. Standard VLM encoders will fail here — high-res tiling or native-resolution encoders are required.
 
 ---

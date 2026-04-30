@@ -18,7 +18,7 @@ List all benchmarks and datasets used.
 At least one concrete number.
 The model achieved a **+14.2% improvement in OCR accuracy** on the olmOCR-Bench compared to the previous SOTA (GPT-4o), specifically excelling in the recovery of mathematical symbols and multi-column technical layouts.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Is there anything we can learn or apply to FoxBrain?
 Extremely high relevance for data ingestion. If FoxBrain handles legal, medical, or technical documents, we can use the **olmOCR-mix** dataset to fine-tune our internal VLMs. This would allow us to move away from expensive third-party OCR APIs and build a private, high-accuracy document parsing pipeline.
 

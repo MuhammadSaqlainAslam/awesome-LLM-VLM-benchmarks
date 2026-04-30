@@ -14,7 +14,7 @@ The authors implement a three-stage pipeline: extracting structured domain cards
 ## Key Results
 The pipeline reveals that designer LLM performance correlates strongly with downstream benchmark quality — top designers produce items that discriminate model ability more reliably. Multilingual and multimodal settings expose significant design-quality gaps across all tested frontier models.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Directly applicable for FoxBrain's internal evaluation roadmap. The BenchBench pipeline can be adapted to auto-generate domain-specific test suites for FoxBrain's target verticals (manufacturing, logistics, engineering), allowing continuous, contamination-resistant evaluation without manual curation overhead.
 
 ---

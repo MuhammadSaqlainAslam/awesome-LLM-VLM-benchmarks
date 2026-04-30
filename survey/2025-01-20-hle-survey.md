@@ -33,7 +33,7 @@ All models were severely miscalibrated — expressing high confidence (~87–89%
 
 **Current SOTA (April 2026):** GPT-5.4-pro scores **~44.3%** (Scale Labs leaderboard), up from sub-10% at launch. Claude Opus 4.6 (thinking-max) reaches ~34.4%. Despite rapid progress, the human expert ceiling of ~90% remains far out of reach.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 HLE is the ideal "north star" ceiling benchmark for FoxBrain. Its domain breakdown (41% mathematics, 10% CS/AI, 9% physics, 7% chemistry, 4% engineering) maps closely to Foxconn's core R&D verticals. Because every question is verified non-searchable and must stump all frontier models at time of collection, a strong HLE score provides genuine evidence of deep reasoning — not retrieval. FoxBrain should be tracked against the HLE Mathematics and Engineering subsets specifically, as these are the most production-relevant and least likely to be affected by the ground-truth quality concerns flagged in the Chemistry/Biology domains.
 
 ---

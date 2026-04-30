@@ -1,4 +1,4 @@
-# MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline (2026)
+﻿# MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline (2026)
 
 ## Problem
 Current LLMs and deep-research agents are evaluated on surface-level medical QA tasks that do not reflect the complex multi-step evidence synthesis required to generate expert-level clinical guidelines. Existing benchmarks fail to capture the atomic-claim verification and rubric-based quality assessment dimensions that distinguish guideline-level reasoning from simpler retrieval tasks.
@@ -26,7 +26,7 @@ Authors: Jiyao Liu, Jianghan Shen, Sida Song, Tianbin Li, Xiaojia Liu, Rongbin L
 - Deep-research agents outperform standard LLMs on evidence retrieval but still fail on synthesis quality
 - No current system approaches expert-level guideline generation on the atomic-claim verification layer
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn operates in highly regulated manufacturing and supply chain domains where policy and compliance documentation must integrate evidence from technical standards, safety bulletins, and quality regulations — analogous to clinical guideline generation. MedProbeBench's two-layer rubric + atomic-claim methodology can be directly adapted for FoxBrain to audit whether its compliance report generation correctly integrates upstream specifications. The benchmark's emphasis on multi-step evidence synthesis maps precisely to FoxBrain's need to consolidate supplier audit reports, ISO/IEC standards, and quality control findings into coherent production guidelines. Adopting the MedProbe-Eval rubric design for a FoxBrain-Compliance variant would provide structured quality gates before any regulatory document is published.
 
 ---

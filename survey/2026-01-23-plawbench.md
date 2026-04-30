@@ -10,7 +10,7 @@ Models real-world legal workflows through 13 scenarios (850 questions). It intro
 * **Finding:** Current SOTA models fail to achieve "strong" performance, revealing a massive gap in fine-grained legal reasoning.
 * **Evaluator:** Uses an LLM-based evaluator strictly aligned with human expert judgments.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 As FoxBrain expands into **Contract Analysis**, PLawBench's rubric-based evaluation system is exactly what we need to verify that our models aren't just "hallucinating legal-sounding text" but are identifying actual key facts.
 
 ---

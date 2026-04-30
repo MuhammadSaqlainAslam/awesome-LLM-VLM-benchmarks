@@ -43,7 +43,7 @@ Agents are given the full paper PDF for each of **20 ICML 2024 Spotlight/Oral pa
 - Execution: o1 Iterative 7.4% — running code to completion remains very difficult
 - Results Match: ~0–1.4% across all models — matching actual numerical results is nearly unsolved
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 PaperBench directly probes FoxBrain's R&D acceleration potential: can it read a technical paper, write the implementation code, and reproduce the results autonomously? The 21% Code Development ceiling (Claude 3.5 Sonnet) with near-0% Results Match confirms that FoxBrain can draft code scaffolding from papers but cannot yet be trusted to reproduce validated experimental results without human oversight. For Foxconn's R&D teams, FoxBrain is best deployed as a first-pass code drafting assistant — not as an autonomous research replication agent. The 3-type rubric (Code Dev → Execution → Results Match) maps directly to a staged FoxBrain deployment gate: code review → runtime validation → numerical verification.
 
 ---

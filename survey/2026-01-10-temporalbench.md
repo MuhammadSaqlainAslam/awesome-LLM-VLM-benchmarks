@@ -10,7 +10,7 @@ A benchmark for fine-grained temporal event understanding. It consists of **10,0
 * **MBA Accuracy:** GPT-4o achieves only **38.0% accuracy** on multiple-binary QA.
 * **Gap:** Highlights a ~30% gap between human and AI temporal understanding.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 TemporalBench reveals a major blind spot in current VLMs. For FoxBrain's **Security Video agents**, we must implement the "Multiple Binary Accuracy" (MBA) check from this paper to ensure our models are actually seeing the events in order.
 
 ---

@@ -1,4 +1,4 @@
-# MMRareBench: Evaluating MLLMs on Rare Disease Clinical Workflows (2026)
+﻿# MMRareBench: Evaluating MLLMs on Rare Disease Clinical Workflows (2026)
 
 ## Problem
 Rare diseases — defined as conditions affecting fewer than 1 in 2,000 people — collectively affect 300 million patients worldwide yet receive disproportionately little AI research attention due to scarce training data. Clinical AI for rare diseases must handle extreme class imbalance, highly specialised diagnostic reasoning, multi-image evidence synthesis across imaging modalities, and treatment planning under profound uncertainty. No multimodal benchmark evaluated MLLMs on the complete rare disease clinical workflow: from initial diagnosis suspicion through multi-image evidence alignment to treatment recommendation and follow-up examination suggestion.
@@ -36,7 +36,7 @@ Authors: Junzhi Ning, Jiashi Lin, Yingying Fang, Wei Li.
 - Cross-image evidence alignment (combining CT + MRI + histology for one patient) is significantly harder than single-modality QA, revealing that clinical multi-image synthesis remains unsolved
 - The two-level protocol reveals that models often produce factually correct statements while demonstrating poor clinical reasoning quality — a dangerous pattern for medical AI deployment
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MMRareBench establishes the benchmark for AI in specialised clinical domains where data scarcity and high stakes intersect — directly relevant to Foxconn's healthcare technology vertical and occupational health programs. The universal treatment planning failure is a clear boundary condition for any FoxBrain health application: the model can assist with clinical information retrieval and preliminary diagnosis support but must never be used for autonomous treatment recommendations without specialist review. The cross-image evidence alignment challenge also applies to FoxBrain's multi-sensor manufacturing inspection pipelines — synthesising evidence across multiple camera types (RGB, thermal, hyperspectral) for the same inspection target faces the same fundamental multi-modal integration challenge.
 
 ---

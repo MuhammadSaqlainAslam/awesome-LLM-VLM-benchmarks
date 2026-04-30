@@ -11,7 +11,7 @@ A **Mixture of Experts (MoE)** architecture activating 17B parameters out of 109
 * **MMLU Pro:** **75.2%**.
 * **Speed:** **2600 tok/s** (Fastest in the 70B+ class).
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Llama 4 Scout is the ideal **Inference Engine** for our internal R&D chat. Its speed allows for near-instantaneous search across our entire PDF documentation library.
 
 ---

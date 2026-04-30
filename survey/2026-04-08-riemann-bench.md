@@ -34,7 +34,7 @@ Authors: Suhaas Garre, Erik Knutsen, Sushant Mehta, Edwin Chen.
 - The gap between olympiad-level (~77% on FrontierScience Olympiad track) and research-level (<10%) performance is the defining result: current AI cannot do the mathematics that professional mathematicians do
 - Tool access (coding + search) does not close the gap — models fail even with unrestricted resources
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Riemann-Bench establishes the hard ceiling of mathematical reasoning capability for any LLM system — including FoxBrain. For Foxconn R&D applications involving advanced optimisation theory, materials science modelling, or process simulation mathematics, the <10% pass rate confirms that FoxBrain cannot be trusted as an autonomous mathematical reasoner on novel research problems. However, the benchmark's tool-access design (coding + search permitted) mirrors FoxBrain's own agentic deployment context. Recommended: use Riemann-Bench's programmatic-verifier methodology as a template for FoxBrain engineering math evaluations, and set realistic expectations: FoxBrain can accelerate structured derivations and formula lookups, but cannot generate novel mathematical proofs on hard problems.
 
 ---

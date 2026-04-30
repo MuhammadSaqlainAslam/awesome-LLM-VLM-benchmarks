@@ -1,4 +1,4 @@
-# CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs (2026)
+﻿# CCTVBench: Contrastive Consistency Traffic VideoQA Benchmark for Multimodal LLMs (2026)
 
 ## Problem
 Existing traffic video QA benchmarks evaluate models on individual instances, masking a critical failure mode: models that answer individual questions correctly may give mutually inconsistent answers when presented with contrastive paired videos. Safety-critical traffic applications require models to reliably reject false hypotheses as well as affirm correct ones, a property standard per-instance accuracy cannot measure.
@@ -28,7 +28,7 @@ Authors: Xingcheng Zhou, Hao Guo, Rui Song, Walter Zimmer, Mingyu Liu, André Sc
 - Unreliable rejection of none-of-the-above options is the primary failure mode across all evaluated video LLMs
 - C-TCD contrastive decoding improves consistency by leveraging semantically exclusive counterpart videos
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn operates large manufacturing campuses monitored by thousands of CCTV cameras for safety compliance, theft prevention, and accident investigation. CCTVBench's traffic-safety focus directly maps to Foxconn's factory floor video monitoring needs, where FoxBrain must reliably detect hazardous events while correctly rejecting near-miss false positives. The contrastive consistency framework is particularly relevant for Foxconn's automated incident reporting systems, where inconsistent video QA would produce conflicting safety logs. The four failure-type diagnostics provide actionable guidance for hardening FoxBrain's video understanding module against the specific failure modes most likely to cause safety incidents in industrial monitoring.
 
 ---

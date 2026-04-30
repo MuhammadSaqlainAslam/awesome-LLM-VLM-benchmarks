@@ -1,4 +1,4 @@
-# BareBones: Probing Geometric Shape Comprehension in VLMs via Texture-Deprived Silhouettes (2026)
+﻿# BareBones: Probing Geometric Shape Comprehension in VLMs via Texture-Deprived Silhouettes (2026)
 
 ## Problem
 Modern VLMs are trained predominantly on richly textured, colourful natural images, creating a systematic dependency on texture and colour as the primary recognition cues. This "texture bias" means models may appear capable of visual reasoning while actually relying on surface statistics rather than genuine geometric understanding — a critical weakness for any application requiring shape-based reasoning (engineering drawings, medical imaging, manufacturing inspection, CAD analysis). No benchmark systematically evaluated whether VLMs could maintain performance when stripped of all texture and colour information, leaving only pure geometric shape (silhouettes).
@@ -30,7 +30,7 @@ The benchmark introduces the **"Texture Bias Cliff"** metric — the performance
 - Performance collapse is not gradual — removing texture causes a sharp, cliff-like degradation (not a smooth reduction), confirming texture is a primary cue, not a supplementary one
 - The finding holds across model families, scales, and training approaches — no architecture is immune to texture bias
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 BareBones reveals a critical capability gap for FoxBrain's manufacturing inspection deployments: any task requiring geometric shape analysis from technical drawings, CAD diagrams, schematic symbols, or line-art manufacturing specifications will expose the Texture Bias Cliff. PCB silkscreen inspection, component outline verification, and engineering drawing analysis are all silhouette-like tasks where texture information is absent by design. FoxBrain cannot be trusted for these tasks without domain-specific geometric fine-tuning on texture-deprived training data. Recommended: run BareBones on FoxBrain before any deployment involving technical drawings, CAD schematics, or component outlines — quantify the Texture Bias Cliff and fine-tune on Foxconn's internal silhouette-style engineering imagery if the gap exceeds an acceptable threshold.
 
 ---

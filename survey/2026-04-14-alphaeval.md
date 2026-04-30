@@ -1,4 +1,4 @@
-# AlphaEval: Evaluating Agents in Production (2026)
+﻿# AlphaEval: Evaluating Agents in Production (2026)
 
 ## Problem
 Existing AI agent benchmarks evaluate isolated models on curated tasks with explicit requirements and deterministic success criteria — conditions that do not exist in real production deployments. Production agent evaluation requires handling implicit constraints, heterogeneous multi-modal inputs, domain-specific expertise standards, and evolving expert evaluation criteria. The gap between benchmark leaderboard performance and real-world production reliability has grown to the point that benchmark rankings no longer predict deployment success.
@@ -29,7 +29,7 @@ Authors: Pengrui Lu, Bingyu Xu, Wenjun Zhang, Shengjia Hua, Xuanjian Gao, Ranxia
 - No single evaluation paradigm (LLM-judge, formal verification, rubric, UI testing) is sufficient across all 94 tasks — matching evaluation methodology to task type is essential for valid assessment
 - AlphaEval exposes the agent product vs. isolated model distinction: commercial systems (full agent stack) show different performance profiles than underlying models evaluated in isolation
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 AlphaEval is the most directly production-relevant benchmark in this digest for Foxconn. Its requirement-to-benchmark methodology is immediately actionable: Foxconn's FoxBrain team should use this framework to build an internal benchmark from actual FoxBrain production tasks — supplier negotiations, ERP queries, engineering change orders, quality reports — rather than relying on external benchmarks that don't reflect Foxconn's specific operational requirements. The seven-company, six-domain structure provides a template for Foxconn to assess FoxBrain across its own critical occupational domains (manufacturing operations, procurement, engineering, finance, compliance, HR).
 
 ---

@@ -33,7 +33,7 @@ The evaluation suite contains 300 items. Authors: Chonghan Qin, Xiachong Feng, W
 - Larger models show stronger procedural retention but not stronger inhibition priming
 - Classical conditioning transfer is the weakest capability across all tested models
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 ImplicitMemBench reveals a fundamental gap in LLM memory architecture directly relevant to FoxBrain's long-horizon agent deployments: while FoxBrain may explicitly recall instructions, it may fail to retain procedural skills across distractor tasks (critical for multi-step factory workflows) and may be easily primed toward incorrect outputs by upstream context. The 17.6% inhibition priming score is particularly concerning for FoxBrain safety features — the model may be unable to sustain "avoid X" constraints when distractor content is present. Recommended: add ImplicitMemBench's LIT protocol to FoxBrain's regression suite before any production deployment involving sequential multi-task agents.
 
 ---

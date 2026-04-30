@@ -1,4 +1,4 @@
-# AstroVLBench: A Systematic Evaluation of Vision-Language Models for Observational Astronomical Reasoning (2026)
+﻿# AstroVLBench: A Systematic Evaluation of Vision-Language Models for Observational Astronomical Reasoning (2026)
 
 ## Problem
 Vision-language models are being applied to scientific data analysis in astronomy, yet no systematic benchmark existed for evaluating VLM performance across the full spectrum of astronomical observation types — optical imaging, radio interferometry, photometry, light curves, and spectroscopy. Domain-specific challenges (specialized color maps, non-intuitive data representations, physically grounded interpretation requirements) make astronomy a demanding test of whether VLMs can truly reason about scientific visual data or merely pattern-match surface features.
@@ -29,7 +29,7 @@ Vision-language models are being applied to scientific data analysis in astronom
 - Models can achieve correct predictions through physically plausible cues while providing physically imprecise justifications — a "shortcut reasoning" failure mode that makes accuracy an insufficient reliability metric
 - Numerical data representation substantially outperforms rendered plots, revealing that VLMs struggle with domain-specific visualization conventions
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's engineering and manufacturing data includes highly specialized visual representations — process control charts, statistical quality control plots, spectroscopic material analysis, thermal imaging, and sensor time-series — that are analogous to the specialized astronomical visualizations studied here. AstroVLBench's finding that all frontier VLMs underperform domain tools on specialized scientific plots is a direct warning for FoxBrain's use in engineering data analysis. The study's most actionable finding for FoxBrain is that physically/domain grounded prompts dramatically improve accuracy: FoxBrain prompts for technical chart analysis should explain the underlying manufacturing or engineering process rather than just describing what the chart looks like.
 
 ---

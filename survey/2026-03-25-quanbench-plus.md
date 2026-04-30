@@ -1,4 +1,4 @@
-# QuanBench+: A Unified Multi-Framework Benchmark for LLM Quantum Code Generation (2026)
+﻿# QuanBench+: A Unified Multi-Framework Benchmark for LLM Quantum Code Generation (2026)
 
 ## Problem
 Quantum computing is transitioning from research to production deployment, with major frameworks (Qiskit, PennyLane, Cirq) developing divergent APIs and paradigms. LLMs are increasingly used to assist quantum software development, but no benchmark evaluated quantum code generation across all three major frameworks simultaneously with consistent evaluation methodology. Prior benchmarks were single-framework, used deterministic exact-match evaluation inappropriate for probabilistic quantum outputs, and did not test feedback-based repair — the iterative debugging workflow that characterises real quantum software development.
@@ -26,7 +26,7 @@ Quantum computing is transitioning from research to production deployment, with 
 - **Qiskit benefits most from model familiarity** (most training data), confirming framework popularity in training corpora influences quantum code quality
 - All models show framework-specific strengths — no single LLM dominates all three frameworks simultaneously
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 QuanBench+ is forward-looking for Foxconn's quantum computing roadmap: as quantum hardware matures for optimisation problems in supply chain, manufacturing scheduling, and materials simulation, FoxBrain will need to generate and debug quantum circuits across multiple frameworks. The 83.3% post-repair Qiskit performance establishes a realistic near-term ceiling — FoxBrain can be a useful quantum code assistant with iterative feedback, but not yet an autonomous quantum programmer. The KL-divergence evaluation methodology is immediately applicable to FoxBrain's quantum testing pipeline: replace binary pass/fail with distribution-similarity acceptance for probabilistic quantum outputs. Prioritise Qiskit integration first (highest performance) before PennyLane (hardest).
 
 ---

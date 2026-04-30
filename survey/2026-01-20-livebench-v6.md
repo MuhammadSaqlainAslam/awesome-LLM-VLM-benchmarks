@@ -19,7 +19,7 @@ List all benchmarks and datasets used.
 At least one concrete number.
 Models that score 90%+ on MMLU often drop to **45–55% on LiveBench**, proving that static benchmarks significantly overestimate true reasoning capabilities. As of the Jan 2026 refresh, **GPT-5 and DeepSeek-V3.2** are the only models maintaining a >60% average on the most difficult reasoning tiers.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Is there anything we can learn or apply to FoxBrain?
 Critical for our internal validation. To ensure FoxBrain models are actually "smart" and not just "memorizing," we should adopt the LiveBench methodology: **never test a model on data that was available before its training cutoff.** We should implement a "Dynamic Evaluation" layer in our roadmap that pulls fresh problems monthly.
 

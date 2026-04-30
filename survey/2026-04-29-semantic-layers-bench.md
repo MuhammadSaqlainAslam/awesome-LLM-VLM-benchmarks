@@ -1,4 +1,4 @@
-# Semantic Layers Benchmark: Reliable LLM-Powered Data Analytics via Business Semantics Documentation (2026)
+﻿# Semantic Layers Benchmark: Reliable LLM-Powered Data Analytics via Business Semantics Documentation (2026)
 
 ## Problem
 LLMs struggle with text-to-SQL tasks in enterprise settings because database schemas lack the business semantics that give tables and columns meaning — a column named "rev" could mean revenue, review, or revision. This semantic gap causes LLMs to hallucinate joins, misinterpret aggregations, and generate plausible-looking but incorrect SQL. No benchmark had rigorously measured whether providing explicit business-context documentation alongside schema information resolves accuracy and hallucination problems at statistically significant levels.
@@ -26,7 +26,7 @@ LLMs struggle with text-to-SQL tasks in enterprise settings because database sch
 - The semantic layer "accounts for essentially all of the significant variance" in performance, shifting the problem from model selection to data documentation quality
 - This finding reframes enterprise text-to-SQL deployment: invest in semantic documentation infrastructure, not in model upgrades
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's enterprise databases — ERP, MES, SCM, QMS — contain tables and columns whose business meaning is invisible to LLMs without explicit documentation. The Semantic Layers Benchmark's finding that +17 to +23 percentage point gains are achievable simply by providing business semantics documentation is one of the most actionable results this week for FoxBrain's data analytics deployment. Before deploying FoxBrain for SQL generation against Foxconn's production databases, the highest-ROI investment is building a semantic layer — a business glossary mapping every table and column to its operational meaning — rather than upgrading to a larger model. Model choice becomes secondary once the semantic layer is in place.
 
 ---

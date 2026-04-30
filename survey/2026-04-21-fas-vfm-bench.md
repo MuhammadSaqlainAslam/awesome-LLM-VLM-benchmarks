@@ -1,4 +1,4 @@
-# Benchmarking Vision Foundation Models for Domain-Generalizable Face Anti-Spoofing (2026)
+﻿# Benchmarking Vision Foundation Models for Domain-Generalizable Face Anti-Spoofing (2026)
 
 ## Problem
 Face Anti-Spoofing (FAS) systems must generalize across unseen environments, attack types, and camera conditions — yet existing benchmarks favor costly Vision-Language Model (VLM) approaches that demand prohibitive compute and exhibit high inference latency. No systematic study had compared the full landscape of vision-only foundation models under severe cross-domain protocols, leaving practitioners without a principled baseline for efficient deployment. This benchmark fills that gap by rigorously evaluating 15 pre-trained architectures under standardized cross-domain stress tests.
@@ -28,7 +28,7 @@ Authors: Mika Feng, Pierre Gallin-Martel, Koichi Ito, Takafumi Aoki
 - Self-supervised ViTs (particularly DINOv2+Registers) suppressed attention artifacts and captured fine-grained spoofing cues that supervised models missed.
 - Under the data-constrained LSD protocol, the vision-only baseline outperformed existing VLM methods (MI→C: HTER 8.29%, AUC 97.10%; MI→O: HTER 12.11%, AUC 95.36%), demonstrating that heavy multimodal supervision is not necessary for robust generalization.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Physical access control and workforce identity verification are core operational concerns across Foxconn's global manufacturing campuses, where badge-based and biometric systems must resist spoofing attacks (printed photos, 3D masks, replay videos) under diverse lighting and camera conditions. The benchmark's finding that a compact 87M-parameter DINOv2+Registers model matches or exceeds billion-parameter VLM baselines on cross-domain FAS is directly actionable for edge deployment on factory floor terminals and smart-lock hardware where latency and compute budgets are constrained. FoxBrain's computer vision pipeline can adopt the FAS-Aug + PDA + APL training recipe as a lightweight, auditable baseline for on-premise anti-spoofing, avoiding the data-privacy risks of cloud-hosted VLMs processing employee facial data. The systematic 15-model comparison also provides a reusable evaluation protocol for future Foxconn security AI procurement decisions.
 
 ---

@@ -42,7 +42,7 @@ Authors: Zilong Wang, Yuedong Cui, Li Zhong, Zimin Zhang, Da Yin, Bill Yuchen Li
 - Primary failure modes: **operation redundancy** (agents loop on the same action) and **hallucinations** (agents invoke actions outside the defined action space)
 - Enforcing explicit application-switching (constraining actions to the current app's operation set) improves performance and reduces wasted tokens
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 OfficeBench directly benchmarks the enterprise automation capabilities most critical to Foxconn's internal productivity goals: multi-application workflows spanning ERP data extraction (Excel), report generation (Word/PDF), email-based approvals, and system-level operations. The 21.43% three-app success rate for the best frontier model reveals that cross-application agentic tasks remain the hardest challenge for FoxBrain deployments. Priority: use OfficeBench's 9-application taxonomy to audit FoxBrain's coverage of Foxconn's internal tool stack (SAP, SharePoint, email, PDF generation) before any enterprise agent deployment. The three-tier complexity structure (1/2/3 apps) provides a progressive qualification framework for FoxBrain agent releases.
 
 ---

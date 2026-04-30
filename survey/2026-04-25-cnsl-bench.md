@@ -1,4 +1,4 @@
-# CNSL-bench: Benchmarking Sign Language Understanding Capabilities of MLLMs on Chinese National Sign Language (2026)
+﻿# CNSL-bench: Benchmarking Sign Language Understanding Capabilities of MLLMs on Chinese National Sign Language (2026)
 
 ## Problem
 Multimodal large language models are increasingly tested on vision-language tasks, yet no comprehensive benchmark existed for Chinese National Sign Language (CNSL) — a communication system used by tens of millions of deaf and hard-of-hearing individuals in China. Existing sign language datasets lack authoritative grounding and do not cover the full range of manual articulatory forms, leaving a critical accessibility gap in MLLM evaluation.
@@ -27,7 +27,7 @@ Multimodal large language models are increasingly tested on vision-language task
 - Robustness varies substantially across model architectures, revealing systemic challenges rather than a single model bottleneck
 - The benchmark exposes a critical accessibility gap — state-of-the-art MLLMs are not yet reliable tools for sign language communication assistance
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn operates large manufacturing facilities in China with diverse workforces that include deaf and hard-of-hearing employees. CNSL-bench establishes the baseline for MLLM-based accessibility tools in Chinese-language sign communication — relevant if FoxBrain is extended to support inclusive factory floor communication, training materials, or safety alert systems for hearing-impaired workers. The benchmark's finding that all models fail substantially below human level signals that sign language interface features must not be deployed without dedicated fine-tuning and human validation.
 
 ---

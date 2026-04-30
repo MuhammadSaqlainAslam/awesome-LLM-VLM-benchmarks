@@ -37,7 +37,7 @@ Authors: Boyang Zhang, Sebastián G. Acosta, Preston Carlson, Sacha Bron, Pierre
 - **Visual grounding** (attributing content to page regions) is uniquely well-served by multimodal LLM approaches vs. traditional parsers
 - Open-source tools lag significantly on financial document tables with merged cells and irregular layouts
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 ParseBench is directly applicable to FoxBrain's document AI pipeline: Foxconn processes high volumes of supplier invoices, quality audit reports, engineering specifications, and regulatory compliance filings — all of which require accurate multi-dimensional parsing. The benchmark's finding that no single parser excels on all five dimensions motivates a hybrid pipeline strategy for FoxBrain: use LlamaParse Agentic as the primary parser with targeted fallbacks to multimodal LLM approaches for charts and visual grounding tasks. The semantic correctness evaluation methodology should replace BLEU/ROUGE in FoxBrain's internal document QA evaluation to avoid rewarding formally similar but factually incorrect extractions.
 
 ---

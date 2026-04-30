@@ -1,4 +1,4 @@
-# EgoEsportsQA: An Egocentric Video Benchmark for Perception and Reasoning in Esports (2026)
+﻿# EgoEsportsQA: An Egocentric Video Benchmark for Perception and Reasoning in Esports (2026)
 
 ## Problem
 Video language models (VLMs) are evaluated predominantly on real-world daily-activity videos (cooking, sports, surveillance), leaving a critical gap: fast-paced, rule-intensive virtual environments that require both fine-grained visual perception and deep tactical reasoning. Esports gameplay offers a uniquely challenging setting — millisecond-scale micro-operations, complex rule systems, and layered tactical decision-making — that exposes VLM limitations invisible in slower, real-world video benchmarks.
@@ -30,7 +30,7 @@ Authors: Jianzhe Ma, Zhonghao Cao, Shangkui Chen, Yichen Xu, Wenxuan Wang, Qin J
 - The two-dimensional taxonomy successfully isolates perception failures from reasoning failures, revealing that current VLMs have a genuine tactical reasoning gap, not merely a perception problem
 - Results expose architectural limitations in temporal modeling: fast-paced FPS sequences with millisecond-critical events exceed current VLM video understanding capabilities
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 While esports is not a direct Foxconn domain, EgoEsportsQA's core contribution is a rigorous test of VLM capabilities in fast-paced, rule-intensive environments with fine-grained temporal reasoning — directly analogous to Foxconn's manufacturing quality control (detecting assembly defects in real-time video), robotic process monitoring, and production line anomaly detection. The benchmark's taxonomy (perception vs. tactical reasoning vs. micro-operations) provides a reusable diagnostic framework for evaluating FoxBrain VLMs on factory-floor video understanding tasks before deployment.
 
 ---

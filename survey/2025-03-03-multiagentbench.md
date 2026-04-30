@@ -34,7 +34,7 @@ MultiAgentBench (implemented as the **MARBLE** framework) provides 6 diverse sce
 - **Group discussion**: lowest performance across all metrics
 - Increasing agents beyond 3 decreases overall KPI in Research scenario — more agents ≠ better
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MultiAgentBench's collaborative scenarios — Research Collaboration, Database Error Analysis, and Coding Challenges — directly mirror Foxconn's planned FoxBrain multi-agent deployments: concurrent R&D literature analysis, cross-system database interrogation, and parallel code generation pipelines. The finding that **graph topology outperforms star/chain/tree** provides a concrete architecture recommendation for FoxBrain's multi-agent orchestration design. The KPI split (Task Score vs. Coordination Score) provides a two-dimensional evaluation framework for FoxBrain's agent teams — separating output quality from communication efficiency, which is critical for optimising token cost in production multi-agent workflows.
 
 ---

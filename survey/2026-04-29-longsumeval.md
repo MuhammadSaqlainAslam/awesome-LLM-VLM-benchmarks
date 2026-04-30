@@ -1,4 +1,4 @@
-# LongSumEval: Question-Answering Based Evaluation and Feedback-Driven Refinement for Long Document Summarization (2026)
+﻿# LongSumEval: Question-Answering Based Evaluation and Feedback-Driven Refinement for Long Document Summarization (2026)
 
 ## Problem
 Evaluating summaries of long documents is a persistent challenge: conventional metrics (ROUGE, BERTScore) measure text overlap rather than information coverage and factual fidelity, producing scores that correlate poorly with human judgments. For enterprise and scientific use cases where summaries of long reports or documents must be accurate and complete, there is no reliable automated framework that both evaluates quality and provides actionable feedback for iterative improvement.
@@ -28,7 +28,7 @@ Evaluating summaries of long documents is a persistent challenge: conventional m
 - Both answerability and factual alignment are necessary — a summary can mention key topics (answerability) while still being factually wrong (alignment failure)
 - The generalisation across 7 diverse benchmarks validates the approach as a robust alternative to surface-level metrics
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn generates and consumes large volumes of long documents — engineering specifications, audit reports, supplier contracts, regulatory filings, and meeting transcripts — for which reliable automated summarisation is a high-value FoxBrain capability. LongSumEval's finding that conventional metrics correlate poorly with human quality judgment means FoxBrain's summary evaluation pipeline must adopt QA-based fidelity measurement rather than ROUGE/BERTScore. More importantly, the self-refinement loop — using structured feedback to iteratively improve summaries — provides a production-ready architecture for FoxBrain's document summarisation pipeline that does not require retraining and can be applied to any document domain relevant to Foxconn operations.
 
 ---

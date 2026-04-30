@@ -1,4 +1,4 @@
-# PilotBench: Evaluating LLMs as Safety-Critical Aviation Agents (2026)
+﻿# PilotBench: Evaluating LLMs as Safety-Critical Aviation Agents (2026)
 
 ## Problem
 LLMs are increasingly considered for integration into aviation decision-support systems, but no benchmark evaluated their performance on the specific challenges of safety-critical flight operations: predicting trajectory and attitude across 9 distinct flight phases, adhering to strict aviation safety protocols, and balancing semantic reasoning with physics-governed quantitative predictions. Standard agent benchmarks use forgiving web or code environments where errors are recoverable; aviation tasks require correct predictions in irreversible, high-stakes conditions.
@@ -31,7 +31,7 @@ Traditional time-series forecasting methods are compared directly against fronti
 - The go-around phase (aborted landing) is the hardest flight phase for all evaluated models
 - LLMs show consistent strength in semantic phase classification but systematic weakness in precise quantitative trajectory prediction
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 PilotBench defines the safety-critical agent evaluation paradigm directly applicable to FoxBrain's industrial automation deployments: autonomous robotic arm path planning, AGV trajectory control, and CNC machine parameter prediction all share PilotBench's core challenge — LLMs must simultaneously follow semantic operating protocols AND produce quantitatively precise numerical outputs. The identified trade-off (LLMs: good protocols, bad numbers; traditional models: good numbers, bad protocols) suggests FoxBrain's industrial agent architecture should use a hybrid approach: LLM for semantic planning and protocol compliance, traditional control algorithms for precise quantitative actuation. The Pilot-Score composite metric (accuracy + adherence + safety) is directly adaptable as FoxBrain's evaluation framework for manufacturing agent deployments.
 
 ---

@@ -21,7 +21,7 @@ MMFineReason constructs a **1.8M-sample, open-source multimodal reasoning datase
 ## Key Results
 The 7%-subset finding is the headline result: **quality beats quantity** in multimodal reasoning data. Models trained on 123K carefully filtered samples with strong CoT annotations rival those trained on the full 1.8M dataset, and the 8B model punches far above its parameter weight class.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 MMFineReason's open dataset and distillation pipeline are directly applicable for FoxBrain fine-tuning. The difficulty-aware filtering strategy provides a cost-efficient path: curate 7% high-quality manufacturing-domain reasoning traces from Foxconn internal data, distill CoT rationales from a frontier model, and fine-tune FoxBrain-8B to achieve outsized reasoning gains without full-dataset compute cost.
 
 ---

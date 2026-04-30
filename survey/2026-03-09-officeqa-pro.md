@@ -33,7 +33,7 @@ A fourth condition tests **structured document representation** — converting r
 - Web augmentation fails because archival Treasury documents are poorly indexed or absent from search indexes
 - **Parametric accuracy <5%** confirms that no model has meaningfully memorised Treasury Bulletin content, ruling out data contamination
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 OfficeQA Pro directly models FoxBrain's hardest enterprise document reasoning tasks: answering questions over Foxconn's internal technical specifications, historical procurement records, quality audit archives, and regulatory compliance filings — all of which span thousands of documents and millions of numerical data points. The benchmark's structured document representation finding (+16.1% relative gain) provides a clear deployment strategy: FoxBrain's document QA pipeline should convert internal PDFs, SAP exports, and ERP records into structured key-value or tabular representations before retrieval, rather than passing raw documents to the model. The <5% parametric accuracy finding confirms that FoxBrain cannot rely on memorisation for proprietary Foxconn financial and technical data — structured RAG pipelines are mandatory for enterprise document tasks.
 
 ---

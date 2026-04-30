@@ -12,7 +12,7 @@ Standard OCR benchmarks use "clean" digital PDFs, which do not represent the mes
 ## Key Results
 Frontier VLMs show a **35% performance degradation** on warped or skewed text compared to their performance on standard digital-born PDF benchmarks.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Extremely high. FoxBrain’s document parsing capability must be robust against "camera-captured" documents. We should use this to test our VLM's OCR limits.
 
 ---

@@ -1,4 +1,4 @@
-# KnowledgeBerg: Evaluating Systematic Knowledge Coverage and Compositional Reasoning in Large Language Models (2026)
+﻿# KnowledgeBerg: Evaluating Systematic Knowledge Coverage and Compositional Reasoning in Large Language Models (2026)
 
 ## Problem
 Existing LLM knowledge benchmarks test isolated facts but do not evaluate whether models maintain systematic coverage of entire knowledge categories (e.g., all capital cities, all chemical elements) or can compose multiple retrieved facts into coherent multi-step reasoning chains. This leaves a critical gap in understanding whether LLMs possess structured, encyclopedic knowledge or merely recognize high-frequency facts.
@@ -26,7 +26,7 @@ Authors: Xiao Zhang, Qianru Meng, Yongjian Chen, Yumeng Wang, Johan Bos
 - Test-time compute scaling improves compositional reasoning by up to 4.35 points but provides diminishing returns on enumeration
 - Retrieval augmentation helps enumeration (+3.78 pts) more than test-time compute, suggesting different remedies for different knowledge failure modes
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's supply chain management requires systematic knowledge of all approved suppliers, component specifications, certification standards, and regulatory requirements across multiple domains — precisely the "universe enumeration" capability KnowledgeBerg measures. FoxBrain's ability to reliably list all relevant ISO standards for a given product category, or enumerate every approved vendor for a specific component, directly impacts procurement accuracy and compliance. KnowledgeBerg's finding that RAG is the best remedy for enumeration gaps aligns with Foxconn's investment in retrieval-augmented enterprise knowledge bases, and the benchmark provides a concrete way to measure FoxBrain's systematic knowledge coverage before deploying it in supplier qualification or audit workflows.
 
 ---

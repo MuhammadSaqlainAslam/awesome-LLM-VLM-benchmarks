@@ -1,4 +1,4 @@
-# ActuBench: Multi-Agent LLM Pipeline for Actuarial Reasoning Evaluation (2026)
+﻿# ActuBench: Multi-Agent LLM Pipeline for Actuarial Reasoning Evaluation (2026)
 
 ## Problem
 Actuarial science demands rigorous quantitative reasoning, regulatory knowledge, and multi-step probabilistic inference — capabilities that general-purpose LLM benchmarks do not specifically probe. No existing benchmark had aligned LLM evaluation with the International Actuarial Association (IAA) Education Syllabus, making it impossible to assess whether language models are ready for deployment in actuarial workflows.
@@ -27,7 +27,7 @@ Authors: Jan-Philipp Schmidt
 - MCQ and LLM-judge rankings diverge meaningfully, with the latter better discriminating frontier-model differences
 - Independent verification flagged a majority of drafted items on first pass; multi-loop repair resolved nearly all issues
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's finance and insurance subsidiaries (including Foxconn Industrial Internet's financial risk units) require accurate actuarial and probabilistic risk calculations for product liability, warranty reserves, and supply-chain insurance. ActuBench provides a direct measure of whether FoxBrain can support actuarial workflows including reserve estimation, pricing verification, and regulatory compliance reporting. The benchmark's IAA-aligned syllabus coverage ensures relevance to international standards, applicable to Foxconn's global financial operations. The 50-model comparative leaderboard also helps Foxconn's AI team select the most cost-efficient model for actuarial-adjacent tasks without sacrificing accuracy.
 
 ---

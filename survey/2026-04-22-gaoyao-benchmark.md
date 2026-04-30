@@ -1,4 +1,4 @@
-# The GaoYao Benchmark: Evaluating Multilingual and Multicultural Abilities of LLMs (2026)
+﻿# The GaoYao Benchmark: Evaluating Multilingual and Multicultural Abilities of LLMs (2026)
 
 ## Problem
 Existing multilingual benchmarks rely heavily on machine translation and cover too few languages to capture genuine cultural diversity, leading to artificial performance parity across regions. Models trained and evaluated primarily on English data exhibit significant geographical performance disparities that standard benchmarks fail to expose, especially on subjective, culturally-embedded tasks.
@@ -27,7 +27,7 @@ Authors: Yilun Liu, Chunguang Zhao, Mengyao Piao, and others
 - Native-quality expert localisation reveals failure modes invisible under machine translation
 - Compact models show steeper cultural performance gaps than flagship models on subjective tasks
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn operates manufacturing and supply-chain facilities across 26+ countries spanning Asia, the Americas, and Europe, requiring FoxBrain to communicate accurately in multiple languages including Chinese, Vietnamese, and Czech. GaoYao's native-quality multilingual evaluation directly informs whether FoxBrain can handle region-specific regulatory documents, supplier communications, and employee-facing interfaces without cultural distortion. The benchmark's 51-nation coverage maps closely to Foxconn's global footprint, making GaoYao a practical proxy for enterprise multilingual readiness. Performance on cross-cultural tasks is especially relevant for FoxBrain modules handling international contract interpretation and multi-region compliance workflows.
 
 ---

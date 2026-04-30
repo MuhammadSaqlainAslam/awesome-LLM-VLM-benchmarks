@@ -1,4 +1,4 @@
-# QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies (2026)
+﻿# QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies (2026)
 
 ## Problem
 Existing code generation benchmarks focus on general programming tasks (e.g., LeetCode-style problems or standard software engineering), failing to capture the unique challenges of domain-specific quantitative finance code. Generating executable algorithmic trading strategies requires simultaneously bridging natural language descriptions, financial logic operationalization, and correct API usage — none of which are well-covered by prior benchmarks.
@@ -26,7 +26,7 @@ Authors: Alexey Khoroshilov, Alexey Chernysh, Orkhan Ekhtibarov, Nini Kamkia, Dm
 - Multi-turn iterative correction consistently improves execution success rates over single-attempt
 - Domain-specific finance knowledge gaps are the primary differentiator between LLM performance levels
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 QuantCode-Bench highlights a critical pattern directly applicable to Foxconn's FoxBrain: domain-specific code generation (e.g., manufacturing automation scripts, supply chain optimization routines, or ERP integration code) demands correct operationalization of business logic beyond mere syntactic validity. The iterative multi-turn feedback paradigm tested here maps directly to FoxBrain's potential role as an agentic co-developer in industrial automation workflows. Foxconn could adopt this benchmark's multi-stage pipeline (syntax → execution → semantic alignment) as a quality gate for FoxBrain-generated factory-floor scripts. The finding that trading logic operationalization is the hardest part parallels challenges in generating correct production-line control logic.
 
 ---

@@ -1,4 +1,4 @@
-# WildFireVQA: Large-Scale VQA Benchmark for Aerial Wildfire Monitoring (2026)
+﻿# WildFireVQA: Large-Scale VQA Benchmark for Aerial Wildfire Monitoring (2026)
 
 ## Problem
 Wildfire monitoring from aerial platforms requires multimodal reasoning over RGB and thermal imagery, yet no benchmark had evaluated how well multimodal large language models handle the unique challenges of fire detection, distribution mapping, and flight path planning. Existing remote sensing benchmarks do not incorporate radiometric thermal data or safety-critical flight planning tasks, leaving a gap for AI-assisted emergency response applications.
@@ -27,7 +27,7 @@ Authors: (listed in paper)
 - Retrieved thermal context yields measurable gains for stronger MLLMs, suggesting RAG-based thermal integration is a viable path forward
 - Cross-modal reasoning (jointly interpreting RGB and thermal) and flight planning tasks are the most challenging categories for all evaluated models
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 Foxconn's large industrial campuses in fire-prone regions of Taiwan, China, and India require advanced early warning and emergency response capabilities. A FoxBrain vision module benchmarked on WildFireVQA would be better positioned to integrate with thermal camera networks for factory fire detection and suppression zone planning. The benchmark's cross-modal RGB+thermal reasoning task mirrors Foxconn's industrial inspection setting, where thermal cameras are deployed alongside standard CCTV to detect overheating components and electrical fires. The flight planning task category also has relevance to Foxconn's drone-based campus inspection workflows, where autonomous path planning under hazardous conditions is an active R&D priority.
 
 ---

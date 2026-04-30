@@ -10,7 +10,7 @@ A fine-grained, **quiz-driven evaluation framework**. It features 4,947 high-qua
 * **Scale:** 11,343 arXiv papers and ~5k surveys.
 * **Key Finding:** AI-generated surveys score **21% lower than humans** in content-based evaluations, particularly struggling with synthesis and abstraction.
 
-## FoxBrain Relevance
+## Enterprise / Industry Relevance
 This benchmark provides a roadmap for our **DeepResearch Agent**. By implementing the "quiz-driven validation" from SurveyBench, we can ensure our agents aren't just summarizing but actually "understanding" the technical papers they read.
 
 ---
