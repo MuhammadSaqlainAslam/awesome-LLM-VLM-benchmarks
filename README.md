@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (April 29, 2026)
+## 🚀 Today's Daily 8 (April 30, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **DV-World** | LLM | All SOTA agents score <50% on real-world viz tasks — grounding, cross-platform adaptation, and intent resolution are the three failure modes | [📄](./survey/2026-04-29-dv-world.md) | [🔗](https://arxiv.org/abs/2604.25914) |
-| **DRAGON** | VLM | Correct answers on diagram QA don't guarantee visual grounding — 8 VLMs arrive at right answers via shortcuts, not by reading the diagram | [📄](./survey/2026-04-29-dragon.md) | [🔗](https://arxiv.org/abs/2604.25231) |
-| **AutoResearchBench** | LLM | Frontier LLMs score only ~9% on deep & wide scientific literature discovery — general web-agent competence doesn't transfer to research | [📄](./survey/2026-04-29-autoresearchbench.md) | [🔗](https://arxiv.org/abs/2604.25256) |
-| **PSI-Bench** | LLM | All 7 LLMs produce clinically unrealistic patient simulations; simulator framework architecture matters more than model scale | [📄](./survey/2026-04-29-psi-bench.md) | [🔗](https://arxiv.org/abs/2604.25840) |
-| **SOB** | LLM | Near-perfect schema compliance masks poor value accuracy: 83% text / 67% image / 24% audio — structured extraction from audio is critically unreliable | [📄](./survey/2026-04-29-sob.md) | [🔗](https://arxiv.org/abs/2604.25359) |
-| **SciEval** | LLM | General LLMs fail at pedagogical rubric evaluation; domain fine-tuning gains up to +11 pp — STEM capability ≠ educational assessment | [📄](./survey/2026-04-29-scieval.md) | [🔗](https://arxiv.org/abs/2604.25472) |
-| **Semantic Layers Bench** | LLM | Business semantics docs give +17–23 pp on text-to-SQL (p<0.01); model differences vanish once semantics are provided — invest in docs, not model upgrades | [📄](./survey/2026-04-29-semantic-layers-bench.md) | [🔗](https://arxiv.org/abs/2604.25149) |
-| **LongSumEval** | LLM | QA-based eval substantially outperforms ROUGE/BERTScore across 7 benchmarks; structured feedback enables self-refinement without retraining | [📄](./survey/2026-04-29-longsumeval.md) | [🔗](https://arxiv.org/abs/2604.25130) |
+| **EnterpriseDocBench** | LLM | Cross-stage pipeline correlations are near-zero (r≈0.14) — fixing parsing doesn't fix generation; hallucination is non-linear: medium docs (9.2%) safer than short (28.1%) or long (23.8%) | [📄](./survey/2026-04-30-enterprisedocbench.md) | [🔗](https://arxiv.org/abs/2604.26382) |
+| **StratMem-Bench** | LLM | LLMs handle required vs. irrelevant memory fine but fail at supportive memory integration — the judgment of when and how to enrich a response is beyond current capability | [📄](./survey/2026-04-30-stratmem-bench.md) | [🔗](https://arxiv.org/abs/2604.26243) |
+| **Visual-Idk** | VLM | VLM Truthful Rate improves 57.9%→67.3% via knowledge boundary training; without it, models hallucinate ~42% of the time on questions they cannot actually answer | [📄](./survey/2026-04-30-visual-idk.md) | [🔗](https://arxiv.org/abs/2604.26419) |
+| **Robotic Health Safety** | LLM | 54.4% mean violation rate across 72 LLMs for robotic health attendant control; open-weight models (72.8%) nearly 3× less safe than proprietary (23.7%) | [📄](./survey/2026-04-30-robotic-health-safety.md) | [🔗](https://arxiv.org/abs/2604.26577) |
+| **BTF-2** | LLM | Frontier forecasting agents critically fail at political/business incentive modelling; combined forecaster beats any single model (+0.011 Brier) — no model dominates | [📄](./survey/2026-04-30-btf2.md) | [🔗](https://arxiv.org/abs/2604.26106) |
+| **HalluCiteChecker** | LLM | First NLP toolkit for hallucinated citation detection; runs fully offline in seconds — critical for AI-generated document integrity at scale | [📄](./survey/2026-04-30-hallucitechecker.md) | [🔗](https://arxiv.org/abs/2604.26835) |
+| **Authorship Gap** | LLM | All 4 LLM personalization methods score below the cross-author floor (0.484–0.508 vs. floor 0.626) — current models cannot reliably personalize writing style | [📄](./survey/2026-04-30-authorship-gap.md) | [🔗](https://arxiv.org/abs/2604.26460) |
+| **GLM-5V-Turbo** | VLM | First frontier model integrating vision as a native reasoning component (not an add-on); strong multimodal coding, visual tool use, and GUI agent performance | [📄](./survey/2026-04-30-glm-5v-turbo.md) | [🔗](https://arxiv.org/abs/2604.26752) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 

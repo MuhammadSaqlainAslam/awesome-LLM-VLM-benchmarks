@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of April 27–30, 2026 (19 papers)
+
+### Core Findings This Week
+
+- **Enterprise document pipelines cannot be fixed stage-by-stage.** EnterpriseDocBench found cross-stage correlations of r≈0.14 — improving parsing quality does not reliably improve generation quality. Hallucination rates are also non-linear: medium-length docs (9.2%) are safer than both short (28.1%) and long (23.8%).
+- **LLM robotic safety is critically inadequate.** 54.4% mean violation rate across 72 LLMs for robotic health attendant control; open-weight models violate safety constraints 72.8% of the time vs. 23.7% for proprietary — no model is production-safe without human oversight.
+- **VLM personalization is fundamentally broken.** Authorship Gap showed all 4 LLM personalization methods score below the cross-author floor (0.484–0.508 vs. 0.626 floor) — current models cannot reliably adapt to a target writing style by any theoretically grounded measure.
+- **VLMs hallucinate because they don't know what they don't know.** Visual-Idk found that without boundary training, VLMs are unreliable on ~42% of questions they cannot answer; boundary training lifts Truthful Rate from 57.9% to 67.3%.
+- **Forecasting agents fail at incentive reasoning.** BTF-2 revealed that frontier agents critically underperform on political and institutional incentive modeling — the most strategically important forecasting tasks — despite strong factual research capability.
+- **Structured extraction is broken on audio.** SOB found 21 frontier models achieve near-perfect JSON schema compliance but only 23.7% value accuracy on audio — models produce correctly formatted but wrong content from spoken input.
+- **Diagram reasoning is a shortcut, not genuine vision.** DRAGON showed 8 VLMs achieve correct answers on diagram QA without grounding their reasoning in the right visual regions — models pattern-match rather than read diagrams.
+- **Business semantics beats model upgrades for text-to-SQL.** Semantic Layers Bench proved providing business context documentation gives +17–23 pp accuracy (p<0.01), making model differences statistically irrelevant once semantics are supplied.
+
+### Papers Added
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| Apr 30 | **EnterpriseDocBench** | LLM | Cross-stage correlations r≈0.14; non-linear hallucination by doc length | [📄](./survey/2026-04-30-enterprisedocbench.md) | [🔗](https://arxiv.org/abs/2604.26382) |
+| Apr 30 | **StratMem-Bench** | LLM | Required/irrelevant memory OK; supportive memory integration fails | [📄](./survey/2026-04-30-stratmem-bench.md) | [🔗](https://arxiv.org/abs/2604.26243) |
+| Apr 30 | **Visual-Idk** | VLM | Truthful Rate 57.9%→67.3% via boundary training; baseline ~42% failure on unknown Qs | [📄](./survey/2026-04-30-visual-idk.md) | [🔗](https://arxiv.org/abs/2604.26419) |
+| Apr 30 | **Robotic Health Safety** | LLM | 54.4% mean violation rate; open-weight 72.8% vs. proprietary 23.7% | [📄](./survey/2026-04-30-robotic-health-safety.md) | [🔗](https://arxiv.org/abs/2604.26577) |
+| Apr 30 | **BTF-2** | LLM | Agents fail at incentive modeling; combined forecaster +0.011 Brier | [📄](./survey/2026-04-30-btf2.md) | [🔗](https://arxiv.org/abs/2604.26106) |
+| Apr 30 | **HalluCiteChecker** | LLM | First offline hallucinated citation detection toolkit; runs in seconds | [📄](./survey/2026-04-30-hallucitechecker.md) | [🔗](https://arxiv.org/abs/2604.26835) |
+| Apr 30 | **Authorship Gap** | LLM | All methods score below cross-author floor; personalization is broken | [📄](./survey/2026-04-30-authorship-gap.md) | [🔗](https://arxiv.org/abs/2604.26460) |
+| Apr 30 | **GLM-5V-Turbo** | VLM | Native vision-in-reasoning frontier model; strong GUI + multimodal coding | [📄](./survey/2026-04-30-glm-5v-turbo.md) | [🔗](https://arxiv.org/abs/2604.26752) |
+
+---
+
 ## Week of April 27–29, 2026 (11 papers)
 
 ### Core Findings This Week
