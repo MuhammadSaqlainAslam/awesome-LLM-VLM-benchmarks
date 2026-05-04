@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4, 2026 (8 papers)
+
+### Core Findings This Week
+
+- **Tool use hurts when context is noisy.** Tool-Use Tax showed that tool-augmented agents underperform native chain-of-thought reasoning when semantic distractors are present — the tool-calling protocol overhead is a real, measurable cost that is routinely ignored.
+- **Procedural execution degrades catastrophically with scale.** ProcBench found accuracy drops from 61% on 5-step to 20% on 95-step procedures across 14 models — multi-step SOP compliance cannot be assumed from benchmark pass rates.
+- **Visual attacks bypass text safety training 3.8×.** VLM Visual Jailbreak achieved 40.9% attack success on Claude-Haiku-4.5 via visual cipher versus only 10.7% for equivalent text — the visual modality is an open safety gap in every frontier VLM.
+- **Finance-specialised LLMs are not safer than general ones.** FinSafetyBench revealed that domain fine-tuning provides zero safety improvement; worse, models safe in English are measurably more vulnerable in Chinese financial contexts.
+- **Endpoint choice matters as much as model choice.** Token Arena found up to 12.5 accuracy point gaps and 6.2× energy cost differences across endpoints serving the same model — abstract model benchmarks are insufficient for deployment decisions.
+- **Small models match GPT-5 on structured tool use.** AgentFloor's 16,542-run evaluation shows frontier models are only necessary for complex long-horizon planning (tiers 5-6); 7B-32B open-weight models are sufficient for tiers 1-4.
+- **Military safety is a distinct, unmeasured capability.** ARMOR 2025 found critical gaps in all 21 commercial LLMs for military doctrine compliance — civilian safety benchmarks are poor proxies for domain-specific operational safety requirements.
+- **Scientific coding agents fail nearly half the time.** AutoMat found the best coding agent succeeds on only 54.1% of materials science reproduction tasks — domain expertise cannot be assumed from SWE-Bench performance.
+
+### Papers Added
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 4 | **FinSafetyBench** | LLM | Finance LLMs no safer than general; Chinese context more vulnerable | [📄](./survey/2026-05-01-finsafetybench.md) | [🔗](https://arxiv.org/abs/2605.00706) |
+| May 4 | **ARMOR 2025** | LLM | Critical military safety gaps in all 21 LLMs; civilian benchmarks don't predict military compliance | [📄](./survey/2026-05-01-armor-2025.md) | [🔗](https://arxiv.org/abs/2605.00245) |
+| May 4 | **Token Arena** | LLM | Same model: 12.5 pt accuracy gap + 6.2× energy difference across endpoints | [📄](./survey/2026-05-01-token-arena.md) | [🔗](https://arxiv.org/abs/2605.00300) |
+| May 4 | **Tool-Use Tax** | LLM | Tools hurt vs. CoT under semantic noise; G-STEP gating partially recovers | [📄](./survey/2026-05-01-tool-use-tax.md) | [🔗](https://arxiv.org/abs/2605.00136) |
+| May 4 | **ProcBench** | LLM | Accuracy: 61% (5 steps) → 20% (95 steps) across 14 models | [📄](./survey/2026-05-02-procbench.md) | [🔗](https://arxiv.org/abs/2605.00817) |
+| May 4 | **AutoMat** | LLM | Best coding agent: 54.1% on materials science reproduction; SWE-Bench doesn't transfer | [📄](./survey/2026-05-02-automat.md) | [🔗](https://arxiv.org/abs/2605.00803) |
+| May 4 | **VLM Visual Jailbreak** | VLM | Visual cipher 40.9% vs. text 10.7% ASR; text safety ≠ visual safety (ICML 2026) | [📄](./survey/2026-05-02-vlm-visual-jailbreak.md) | [🔗](https://arxiv.org/abs/2605.00583) |
+| May 4 | **AgentFloor** | LLM | 6-tier ladder; small models match GPT-5 on tiers 1-4; frontier only needed for tiers 5-6 | [📄](./survey/2026-05-02-agentfloor.md) | [🔗](https://arxiv.org/abs/2605.00334) |
+
+---
+
 ## Week of April 27–30, 2026 (19 papers)
 
 ### Core Findings This Week

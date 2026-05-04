@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (April 30, 2026)
+## 🚀 Today's Daily 8 (May 4, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **EnterpriseDocBench** | LLM | Cross-stage pipeline correlations are near-zero (r≈0.14) — fixing parsing doesn't fix generation; hallucination is non-linear: medium docs (9.2%) safer than short (28.1%) or long (23.8%) | [📄](./survey/2026-04-30-enterprisedocbench.md) | [🔗](https://arxiv.org/abs/2604.26382) |
-| **StratMem-Bench** | LLM | LLMs handle required vs. irrelevant memory fine but fail at supportive memory integration — the judgment of when and how to enrich a response is beyond current capability | [📄](./survey/2026-04-30-stratmem-bench.md) | [🔗](https://arxiv.org/abs/2604.26243) |
-| **Visual-Idk** | VLM | VLM Truthful Rate improves 57.9%→67.3% via knowledge boundary training; without it, models hallucinate ~42% of the time on questions they cannot actually answer | [📄](./survey/2026-04-30-visual-idk.md) | [🔗](https://arxiv.org/abs/2604.26419) |
-| **Robotic Health Safety** | LLM | 54.4% mean violation rate across 72 LLMs for robotic health attendant control; open-weight models (72.8%) nearly 3× less safe than proprietary (23.7%) | [📄](./survey/2026-04-30-robotic-health-safety.md) | [🔗](https://arxiv.org/abs/2604.26577) |
-| **BTF-2** | LLM | Frontier forecasting agents critically fail at political/business incentive modelling; combined forecaster beats any single model (+0.011 Brier) — no model dominates | [📄](./survey/2026-04-30-btf2.md) | [🔗](https://arxiv.org/abs/2604.26106) |
-| **HalluCiteChecker** | LLM | First NLP toolkit for hallucinated citation detection; runs fully offline in seconds — critical for AI-generated document integrity at scale | [📄](./survey/2026-04-30-hallucitechecker.md) | [🔗](https://arxiv.org/abs/2604.26835) |
-| **Authorship Gap** | LLM | All 4 LLM personalization methods score below the cross-author floor (0.484–0.508 vs. floor 0.626) — current models cannot reliably personalize writing style | [📄](./survey/2026-04-30-authorship-gap.md) | [🔗](https://arxiv.org/abs/2604.26460) |
-| **GLM-5V-Turbo** | VLM | First frontier model integrating vision as a native reasoning component (not an add-on); strong multimodal coding, visual tool use, and GUI agent performance | [📄](./survey/2026-04-30-glm-5v-turbo.md) | [🔗](https://arxiv.org/abs/2604.26752) |
+| **FinSafetyBench** | LLM | Finance-specialised LLMs are no safer than general ones; models safe in English are more vulnerable in Chinese — prompt-level defences are insufficient for financial compliance | [📄](./survey/2026-05-01-finsafetybench.md) | [🔗](https://arxiv.org/abs/2605.00706) |
+| **ARMOR 2025** | LLM | All 21 commercial LLMs have critical safety gaps for military applications; civilian benchmark passes don't predict military doctrine compliance | [📄](./survey/2026-05-01-armor-2025.md) | [🔗](https://arxiv.org/abs/2605.00245) |
+| **Token Arena** | LLM | Same model, different endpoints: up to 12.5 accuracy point gap and 6.2× energy cost difference; 7 of 10 top chat endpoints fall out of top 10 on RAG tasks | [📄](./survey/2026-05-01-token-arena.md) | [🔗](https://arxiv.org/abs/2605.00300) |
+| **Tool-Use Tax** | LLM | Tool augmentation can hurt performance vs. native CoT when semantic distractors are present — the tool-calling protocol overhead is a measurable, often overlooked cost | [📄](./survey/2026-05-01-tool-use-tax.md) | [🔗](https://arxiv.org/abs/2605.00136) |
+| **ProcBench** | LLM | LLM procedural execution accuracy collapses from 61% (5-step) to 20% (95-step) — final-answer benchmarks mask severe multi-step execution failures | [📄](./survey/2026-05-02-procbench.md) | [🔗](https://arxiv.org/abs/2605.00817) |
+| **AutoMat** | LLM | Best coding agent achieves only 54.1% on reproducing computational materials science findings — SWE-Bench performance doesn't transfer to domain-expert scientific tasks | [📄](./survey/2026-05-02-automat.md) | [🔗](https://arxiv.org/abs/2605.00803) |
+| **VLM Visual Jailbreak** | VLM | Visual cipher attacks achieve 40.9% ASR on Claude-Haiku-4.5 vs. 10.7% for text equivalents — text safety training does not extend to the visual modality | [📄](./survey/2026-05-02-vlm-visual-jailbreak.md) | [🔗](https://arxiv.org/abs/2605.00583) |
+| **AgentFloor** | LLM | Small open-weight models match GPT-5 on structured short-horizon tool use (tiers 1-3); frontier models only justified for complex long-horizon planning (tiers 5-6) | [📄](./survey/2026-05-02-agentfloor.md) | [🔗](https://arxiv.org/abs/2605.00334) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 
