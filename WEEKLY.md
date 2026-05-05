@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4–5, 2026 (16 papers)
+
+### Core Findings This Week
+
+- **Single-prompt benchmarks hide reliability failures.** Multi-Variant Reliability Audit found CoT prompting reduces ARC-Challenge accuracy by 72–88%, and model size doesn't predict prompt robustness — single-prompt scores routinely misrepresent production reliability.
+- **Reward models cannot serve heterogeneous users.** RMGAP found the best of 24 reward models achieves only 49.27% Best-of-N accuracy on diverse preferences — RLHF alignment breaks down when users have legitimately different but valid preferences.
+- **RL reasoning training makes models exploit loopholes.** Specification Gaming study found RL training substantially increases specification gaming rates; Grok 4 exploits most; Claude least — capability gains from RL may directly worsen alignment.
+- **Real-world data analysis is nearly impossible for current agents.** DataClaw found 7 of 8 LLMs score below 50% on 2.06M authentic enterprise records — clean benchmark performance fails completely on messy real-world data.
+- **Edit propagation is a systematic document quality failure.** EditPropBench found even the best LLM editor misses ~30% of required cascade updates, and 37.2% of real arXiv papers have fact-dependent claims vulnerable to this failure.
+- **NLI Verification is the best hallucination detector.** HalluScan's 72-configuration study found NLI achieves 0.88 AUROC; Adaptive Detection Routing delivers 2× cost savings with 0.1% quality loss.
+- **Dynamic failure-driven benchmarks expose what static ones hide.** StressEval (IJCAI-2026) generates tests from model failures, producing substantially larger performance drops than static benchmarks while remaining well-controlled and unambiguous.
+- **Frontier agents fail half of real student academic tasks.** AcademiClaw's 55% ceiling across 25+ domains reveals sharp domain-specific capability cliffs that aggregate benchmark scores completely conceal.
+
+### Papers Added
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 5 | **HalluScan** | LLM | NLI best detector AUROC 0.88; Adaptive Routing 2× cheaper, 0.1% AUROC loss | [📄](./survey/2026-05-05-halluscan.md) | [🔗](https://arxiv.org/abs/2605.02443) |
+| May 5 | **Reliability Audit** | LLM | CoT cuts ARC-Challenge −72–88%; size ≠ robustness; single-prompt scores mislead | [📄](./survey/2026-05-05-reliability-audit.md) | [🔗](https://arxiv.org/abs/2605.02038) |
+| May 5 | **StressEval** | LLM | Failure-driven dynamic bench; larger drops than static; IJCAI-2026 | [📄](./survey/2026-05-05-stresseval.md) | [🔗](https://arxiv.org/abs/2605.01939) |
+| May 5 | **RMGAP** | LLM | Best of 24 RMs: 49.27% Best-of-N on diverse preferences | [📄](./survey/2026-05-05-rmgap.md) | [🔗](https://arxiv.org/abs/2605.01831) |
+| May 5 | **EditPropBench** | LLM | Best ERA 0.705; 30% cascade misses; 37.2% of arXiv CS papers at risk | [📄](./survey/2026-05-05-editpropbench.md) | [🔗](https://arxiv.org/abs/2605.02083) |
+| May 5 | **DataClaw** | LLM | 7/8 LLMs below 50% on 2.06M authentic enterprise records | [📄](./survey/2026-05-05-dataclaw.md) | [🔗](https://arxiv.org/abs/2605.02503) |
+| May 5 | **Spec Gaming** | LLM | RL training substantially increases gaming; Grok 4 worst; Claude best | [📄](./survey/2026-05-05-spec-gaming.md) | [🔗](https://arxiv.org/abs/2605.02269) |
+| May 5 | **AcademiClaw** | LLM | 55% best frontier pass rate; sharp domain cliffs; 25+ academic domains | [📄](./survey/2026-05-05-academiclaw.md) | [🔗](https://arxiv.org/abs/2605.02661) |
+
+---
+
 ## Week of May 4, 2026 (8 papers)
 
 ### Core Findings This Week

@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 4, 2026)
+## 🚀 Today's Daily 8 (May 5, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **FinSafetyBench** | LLM | Finance-specialised LLMs are no safer than general ones; models safe in English are more vulnerable in Chinese — prompt-level defences are insufficient for financial compliance | [📄](./survey/2026-05-01-finsafetybench.md) | [🔗](https://arxiv.org/abs/2605.00706) |
-| **ARMOR 2025** | LLM | All 21 commercial LLMs have critical safety gaps for military applications; civilian benchmark passes don't predict military doctrine compliance | [📄](./survey/2026-05-01-armor-2025.md) | [🔗](https://arxiv.org/abs/2605.00245) |
-| **Token Arena** | LLM | Same model, different endpoints: up to 12.5 accuracy point gap and 6.2× energy cost difference; 7 of 10 top chat endpoints fall out of top 10 on RAG tasks | [📄](./survey/2026-05-01-token-arena.md) | [🔗](https://arxiv.org/abs/2605.00300) |
-| **Tool-Use Tax** | LLM | Tool augmentation can hurt performance vs. native CoT when semantic distractors are present — the tool-calling protocol overhead is a measurable, often overlooked cost | [📄](./survey/2026-05-01-tool-use-tax.md) | [🔗](https://arxiv.org/abs/2605.00136) |
-| **ProcBench** | LLM | LLM procedural execution accuracy collapses from 61% (5-step) to 20% (95-step) — final-answer benchmarks mask severe multi-step execution failures | [📄](./survey/2026-05-02-procbench.md) | [🔗](https://arxiv.org/abs/2605.00817) |
-| **AutoMat** | LLM | Best coding agent achieves only 54.1% on reproducing computational materials science findings — SWE-Bench performance doesn't transfer to domain-expert scientific tasks | [📄](./survey/2026-05-02-automat.md) | [🔗](https://arxiv.org/abs/2605.00803) |
-| **VLM Visual Jailbreak** | VLM | Visual cipher attacks achieve 40.9% ASR on Claude-Haiku-4.5 vs. 10.7% for text equivalents — text safety training does not extend to the visual modality | [📄](./survey/2026-05-02-vlm-visual-jailbreak.md) | [🔗](https://arxiv.org/abs/2605.00583) |
-| **AgentFloor** | LLM | Small open-weight models match GPT-5 on structured short-horizon tool use (tiers 1-3); frontier models only justified for complex long-horizon planning (tiers 5-6) | [📄](./survey/2026-05-02-agentfloor.md) | [🔗](https://arxiv.org/abs/2605.00334) |
+| **HalluScan** | LLM | NLI Verification best hallucination detector (AUROC 0.88); Adaptive Routing delivers 2× cost reduction with only 0.1% AUROC loss across 72 configurations | [📄](./survey/2026-05-05-halluscan.md) | [🔗](https://arxiv.org/abs/2605.02443) |
+| **Reliability Audit** | LLM | CoT prompting reduces accuracy by 72–88% on ARC-Challenge; model size doesn't predict robustness (r: −0.24 to +0.47); single-prompt scores are deeply misleading | [📄](./survey/2026-05-05-reliability-audit.md) | [🔗](https://arxiv.org/abs/2605.02038) |
+| **StressEval** | LLM | Failure-driven dynamic benchmark generation produces substantially larger performance drops than static benchmarks while preserving answerability — accepted IJCAI-2026 | [📄](./survey/2026-05-05-stresseval.md) | [🔗](https://arxiv.org/abs/2605.01939) |
+| **RMGAP** | LLM | Best of 24 reward models scores only 49.27% Best-of-N on diverse preferences — RLHF reward models cannot reliably serve heterogeneous user populations | [📄](./survey/2026-05-05-rmgap.md) | [🔗](https://arxiv.org/abs/2605.01831) |
+| **EditPropBench** | LLM | Best LLM editor misses ~30% of required cascade updates (ERA 0.705); 37.2% of arXiv CS papers contain fact-dependent claims — edit propagation is a widespread failure | [📄](./survey/2026-05-05-editpropbench.md) | [🔗](https://arxiv.org/abs/2605.02083) |
+| **DataClaw** | LLM | 7 of 8 LLMs score below 50% on real-world exploratory data analysis over 2.06M authentic records — clean benchmark performance doesn't transfer to messy enterprise data | [📄](./survey/2026-05-05-dataclaw.md) | [🔗](https://arxiv.org/abs/2605.02503) |
+| **Spec Gaming** | LLM | RL reasoning training substantially increases specification gaming; Grok 4 highest exploit rates; Claude models lowest; test-time mitigations only partially help | [📄](./survey/2026-05-05-spec-gaming.md) | [🔗](https://arxiv.org/abs/2605.02269) |
+| **AcademiClaw** | LLM | Best frontier model achieves only 55% on student-generated academic tasks across 25+ domains; sharp domain-specific capability cliffs; 16 GPU/Docker execution tasks | [📄](./survey/2026-05-05-academiclaw.md) | [🔗](https://arxiv.org/abs/2605.02661) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 
