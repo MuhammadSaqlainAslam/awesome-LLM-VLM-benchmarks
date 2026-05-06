@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 5, 2026)
+## 🚀 Today's Daily 8 (May 6, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **HalluScan** | LLM | NLI Verification best hallucination detector (AUROC 0.88); Adaptive Routing delivers 2× cost reduction with only 0.1% AUROC loss across 72 configurations | [📄](./survey/2026-05-05-halluscan.md) | [🔗](https://arxiv.org/abs/2605.02443) |
-| **Reliability Audit** | LLM | CoT prompting reduces accuracy by 72–88% on ARC-Challenge; model size doesn't predict robustness (r: −0.24 to +0.47); single-prompt scores are deeply misleading | [📄](./survey/2026-05-05-reliability-audit.md) | [🔗](https://arxiv.org/abs/2605.02038) |
-| **StressEval** | LLM | Failure-driven dynamic benchmark generation produces substantially larger performance drops than static benchmarks while preserving answerability — accepted IJCAI-2026 | [📄](./survey/2026-05-05-stresseval.md) | [🔗](https://arxiv.org/abs/2605.01939) |
-| **RMGAP** | LLM | Best of 24 reward models scores only 49.27% Best-of-N on diverse preferences — RLHF reward models cannot reliably serve heterogeneous user populations | [📄](./survey/2026-05-05-rmgap.md) | [🔗](https://arxiv.org/abs/2605.01831) |
-| **EditPropBench** | LLM | Best LLM editor misses ~30% of required cascade updates (ERA 0.705); 37.2% of arXiv CS papers contain fact-dependent claims — edit propagation is a widespread failure | [📄](./survey/2026-05-05-editpropbench.md) | [🔗](https://arxiv.org/abs/2605.02083) |
-| **DataClaw** | LLM | 7 of 8 LLMs score below 50% on real-world exploratory data analysis over 2.06M authentic records — clean benchmark performance doesn't transfer to messy enterprise data | [📄](./survey/2026-05-05-dataclaw.md) | [🔗](https://arxiv.org/abs/2605.02503) |
-| **Spec Gaming** | LLM | RL reasoning training substantially increases specification gaming; Grok 4 highest exploit rates; Claude models lowest; test-time mitigations only partially help | [📄](./survey/2026-05-05-spec-gaming.md) | [🔗](https://arxiv.org/abs/2605.02269) |
-| **AcademiClaw** | LLM | Best frontier model achieves only 55% on student-generated academic tasks across 25+ domains; sharp domain-specific capability cliffs; 16 GPU/Docker execution tasks | [📄](./survey/2026-05-05-academiclaw.md) | [🔗](https://arxiv.org/abs/2605.02661) |
+| **RadSaFE-200** | LLM | Safety and accuracy scale independently — agentic RAG improves accuracy but not safety; clean evidence cuts high-risk errors from 12.0% to 2.6% across 34 clinical models | [📄](./survey/2026-05-06-radsafe-200.md) | [🔗](https://arxiv.org/abs/2605.04039) |
+| **CC-OCR V2** | VLM | All 14 SOTA multimodal models exhibit substantial degradation on 7,093 real-world document samples — lab OCR scores are unreliable predictors of enterprise deployment performance | [📄](./survey/2026-05-06-cc-ocr-v2.md) | [🔗](https://arxiv.org/abs/2605.03903) |
+| **MCJudgeBench** | LLM | High overall judge score ≠ reliable constraint-level detection; reasoning improves correctness but inconsistently improves stability; partial violations hardest to detect | [📄](./survey/2026-05-06-mcjudgebench.md) | [🔗](https://arxiv.org/abs/2605.03858) |
+| **Workspace-Bench** | LLM | Best AI agent 68.7% vs. human 80.7% on 20,476-file workspaces; average agent only 47.4% — cross-file dependency navigation remains far below human capability | [📄](./survey/2026-05-06-workspace-bench.md) | [🔗](https://arxiv.org/abs/2605.03596) |
+| **EQUITRIAGE** | LLM | All 5 frontier LLMs exceed fairness threshold (9.9%–43.8% gender flip rate); DeepSeek 2.15:1 female undertriage; demographic blinding fixes Gemini but not DeepSeek | [📄](./survey/2026-05-06-equitriage.md) | [🔗](https://arxiv.org/abs/2605.03998) |
+| **MHPR** | VLM | VLMs fail at high-level human semantics (intent, social relations); MHPR-trained 7B model reaches near-parity with much larger models — domain data beats scale | [📄](./survey/2026-05-06-mhpr.md) | [🔗](https://arxiv.org/abs/2605.03485) |
+| **WorldJen** | VLM | VLM Likert-scale evaluation achieves Spearman ρ̂ = 1.000 with human rankings across 16 video quality dimensions — replaces costly human panels for video gen evaluation | [📄](./survey/2026-05-06-worldjen.md) | [🔗](https://arxiv.org/abs/2605.03475) |
+| **CreativityBench** | LLM | Models select plausible objects but fail at identifying affordances and physical mechanisms; scaling saturates quickly; CoT provides limited benefit for creative tool use | [📄](./survey/2026-05-06-creativitybench.md) | [🔗](https://arxiv.org/abs/2605.02910) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 

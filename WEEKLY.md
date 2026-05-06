@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4–6, 2026 (24 papers)
+
+### Core Findings This Week
+
+- **Safety and accuracy scale independently in clinical AI.** RadSaFE-200 found agentic RAG improves accuracy but not safety — only clean verified evidence reduces high-risk errors; this safety-accuracy decoupling applies to any high-stakes domain, not just medicine.
+- **OCR benchmark scores are unreliable for production.** CC-OCR V2 found all 14 SOTA multimodal models exhibit substantial degradation on 7,093 real-world document corner cases — lab scores cannot predict enterprise deployment reliability.
+- **LLM judges fail at constraint-level evaluation.** MCJudgeBench showed high overall judge scores mask constraint-level blindness; partial violations — the most dangerous — are the hardest to detect.
+- **Enterprise workspace agents are far below human performance.** Workspace-Bench found the best agent achieves 68.7% vs. 80.7% human on 20,476-file workspaces; average agents fail on more than half of tasks.
+- **All frontier LLMs exhibit gender bias in clinical triage.** EQUITRIAGE found all 5 tested models exceed the 5% fairness threshold (9.9%–43.8% gender flip rates); DeepSeek shows 2.15:1 female undertriage ratio; demographic blinding is model-dependent.
+- **Creative tool repurposing is a distinct unsolved capability.** CreativityBench found models select plausible objects but fail at affordance and mechanism reasoning; scaling saturates quickly; CoT barely helps.
+- **Domain-specific VLM training beats scale for human perception.** MHPR showed MHPR-trained 7B reaches near-parity with much larger models; high-level semantics (intent, social relations) remain the hardest dimension.
+- **VLM Likert evaluation perfectly tracks human video rankings.** WorldJen achieved Spearman ρ̂ = 1.000 with human pairwise rankings across 16 quality dimensions — a validated replacement for costly human panels.
+
+### Papers Added
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 6 | **RadSaFE-200** | LLM | Safety ≠ accuracy scaling; RAG fixes accuracy not safety; clean evidence cuts errors | [📄](./survey/2026-05-06-radsafe-200.md) | [🔗](https://arxiv.org/abs/2605.04039) |
+| May 6 | **CC-OCR V2** | VLM | All 14 LMMs degrade on real-world docs; lab OCR ≠ enterprise performance | [📄](./survey/2026-05-06-cc-ocr-v2.md) | [🔗](https://arxiv.org/abs/2605.03903) |
+| May 6 | **MCJudgeBench** | LLM | High overall score ≠ constraint-level reliability; partial violations hardest to catch | [📄](./survey/2026-05-06-mcjudgebench.md) | [🔗](https://arxiv.org/abs/2605.03858) |
+| May 6 | **Workspace-Bench** | LLM | Best agent 68.7% vs. 80.7% human; avg 47.4% on 20K-file workspaces | [📄](./survey/2026-05-06-workspace-bench.md) | [🔗](https://arxiv.org/abs/2605.03596) |
+| May 6 | **EQUITRIAGE** | LLM | All 5 LLMs biased (9.9–43.8% flip); DeepSeek 2.15:1 undertriage ratio | [📄](./survey/2026-05-06-equitriage.md) | [🔗](https://arxiv.org/abs/2605.03998) |
+| May 6 | **MHPR** | VLM | Intent/social relations hardest; MHPR-trained 7B ≈ much larger models | [📄](./survey/2026-05-06-mhpr.md) | [🔗](https://arxiv.org/abs/2605.03485) |
+| May 6 | **WorldJen** | VLM | Spearman ρ̂ = 1.000 VLM vs. human; 16 dimensions; replaces human panels | [📄](./survey/2026-05-06-worldjen.md) | [🔗](https://arxiv.org/abs/2605.03475) |
+| May 6 | **CreativityBench** | LLM | Object selection OK; affordance/mechanism reasoning fails; scaling saturates | [📄](./survey/2026-05-06-creativitybench.md) | [🔗](https://arxiv.org/abs/2605.02910) |
+
+---
+
 ## Week of May 4–5, 2026 (16 papers)
 
 ### Core Findings This Week
