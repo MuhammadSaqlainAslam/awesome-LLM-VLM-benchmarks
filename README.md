@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 6, 2026)
+## 🚀 Today's Daily 8 (May 7, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **RadSaFE-200** | LLM | Safety and accuracy scale independently — agentic RAG improves accuracy but not safety; clean evidence cuts high-risk errors from 12.0% to 2.6% across 34 clinical models | [📄](./survey/2026-05-06-radsafe-200.md) | [🔗](https://arxiv.org/abs/2605.04039) |
-| **CC-OCR V2** | VLM | All 14 SOTA multimodal models exhibit substantial degradation on 7,093 real-world document samples — lab OCR scores are unreliable predictors of enterprise deployment performance | [📄](./survey/2026-05-06-cc-ocr-v2.md) | [🔗](https://arxiv.org/abs/2605.03903) |
-| **MCJudgeBench** | LLM | High overall judge score ≠ reliable constraint-level detection; reasoning improves correctness but inconsistently improves stability; partial violations hardest to detect | [📄](./survey/2026-05-06-mcjudgebench.md) | [🔗](https://arxiv.org/abs/2605.03858) |
-| **Workspace-Bench** | LLM | Best AI agent 68.7% vs. human 80.7% on 20,476-file workspaces; average agent only 47.4% — cross-file dependency navigation remains far below human capability | [📄](./survey/2026-05-06-workspace-bench.md) | [🔗](https://arxiv.org/abs/2605.03596) |
-| **EQUITRIAGE** | LLM | All 5 frontier LLMs exceed fairness threshold (9.9%–43.8% gender flip rate); DeepSeek 2.15:1 female undertriage; demographic blinding fixes Gemini but not DeepSeek | [📄](./survey/2026-05-06-equitriage.md) | [🔗](https://arxiv.org/abs/2605.03998) |
-| **MHPR** | VLM | VLMs fail at high-level human semantics (intent, social relations); MHPR-trained 7B model reaches near-parity with much larger models — domain data beats scale | [📄](./survey/2026-05-06-mhpr.md) | [🔗](https://arxiv.org/abs/2605.03485) |
-| **WorldJen** | VLM | VLM Likert-scale evaluation achieves Spearman ρ̂ = 1.000 with human rankings across 16 video quality dimensions — replaces costly human panels for video gen evaluation | [📄](./survey/2026-05-06-worldjen.md) | [🔗](https://arxiv.org/abs/2605.03475) |
-| **CreativityBench** | LLM | Models select plausible objects but fail at identifying affordances and physical mechanisms; scaling saturates quickly; CoT provides limited benefit for creative tool use | [📄](./survey/2026-05-06-creativitybench.md) | [🔗](https://arxiv.org/abs/2605.02910) |
+| **DTap** | LLM | First controllable agent red-teaming platform: 14 enterprise domains, 50+ environments, 5 injection vector types; autonomous DTap-Red discovers new attack vectors dynamically | [📄](./survey/2026-05-07-dtap.md) | [🔗](https://arxiv.org/abs/2605.04808) |
+| **AgentTrust** | LLM | Runtime tool-call interception: 96.7% verdict accuracy on 630 adversarial scenarios, 93% on obfuscated shells, low-ms latency; RiskChain detects multi-step attacks | [📄](./survey/2026-05-07-agenttrust.md) | [🔗](https://arxiv.org/abs/2605.04785) |
+| **Agent Island** | LLM | Dynamic multiagent benchmark resists saturation and contamination; GPT-5.5 leads (5.64 skill); **8.3 pp provider bias** discovered — models favour same-provider opponents | [📄](./survey/2026-05-07-agent-island.md) | [🔗](https://arxiv.org/abs/2605.04312) |
+| **Deployment Alignment** | LLM | User-facing verification absent in every tested benchmark; scaffold efficacy is model-dependent; only 4 interactional benchmarks exist — model-level scores cannot certify deployment safety | [📄](./survey/2026-05-07-deployment-alignment.md) | [🔗](https://arxiv.org/abs/2605.04454) |
+| **First Token Knows** | LLM | phi_first (single-decode first-token entropy) achieves AUROC 0.820 — outperforms multi-sample self-consistency (0.791) at 1× compute cost | [📄](./survey/2026-05-07-first-token-knows.md) | [🔗](https://arxiv.org/abs/2605.05166) |
+| **NoisyCausal** | LLM | LLMs fail causal reasoning under structured noise (distractors, confounders, partial observability); explicit causal structure + LLM significantly outperforms all baselines | [📄](./survey/2026-05-07-noisycausal.md) | [🔗](https://arxiv.org/abs/2605.04313) |
+| **Thinking Mode Moral** | LLM | Thinking vs. instant mode: aggregate moral verdicts statistically indistinguishable (α=0.78 vs. 0.79); thinking narrows disputed-scenario disagreement and reduces demographic bias in 3/5 models | [📄](./survey/2026-05-07-thinking-moral.md) | [🔗](https://arxiv.org/abs/2605.04488) |
+| **AuditRepairBench** | LLM | Agent repair leaderboards reorder under evaluator reconfiguration; screening-guided blinding reduces rank displacement 55–74%; evaluator-channel leakage is a systemic flaw | [📄](./survey/2026-05-07-auditrepairbench.md) | [🔗](https://arxiv.org/abs/2605.04624) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 

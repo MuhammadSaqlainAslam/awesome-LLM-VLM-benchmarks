@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4–7, 2026 (32 papers)
+
+### Core Findings This Week
+
+- **Agent safety requires runtime interception, not just benchmarks.** AgentTrust achieved 96.7% verdict accuracy at low-ms latency intercepting tool calls before execution; DTap reveals that combined prompt+tool+environment attacks are the most dangerous and least studied vector.
+- **Model-level alignment scores cannot certify deployment safety.** Deployment Alignment Audit found user-facing verification absent in every benchmark; scaffold efficacy is model-dependent; only 4 interactional benchmarks exist out of 16 examined.
+- **Provider bias is a hidden multi-agent system risk.** Agent Island's 999-game evaluation found all models show 8.3 pp preference for same-provider opponents — a systematic bias invisible in solo capability benchmarks.
+- **Hallucination detection is free: first-token entropy beats multi-sample methods.** phi_first achieves AUROC 0.820 from a single decode — outperforming self-consistency (0.791) at 1× compute cost.
+- **Causal reasoning collapses under realistic noise.** NoisyCausal shows LLMs conflate correlation with causation under distractors, confounders, and partial observability — explicit causal structure is the validated fix.
+- **Thinking mode barely changes moral verdicts but narrows disputes.** Krippendorff's α=0.78 vs. 0.79; thinking narrows disagreement on disputed scenarios and reduces demographic bias in 3/5 models.
+- **Agent repair leaderboards are unreliable.** AuditRepairBench found rankings reorder under evaluator reconfiguration; screening-guided blinding reduces rank displacement 55–74%.
+- **Safety and accuracy scale independently in clinical AI.** RadSaFE-200 showed agentic RAG boosts accuracy but not safety; clean verified evidence is the only intervention that cuts high-risk errors.
+
+### Papers Added
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 7 | **DTap** | LLM | 14 domains / 5 injection vectors; autonomous red-teaming agent for AI agents | [📄](./survey/2026-05-07-dtap.md) | [🔗](https://arxiv.org/abs/2605.04808) |
+| May 7 | **AgentTrust** | LLM | 96.7% runtime verdict accuracy; RiskChain multi-step attack detection | [📄](./survey/2026-05-07-agenttrust.md) | [🔗](https://arxiv.org/abs/2605.04785) |
+| May 7 | **Agent Island** | LLM | 8.3 pp provider bias; dynamic benchmark resists saturation and contamination | [📄](./survey/2026-05-07-agent-island.md) | [🔗](https://arxiv.org/abs/2605.04312) |
+| May 7 | **Deployment Alignment** | LLM | Model-level scores can't certify deployment safety; scaffold efficacy model-dependent | [📄](./survey/2026-05-07-deployment-alignment.md) | [🔗](https://arxiv.org/abs/2605.04454) |
+| May 7 | **First Token Knows** | LLM | phi_first AUROC 0.820 beats self-consistency 0.791 at 1× compute | [📄](./survey/2026-05-07-first-token-knows.md) | [🔗](https://arxiv.org/abs/2605.05166) |
+| May 7 | **NoisyCausal** | LLM | Causal reasoning degrades under 4 noise types; causal structure integration fixes it | [📄](./survey/2026-05-07-noisycausal.md) | [🔗](https://arxiv.org/abs/2605.04313) |
+| May 7 | **Thinking Mode Moral** | LLM | α=0.78 vs. 0.79; thinking narrows disputes; reduces demographic bias in 3/5 models | [📄](./survey/2026-05-07-thinking-moral.md) | [🔗](https://arxiv.org/abs/2605.04488) |
+| May 7 | **AuditRepairBench** | LLM | Leaderboards reorder under evaluator change; blinding cuts rank displacement 55–74% | [📄](./survey/2026-05-07-auditrepairbench.md) | [🔗](https://arxiv.org/abs/2605.04624) |
+
+---
+
 ## Week of May 4–6, 2026 (24 papers)
 
 ### Core Findings This Week
