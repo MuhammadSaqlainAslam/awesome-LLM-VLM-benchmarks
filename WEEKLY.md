@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4–8, 2026 (40 papers)
+
+### Core Findings — May 8
+
+- **Deep-research agents cite but don't verify.** Cited Not Verified found fact-verification rates of only 39–77% across 14 models; accuracy drops 42% beyond 150 tool calls — citation volume inversely predicts reliability for long-horizon research tasks.
+- **Multi-turn constraint following collapses in production.** SeQuOR found >11% drop for a single constraint, >40% for multiple simultaneous constraints, and >9% for dynamic mid-conversation updates — current models cannot sustain policy compliance across realistic multi-turn interactions.
+- **Table structure is an underrated model capability gap.** TableVista's 30,000-variant benchmark (3,000 tables × 10 structural variants) shows all 29 tested LLMs and VLMs exhibit pronounced degradation as structural complexity increases — table reasoning is significantly more fragile than benchmark totals suggest.
+- **Safety judge verdicts depend on prompt wording, not just agent behaviour.** Policy Invariance found 18–43% of verdicts change on unambiguous cases after content-preserving rewrites — safety evaluation infrastructure has a systemic reliability problem that accuracy metrics cannot detect.
+- **Standard safety benchmarks are broken by design.** DBE's Dynamic Boundary Evaluation eliminates both ceiling and floor effects that make frontier model differentiation impossible; SGBS locates the true capability boundary via API-only access — no model internals required.
+- **Evaluation standardisation is worth more than model capability gains.** BioMedArena's +15.03 pp average SOTA improvement from a unified 147-benchmark toolkit reveals that much of reported progress in biomedical AI was implementation variance, not genuine capability improvement.
+- **Black-box confidence estimation beats self-consistency at half the cost.** The 3-channel CoT trajectory method (Coverage + Geometry + Verbalization) achieves AUC 0.78 vs. 0.71 at K=4 — outperforming K=8 self-consistency with no logit access required.
+- **Complex spatial epidemic models are worse than a last-value baseline.** SpatialEpiBench found most adjacency-informed spatiotemporal models underperform simple last-observation extrapolation from 1 day to 1 month ahead — geographic proximity assumptions are empirically weak.
+
+### Papers Added — May 8
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 8 | **Cited Not Verified** | LLM | 39–77% fact-verification; accuracy drops 42% at 150 tool calls | [📄](./survey/2026-05-08-cited-not-verified.md) | [🔗](https://arxiv.org/abs/2605.06635) |
+| May 8 | **SeQuOR** | LLM | >11% drop single / >40% multiple / >9% dynamic update constraint compliance | [📄](./survey/2026-05-08-sequor.md) | [🔗](https://arxiv.org/abs/2605.06353) |
+| May 8 | **TableVista** | LLM/VLM | 30,000 variants; structural complexity degrades all 29 models | [📄](./survey/2026-05-08-tablevista.md) | [🔗](https://arxiv.org/abs/2605.05955) |
+| May 8 | **Policy Invariance** | LLM | 18–43% verdict flips on unambiguous cases; 9.1% above baseline from rewrites | [📄](./survey/2026-05-08-policy-invariance.md) | [🔗](https://arxiv.org/abs/2605.06161) |
+| May 8 | **DBE** | LLM | Eliminates ceiling + floor effects; SGBS finds capability boundary via API only | [📄](./survey/2026-05-08-dbe.md) | [🔗](https://arxiv.org/abs/2605.06213) |
+| May 8 | **BioMedArena** | LLM | +15.03 pp SOTA from standardisation; 147 benchmarks; 75 tools | [📄](./survey/2026-05-08-biomedArena.md) | [🔗](https://arxiv.org/abs/2605.06177) |
+| May 8 | **Black-Box CoT Confidence** | LLM | AUC 0.78 vs 0.71; K=4 beats K=8 self-consistency; no logits needed | [📄](./survey/2026-05-08-blackbox-confidence.md) | [🔗](https://arxiv.org/abs/2605.06308) |
+| May 8 | **SpatialEpiBench** | LLM | Most spatiotemporal models < last-value baseline; geographic adjacency weak signal | [📄](./survey/2026-05-08-spatialepibench.md) | [🔗](https://arxiv.org/abs/2605.06530) |
+
+---
+
 ## Week of May 4–7, 2026 (32 papers)
 
 ### Core Findings This Week

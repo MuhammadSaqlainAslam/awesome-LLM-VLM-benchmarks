@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 7, 2026)
+## 🚀 Today's Daily 8 (May 8, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **DTap** | LLM | First controllable agent red-teaming platform: 14 enterprise domains, 50+ environments, 5 injection vector types; autonomous DTap-Red discovers new attack vectors dynamically | [📄](./survey/2026-05-07-dtap.md) | [🔗](https://arxiv.org/abs/2605.04808) |
-| **AgentTrust** | LLM | Runtime tool-call interception: 96.7% verdict accuracy on 630 adversarial scenarios, 93% on obfuscated shells, low-ms latency; RiskChain detects multi-step attacks | [📄](./survey/2026-05-07-agenttrust.md) | [🔗](https://arxiv.org/abs/2605.04785) |
-| **Agent Island** | LLM | Dynamic multiagent benchmark resists saturation and contamination; GPT-5.5 leads (5.64 skill); **8.3 pp provider bias** discovered — models favour same-provider opponents | [📄](./survey/2026-05-07-agent-island.md) | [🔗](https://arxiv.org/abs/2605.04312) |
-| **Deployment Alignment** | LLM | User-facing verification absent in every tested benchmark; scaffold efficacy is model-dependent; only 4 interactional benchmarks exist — model-level scores cannot certify deployment safety | [📄](./survey/2026-05-07-deployment-alignment.md) | [🔗](https://arxiv.org/abs/2605.04454) |
-| **First Token Knows** | LLM | phi_first (single-decode first-token entropy) achieves AUROC 0.820 — outperforms multi-sample self-consistency (0.791) at 1× compute cost | [📄](./survey/2026-05-07-first-token-knows.md) | [🔗](https://arxiv.org/abs/2605.05166) |
-| **NoisyCausal** | LLM | LLMs fail causal reasoning under structured noise (distractors, confounders, partial observability); explicit causal structure + LLM significantly outperforms all baselines | [📄](./survey/2026-05-07-noisycausal.md) | [🔗](https://arxiv.org/abs/2605.04313) |
-| **Thinking Mode Moral** | LLM | Thinking vs. instant mode: aggregate moral verdicts statistically indistinguishable (α=0.78 vs. 0.79); thinking narrows disputed-scenario disagreement and reduces demographic bias in 3/5 models | [📄](./survey/2026-05-07-thinking-moral.md) | [🔗](https://arxiv.org/abs/2605.04488) |
-| **AuditRepairBench** | LLM | Agent repair leaderboards reorder under evaluator reconfiguration; screening-guided blinding reduces rank displacement 55–74%; evaluator-channel leakage is a systemic flaw | [📄](./survey/2026-05-07-auditrepairbench.md) | [🔗](https://arxiv.org/abs/2605.04624) |
+| **Cited Not Verified** | LLM | Deep-research agents verify only 39–77% of cited facts; accuracy drops 42% beyond 150 tool calls — citation volume is not a reliability proxy | [📄](./survey/2026-05-08-cited-not-verified.md) | [🔗](https://arxiv.org/abs/2605.06635) |
+| **SeQuOR** | LLM | Multi-turn constraint following collapses: >11% drop for single constraints, >40% for multiple simultaneous constraints, >9% for dynamic updates mid-conversation | [📄](./survey/2026-05-08-sequor.md) | [🔗](https://arxiv.org/abs/2605.06353) |
+| **TableVista** | LLM/VLM | 30,000-variant table reasoning benchmark (3,000 tables × 10 variants); structural complexity causes pronounced degradation across all 29 tested models | [📄](./survey/2026-05-08-tablevista.md) | [🔗](https://arxiv.org/abs/2605.05955) |
+| **Policy Invariance** | LLM | Safety judges flip 9.1% of verdicts from content-preserving rewrites; 18–43% changes on unambiguous cases — evaluator prompt sensitivity is a systemic governance risk | [📄](./survey/2026-05-08-policy-invariance.md) | [🔗](https://arxiv.org/abs/2605.06161) |
+| **DBE** | LLM | Dynamic Boundary Evaluation eliminates ceiling + floor effects simultaneously; SGBS algorithm locates capability boundaries via API-only access across 4 safety/alignment dimensions | [📄](./survey/2026-05-08-dbe.md) | [🔗](https://arxiv.org/abs/2605.06213) |
+| **BioMedArena** | LLM | Modular 6-layer agent evaluation toolkit: 147 benchmarks, 75 tools; standardisation alone yields **+15.03 pp** average SOTA improvement — prior gains were largely implementation variance | [📄](./survey/2026-05-08-biomedArena.md) | [🔗](https://arxiv.org/abs/2605.06177) |
+| **Black-Box CoT Confidence** | LLM | 3-channel trajectory confidence (Coverage + Geometry + Verbalization): AUC 0.78 vs. 0.71 self-consistency; K=4 beats K=8 at half the compute — no logits required | [📄](./survey/2026-05-08-blackbox-confidence.md) | [🔗](https://arxiv.org/abs/2605.06308) |
+| **SpatialEpiBench** | LLM | Most spatiotemporal epidemic models underperform a last-value baseline at all horizons (1 day – 1 month); geographic adjacency provides limited signal; 3 systematic failure modes identified | [📄](./survey/2026-05-08-spatialepibench.md) | [🔗](https://arxiv.org/abs/2605.06530) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 
