@@ -4,6 +4,34 @@ A rolling weekly summary of the Daily 8 papers, framed around where AI systems *
 
 ---
 
+## Week of May 4–11, 2026 (48 papers)
+
+### Core Findings — May 11
+
+- **AI reviewer correctness cannot be assessed by human review overlap.** CoCoReviewBench (ICML 2026) shows AI reviewers are prone to hallucinations and achieve high overlap scores by mimicking flawed human reviews — correctness requires independent ground truth from reviewer-author-meta-review discussions, not human agreement.
+- **Post-training makes LLMs systematically worse at predicting human behaviour.** Psych-201 found post-training reduces behavioural alignment across all tested model families; misalignment widens in newer generations; persona-induction fails as a fix — LLMs cannot serve as valid human surrogates in research or simulation.
+- **Phone-agent safety scores are inflated by capability failure.** PhoneSafety's tripartite design (700 safety-critical moments, 130+ apps) reveals that harmless outcomes conflate genuine safety alignment with the agent simply being unable to act — stronger capability may reveal hidden safety failures.
+- **Agent tool-use generalisation collapses with DAG depth.** AgentEscapeBench found top agents drop from 90% to 60% success across difficulty tiers — 20 pp behind humans on the hardest tasks — with long-range state tracking as the primary failure mode.
+- **VLM content moderation relies on superficial cues, not policy logic.** RuleSafe-VL found rule-relation recovery bottlenecks moderation quality: best model achieves 64.8 Macro-F1, some safety-oriented VLMs score below 7 — high label accuracy hides complete policy-reasoning failure.
+- **Memory agent reliability collapses at scale.** Scale-conditioned evaluation on LongMemEval and LoCoMo found HippoRAG declines 16–20 pp as irrelevant sessions accumulate — fixed-point benchmarks systematically hide production-scale failures.
+- **Effort and ability self-assessments outperform confidence for correctness routing.** Across 12 LLMs and 38 tasks, cognitive appraisal dimensions (effort, ability) consistently match or outperform confidence — with effort being stable across model sizes and less overoptimistic.
+- **LLM environment simulation hits a universal "state change cliff".** EnvSimBench found all tested models achieve near-perfect accuracy on invariant-state tasks but fail catastrophically on simultaneous state updates — constraint-driven pipelines recover yield (+6.8%) at >90% cost reduction.
+
+### Papers Added — May 11
+
+| Date | Paper | Modality | Key Finding | Notes | arXiv |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| May 11 | **CoCoReviewBench** | LLM | ICML 2026; AI reviewers hallucination-prone; human review overlap ≠ correctness | [📄](./survey/2026-05-08-cocoreviewbench.md) | [🔗](https://arxiv.org/abs/2605.07905) |
+| May 11 | **Post-Training Human-Like** | LLM | Post-training reduces human behavioural alignment across all families; persona fails | [📄](./survey/2026-05-08-post-training-human.md) | [🔗](https://arxiv.org/abs/2605.07632) |
+| May 11 | **PhoneSafety** | LLM | Harmless outcomes ≠ safety; incapability conflated with alignment in 8 agents | [📄](./survey/2026-05-08-phonesafety.md) | [🔗](https://arxiv.org/abs/2605.07630) |
+| May 11 | **AgentEscapeBench** | LLM | Top model 90%→60% on DAG difficulty; 20 pp behind humans; state tracking fails | [📄](./survey/2026-05-08-agentescapebench.md) | [🔗](https://arxiv.org/abs/2605.07926) |
+| May 11 | **RuleSafe-VL** | VLM | Rule-relation Macro-F1 64.8 best / <7 worst; label accuracy hides policy failure | [📄](./survey/2026-05-08-rulesafe-vl.md) | [🔗](https://arxiv.org/abs/2605.07760) |
+| May 11 | **Memory Scale Eval** | LLM | HippoRAG 16–20 pp decline at scale; fixed-point metrics hide reliability cliff | [📄](./survey/2026-05-08-memory-scale.md) | [🔗](https://arxiv.org/abs/2605.07313) |
+| May 11 | **Beyond Confidence** | LLM | Effort+ability outperform confidence across 12 LLMs / 38 tasks; effort stable | [📄](./survey/2026-05-08-beyond-confidence.md) | [🔗](https://arxiv.org/abs/2605.07806) |
+| May 11 | **EnvSimBench** | LLM | State change cliff: near-perfect static → catastrophic simultaneous; +6.8% yield >90% cheaper | [📄](./survey/2026-05-08-envsimbench.md) | [🔗](https://arxiv.org/abs/2605.07247) |
+
+---
+
 ## Week of May 4–8, 2026 (40 papers)
 
 ### Core Findings — May 8

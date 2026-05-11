@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 8, 2026)
+## 🚀 Today's Daily 8 (May 11, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **Cited Not Verified** | LLM | Deep-research agents verify only 39–77% of cited facts; accuracy drops 42% beyond 150 tool calls — citation volume is not a reliability proxy | [📄](./survey/2026-05-08-cited-not-verified.md) | [🔗](https://arxiv.org/abs/2605.06635) |
-| **SeQuOR** | LLM | Multi-turn constraint following collapses: >11% drop for single constraints, >40% for multiple simultaneous constraints, >9% for dynamic updates mid-conversation | [📄](./survey/2026-05-08-sequor.md) | [🔗](https://arxiv.org/abs/2605.06353) |
-| **TableVista** | LLM/VLM | 30,000-variant table reasoning benchmark (3,000 tables × 10 variants); structural complexity causes pronounced degradation across all 29 tested models | [📄](./survey/2026-05-08-tablevista.md) | [🔗](https://arxiv.org/abs/2605.05955) |
-| **Policy Invariance** | LLM | Safety judges flip 9.1% of verdicts from content-preserving rewrites; 18–43% changes on unambiguous cases — evaluator prompt sensitivity is a systemic governance risk | [📄](./survey/2026-05-08-policy-invariance.md) | [🔗](https://arxiv.org/abs/2605.06161) |
-| **DBE** | LLM | Dynamic Boundary Evaluation eliminates ceiling + floor effects simultaneously; SGBS algorithm locates capability boundaries via API-only access across 4 safety/alignment dimensions | [📄](./survey/2026-05-08-dbe.md) | [🔗](https://arxiv.org/abs/2605.06213) |
-| **BioMedArena** | LLM | Modular 6-layer agent evaluation toolkit: 147 benchmarks, 75 tools; standardisation alone yields **+15.03 pp** average SOTA improvement — prior gains were largely implementation variance | [📄](./survey/2026-05-08-biomedArena.md) | [🔗](https://arxiv.org/abs/2605.06177) |
-| **Black-Box CoT Confidence** | LLM | 3-channel trajectory confidence (Coverage + Geometry + Verbalization): AUC 0.78 vs. 0.71 self-consistency; K=4 beats K=8 at half the compute — no logits required | [📄](./survey/2026-05-08-blackbox-confidence.md) | [🔗](https://arxiv.org/abs/2605.06308) |
-| **SpatialEpiBench** | LLM | Most spatiotemporal epidemic models underperform a last-value baseline at all horizons (1 day – 1 month); geographic adjacency provides limited signal; 3 systematic failure modes identified | [📄](./survey/2026-05-08-spatialepibench.md) | [🔗](https://arxiv.org/abs/2605.06530) |
+| **CoCoReviewBench** | LLM | ICML 2026: 3,900 papers from ICLR/NeurIPS; AI reviewers are limited in correctness and hallucination-prone — high overlap with human reviews does not certify quality | [📄](./survey/2026-05-08-cocoreviewbench.md) | [🔗](https://arxiv.org/abs/2605.07905) |
+| **Post-Training Human-Like** | LLM | Post-training consistently reduces behavioural alignment with humans across all model families; misalignment widens in newer generations even as base models improve | [📄](./survey/2026-05-08-post-training-human.md) | [🔗](https://arxiv.org/abs/2605.07632) |
+| **PhoneSafety** | LLM | 700 safety-critical moments / 130+ apps / 8 agents: harmless phone-agent outcomes are not evidence of safety — incapability is systematically conflated with genuine safety alignment | [📄](./survey/2026-05-08-phonesafety.md) | [🔗](https://arxiv.org/abs/2605.07630) |
+| **AgentEscapeBench** | LLM | 270 instances / 16 agents: top model drops 90%→60% across difficulty tiers; 20 pp gap vs. humans on hardest tasks; long-range state tracking is the primary failure mode | [📄](./survey/2026-05-08-agentescapebench.md) | [🔗](https://arxiv.org/abs/2605.07926) |
+| **RuleSafe-VL** | VLM | 2,166 cases / 93 atomic rules: best model 64.8 Macro-F1 on rule-relation recovery; some safety-oriented VLMs score <7 — high label accuracy hides policy-reasoning failures | [📄](./survey/2026-05-08-rulesafe-vl.md) | [🔗](https://arxiv.org/abs/2605.07760) |
+| **Memory Scale Eval** | LLM | Scale-conditioned memory protocol: HippoRAG declines 16–20 pp as irrelevant sessions accumulate; fixed-point metrics hide production-scale reliability collapse | [📄](./survey/2026-05-08-memory-scale.md) | [🔗](https://arxiv.org/abs/2605.07313) |
+| **Beyond Confidence** | LLM | 12 LLMs / 38 tasks / 8 domains: effort and ability self-assessments consistently outperform confidence for correctness prediction; effort is stable across model sizes | [📄](./survey/2026-05-08-beyond-confidence.md) | [🔗](https://arxiv.org/abs/2605.07806) |
+| **EnvSimBench** | LLM | 400 samples / 167 environments: universal "state change cliff" — all models near-perfect on static tasks, catastrophic failure on simultaneous state updates; constraint pipeline +6.8% yield at >90% cost reduction | [📄](./survey/2026-05-08-envsimbench.md) | [🔗](https://arxiv.org/abs/2605.07247) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 
