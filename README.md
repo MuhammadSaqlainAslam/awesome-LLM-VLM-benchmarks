@@ -15,18 +15,18 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
-## 🚀 Today's Daily 8 (May 11, 2026)
+## 🚀 Today's Daily 8 (May 13, 2026)
 
 | Paper | Modality | Key Finding | Notes | arXiv |
 | :--- | :---: | :--- | :---: | :---: |
-| **CoCoReviewBench** | LLM | ICML 2026: 3,900 papers from ICLR/NeurIPS; AI reviewers are limited in correctness and hallucination-prone — high overlap with human reviews does not certify quality | [📄](./survey/2026-05-08-cocoreviewbench.md) | [🔗](https://arxiv.org/abs/2605.07905) |
-| **Post-Training Human-Like** | LLM | Post-training consistently reduces behavioural alignment with humans across all model families; misalignment widens in newer generations even as base models improve | [📄](./survey/2026-05-08-post-training-human.md) | [🔗](https://arxiv.org/abs/2605.07632) |
-| **PhoneSafety** | LLM | 700 safety-critical moments / 130+ apps / 8 agents: harmless phone-agent outcomes are not evidence of safety — incapability is systematically conflated with genuine safety alignment | [📄](./survey/2026-05-08-phonesafety.md) | [🔗](https://arxiv.org/abs/2605.07630) |
-| **AgentEscapeBench** | LLM | 270 instances / 16 agents: top model drops 90%→60% across difficulty tiers; 20 pp gap vs. humans on hardest tasks; long-range state tracking is the primary failure mode | [📄](./survey/2026-05-08-agentescapebench.md) | [🔗](https://arxiv.org/abs/2605.07926) |
-| **RuleSafe-VL** | VLM | 2,166 cases / 93 atomic rules: best model 64.8 Macro-F1 on rule-relation recovery; some safety-oriented VLMs score <7 — high label accuracy hides policy-reasoning failures | [📄](./survey/2026-05-08-rulesafe-vl.md) | [🔗](https://arxiv.org/abs/2605.07760) |
-| **Memory Scale Eval** | LLM | Scale-conditioned memory protocol: HippoRAG declines 16–20 pp as irrelevant sessions accumulate; fixed-point metrics hide production-scale reliability collapse | [📄](./survey/2026-05-08-memory-scale.md) | [🔗](https://arxiv.org/abs/2605.07313) |
-| **Beyond Confidence** | LLM | 12 LLMs / 38 tasks / 8 domains: effort and ability self-assessments consistently outperform confidence for correctness prediction; effort is stable across model sizes | [📄](./survey/2026-05-08-beyond-confidence.md) | [🔗](https://arxiv.org/abs/2605.07806) |
-| **EnvSimBench** | LLM | 400 samples / 167 environments: universal "state change cliff" — all models near-perfect on static tasks, catastrophic failure on simultaneous state updates; constraint pipeline +6.8% yield at >90% cost reduction | [📄](./survey/2026-05-08-envsimbench.md) | [🔗](https://arxiv.org/abs/2605.07247) |
+| **LongMemEval-V2** | LLM | 451 questions / 115M-token histories / 5 memory abilities: AgentRunbook-C 72.5% vs. RAG baseline 48.5% — RAG insufficient for environment-specific expertise accumulation | [📄](./survey/2026-05-12-longmemeval-v2.md) | [🔗](https://arxiv.org/abs/2605.12493) |
+| **TokenHD** | LLM | Token-level hallucination detector: 0.6B trained model surpasses QwQ-32B; scales consistently 0.6B→8B; no step segmentation required | [📄](./survey/2026-05-12-tokenhd.md) | [🔗](https://arxiv.org/abs/2605.12384) |
+| **Rollout Cards** | LLM | 0/50 audited agent repos disclose failed runs; reporting rule changes alone shift scores ±20.9 pp and invert frontier model rankings | [📄](./survey/2026-05-12-rollout-cards.md) | [🔗](https://arxiv.org/abs/2605.12131) |
+| **Principal Hierarchies** | LLM | 10 frontier models / 7,136 scenarios: models adhere to professional standards in advisory contexts but abandon them during task execution; reasoning traces suppress recognised knowledge under authority pressure | [📄](./survey/2026-05-12-principal-hierarchies.md) | [🔗](https://arxiv.org/abs/2605.12120) |
+| **MedHopQA** | LLM | BioCreative IX: 10,000 questions (1K scored/9K withheld); disease-centered 2-article multi-hop synthesis; open-ended format blocks answer-elimination shortcut | [📄](./survey/2026-05-12-medhopqa.md) | [🔗](https://arxiv.org/abs/2605.12361) |
+| **MedMemoryBench** | LLM | ~2,000 sessions / ~16,000 turns: memory saturation is universal — all mainstream architectures degrade as clinical information accumulates; complex medical reasoning and noise resilience are fundamental gaps | [📄](./survey/2026-05-09-medmemorybench.md) | [🔗](https://arxiv.org/abs/2605.11814) |
+| **ATC Safety Eval** | LLM | Peak Risk Score 0.69 for best model; most LLMs score <0.6 despite high macro-F1 — aggregate accuracy hides unsafe error concentration in high-consequence entity categories | [📄](./survey/2026-05-09-atc-safety.md) | [🔗](https://arxiv.org/abs/2605.11769) |
+| **Rubric RL Hacking** | LLM | Rubric-based RL reward hacking: weak verifiers yield large proxy gains that don't transfer; exploitation grows over training; self-internalization gap detects it without holdout verifiers | [📄](./survey/2026-05-12-rubric-rl-hacking.md) | [🔗](https://arxiv.org/abs/2605.12474) |
 
 > 📋 **[See the full weekly digest →](./WEEKLY.md)** &nbsp;|&nbsp; 📅 **[Full archive →](./ARCHIVE.md)**
 
