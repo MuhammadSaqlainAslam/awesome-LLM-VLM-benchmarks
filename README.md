@@ -36,6 +36,7 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 | Model | Lab | Key Result | Notes | Link |
 | :--- | :--- | :--- | :---: | :---: |
+| **Claude Opus 4.8** | Anthropic | 69.2% SWE-Bench Pro / 57.9% HLE (tools) / 83.4% OSWorld-Verified / 1890 GDPval-AA / 84% Online-Mind2Web / first >10% Legal Agent all-pass / $5/$25 per M tokens | [📄](./survey/2026-05-13-claude-opus-4-8.md) | [🔗](https://www.anthropic.com/news/claude-opus-4-8) |
 | **Kimi-K2.6** | Moonshot AI | 54.0 HLE-Full (beats GPT-5.4) / 58.6 SWE-Bench Pro (best open-weight) / 96.4 AIME 2026 / 1T MoE / Mod. MIT | [📄](./survey/2026-04-27-kimi-k2-6.md) | [🔗](https://huggingface.co/moonshotai/Kimi-K2.6) |
 | **Mistral Medium 3.5** | Mistral AI | 77.6% SWE-Bench Verified / 91.4% τ³-Telecom / 128B dense / replaces 3 prior models / per-request reasoning | [📄](./survey/2026-04-30-mistral-medium-3-5.md) | [🔗](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B) |
 | **Qwen3.6-27B** | Alibaba | 77.2% SWE-Bench Verified at 27B / 94.1 AIME 2026 / 70.3% AndroidWorld / 1M-token context / Apache-2.0 | [📄](./survey/2026-04-28-qwen3-6-27b.md) | [🔗](https://huggingface.co/Qwen/Qwen3.6-27B) |
