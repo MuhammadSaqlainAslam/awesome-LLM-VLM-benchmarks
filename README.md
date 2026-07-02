@@ -53,6 +53,16 @@ A curated dashboard of the frontier in AI evaluation. **Updated Daily — Target
 
 ---
 
+
+## Helium Trades Benchmarks (2026)
+
+| Benchmark | Domain | Link |
+| --- | --- | --- |
+| Market Resolution | Finance / options chain math | [HF](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) |
+| Model Worldview | Safety, values, bias, politics | [HF](https://huggingface.co/datasets/HeliumTrades/helium-model-worldview-benchmark) |
+
+Overview: https://heliumtrades.com/benchmarks/
+
 ## 🏭 Enterprise Evaluation Roadmap
 
 A prioritised checklist of benchmarks to run against enterprise LLM/VLM deployments — ordered by deployment risk and evaluation ROI.
